@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE TraceDefinition SYSTEM "http://wwwcs.uni-paderborn.de/cs/fujaba/DTDs/TraceDefinition.dtd">
+
+<TraceDefinition>
+
+  <ConsiderTrace>
+
+    <ConsiderClass name="org.eclipse.swt.widgets.Composite">
+      <ConsiderMethod name="setLayout">
+         <Parameter type="org.eclipse.swt.widgets.Layout"/>
+      </ConsiderMethod>
+      <ConsiderMethod name="WM_SIZE">
+         <Parameter type="int"/>
+         <Parameter type="int"/>
+      </ConsiderMethod>
+    </ConsiderClass>
+
+    <ConsiderClass name="org.eclipse.swt.widgets.Layout">
+      <ConsiderMethod name="layout">
+         <Parameter type="org.eclipse.swt.widgets.Composite"/>
+         <Parameter type="boolean"/>
+      </ConsiderMethod>
+    </ConsiderClass>
+
+    <ConsiderClass name="org.eclipse.jface.viewers.StructuredViewer">
+      <ConsiderMethod name="addFilter">
+         <Parameter type="org.eclipse.jface.viewers.ViewerFilter"/>
+      </ConsiderMethod>
+      <ConsiderMethod name="filter">
+         <Parameter type="java.lang.Object[]"/>
+      </ConsiderMethod>
+      <ConsiderMethod name="getSortedChildren">
+         <Parameter type="java.lang.Object"/>
+      </ConsiderMethod>
+      <ConsiderMethod name="setSorter">
+         <Parameter type="org.eclipse.jface.viewers.ViewerSorter"/>
+      </ConsiderMethod>
+    </ConsiderClass>
+
+    <ConsiderClass name="org.eclipse.jface.viewers.ViewerSorter">
+      <ConsiderMethod name="sort">
+         <Parameter type="org.eclipse.jface.viewers.Viewer"/>
+         <Parameter type="java.lang.Object[]"/>
+      </ConsiderMethod>
+    </ConsiderClass>
+
+    <ConsiderClass name="org.eclipse.jface.viewers.ViewerFilter">
+      <ConsiderMethod name="select">
+         <Parameter type="org.eclipse.jface.viewers.Viewer"/>
+         <Parameter type="java.lang.Object"/>
+         <Parameter type="java.lang.Object"/>
+      </ConsiderMethod>
+    </ConsiderClass>
+
+  </ConsiderTrace>
+
+</TraceDefinition>
+

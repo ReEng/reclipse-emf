@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.reclipse.feature"
+      label="Reclipse"
+      version="1.0.0.qualifier">
+
+   <description url="https://code.google.com/p/reclipse-emf/">
+      This feature includes the required plugins for the Reclipse structure specification and interpretation.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      This software was developed by the Software Engineering Group
+at the University of Paderborn.
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      Software Engineering Group
+Heinz Nixdorf Institute
+Paderborn University
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.core.resources" version="3.6.0" match="compatible"/>
+      <import plugin="org.eclipse.ui" version="3.6.1" match="compatible"/>
+      <import plugin="org.eclipse.jdt.core" version="3.6.1" match="compatible"/>
+      <import plugin="org.eclipse.jdt.launching" version="3.5.100" match="compatible"/>
+      <import plugin="org.fujaba.commons" version="1.0.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.ide" version="3.6.1" match="compatible"/>
+      <import plugin="org.eclipse.ui.forms" version="3.5.2" match="compatible"/>
+      <import plugin="org.eclipse.pde.core" version="3.6.1" match="compatible"/>
+      <import plugin="org.eclipse.emf.ecore.xmi" version="2.5.0" match="compatible"/>
+      <import plugin="org.reclipse.generator" version="1.0.0" match="compatible"/>
+      <import plugin="org.reclipse.structure.specification" version="1.0.0" match="compatible"/>
+      <import plugin="org.eclipse.help" version="3.5.0" match="compatible"/>
+      <import plugin="org.reclipse.structure.specification" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecore" version="2.6.1" match="compatible"/>
+      <import plugin="org.fujaba.commons" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.storydriven.storydiagrams.expressions" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.reclipse.structure.generator" version="1.0.0" match="compatible"/>
+      <import plugin="org.eclipse.emf.workspace" version="1.4.0" match="compatible"/>
+      <import plugin="org.reclipse.structure.specification.ui" version="1.0.0" match="compatible"/>
+      <import plugin="org.reclipse.math" version="1.0.0" match="compatible"/>
+      <import plugin="org.reclipse.structure.inference.annotations" version="1.0.0" match="compatible"/>
+      <import plugin="org.reclipse.metrics" version="1.0.0" match="compatible"/>
+      <import plugin="de.mdelab.sdm.interpreter.ocl" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.storydriven.storydiagrams.interpreter.eclipse" version="1.0.1" match="greaterOrEqual"/>
+      <import plugin="org.storydriven.storydiagrams.diagram.interpreter" version="1.0.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.5.0" match="compatible"/>
+      <import plugin="org.reclipse.structure.inference" version="1.0.0" match="compatible"/>
+      <import plugin="org.reclipse.structure.generator" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.gef" version="3.6.1" match="compatible"/>
+      <import plugin="org.reclipse.structure.inference.ui" version="1.0.0" match="compatible"/>
+      <import plugin="org.eclipse.core.expressions" version="3.4.300" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecore.edit" version="2.6.0" match="compatible"/>
+      <import plugin="org.eclipse.core.runtime" version="3.8.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.edit.ui" version="2.6.0" match="compatible"/>
+      <import plugin="org.reclipse.structure.specification.edit" version="1.0.0" match="compatible"/>
+      <import plugin="org.eclipse.ui.navigator" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.emf.common.ui" version="2.6.0" match="compatible"/>
+      <import plugin="org.eclipse.core.expressions" version="3.4.200" match="compatible"/>
+      <import plugin="org.eclipse.ui.views.properties.tabbed" version="3.5.100" match="compatible"/>
+      <import plugin="org.eclipse.xtext.ui" version="2.0.0" match="compatible"/>
+      <import plugin="org.storydriven.storydiagrams.expressions.common" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.reclipse.structure.inference.annotations" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.storydriven.storydiagrams" version="1.0.1" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.reclipse.generator"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.generator.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.kdm2pcm"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.math"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.metrics"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.structure.generator"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.structure.generator.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.structure.help"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.reclipse.structure.inference"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.structure.inference.annotations"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.structure.inference.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.structure.inference.ui.matching"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.structure.specification"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.structure.specification.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.structure.specification.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.structure.specification.navigator"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.structure.specification.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

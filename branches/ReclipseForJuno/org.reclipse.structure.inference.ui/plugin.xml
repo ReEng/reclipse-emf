@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+<plugin>
+
+   <extension point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="menu:org.eclipse.ui.main.menu">
+         <menu
+               id="org.reclipse.ui.main.menu"
+               label="Reclipse EMF">
+                <visibleWhen checkEnabled="false">
+            		<with variable="activeWorkbenchWindow.activePerspective">
+                		<equals value="org.eclipse.jdt.ui.JavaPerspective"/>
+            		</with>
+         		</visibleWhen>
+            <separator
+                  name="structure.inference"
+                  visible="true">
+            </separator>
+            <command
+                  commandId="org.reclipse.structure.inference.control.start"
+                  label="Start Structural Pattern Detection"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+      <menuContribution
+            allPopups="false"
+            locationURI="toolbar:org.reclipse.ui.views.annotations">
+         <command
+               commandId="org.reclipse.structure.inference.load"
+               label="Load Annotations"
+               style="push">
+         </command>
+         <command
+               commandId="org.reclipse.structure.inference.save"
+               label="Save Annotations"
+               style="push">
+         </command>
+         <separator
+               name="advanced"
+               visible="true">
+         </separator>
+         <separator
+               name="filter"
+               visible="true">
+         </separator>
+         <command
+               commandId="org.reclipse.ui.commands.annotations.filter"
+               icon="icons/commands/group/annotated.gif"
+               label="Annotated Elements"
+               style="radio">
+            <parameter
+                  name="org.reclipse.ui.commands.parameters.annotations.showing"
+                  value="annotated">
+            </parameter>
+         </command>
+         <command
+               commandId="org.reclipse.ui.commands.annotations.filter"
+               icon="icons/commands/group/antecedent.gif"
+               label="Antecedent Annotations"
+               style="radio">
+            <parameter
+                  name="org.reclipse.ui.commands.parameters.annotations.showing"
+                  value="antecedent">
+            </parameter>
+         </command>
+         <command
+               commandId="org.reclipse.ui.commands.annotations.filter"
+               icon="icons/commands/group/consequent.gif"
+               label="Consequent Annotations"
+               style="radio">
+            <parameter
+                  name="org.reclipse.ui.commands.parameters.annotations.showing"
+                  value="consequent">
+            </parameter>
+         </command>
+         <separator
+               name="strategies"
+               visible="true">
+         </separator>
+         <command
+               commandId="org.reclipse.structure.inference.ui.ShowAdvancedNames"
+               label="Show Advanced Names"
+               style="toggle">
+         </command>
+         <command
+               commandId="org.reclipse.ui.commands.FilterAnnotations"
+               label="Filter Annotations"
+               style="push">
+         </command>
+      </menuContribution>
+   </extension>
+   
+   <extension point="org.eclipse.ui.views">
+      <category
+      		name="Structural Inference"
+            id="org.reclipse.structure.inference.ui.views">
+      </category>
+      <view
+            icon="icons/views/annotations.gif"
+            class="org.reclipse.structure.inference.ui.views.annotations.AnnotationView"
+            category="org.reclipse.structure.inference.ui.views"
+            name="Annotations"
+            id="org.reclipse.ui.views.annotations"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="org.reclipse.structure.inference.ui.handler.InferenceStartingHandler"
+            id="org.reclipse.structure.inference.control.start"
+            name="Start Structural Pattern Detection">
+      </command>
+      <command
+            categoryId="org.reclipse.structure"
+            defaultHandler="org.reclipse.structure.inference.ui.handler.SaveAnnotationsHandler"
+            id="org.reclipse.structure.inference.save"
+            name="Save Annotations">
+      </command>
+      <command
+            categoryId="org.reclipse.structure"
+            defaultHandler="org.reclipse.structure.inference.ui.handler.LoadAnnotationsHandler"
+            id="org.reclipse.structure.inference.load"
+            name="Load Annotations">
+      </command>
+      <command
+            defaultHandler="org.reclipse.structure.inference.ui.handler.ToggleNamesHandler"
+            id="org.reclipse.structure.inference.ui.ShowAdvancedNames"
+            name="Show Advanced Names">
+      </command>
+      <command
+            defaultHandler="org.reclipse.structure.inference.ui.handler.OpenAnnotationsFilterDialogHandler"
+            id="org.reclipse.ui.commands.FilterAnnotations"
+            name="Filter Annotations">
+      </command>
+      <command
+            defaultHandler="org.reclipse.structure.inference.ui.handler.ChangeAnnotationsFilterHandler"
+            id="org.reclipse.ui.commands.annotations.filter"
+            name="Annotation Filter">
+         <commandParameter
+               id="org.reclipse.ui.commands.parameters.annotations.showing"
+               name="Showing"
+               optional="true">
+         </commandParameter>
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commandImages">
+      <image
+            commandId="org.reclipse.structure.inference.control.start"
+            icon="icons/wizards/start.png">
+      </image>
+      <image
+            commandId="org.reclipse.structure.inference.load"
+            icon="icons/commands/import.gif">
+      </image>
+      <image
+            commandId="org.reclipse.structure.inference.save"
+            icon="icons/commands/export.gif">
+      </image>
+      <image
+            commandId="org.reclipse.structure.inference.ui.ShowAdvancedNames"
+            icon="icons/commands/long_names.png">
+      </image>
+      <image
+            commandId="org.reclipse.ui.commands.FilterAnnotations"
+            icon="icons/commands/filter.gif">
+      </image>
+   </extension>
+
+</plugin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.reclipse.tests/src-gen"
+    modelPluginID="org.reclipse.tests" modelName="Tests" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>tests.ecore</foreignModel>
+  <genPackages prefix="Tests" basePackage="org.reclipse" disposableProviderFactory="true"
+      ecorePackage="tests.ecore#/">
+    <genClasses ecoreClass="tests.ecore#//TypeA"/>
+  </genPackages>
+</genmodel:GenModel>

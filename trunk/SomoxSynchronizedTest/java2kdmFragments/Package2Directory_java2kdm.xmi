@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<javaapplication:Java2Directory xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:javaapplication="http://www.eclipse.org/MoDisco/Java/Composition/0.1.incubation/javaApplication">
+  <javaPackage href="../SomoxSynchronizedTest_java.xmi#//@ownedElements.0"/>
+  <directory href="../SomoxSynchronizedTest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5"/>
+  <parent href="../SomoxSynchronizedTest_java2kdm.xmi#/"/>
+  <java2FileChildren href="(default package)_java2kdm.xmi#/0"/>
+  <java2FileChildren href="(default package)_java2kdm.xmi#/1"/>
+</javaapplication:Java2Directory>

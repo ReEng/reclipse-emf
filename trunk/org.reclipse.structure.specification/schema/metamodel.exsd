@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="org.reclipse.structure.specification" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appinfo>
+         <meta.schema plugin="org.reclipse.structure.specification" id="metamodel" name="Reclipse Meta Model"/>
+      </appinfo>
+      <documentation>
+         This extension point can be used to extend Reclipse with additional meta models.
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appinfo>
+            <meta.element />
+         </appinfo>
+      </annotation>
+      <complexType>
+         <sequence>
+            <element ref="metamodel" minOccurs="1" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  org.reclipse.structure.specification.metamodel
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  An optional identifier of the extension instance.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  An optional name of the extension instance.
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="metamodel">
+      <complexType>
+         <sequence>
+            <element ref="package" minOccurs="1" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="id" type="string" use="required">
+            <annotation>
+               <documentation>
+                  An unique identifier for the meta model.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The name of the meta model.
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="description" type="string">
+            <annotation>
+               <documentation>
+                  The description of the meta model. What kind of abstract syntax graph is this model for? What programming language is this for?
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="version" type="string">
+            <annotation>
+               <documentation>
+                  The version information for the meta model. Preferred as a date or in the style &quot;release.major.minor&quot; e.g. &quot;1.0.0&quot;.
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="trigger_chooser" type="string">
+            <annotation>
+               <documentation>
+                  This class will be used during a pattern detection to select the potentially most efficient trigger element. It has to implement the interface org.reclipse.metamodel.ITriggerChooser and must have a 0-argument public constructor.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn=":org.reclipse.metamodel.ITriggerChooser"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="labeler" type="string">
+            <annotation>
+               <documentation>
+                  This class will be used to show a text and image representation of an AST element. It has to extend the abstract class org.reclipse.metamodel.AbstractElementLabeler and must have a 0-argument public constructor.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn="org.reclipse.metamodel.AbstractElementLabeler:"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="ast_preparer" type="string">
+            <annotation>
+               <documentation>
+                  This class will be used to process additional modifications on an AST, it is called before the start of an inference to prepare the abstract syntax tree. It has to implement the interface org.reclipse.metamodel.IASTPreparer and must have a 0-argument public constructor.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn=":org.reclipse.metamodel.IASTPreparer"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="package">
+      <annotation>
+         <documentation>
+            This element represents a package that is included in the meta model.
+         </documentation>
+      </annotation>
+      <complexType>
+         <attribute name="uri" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The namespace URI of a generated EMF package.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="identifier" basedOn="org.eclipse.emf.ecore.generated_package/package/@uri"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="since"/>
+      </appinfo>
+      <documentation>
+         1.0
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="examples"/>
+      </appinfo>
+      <documentation>
+         [Enter extension point usage example here.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="apiinfo"/>
+      </appinfo>
+      <documentation>
+         [Enter API information here.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="implementation"/>
+      </appinfo>
+      <documentation>
+         [Enter information about supplied implementation of this extension point.]
+      </documentation>
+   </annotation>
+
+
+</schema>

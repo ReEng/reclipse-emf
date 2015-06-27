@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ASCII"?>
+<kdm:Segment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kdm="http://www.eclipse.org/MoDisco/kdm/kdm" xmlns:source="http://www.eclipse.org/MoDisco/kdm/source">
+  <model xsi:type="source:InventoryModel" name="org.reclipse.test.pooldetectiontest">
+    <inventoryElement xsi:type="source:Project" name="org.reclipse.test.pooldetectiontest">
+      <inventoryElement xsi:type="source:Configuration" name=".classpath" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\.classpath"/>
+      <inventoryElement xsi:type="source:Configuration" name=".project" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\.project"/>
+      <inventoryElement xsi:type="source:Directory" name=".settings" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\.settings">
+        <inventoryElement xsi:type="source:Configuration" name="org.eclipse.jdt.core.prefs" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\.settings\org.eclipse.jdt.core.prefs"/>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:Directory" name="bin" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\bin">
+        <inventoryElement xsi:type="source:Directory" name="org" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\bin\org">
+          <inventoryElement xsi:type="source:Directory" name="reclipse" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\bin\org\reclipse">
+            <inventoryElement xsi:type="source:Directory" name="test" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\bin\org\reclipse\test">
+              <inventoryElement xsi:type="source:Directory" name="pooldetectiontest" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\bin\org\reclipse\test\pooldetectiontest">
+                <inventoryElement xsi:type="source:BinaryFile" name="Done.class" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\bin\org\reclipse\test\pooldetectiontest\Done.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="TestThreadPool.class" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\bin\org\reclipse\test\pooldetectiontest\TestThreadPool.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="TestWorkerThread.class" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\bin\org\reclipse\test\pooldetectiontest\TestWorkerThread.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="ThreadPool.class" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\bin\org\reclipse\test\pooldetectiontest\ThreadPool.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="WorkerThread.class" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\bin\org\reclipse\test\pooldetectiontest\WorkerThread.class"/>
+              </inventoryElement>
+            </inventoryElement>
+          </inventoryElement>
+        </inventoryElement>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:SourceFile" name="org.reclipse.test.pooldetectiontest_java.xmi" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\org.reclipse.test.pooldetectiontest_java.xmi"/>
+      <inventoryElement xsi:type="source:Directory" name="src" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\src">
+        <inventoryElement xsi:type="source:Directory" name="org" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\src\org">
+          <inventoryElement xsi:type="source:Directory" name="reclipse" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\src\org\reclipse">
+            <inventoryElement xsi:type="source:Directory" name="test" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\src\org\reclipse\test">
+              <inventoryElement xsi:type="source:Directory" name="pooldetectiontest" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\src\org\reclipse\test\pooldetectiontest">
+                <inventoryElement xsi:type="source:SourceFile" name="Done.java" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\src\org\reclipse\test\pooldetectiontest\Done.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="TestThreadPool.java" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\src\org\reclipse\test\pooldetectiontest\TestThreadPool.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="TestWorkerThread.java" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\src\org\reclipse\test\pooldetectiontest\TestWorkerThread.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="ThreadPool.java" path="C:\Users\jinying\runtime-kepler-New_configuration\org.reclipse.test.pooldetectiontest\src\org\reclipse\test\pooldetectiontest\ThreadPool.java"/>
+              </inventoryElement>
+            </inventoryElement>
+          </inventoryElement>
+        </inventoryElement>
+      </inventoryElement>
+    </inventoryElement>
+  </model>
+</kdm:Segment>

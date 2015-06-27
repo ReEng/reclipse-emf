@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:notation="http://www.fujaba.org/ns/notation">
+  <notation:HierarchicalNode id="_m2bEEK9REeCKeeTFCHcyGg" model="simple.psc#_mJDAsa9REeCKeeTFCHcyGg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_m2bEEa9REeCKeeTFCHcyGg" model="simple.psc#_mJDAsq9REeCKeeTFCHcyGg"
+        outgoing="#_qi0dUa9REeCKeeTFCHcyGg" x="60" y="40" width="112" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_o9EAca9REeCKeeTFCHcyGg" model="simple.psc#_o9EAcK9REeCKeeTFCHcyGg"
+        incoming="#_qi0dUa9REeCKeeTFCHcyGg" x="67" y="145" width="87" height="22"/>
+    <edges id="_qi0dUa9REeCKeeTFCHcyGg" model="simple.psc#_qi0dUK9REeCKeeTFCHcyGg"
+        source="#_m2bEEa9REeCKeeTFCHcyGg" target="#_o9EAca9REeCKeeTFCHcyGg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_vHm3Iq9REeCKeeTFCHcyGg" model="simple.psc#_vHm3IK9REeCKeeTFCHcyGg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_vHm3I69REeCKeeTFCHcyGg" model="simple.psc#_vHm3Ia9REeCKeeTFCHcyGg"
+        outgoing="#_zVyHwa9REeCKeeTFCHcyGg" x="60" y="40" width="274" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_v0Fioa9REeCKeeTFCHcyGg" model="simple.psc#_v0FioK9REeCKeeTFCHcyGg"
+        incoming="#_zVyHwa9REeCKeeTFCHcyGg" x="82" y="150" width="220" height="99">
+      <nodes id="_w8sJca9REeCKeeTFCHcyGg" model="simple.psc#_w8sJcK9REeCKeeTFCHcyGg"/>
+      <nodes id="_1ICIga9REeCKeeTFCHcyGg" model="simple.psc#_1ICIgK9REeCKeeTFCHcyGg"/>
+      <nodes id="_3qpPMa9REeCKeeTFCHcyGg" model="simple.psc#_3qpPMK9REeCKeeTFCHcyGg"/>
+      <nodes id="_6qazAa9REeCKeeTFCHcyGg" model="simple.psc#_6qazAK9REeCKeeTFCHcyGg"/>
+    </nodes>
+    <edges id="_zVyHwa9REeCKeeTFCHcyGg" model="simple.psc#_zVyHwK9REeCKeeTFCHcyGg"
+        source="#_vHm3I69REeCKeeTFCHcyGg" target="#_v0Fioa9REeCKeeTFCHcyGg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_KNQ10q9SEeCKeeTFCHcyGg" model="simple.psc#_KNQ10K9SEeCKeeTFCHcyGg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_KNQ1069SEeCKeeTFCHcyGg" model="simple.psc#_KNQ10a9SEeCKeeTFCHcyGg"
+        outgoing="#_N4ntQa9SEeCKeeTFCHcyGg" x="60" y="40" width="136" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_K1IuIa9SEeCKeeTFCHcyGg" model="simple.psc#_K1IuIK9SEeCKeeTFCHcyGg"
+        outgoing="#_Nn9bEa9SEeCKeeTFCHcyGg" incoming="#_N4ntQa9SEeCKeeTFCHcyGg" x="73"
+        y="136" width="98" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_MhvZ4a9SEeCKeeTFCHcyGg" model="simple.psc#_MhvZ4K9SEeCKeeTFCHcyGg"
+        incoming="#_Nn9bEa9SEeCKeeTFCHcyGg" x="285" y="134" width="98" height="22"/>
+    <edges id="_Nn9bEa9SEeCKeeTFCHcyGg" model="simple.psc#_Nn9bEK9SEeCKeeTFCHcyGg"
+        source="#_K1IuIa9SEeCKeeTFCHcyGg" target="#_MhvZ4a9SEeCKeeTFCHcyGg"/>
+    <edges id="_N4ntQa9SEeCKeeTFCHcyGg" model="simple.psc#_N4ntQK9SEeCKeeTFCHcyGg"
+        source="#_KNQ1069SEeCKeeTFCHcyGg" target="#_K1IuIa9SEeCKeeTFCHcyGg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_TH9f8q9SEeCKeeTFCHcyGg" model="simple.psc#_TH9f8K9SEeCKeeTFCHcyGg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_TH9f869SEeCKeeTFCHcyGg" model="simple.psc#_TH9f8a9SEeCKeeTFCHcyGg"
+        outgoing="#_UdWlka9SEeCKeeTFCHcyGg #_VvVK0a9SEeCKeeTFCHcyGg" x="220" y="62"
+        width="92" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_TyEM4a9SEeCKeeTFCHcyGg" model="simple.psc#_TyEM4K9SEeCKeeTFCHcyGg"
+        outgoing="#_UT-nIa9SEeCKeeTFCHcyGg" incoming="#_UdWlka9SEeCKeeTFCHcyGg" x="108"
+        y="168" width="98" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_UAo0Ya9SEeCKeeTFCHcyGg" model="simple.psc#_UAo0YK9SEeCKeeTFCHcyGg"
+        incoming="#_UT-nIa9SEeCKeeTFCHcyGg #_VvVK0a9SEeCKeeTFCHcyGg" x="338" y="169"
+        width="85" height="22"/>
+    <edges id="_UT-nIa9SEeCKeeTFCHcyGg" model="simple.psc#_UT-nIK9SEeCKeeTFCHcyGg"
+        source="#_TyEM4a9SEeCKeeTFCHcyGg" target="#_UAo0Ya9SEeCKeeTFCHcyGg"/>
+    <edges id="_UdWlka9SEeCKeeTFCHcyGg" model="simple.psc#_UdWlkK9SEeCKeeTFCHcyGg"
+        source="#_TH9f869SEeCKeeTFCHcyGg" target="#_TyEM4a9SEeCKeeTFCHcyGg"/>
+    <edges id="_VvVK0a9SEeCKeeTFCHcyGg" model="simple.psc#_VvVK0K9SEeCKeeTFCHcyGg"
+        source="#_TH9f869SEeCKeeTFCHcyGg" target="#_UAo0Ya9SEeCKeeTFCHcyGg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_cZt_Mq9SEeCKeeTFCHcyGg" model="simple.psc#_cZt_MK9SEeCKeeTFCHcyGg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_cZt_M69SEeCKeeTFCHcyGg" model="simple.psc#_cZt_Ma9SEeCKeeTFCHcyGg"
+        outgoing="#_dtU8Ia9SEeCKeeTFCHcyGg" x="60" y="40" width="144" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_dHPMga9SEeCKeeTFCHcyGg" model="simple.psc#_dHPMgK9SEeCKeeTFCHcyGg"
+        outgoing="#_d3lrYK9SEeCKeeTFCHcyGg" incoming="#_dtU8Ia9SEeCKeeTFCHcyGg" x="80"
+        y="140" width="98" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_dWHWAa9SEeCKeeTFCHcyGg" model="simple.psc#_dWHWAK9SEeCKeeTFCHcyGg"
+        incoming="#_d3lrYK9SEeCKeeTFCHcyGg" x="299" y="142" width="98" height="22"/>
+    <edges id="_dtU8Ia9SEeCKeeTFCHcyGg" model="simple.psc#_dtU8IK9SEeCKeeTFCHcyGg"
+        source="#_cZt_M69SEeCKeeTFCHcyGg" target="#_dHPMga9SEeCKeeTFCHcyGg"/>
+    <edges id="_d3lrYK9SEeCKeeTFCHcyGg" model="simple.psc#_d3chcK9SEeCKeeTFCHcyGg"
+        source="#_dHPMga9SEeCKeeTFCHcyGg" target="#_dWHWAa9SEeCKeeTFCHcyGg"/>
+  </notation:HierarchicalNode>
+</xmi:XMI>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchConfiguration type="org.reclipse.tracer.core.tracerApplication">
+<stringAttribute key="org.reclipse.tracer.core.MAIN_CLASS" value="org.reclipse.tracer.testsetup.TracerTest"/>
+<intAttribute key="org.reclipse.tracer.core.METHOD_REQUEST_MODE" value="0"/>
+<stringAttribute key="org.reclipse.tracer.core.PROGRAM_ARGUMENTS" value=""/>
+<listAttribute key="org.reclipse.tracer.core.CLASSPATH">
+<listEntry value="bin"/>
+<listEntry value="tests"/>
+</listAttribute>
+<stringAttribute key="org.reclipse.tracer.core.VM_ARGUMENTS" value="-mx16m"/>
+<booleanAttribute key="org.reclipse.tracer.core.METHOD_EXIT_EVENTS" value="true"/>
+</launchConfiguration>

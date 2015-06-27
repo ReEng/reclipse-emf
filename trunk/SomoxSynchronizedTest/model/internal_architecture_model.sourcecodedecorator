@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sourcecodedecorator:SourceCodeDecoratorRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:java="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:sourcecodedecorator="http://somox.org/SourceCodeDecorator/2.0">
+  <fileLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_7gORAPVlEeOyK_DQUhm3hQ"/>
+    <file href="../SomoxSynchronizedTest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.1"/>
+  </fileLevelSourceCodeLink>
+  <methodLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_7gORAPVlEeOyK_DQUhm3hQ"/>
+    <file href="../SomoxSynchronizedTest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.1"/>
+    <operation xsi:type="repository:OperationSignature" href="internal_architecture_model.repository#_7gwcgPVlEeOyK_DQUhm3hQ"/>
+    <function xsi:type="java:MethodDeclaration" href="../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0/@bodyDeclarations.0"/>
+  </methodLevelSourceCodeLink>
+  <interfaceSourceCodeLink>
+    <interface xsi:type="repository:OperationInterface" href="internal_architecture_model.repository#_7grkAPVlEeOyK_DQUhm3hQ"/>
+    <gastClass xsi:type="java:InterfaceDeclaration" href="../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.1"/>
+  </interfaceSourceCodeLink>
+  <componentImplementingClassesLink providedInterfaces="//@interfaceSourceCodeLink.0">
+    <component xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_7gORAPVlEeOyK_DQUhm3hQ"/>
+    <implementingClasses xsi:type="java:ClassDeclaration" href="../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </componentImplementingClassesLink>
+</sourcecodedecorator:SourceCodeDecoratorRepository>

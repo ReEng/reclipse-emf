@@ -1,0 +1,7 @@
+# Tracing options for the org.reclipse.structure.specification.diagram plug-in
+
+# Common issues
+org.reclipse.structure.specification.diagram/debug=false
+
+# Visual IDs
+org.reclipse.structure.specification.diagram/debug/visualID=false

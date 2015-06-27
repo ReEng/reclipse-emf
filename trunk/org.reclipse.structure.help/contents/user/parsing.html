@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="../../../../content/org.eclipse.platform/book.css" type="text/css" />
+<link rel="stylesheet" href="../../../../content/org.reclipse.help/style.css" type="text/css" />
+<title>Source Code Parsing</title>
+</head>
+<body>
+	<h1>Source Code Parsing</h1>
+
+	<p>For the analysis the programs source code have to be parsed into an EMF based model. Reclipse works on a structural model of a software system, the GAST (Generalized Abstract Syntax Tree). As base implementation there is the so called SiSSY Parser.</p>
+	
+	<h2>Create a GAST with SISSy</h2>
+	<p>The GAST (Generalized Abstract Syntax Tree) is a structural model of the source code of a software system. The static pattern detection in RECLIPSE requires a GAST of the system that shall be analysed as input. To create a GAST, the parser SISSy is used.</p>
+
+	<p>SISSy is available via the update site of Q-Impress: http://q-impress.ow2.org/release. It can parse Java, C++ and Delphi code.</p>
+
+	<p>Execute the following steps to create a GAST:</p>
+	<ol>
+		<li>Create a new Eclipse Run Configuration with "Run As" &rarr; "Run Configurations..." in the context menu of
+			your project.</li>
+		<li>Right click on "Launch SISSy" to create a new SISSy launch configuration.</li>
+		<li>In the first tab "SISSy", choose as "Input paths" the source folder of the project you want to analyze.</li>
+		<li>On the second tab "Database Settings" select a database driver, e.g. DERBY. See the screenshot below, for
+			example settings, the password is "sissy".</li>
+		<li>In the third tab "GAST Output" specify your GAST parameters. Check the box "Write GAST outputfile" and
+			provide the path to a .gast file, where the resulting GAST shall be stored.</li>
+		<li>After starting the configuration with "Run", SISSy will create a new GAST of the given system, that can be
+			used as input for the structural pattern detection of RECLIPSE.</li>
+	</ol>
+
+	<div class="figure">
+		<img src="../../images/sissy_database_settings.png" alt="SISSy Database Settings" />
+		<p>Figure: SISSy Database Settings</p>
+	</div>
+</body>
+</html>

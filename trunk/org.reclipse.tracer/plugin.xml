@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   <extension-point id="methodCallListeners" name="Method Call Listeners" schema="schema/methodCallListeners.exsd"/>
+   <extension-point id="tracerChangedListeners" name="Tracer Changed Listeners" schema="schema/tracerChangedListeners.exsd"/>
+   <extension-point id="vmStreamReceivers" name="Target VM&apos;s Stream Reveivers" schema="schema/vmStreamReceivers.exsd"/>
+   <extension-point id="monitoredEventsListeners" name="Monitored Events Listeners" schema="schema/monitoredEventsListeners.exsd"/>
+   <extension
+         point="org.eclipse.debug.core.launchModes">
+      <launchMode
+            label="Run"
+            mode="trace"/>
+   </extension>
+   <extension
+         point="org.eclipse.debug.core.launchConfigurationTypes">
+      <launchConfigurationType
+            category="org.reclipse.tracer.tracerApplication"
+            delegate="org.reclipse.tracer.launching.TracerLocalLaunchConfigurationDelegate"
+            id="org.reclipse.tracer.tracerApplication"
+            modes="trace"
+            name="Reclipse Tracer Local Application"/>
+      <launchConfigurationType
+            category="org.reclipse.tracer.tracerApplication"
+            delegate="org.reclipse.tracer.launching.TracerRemoteLaunchConfigurationDelegate"
+            id="org.reclipse.tracer.tracerRemoteApplication"
+            modes="trace"
+            name="Reclipse Tracer Remote Application">
+      </launchConfigurationType>
+   </extension>
+   <extension
+         point="org.reclipse.tracer.monitoredEventsListeners">
+      <monitoredEventsListener
+            class="org.reclipse.tracer.output.TraceFileLogger"
+            enabled="true"
+            name="Trace File Logger"
+            optional="true">
+         <propertyKey
+               defaultValue="Trace"
+               name="traceFileName"
+               type="String"/>
+         <propertyKey
+               defaultValue="false"
+               name="timeStamps"
+               type="Boolean"/>
+         <propertyKey
+               defaultValue="false"
+               name="argumentValues"
+               type="Boolean"/>
+         <propertyKey
+               defaultValue="true"
+               name="compressed"
+               type="Boolean"/>
+      </monitoredEventsListener>
+   </extension>
+   <extension
+         point="org.reclipse.tracer.methodCallListeners">
+      <methodCallListener
+            class="org.reclipse.tracer.runtime.extensions.TraceFileWriterMethodCallListener"
+            name="Trace File Logger">
+         <propertyKey
+               defaultValue="Trace.ztrace"
+               name="outputFileName"
+               type="String"/>
+         <propertyKey
+               defaultValue="Instrumentation Trace"
+               name="traceName"
+               type="String"/>
+         <propertyKey
+               defaultValue="true"
+               name="compressed"
+               type="Boolean"/>
+      </methodCallListener>
+   </extension>
+</plugin>

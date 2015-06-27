@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toc label="Developer Guide" link_to="../org.reclipse.help/toc.xml#devStructural">
+ <topic href="contents/developer/model.html" label="Meta Model Contribution">
+ </topic>
+ <topic href="contents/developer/generating.html" label="Story Diagram Generation">
+ </topic>
+</toc>

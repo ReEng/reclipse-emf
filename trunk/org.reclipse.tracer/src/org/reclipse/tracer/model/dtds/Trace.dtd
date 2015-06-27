@@ -1,0 +1,39 @@
+<!ELEMENT Trace (TracePathStart, (ClassLoaded|MethodEntry|MethodExit)*, TracePathEnd)*>
+<!ATTLIST Trace mainclass CDATA #IMPLIED
+                date CDATA #IMPLIED
+                symbolicexecution CDATA #IMPLIED>
+
+<!ELEMENT TracePath EMPTY>
+<!ATTLIST TracePath name CDATA #REQUIRED
+                    time CDATA #IMPLIED>
+
+<!ELEMENT ClassLoaded (SuperType*)>
+<!ATTLIST ClassLoaded name CDATA #REQUIRED>
+
+<!ELEMENT SuperType EMPTY>
+<!ATTLIST SuperType name CDATA #REQUIRED>
+
+<!ELEMENT MethodEntry (Caller, Callee, Argument*)>
+<!ATTLIST MethodEntry id     CDATA #REQUIRED
+                      name   CDATA #REQUIRED
+                      thread CDATA #IMPLIED
+                      time   CDATA #IMPLIED>
+
+<!ELEMENT Caller EMPTY>
+<!ATTLIST Caller id   CDATA #REQUIRED
+                 type CDATA #REQUIRED>
+
+<!ELEMENT Callee EMPTY>
+<!ATTLIST Callee id   CDATA #REQUIRED
+                 type CDATA #REQUIRED>
+
+<!ELEMENT Argument EMPTY>
+<!ATTLIST Argument value CDATA #IMPLIED
+                   id    CDATA #IMPLIED
+                   type CDATA #REQUIRED>
+
+<!ELEMENT MethodExit EMPTY>
+<!ATTLIST MethodExit id CDATA #REQUIRED>
+
+<!ELEMENT TracePathEnd EMPTY>
+<!ATTLIST TracePathEnd time CDATA #IMPLIED>

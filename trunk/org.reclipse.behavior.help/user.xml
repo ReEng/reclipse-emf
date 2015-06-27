@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toc label="User Guide" link_to="../org.reclipse.help/toc.xml#userBehavioral">
+	<topic label="Behavioral Analysis">
+    <topic href="contents/user/specification.html" label="Pattern Specification">
+    </topic>
+    <topic href="contents/user/tracing.html" label="Tracing">
+    </topic>
+    <topic href="contents/user/analysis.html" label="Analysis">
+    </topic>
+	</topic>
+</toc>

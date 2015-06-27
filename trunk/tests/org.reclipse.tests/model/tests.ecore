@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="tests"
+    nsURI="http://www.reclipse.org/ns/tests/2012" nsPrefix="tests">
+  <eClassifiers xsi:type="ecore:EClass" name="TypeA" eSuperTypes="#//Named">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="someAs" upperBound="-1"
+        eType="#//TypeB"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TypeB" eSuperTypes="#//Named">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="someAs" upperBound="-1"
+        eType="#//TypeA"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Named" abstract="true" interface="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Root" eSuperTypes="#//Named">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="allAs" upperBound="-1"
+        eType="#//TypeA" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="allBs" upperBound="-1"
+        eType="#//TypeB" containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>

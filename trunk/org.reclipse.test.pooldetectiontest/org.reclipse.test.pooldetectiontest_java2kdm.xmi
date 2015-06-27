@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<javaapplication:JavaApplication xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:javaapplication="http://www.eclipse.org/MoDisco/Java/Composition/0.1.incubation/javaApplication">
+  <javaModel href="org.reclipse.test.pooldetectiontest_java.xmi#/"/>
+  <deploymentModel href="org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0"/>
+  <java2DirectoryChildren href="java2kdmFragments/Package2Directory_java2kdm.xmi#/"/>
+</javaapplication:JavaApplication>

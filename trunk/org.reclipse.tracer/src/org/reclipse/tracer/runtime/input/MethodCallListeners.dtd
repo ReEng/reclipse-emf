@@ -1,0 +1,8 @@
+<!ELEMENT MethodCallListeners (IMethodCallListener+)>
+
+<!ELEMENT IMethodCallListener (Property*)>
+<!ATTLIST IMethodCallListener class	CDATA #REQUIRED>
+
+<!ELEMENT Property EMPTY>
+<!ATTLIST Property 	key 	CDATA #REQUIRED
+					value	CDATA #REQUIRED>

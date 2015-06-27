@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <wizard
+            id="org.reclipse.structure.specification.presentation.SpecificationModelWizardID"
+            name="%_UI_SpecificationModelWizard_label"
+            class="org.reclipse.structure.specification.presentation.SpecificationModelWizard"
+            category="org.reclipse.ui.newWizards"
+            icon="icons/full/obj16/SpecificationModelFile.gif">
+         <description>%_UI_SpecificationModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="org.reclipse.structure.specification.presentation.SpecificationEditorID"
+            name="%_UI_SpecificationEditor_label"
+            icon="icons/full/obj16/SpecificationModelFile.gif"
+            extensions="psc"
+            class="org.reclipse.structure.specification.presentation.SpecificationEditor"
+            contributorClass="org.reclipse.structure.specification.presentation.SpecificationActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

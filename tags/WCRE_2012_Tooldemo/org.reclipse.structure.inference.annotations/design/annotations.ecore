@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="annotations"
+    nsURI="http://org.reclipse.structure.inference.annotations" nsPrefix="org.reclipse.structure.inference">
+  <eClassifiers xsi:type="ecore:EClass" name="ASGAnnotation" eSuperTypes="platform:/plugin/org.eclipse.emf.ecore/model/Ecore.ecore#//EAnnotation platform:/plugin/org.eclipse.emf.ecore/model/Ecore.ecore#//ENamedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="annotatedElements" upperBound="-1"
+        eType="#//StringToEObjectMap" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="antecedentAnnos" upperBound="-1"
+        eType="#//ASGAnnotation" eOpposite="#//ASGAnnotation/consequentAnnos"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="consequentAnnos" upperBound="-1"
+        eType="#//ASGAnnotation" eOpposite="#//ASGAnnotation/antecedentAnnos"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="boundObjects" upperBound="-1"
+        eType="#//StringToEObjectMap" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="valid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pattern" eType="ecore:EClass ../../org.reclipse.structure.specification/design/org.reclipse.structure.specification.ecore#//PSPatternSpecification"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="annotationRanking" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="satisfiedConstraints" upperBound="-1"
+        eType="#//SatisfiedConstraint" containment="true" eOpposite="#//SatisfiedConstraint/annotation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="setResultSet" upperBound="-1"
+        eType="#//SetResultSet" containment="true" eOpposite="#//SetResultSet/parentAnnotation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TemporaryAnnotation" eSuperTypes="#//ASGAnnotation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SetInstanceAnnotation" eSuperTypes="#//ASGAnnotation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AnnotationSet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="annotations" upperBound="-1"
+        eType="#//ASGAnnotation" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="setResultSet" eType="#//SetResultSet"
+        eOpposite="#//SetResultSet/annotationSets"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SetResultSet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="annotationSets" upperBound="-1"
+        eType="#//AnnotationSet" containment="true" eOpposite="#//AnnotationSet/setResultSet"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parentAnnotation" eType="#//ASGAnnotation"
+        eOpposite="#//ASGAnnotation/setResultSet"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="StringToEObjectMap" instanceClassName="java.util.Map$Entry">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" upperBound="-1"
+        eType="ecore:EClass platform:/plugin/org.eclipse.emf.ecore/model/Ecore.ecore#//EObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnnotationEngine">
+    <eOperations name="removeFromFailedApplications">
+      <eParameters name="context" eType="ecore:EClass platform:/plugin/org.eclipse.emf.ecore/model/Ecore.ecore#//EObject"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="failedApplications" upperBound="-1"
+        eType="#//StringToEObjectMap" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="foundAnnotations" eType="#//AnnotationSet"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SatisfiedConstraint" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="annotation" eType="#//ASGAnnotation"
+        eOpposite="#//ASGAnnotation/satisfiedConstraints"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SatisfiedAttributeConstraint" eSuperTypes="#//SatisfiedConstraint">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nodeID" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attributeIndex" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="context" eType="ecore:EClass platform:/plugin/org.eclipse.emf.ecore/model/Ecore.ecore#//EObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="constraint" eType="ecore:EClass ../../org.reclipse.structure.specification/design/org.reclipse.structure.specification.ecore#//PSAttributeConstraint"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SatisfiedSpecificationConstraint" eSuperTypes="#//SatisfiedConstraint">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="expression" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="constraint" eType="ecore:EClass ../../org.reclipse.structure.specification/design/org.reclipse.structure.specification.ecore#//PSSpecificationConstraint"/>
+  </eClassifiers>
+</ecore:EPackage>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.reclipse.behavior:BPCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.uni_paderborn="http://de.uni_paderborn.basicsequencediagram" xmlns:org.reclipse.behavior="http://org.reclipse.behavior.specification" id="_KFA2kLaWEeC-1scOqH_pPw" name="Patterns Catalog">
+  <behavioralPatterns id="_SNG_ELaWEeC-1scOqH_pPw" name="Observer" events="_Uj25kbbOEeCVhpvNnxsYWQ _Uj25kLbOEeCVhpvNnxsYWQ _pMsG8rabEeCxuK9OZn8bQw _pMsG8babEeCxuK9OZn8bQw _qjN1AbabEeCxuK9OZn8bQw _qjN1ALabEeCxuK9OZn8bQw">
+    <objects xsi:type="org.reclipse.behavior:BPObject" id="_zygrkLaaEeCxuK9OZn8bQw" name="s">
+      <lifeline id="_zyjH0LaaEeCxuK9OZn8bQw" fragments="_pMsG8babEeCxuK9OZn8bQw _pMsG8rabEeCxuK9OZn8bQw _qjN1ALabEeCxuK9OZn8bQw _Uj25kbbOEeCVhpvNnxsYWQ"/>
+      <typeReference href="PatternsCatalogNew.psc#_kNFvgK8_EeCF_8JYN4-2IA"/>
+    </objects>
+    <objects xsi:type="org.reclipse.behavior:BPSetObject" id="_eHUVALabEeCxuK9OZn8bQw" name="oSet">
+      <lifeline id="_eHUVAbabEeCxuK9OZn8bQw" fragments="_qjN1AbabEeCxuK9OZn8bQw _Uj25kLbOEeCVhpvNnxsYWQ"/>
+      <typeReference href="PatternsCatalogNew.psc#_haHRkK8_EeCF_8JYN4-2IA"/>
+    </objects>
+    <rootFragment id="_SNL3kLaWEeC-1scOqH_pPw">
+      <operands id="_SNR-MLaWEeC-1scOqH_pPw" fragments="_Uj25kbbOEeCVhpvNnxsYWQ _pMsG8rabEeCxuK9OZn8bQw _qjN1AbabEeCxuK9OZn8bQw _DAcsALa0EeCH1c8Cw5GAzw _W6JbgLbOEeCVhpvNnxsYWQ"/>
+    </rootFragment>
+    <messages xsi:type="org.reclipse.behavior:BPMessage" id="_pMsG8LabEeCxuK9OZn8bQw" name="notifyMethod" sendEvent="_pMsG8babEeCxuK9OZn8bQw" receiveEvent="_pMsG8rabEeCxuK9OZn8bQw">
+      <methodReference href="PatternsCatalogNew.psc#_vpwAEK8_EeCF_8JYN4-2IA"/>
+    </messages>
+    <messages xsi:type="org.reclipse.behavior:BPMessage" id="_qjNN8LabEeCxuK9OZn8bQw" name="updateMethod" sendEvent="_qjN1ALabEeCxuK9OZn8bQw" receiveEvent="_qjN1AbabEeCxuK9OZn8bQw">
+      <methodReference href="PatternsCatalogNew.psc#_udExkK8_EeCF_8JYN4-2IA"/>
+    </messages>
+    <messages xsi:type="org.reclipse.behavior:BPMessage" id="_TcNVALbOEeCVhpvNnxsYWQ" name="registerMethod" sendEvent="_Uj25kLbOEeCVhpvNnxsYWQ" receiveEvent="_Uj25kbbOEeCVhpvNnxsYWQ">
+      <arguments id="_TcNVAbbOEeCVhpvNnxsYWQ" name="p">
+        <type href="PatternsCatalogNew.psc#_haHRkK8_EeCF_8JYN4-2IA"/>
+      </arguments>
+      <methodReference href="PatternsCatalogNew.psc#_mAYSEK8_EeCF_8JYN4-2IA"/>
+    </messages>
+    <fragments xsi:type="de.uni_paderborn:ReceiveEvent" id="_Uj25kbbOEeCVhpvNnxsYWQ" parentOperand="_SNR-MLaWEeC-1scOqH_pPw" lifeline="_zyjH0LaaEeCxuK9OZn8bQw" diagram="_SNG_ELaWEeC-1scOqH_pPw" message="_TcNVALbOEeCVhpvNnxsYWQ"/>
+    <fragments xsi:type="de.uni_paderborn:SendEvent" id="_Uj25kLbOEeCVhpvNnxsYWQ" parentOperand="_VpNYEbbOEeCVhpvNnxsYWQ" lifeline="_eHUVAbabEeCxuK9OZn8bQw" diagram="_SNG_ELaWEeC-1scOqH_pPw" message="_TcNVALbOEeCVhpvNnxsYWQ"/>
+    <fragments xsi:type="de.uni_paderborn:LoopFragment" id="_VpNYELbOEeCVhpvNnxsYWQ" parentOperand="_W6JbgbbOEeCVhpvNnxsYWQ">
+      <operands id="_VpNYEbbOEeCVhpvNnxsYWQ" fragments="_Uj25kLbOEeCVhpvNnxsYWQ"/>
+    </fragments>
+    <fragments xsi:type="de.uni_paderborn:ReceiveEvent" id="_pMsG8rabEeCxuK9OZn8bQw" parentOperand="_SNR-MLaWEeC-1scOqH_pPw" lifeline="_zyjH0LaaEeCxuK9OZn8bQw" diagram="_SNG_ELaWEeC-1scOqH_pPw" message="_pMsG8LabEeCxuK9OZn8bQw"/>
+    <fragments xsi:type="de.uni_paderborn:SendEvent" id="_pMsG8babEeCxuK9OZn8bQw" parentOperand="_8usuAbabEeCxuK9OZn8bQw" lifeline="_zyjH0LaaEeCxuK9OZn8bQw" diagram="_SNG_ELaWEeC-1scOqH_pPw" message="_pMsG8LabEeCxuK9OZn8bQw"/>
+    <fragments xsi:type="de.uni_paderborn:LoopFragment" id="_DAcsALa0EeCH1c8Cw5GAzw" parentOperand="_SNR-MLaWEeC-1scOqH_pPw">
+      <operands id="_DAcsAba0EeCH1c8Cw5GAzw"/>
+    </fragments>
+    <fragments xsi:type="de.uni_paderborn:LoopFragment" id="_W6JbgLbOEeCVhpvNnxsYWQ" parentOperand="_SNR-MLaWEeC-1scOqH_pPw">
+      <operands id="_W6JbgbbOEeCVhpvNnxsYWQ" fragments="_VpNYELbOEeCVhpvNnxsYWQ _8usuALabEeCxuK9OZn8bQw"/>
+    </fragments>
+    <fragments xsi:type="de.uni_paderborn:LoopFragment" id="_8usuALabEeCxuK9OZn8bQw" parentOperand="_W6JbgbbOEeCVhpvNnxsYWQ">
+      <operands id="_8usuAbabEeCxuK9OZn8bQw" fragments="_pMsG8babEeCxuK9OZn8bQw _75qjcLabEeCxuK9OZn8bQw"/>
+    </fragments>
+    <fragments xsi:type="de.uni_paderborn:ReceiveEvent" id="_qjN1AbabEeCxuK9OZn8bQw" parentOperand="_SNR-MLaWEeC-1scOqH_pPw" lifeline="_eHUVAbabEeCxuK9OZn8bQw" diagram="_SNG_ELaWEeC-1scOqH_pPw" message="_qjNN8LabEeCxuK9OZn8bQw"/>
+    <fragments xsi:type="de.uni_paderborn:SendEvent" id="_qjN1ALabEeCxuK9OZn8bQw" parentOperand="_75qjcbabEeCxuK9OZn8bQw" lifeline="_zyjH0LaaEeCxuK9OZn8bQw" diagram="_SNG_ELaWEeC-1scOqH_pPw" message="_qjNN8LabEeCxuK9OZn8bQw"/>
+    <fragments xsi:type="org.reclipse.behavior:BPEachFragment" id="_75qjcLabEeCxuK9OZn8bQw" parentOperand="_8usuAbabEeCxuK9OZn8bQw">
+      <operands id="_75qjcbabEeCxuK9OZn8bQw" fragments="_qjN1ALabEeCxuK9OZn8bQw"/>
+    </fragments>
+    <psPatternSpecification href="PatternsCatalogNew.psc#_gKPlIK8_EeCF_8JYN4-2IA"/>
+  </behavioralPatterns>
+  <behavioralPatterns id="_S6XoINYbEeCL7sv2IV7igA" name="Observer2" events="_movQM9YbEeCL7sv2IV7igA _movQMtYbEeCL7sv2IV7igA _nuglctYbEeCL7sv2IV7igA _nuglcdYbEeCL7sv2IV7igA _o6-_otYbEeCL7sv2IV7igA _o6-_odYbEeCL7sv2IV7igA">
+    <objects xsi:type="org.reclipse.behavior:BPObject" id="_UoLNwNYbEeCL7sv2IV7igA" name="s">
+      <lifeline id="_UoU-wNYbEeCL7sv2IV7igA" fragments="_movQM9YbEeCL7sv2IV7igA _nuglcdYbEeCL7sv2IV7igA _nuglctYbEeCL7sv2IV7igA _o6-_odYbEeCL7sv2IV7igA"/>
+      <typeReference href="PatternsCatalogNew.psc#_3P9vwNUsEeCOSvCxQ0HiYA"/>
+    </objects>
+    <objects xsi:type="org.reclipse.behavior:BPSetObject" id="_WlTBwNYbEeCL7sv2IV7igA" name="oSet">
+      <lifeline id="_WlTBwdYbEeCL7sv2IV7igA" fragments="_movQMtYbEeCL7sv2IV7igA _o6-_otYbEeCL7sv2IV7igA"/>
+      <typeReference href="PatternsCatalogNew.psc#_29WVwNUsEeCOSvCxQ0HiYA"/>
+    </objects>
+    <rootFragment id="_S6XoIdYbEeCL7sv2IV7igA">
+      <operands id="_S6XoItYbEeCL7sv2IV7igA" fragments="_movQM9YbEeCL7sv2IV7igA _nuglctYbEeCL7sv2IV7igA _s6IVwNYbEeCL7sv2IV7igA _o6-_otYbEeCL7sv2IV7igA"/>
+    </rootFragment>
+    <messages xsi:type="org.reclipse.behavior:BPMessage" id="_movQMNYbEeCL7sv2IV7igA" name="register" sendEvent="_movQMtYbEeCL7sv2IV7igA" receiveEvent="_movQM9YbEeCL7sv2IV7igA">
+      <arguments id="_movQMdYbEeCL7sv2IV7igA" name="p">
+        <type href="PatternsCatalogNew.psc#_29WVwNUsEeCOSvCxQ0HiYA"/>
+      </arguments>
+      <methodReference href="PatternsCatalogNew.psc#_3eYmQNUsEeCOSvCxQ0HiYA"/>
+    </messages>
+    <messages xsi:type="org.reclipse.behavior:BPMessage" id="_nuglcNYbEeCL7sv2IV7igA" name="notify" sendEvent="_nuglcdYbEeCL7sv2IV7igA" receiveEvent="_nuglctYbEeCL7sv2IV7igA">
+      <methodReference href="PatternsCatalogNew.psc#_3tfZQNUsEeCOSvCxQ0HiYA"/>
+    </messages>
+    <messages xsi:type="org.reclipse.behavior:BPMessage" id="_o6-_oNYbEeCL7sv2IV7igA" name="update" sendEvent="_o6-_odYbEeCL7sv2IV7igA" receiveEvent="_o6-_otYbEeCL7sv2IV7igA">
+      <methodReference href="PatternsCatalogNew.psc#_4SQTMNUsEeCOSvCxQ0HiYA"/>
+    </messages>
+    <fragments xsi:type="de.uni_paderborn:ReceiveEvent" id="_movQM9YbEeCL7sv2IV7igA" parentOperand="_S6XoItYbEeCL7sv2IV7igA" lifeline="_UoU-wNYbEeCL7sv2IV7igA" diagram="_S6XoINYbEeCL7sv2IV7igA" message="_movQMNYbEeCL7sv2IV7igA"/>
+    <fragments xsi:type="de.uni_paderborn:SendEvent" id="_movQMtYbEeCL7sv2IV7igA" parentOperand="_qH5esdYbEeCL7sv2IV7igA" lifeline="_WlTBwdYbEeCL7sv2IV7igA" diagram="_S6XoINYbEeCL7sv2IV7igA" message="_movQMNYbEeCL7sv2IV7igA"/>
+    <fragments xsi:type="de.uni_paderborn:LoopFragment" id="_qH5esNYbEeCL7sv2IV7igA" parentOperand="_s6IVwdYbEeCL7sv2IV7igA">
+      <operands id="_qH5esdYbEeCL7sv2IV7igA" fragments="_movQMtYbEeCL7sv2IV7igA"/>
+    </fragments>
+    <fragments xsi:type="de.uni_paderborn:ReceiveEvent" id="_nuglctYbEeCL7sv2IV7igA" parentOperand="_S6XoItYbEeCL7sv2IV7igA" lifeline="_UoU-wNYbEeCL7sv2IV7igA" diagram="_S6XoINYbEeCL7sv2IV7igA" message="_nuglcNYbEeCL7sv2IV7igA"/>
+    <fragments xsi:type="de.uni_paderborn:SendEvent" id="_nuglcdYbEeCL7sv2IV7igA" parentOperand="_r5HksdYbEeCL7sv2IV7igA" lifeline="_UoU-wNYbEeCL7sv2IV7igA" diagram="_S6XoINYbEeCL7sv2IV7igA" message="_nuglcNYbEeCL7sv2IV7igA"/>
+    <fragments xsi:type="de.uni_paderborn:LoopFragment" id="_s6IVwNYbEeCL7sv2IV7igA" parentOperand="_S6XoItYbEeCL7sv2IV7igA">
+      <operands id="_s6IVwdYbEeCL7sv2IV7igA" fragments="_qH5esNYbEeCL7sv2IV7igA _r5HksNYbEeCL7sv2IV7igA"/>
+    </fragments>
+    <fragments xsi:type="de.uni_paderborn:LoopFragment" id="_r5HksNYbEeCL7sv2IV7igA" parentOperand="_s6IVwdYbEeCL7sv2IV7igA">
+      <operands id="_r5HksdYbEeCL7sv2IV7igA" fragments="_nuglcdYbEeCL7sv2IV7igA _qvecENYbEeCL7sv2IV7igA"/>
+    </fragments>
+    <fragments xsi:type="de.uni_paderborn:ReceiveEvent" id="_o6-_otYbEeCL7sv2IV7igA" parentOperand="_S6XoItYbEeCL7sv2IV7igA" lifeline="_WlTBwdYbEeCL7sv2IV7igA" diagram="_S6XoINYbEeCL7sv2IV7igA" message="_o6-_oNYbEeCL7sv2IV7igA"/>
+    <fragments xsi:type="de.uni_paderborn:SendEvent" id="_o6-_odYbEeCL7sv2IV7igA" parentOperand="_qvecEdYbEeCL7sv2IV7igA" lifeline="_UoU-wNYbEeCL7sv2IV7igA" diagram="_S6XoINYbEeCL7sv2IV7igA" message="_o6-_oNYbEeCL7sv2IV7igA"/>
+    <fragments xsi:type="org.reclipse.behavior:BPEachFragment" id="_qvecENYbEeCL7sv2IV7igA" parentOperand="_r5HksdYbEeCL7sv2IV7igA">
+      <operands id="_qvecEdYbEeCL7sv2IV7igA" fragments="_o6-_odYbEeCL7sv2IV7igA"/>
+    </fragments>
+    <psPatternSpecification href="PatternsCatalogNew.psc#_xmA6INUrEeCOSvCxQ0HiYA"/>
+  </behavioralPatterns>
+  <psCatalog href="PatternsCatalogNew.psc#_ovwPsK1NEeCtn6bi_IANnw"/>
+</org.reclipse.behavior:BPCatalog>

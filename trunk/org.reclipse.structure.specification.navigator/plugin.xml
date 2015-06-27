@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+
+<plugin>
+   <extension point="org.eclipse.ui.navigator.viewer">
+      <viewerContentBinding viewerId="org.eclipse.ui.navigator.ProjectExplorer">
+         <includes>
+            <contentExtension pattern="org.reclipse.structure.specification.navigator.Content"/>
+            <contentExtension pattern="org.reclipse.structure.specification.navigator.PSNavigatorLinkHelper"/>
+         </includes>
+      </viewerContentBinding>
+      <viewerActionBinding viewerId="org.eclipse.ui.navigator.ProjectExplorer">
+         <includes>
+            <actionExtension pattern="org.reclipse.structure.specification.navigator.PSNavigatorActionProvider"/>
+         </includes>
+      </viewerActionBinding>
+   </extension>
+
+   <extension point="org.eclipse.ui.navigator.navigatorContent" id="navigator-content">
+      <navigatorContent
+            id="org.reclipse.structure.specification.navigator.Content" 
+            name="Pattern Specification Content" 
+            priority="normal" 
+            contentProvider="org.reclipse.structure.specification.navigator.PSNavigatorContentProvider" 
+            labelProvider="org.reclipse.structure.specification.navigator.PSNavigatorLabelProvider"
+            activeByDefault="true">
+         <triggerPoints>
+            <or>
+               <and>
+                  <instanceof value="org.eclipse.core.resources.IFile"/>
+               <or>
+                  <test
+                        property="org.eclipse.core.resources.extension"
+                        value="psc">
+                  </test>
+                  <test
+                        property="org.eclipse.core.resources.extension"
+                        value="pscdiagram">
+                  </test></or>
+               </and>
+               <instanceof value="org.reclipse.structure.specification.navigator.PSNavigatorItem"/>
+            </or>
+         </triggerPoints>
+         <possibleChildren>
+            <or>
+               <instanceof value="org.reclipse.structure.specification.navigator.PSNavigatorItem"/>
+            </or>
+         </possibleChildren>
+      </navigatorContent>
+      <actionProvider
+            id="org.reclipse.structure.specification.navigator.PSNavigatorActionProvider"
+            class="org.reclipse.structure.specification.navigator.PSNavigatorActionProvider">
+         <enablement>
+            <or>
+               <instanceof value="org.reclipse.structure.specification.navigator.PSNavigatorItem"/>
+            </or>
+         </enablement>
+      </actionProvider>
+   </extension>
+   
+   <extension point="org.eclipse.ui.navigator.linkHelper" id="navigator-linkhelper">
+      <linkHelper
+            id="org.reclipse.structure.specification.navigator.PSNavigatorLinkHelper"
+            class="org.reclipse.structure.specification.navigator.PSNavigatorLinkHelper">
+         <editorInputEnablement>
+            <and>
+               <instanceof value="org.eclipse.emf.common.ui.URIEditorInput"/>
+               <test property="org.reclipse.structure.InputIsURIEditorInputRIEditorInput"/>
+            </and>
+         </editorInputEnablement>
+         <selectionEnablement>
+            <instanceof value="org.reclipse.structure.specification.navigator.PSNavigatorItem"/>
+         </selectionEnablement>
+      </linkHelper>
+   </extension>
+
+</plugin>

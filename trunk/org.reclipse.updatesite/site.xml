@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.reclipse.feature_1.0.0.201412111627.jar" id="org.reclipse.feature" version="1.0.0.201412111627">
+      <category name="Reclipse"/>
+   </feature>
+   <category-def name="Reclipse" label="Reclipse"/>
+</site>

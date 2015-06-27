@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="../../../../content/org.eclipse.platform/book.css" type="text/css" />
+<link rel="stylesheet" href="../../../../content/org.reclipse.help/style.css" type="text/css" />
+<title>Inference</title>
+</head>
+<body>
+	<h1>Inference</h1>
+
+	<p>Next, the static pattern detection can be executed over the menu bar: <em>Reclipse</em> &rarr; <em>Start Structural Pattern Detection</em>. To see the details of the analysis results, the pattern matching views are useful.</p>
+
+	<div class="figure">
+		<img src="../../images/start_analysis.png" alt="Start Pattern Detection Wizard" />
+		<p>Figure: Start Pattern Detection Wizard</p>
+	</div>
+
+	<ol>
+		<li>Start the structural patterns detection wizard by selecting "Reclipse" &rarr; "Start Structural Pattern
+			Detection".</li>
+		<li>In the line "Pattern Specifications", select the structural patterns catalog you want to use for this
+			analysis.</li>
+		<li>As "Host Graph Model", select the GAST model parsed from the software system you want to analyse.</li>
+		<li>The search engines will be generated automatically, if the check box is not checked. Otherwise you have to
+			provide an ecore model that contains the search engines generated from the patterns catalog.</li>
+		<li>"Similarity Evaluator" should be chosen as annotation evaluator.</li>
+		<li>Next, choose one of the available reporting levels, to specify the amount of details that shall be reported
+			during the pattern detection:
+			<ul>
+				<li>Everything: Every progress information is reported.</li>
+				<li>Annotations: Every step and every new annotation is reported.</li>
+				<li>Steps: Every step of the process is reported.</li>
+				<li>Minimal: Only the start and the end of the process is reported.</li>
+			</ul>
+		<li>Select the check box to search for additional elements which will be used to evaluate rating values for the
+			detected pattern candidates.</li>
+		<li>Click "Finish" to start the analysis of the GAST. This can take several minutes depending of the size of the
+			parsed source code and the number of patterns in the catalog. You can track the progress in the Structural Inference
+			Console which opens automatically.</li>
+	</ol>
+	<p>After the analysis is finished, you may open the view "Annotations" to see the results.</p>
+
+	<div class="figure">
+		<img src="../../images/annotations_view.png" alt="Annotations View" />
+		<p>Figure: Annotations View</p>
+	</div>
+
+	<p>In the Annotations View, annotations can be saved and loaded by the buttons on the upper right corner of the
+		view.</p>
+
+	<p>To see more details about the pattern candidates, the Pattern Matching Views can be used.</p>
+	<ul>
+		<li><a href="results.html">Read more about the pattern matching views</a>.</li>
+	</ul>
+<!--
+	<p>Now, you can execute a behavioral analysis to validate the results of the structural analysis.</p>
+	<ul>
+		<li><a href="../behavioral/analysis.html">Read more about executing the dynamic behavioral patterns detection</a>.</li>
+	</ul>
+-->
+</body>
+</html>

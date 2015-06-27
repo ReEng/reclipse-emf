@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metricvalues:MetricValuesModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:java="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java" xmlns:metricvalues="http://metricvalues/1.0"
+    minCompThreshold="0.25" maxMergeThreshold="1.0" weightHighCoupling="15.0"
+    weightLowNameResemblance="5.0" weightMidNameResemblance="15.0" weightHighNameResemblance="30.0"
+    weightInterfaceViolationRelevant="40.0" weightInterfaceViolationIrrelevant="10.0"
+    weightHighSLAQ="15.0" weightPackageMapping="70.0" weightDirectoryMapping="70.0"
+    weightDMS="5.0" weightHighestNameResemblance="45.0" wildcardKey="java.io搂java搂java.lang搂"
+    minMergeThreshold="0.45" maxComposeThreshold="1.0" composeThresholdDecrement="0.1"
+    mergeThresholdDecrement="0.1" excludedPrefixesForNameResemblance="" excludedSuffixesForNameResemblance="">
+  <iterations number="1" curCompThreshold="1.0" curMergeThreshold="0.45" isMergeIteration="true">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+  <iterations number="2" curCompThreshold="1.0" curMergeThreshold="0.55" isMergeIteration="true">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+  <iterations number="3" curCompThreshold="1.0" curMergeThreshold="0.65" isMergeIteration="true">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+  <iterations number="4" curCompThreshold="1.0" curMergeThreshold="0.75" isMergeIteration="true">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+  <iterations number="5" curCompThreshold="1.0" curMergeThreshold="0.85" isMergeIteration="true">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+  <iterations number="6" curCompThreshold="1.0" curMergeThreshold="0.95" isMergeIteration="true">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+  <iterations number="7" curCompThreshold="1.0" curMergeThreshold="1.05">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+  <iterations number="8" curCompThreshold="0.9" curMergeThreshold="1.05">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+  <iterations number="9" curCompThreshold="0.8" curMergeThreshold="1.05">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+  <iterations number="10" curCompThreshold="0.7000000000000001" curMergeThreshold="1.05">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+  <iterations number="11" curCompThreshold="0.6000000000000001" curMergeThreshold="1.05">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+  <iterations number="12" curCompThreshold="0.5000000000000001" curMergeThreshold="1.05">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+  <iterations number="13" curCompThreshold="0.40000000000000013" curMergeThreshold="1.05">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+  <iterations number="14" curCompThreshold="0.30000000000000016" curMergeThreshold="1.05">
+    <components name=" &lt;PC No. 0 (default package).SynchronizedTest>" id="_7gORAPVlEeOyK_DQUhm3hQ"
+        classes="java:ClassDeclaration ../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0"/>
+  </iterations>
+</metricvalues:MetricValuesModel>

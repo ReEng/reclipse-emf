@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.1"?>
+<plugin>
+   
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+      		name="Tracer"
+            id="org.reclipse.tracer.ui.views"
+            parentCategory="org.reclipse.ui.views">
+      </category>
+      <view
+            name="Tracer"
+            id="org.reclipse.tracer.ui.views.TracerView"
+            category="org.reclipse.ui.views/org.reclipse.tracer.ui.views"
+            icon="icons/start_tracer.gif"
+            class="org.reclipse.tracer.ui.views.TracerView">
+      </view>
+      <view
+      		name="Execution Monitor"
+      		id="org.reclipse.tracer.ui.views.ExecutionMonitorView"
+            category="org.reclipse.ui.views/org.reclipse.tracer.ui.views"
+            icon="icons/monitor_view.gif"
+            class="org.reclipse.tracer.ui.views.ExecutionMonitorView">
+      </view>
+   </extension>
+   
+   <extension
+         point="org.eclipse.debug.ui.launchGroups">
+      <launchGroup
+            bannerImage="icons/tracelaunch_wiz.gif"
+            category="org.reclipse.tracer.tracerApplication"
+            id="org.reclipse.tracer.ui.launchgroup.trace"
+            image="icons/start_tracer.gif"
+            label="Reclipse &amp;Tracer"
+            mode="trace"
+            title="Select or configure an application to trace method calls"/>
+   </extension>
+   
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+      <launchConfigurationTabGroup
+            class="org.reclipse.tracer.ui.launching.LaunchConfigurationTabGroup"
+            id="org.reclipse.tracer.ui.TracerAppTabGroup"
+            type="org.reclipse.tracer.tracerApplication">
+         <launchMode
+               mode="trace"
+               perspective="org.reclipse.tracer.ui.TracerPerspective"/>
+      </launchConfigurationTabGroup>
+      <launchConfigurationTabGroup
+            class="org.reclipse.tracer.ui.launching.AttachingModeLaunchConfigurationTabGroup"
+            id="org.reclipse.tracer.ui.TracerAttachingModeTabGroup"
+            type="org.reclipse.tracer.tracerRemoteApplication">
+         <launchMode
+               mode="trace"
+               perspective="org.reclipse.tracer.ui.TracerPerspective">
+         </launchMode>
+      </launchConfigurationTabGroup>
+   </extension>
+   
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTypeImages">
+      <launchConfigurationTypeImage
+            configTypeID="org.reclipse.tracer.tracerApplication"
+            icon="icons/tracer_app.gif"
+            id="org.reclipse.tracer.ui.launchConfigurationTypeImage"/>
+      <launchConfigurationTypeImage
+            configTypeID="org.reclipse.tracer.tracerRemoteApplication"
+            icon="icons/tracer_app.gif"
+            id="org.reclipse.tracer.ui.remoteLaunchConfigurationTypeImage">
+      </launchConfigurationTypeImage>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="org.reclipse.tracer.ui.actionset"
+            label="Reclipse Tracer"
+            visible="true">
+         <action
+               class="org.reclipse.tracer.ui.actions.RunTracerToolbarAction"
+               icon="icons/start_tracer.gif"
+               id="org.reclipse.tracer.ui.control.start"
+               label="Run &amp;Reclipse Tracer..."
+               menubarPath="org.reclipse.ui.main.menu/behavior.inference.additions"
+               style="pulldown"
+               toolbarPath="org.eclipse.debug.ui.launchActionSet/debug">
+         </action>
+      </actionSet>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="org.reclipse.tracer.ui.TracerPerspectiveFactory"
+            icon="icons/start_tracer.gif"
+            id="org.reclipse.tracer.ui.TracerPerspective"
+            name="Reclipse Tracer"/>
+   </extension>
+   
+   <extension
+         point="org.reclipse.tracer.monitoredEventsListeners">
+      <monitoredEventsListener
+            class="org.reclipse.tracer.ui.extensions.UIMonitoredEventsListener"
+            name="UI Monitored Events Listener"/>
+   </extension>
+   
+   <extension
+         point="org.reclipse.tracer.tracerChangedListeners">
+      <tracerChangedListener
+            class="org.reclipse.tracer.ui.extensions.UITracerChangedListener"
+            name="UI Tracer Listener"/>
+   </extension>
+   
+   <extension
+         point="org.reclipse.tracer.vmStreamReceivers">
+      <systemOutReceiver class="org.reclipse.tracer.ui.extensions.VMSystemOutReceiver"/>
+      <systemErrReceiver class="org.reclipse.tracer.ui.extensions.VMSystemErrReceiver"/>
+   </extension>
+
+</plugin>

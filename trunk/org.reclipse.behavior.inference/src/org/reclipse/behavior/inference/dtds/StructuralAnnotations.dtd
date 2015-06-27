@@ -1,0 +1,10 @@
+<!ELEMENT StructuralAnnotations (StructuralAnnotation*)>
+<!ATTLIST StructuralAnnotations size CDATA #IMPLIED>
+
+<!ELEMENT StructuralAnnotation (BoundObject*)>
+<!ATTLIST StructuralAnnotation 	name        CDATA #REQUIRED
+								fuzzyBelief CDATA #IMPLIED>
+
+<!ELEMENT BoundObject EMPTY>
+<!ATTLIST BoundObject key  CDATA #REQUIRED
+                      name CDATA #REQUIRED>

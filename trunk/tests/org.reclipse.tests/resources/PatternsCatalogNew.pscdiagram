@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:notation="http://www.fujaba.org/ns/notation">
+  <notation:HierarchicalNode id="_pLja4K1NEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_ovwPsa1NEeCtn6bi_IANnw">
+    <nodes xsi:type="notation:HierarchicalNode" id="_pLja4a1NEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_ovwPsq1NEeCtn6bi_IANnw"
+        outgoing="#_FVfhEa1OEeCtn6bi_IANnw #_F2c5Ea1OEeCtn6bi_IANnw" x="357" y="44"
+        width="86" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_s61wEK1NEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_s61JAK1NEeCtn6bi_IANnw"
+        outgoing="#_GXz5sK1OEeCtn6bi_IANnw" incoming="#_FVfhEa1OEeCtn6bi_IANnw #_KHq2oK1OEeCtn6bi_IANnw"
+        x="68" y="120" width="220" height="61">
+      <nodes id="_eUMaUK1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_eULzQK1OEeCtn6bi_IANnw"/>
+      <nodes id="_hg4_0a1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_hg4_0K1OEeCtn6bi_IANnw"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_uVUKAa1NEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_uVUKAK1NEeCtn6bi_IANnw"
+        outgoing="#_G-7kEa1OEeCtn6bi_IANnw #_H-j1Ea1OEeCtn6bi_IANnw #_HRtWIK1OEeCtn6bi_IANnw"
+        incoming="#_F2c5Ea1OEeCtn6bi_IANnw #_GXz5sK1OEeCtn6bi_IANnw #_IvdtkK1OEeCtn6bi_IANnw"
+        x="505" y="140" width="151" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_upm_Aa1NEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_upm_AK1NEeCtn6bi_IANnw"
+        incoming="#_G-7kEa1OEeCtn6bi_IANnw" x="657" y="40" width="220" height="42">
+      <nodes id="_lI6PYK1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_lI5oUK1OEeCtn6bi_IANnw"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_vytVEK1NEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_vysuAK1NEeCtn6bi_IANnw"
+        outgoing="#_IvdtkK1OEeCtn6bi_IANnw" incoming="#_IjB0EK1OEeCtn6bi_IANnw" x="320"
+        y="231" width="207" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_wZ1mga1NEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_wZ1mgK1NEeCtn6bi_IANnw"
+        outgoing="#_IjB0EK1OEeCtn6bi_IANnw #_J3uWIa1OEeCtn6bi_IANnw" incoming="#_H-j1Ea1OEeCtn6bi_IANnw #_CX2SULxDEeCmFO4k1VVXaw"
+        x="486" y="308" width="187" height="47">
+      <nodes id="_DPbakbxDEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_DPbakLxDEeCmFO4k1VVXaw"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_JQy5Aa1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_JQy5AK1OEeCtn6bi_IANnw"
+        outgoing="#_KHq2oK1OEeCtn6bi_IANnw" incoming="#_J3uWIa1OEeCtn6bi_IANnw" x="97"
+        y="321" width="161" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_vCyUAa1NEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_vCyUAK1NEeCtn6bi_IANnw"
+        incoming="#_HRtWIK1OEeCtn6bi_IANnw" x="667" y="211" width="220" height="42">
+      <nodes id="_1q7I0a1REeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_1q7I0K1REeCtn6bi_IANnw"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_9lDRsbxCEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_9lDRsLxCEeCmFO4k1VVXaw"
+        outgoing="#_CX2SULxDEeCmFO4k1VVXaw" x="564" y="399" width="275" height="28"/>
+    <edges id="_FVfhEa1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_FVfhEK1OEeCtn6bi_IANnw"
+        source="#_pLja4a1NEeCtn6bi_IANnw" target="#_s61wEK1NEeCtn6bi_IANnw"/>
+    <edges id="_F2c5Ea1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_F2c5EK1OEeCtn6bi_IANnw"
+        source="#_pLja4a1NEeCtn6bi_IANnw" target="#_uVUKAa1NEeCtn6bi_IANnw"/>
+    <edges id="_GXz5sK1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_GXzSoK1OEeCtn6bi_IANnw"
+        source="#_s61wEK1NEeCtn6bi_IANnw" target="#_uVUKAa1NEeCtn6bi_IANnw"/>
+    <edges id="_G-7kEa1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_G-7kEK1OEeCtn6bi_IANnw"
+        source="#_uVUKAa1NEeCtn6bi_IANnw" target="#_upm_Aa1NEeCtn6bi_IANnw"/>
+    <edges id="_H-j1Ea1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_H-j1EK1OEeCtn6bi_IANnw"
+        source="#_uVUKAa1NEeCtn6bi_IANnw" target="#_wZ1mga1NEeCtn6bi_IANnw"/>
+    <edges id="_IjB0EK1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_IjBNAK1OEeCtn6bi_IANnw"
+        source="#_wZ1mga1NEeCtn6bi_IANnw" target="#_vytVEK1NEeCtn6bi_IANnw"/>
+    <edges id="_IvdtkK1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_IvdGgK1OEeCtn6bi_IANnw"
+        source="#_vytVEK1NEeCtn6bi_IANnw" target="#_uVUKAa1NEeCtn6bi_IANnw"/>
+    <edges id="_J3uWIa1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_J3uWIK1OEeCtn6bi_IANnw"
+        source="#_wZ1mga1NEeCtn6bi_IANnw" target="#_JQy5Aa1OEeCtn6bi_IANnw"/>
+    <edges id="_KHq2oK1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_KHqPkK1OEeCtn6bi_IANnw"
+        source="#_JQy5Aa1OEeCtn6bi_IANnw" target="#_s61wEK1NEeCtn6bi_IANnw"/>
+    <edges id="_HRtWIK1OEeCtn6bi_IANnw" model="PatternsCatalogNew.psc#_HRsvEK1OEeCtn6bi_IANnw"
+        source="#_uVUKAa1NEeCtn6bi_IANnw" target="#_vCyUAa1NEeCtn6bi_IANnw"/>
+    <edges id="_CX2SULxDEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_CX1rQLxDEeCmFO4k1VVXaw"
+        source="#_9lDRsbxCEeCmFO4k1VVXaw" target="#_wZ1mga1NEeCtn6bi_IANnw"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_Su1v8a8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_Su1I4K8_EeCF_8JYN4-2IA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_Su1v8q8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_Su1v8K8_EeCF_8JYN4-2IA"
+        outgoing="#_ZAWKQK8_EeCF_8JYN4-2IA #_ZKj2MK8_EeCF_8JYN4-2IA" x="67" y="96"
+        width="102" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_TsC_EK8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_TsCYAK8_EeCF_8JYN4-2IA"
+        incoming="#_ZAWKQK8_EeCF_8JYN4-2IA" x="227" y="38" width="131" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_XQsKga8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_XQsKgK8_EeCF_8JYN4-2IA"
+        incoming="#_ZKj2MK8_EeCF_8JYN4-2IA" x="236" y="164" width="119" height="22"/>
+    <edges id="_ZAWKQK8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_ZAU8IK8_EeCF_8JYN4-2IA"
+        source="#_Su1v8q8_EeCF_8JYN4-2IA" target="#_TsC_EK8_EeCF_8JYN4-2IA"/>
+    <edges id="_ZKj2MK8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_ZKjPIK8_EeCF_8JYN4-2IA"
+        source="#_Su1v8q8_EeCF_8JYN4-2IA" target="#_XQsKga8_EeCF_8JYN4-2IA"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_gKPlIq8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_gKPlIK8_EeCF_8JYN4-2IA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_gKPlI68_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_gKPlIa8_EeCF_8JYN4-2IA"
+        outgoing="#_ppUusK8_EeCF_8JYN4-2IA #_p_w4wK8_EeCF_8JYN4-2IA #_MXe5oLEeEeCUkfYLwzc8Zg #_MmMrEbEeEeCUkfYLwzc8Zg #_M02LELEeEeCUkfYLwzc8Zg"
+        x="308" y="32" width="86" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_haHRka8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_haHRkK8_EeCF_8JYN4-2IA"
+        outgoing="#_xM4mwK8_EeCF_8JYN4-2IA" incoming="#_p_w4wK8_EeCF_8JYN4-2IA #_qXGasK8_EeCF_8JYN4-2IA #_E1hkEbEeEeCUkfYLwzc8Zg"
+        x="21" y="99" width="214" height="61">
+      <nodes id="_1Hv50K8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_1HvSwK8_EeCF_8JYN4-2IA"/>
+      <nodes id="_3pWT4K8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_3pVs0K8_EeCF_8JYN4-2IA"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_kNGWkK8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_kNFvgK8_EeCF_8JYN4-2IA"
+        outgoing="#_pPw_MK8_EeCF_8JYN4-2IA #_w87fMK8_EeCF_8JYN4-2IA" incoming="#_ppUusK8_EeCF_8JYN4-2IA #_EfykoLEeEeCUkfYLwzc8Zg"
+        x="516" y="117" width="210" height="42">
+      <nodes id="_7-DqUa8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_7-DqUK8_EeCF_8JYN4-2IA"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_mAYSEa8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_mAYSEK8_EeCF_8JYN4-2IA"
+        outgoing="#_ozFDMK8_EeCF_8JYN4-2IA" incoming="#_pPw_MK8_EeCF_8JYN4-2IA #_MmMrEbEeEeCUkfYLwzc8Zg"
+        x="400" y="211" width="85" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_nPphkK8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_nPo6gK8_EeCF_8JYN4-2IA"
+        outgoing="#_qXGasK8_EeCF_8JYN4-2IA" incoming="#_ozFDMK8_EeCF_8JYN4-2IA" x="195"
+        y="211" width="149" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_udExka8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_udExkK8_EeCF_8JYN4-2IA"
+        incoming="#_xM4mwK8_EeCF_8JYN4-2IA #_j9lpAK9BEeCF_8JYN4-2IA #_MXe5oLEeEeCUkfYLwzc8Zg #_YFc8obEeEeCUkfYLwzc8Zg"
+        x="57" y="293" width="144" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_vpwAEa8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_vpwAEK8_EeCF_8JYN4-2IA"
+        incoming="#_w87fMK8_EeCF_8JYN4-2IA #_kN_cgK9BEeCF_8JYN4-2IA #_M02LELEeEeCUkfYLwzc8Zg"
+        x="552" y="293" width="138" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_zOG3oK8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_zOGQkK8_EeCF_8JYN4-2IA"
+        outgoing="#_j9lpAK9BEeCF_8JYN4-2IA #_kN_cgK9BEeCF_8JYN4-2IA" x="289" y="291"
+        width="188" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_C7_PkbEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_C7_PkLEeEeCUkfYLwzc8Zg"
+        outgoing="#_EfykoLEeEeCUkfYLwzc8Zg #_E1hkEbEeEeCUkfYLwzc8Zg" x="284" y="118"
+        width="184" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_09RmELEqEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_0u7oELEqEeCUkfYLwzc8Zg"
+        x="36" y="352" width="378" height="135">
+      <nodes xsi:type="notation:HierarchicalNode" id="_W3PdEbEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_W3PdELEeEeCUkfYLwzc8Zg"
+          outgoing="#_YFc8obEeEeCUkfYLwzc8Zg" x="26" y="15" width="310" height="28"/>
+    </nodes>
+    <edges id="_ozFDMK8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_ozEcIK8_EeCF_8JYN4-2IA"
+        source="#_mAYSEa8_EeCF_8JYN4-2IA" target="#_nPphkK8_EeCF_8JYN4-2IA"/>
+    <edges id="_pPw_MK8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_pPwYIK8_EeCF_8JYN4-2IA"
+        source="#_kNGWkK8_EeCF_8JYN4-2IA" target="#_mAYSEa8_EeCF_8JYN4-2IA"/>
+    <edges id="_ppUusK8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_ppUHoK8_EeCF_8JYN4-2IA"
+        source="#_gKPlI68_EeCF_8JYN4-2IA" target="#_kNGWkK8_EeCF_8JYN4-2IA"/>
+    <edges id="_p_w4wK8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_p_wRsK8_EeCF_8JYN4-2IA"
+        source="#_gKPlI68_EeCF_8JYN4-2IA" target="#_haHRka8_EeCF_8JYN4-2IA"/>
+    <edges id="_qXGasK8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_qXFzoK8_EeCF_8JYN4-2IA"
+        source="#_nPphkK8_EeCF_8JYN4-2IA" target="#_haHRka8_EeCF_8JYN4-2IA"/>
+    <edges id="_w87fMK8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_w864IK8_EeCF_8JYN4-2IA"
+        source="#_kNGWkK8_EeCF_8JYN4-2IA" target="#_vpwAEa8_EeCF_8JYN4-2IA"/>
+    <edges id="_xM4mwK8_EeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_xM3YoK8_EeCF_8JYN4-2IA"
+        source="#_haHRka8_EeCF_8JYN4-2IA" target="#_udExka8_EeCF_8JYN4-2IA"/>
+    <edges id="_j9lpAK9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_j9ka4K9BEeCF_8JYN4-2IA"
+        source="#_zOG3oK8_EeCF_8JYN4-2IA" target="#_udExka8_EeCF_8JYN4-2IA"/>
+    <edges id="_kN_cgK9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_kN-OYK9BEeCF_8JYN4-2IA"
+        source="#_zOG3oK8_EeCF_8JYN4-2IA" target="#_vpwAEa8_EeCF_8JYN4-2IA"/>
+    <edges id="_EfykoLEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_Efx9kLEeEeCUkfYLwzc8Zg"
+        source="#_C7_PkbEeEeCUkfYLwzc8Zg" target="#_kNGWkK8_EeCF_8JYN4-2IA"/>
+    <edges id="_E1hkEbEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_E1hkELEeEeCUkfYLwzc8Zg"
+        source="#_C7_PkbEeEeCUkfYLwzc8Zg" target="#_haHRka8_EeCF_8JYN4-2IA"/>
+    <edges id="_MXe5oLEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_MXeSkLEeEeCUkfYLwzc8Zg"
+        source="#_gKPlI68_EeCF_8JYN4-2IA" target="#_udExka8_EeCF_8JYN4-2IA"/>
+    <edges id="_MmMrEbEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_MmMrELEeEeCUkfYLwzc8Zg"
+        source="#_gKPlI68_EeCF_8JYN4-2IA" target="#_mAYSEa8_EeCF_8JYN4-2IA"/>
+    <edges id="_M02LELEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_M01kALEeEeCUkfYLwzc8Zg"
+        source="#_gKPlI68_EeCF_8JYN4-2IA" target="#_vpwAEa8_EeCF_8JYN4-2IA"/>
+    <edges id="_YFc8obEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_YFc8oLEeEeCUkfYLwzc8Zg"
+        source="#_W3PdEbEeEeCUkfYLwzc8Zg" target="#_udExka8_EeCF_8JYN4-2IA"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_CBRJ8q9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_CBRJ8K9AEeCF_8JYN4-2IA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_CBRJ869AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_CBRJ8a9AEeCF_8JYN4-2IA"
+        outgoing="#_G179Ya9BEeCF_8JYN4-2IA #_HBYYYK9BEeCF_8JYN4-2IA #_HtBWYK9BEeCF_8JYN4-2IA"
+        x="231" y="262" width="98" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_BzRUwa9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_BzRUwK9BEeCF_8JYN4-2IA"
+        incoming="#_G179Ya9BEeCF_8JYN4-2IA" x="60" y="129" width="85" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_CDStwa9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_CDStwK9BEeCF_8JYN4-2IA"
+        incoming="#_HBYYYK9BEeCF_8JYN4-2IA" x="216" y="127" width="98" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_Ca8YwK9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_Ca7xsK9BEeCF_8JYN4-2IA"
+        incoming="#_HtBWYK9BEeCF_8JYN4-2IA" x="529" y="123" width="85" height="22"/>
+    <edges id="_G179Ya9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_G179YK9BEeCF_8JYN4-2IA"
+        source="#_CBRJ869AEeCF_8JYN4-2IA" target="#_BzRUwa9BEeCF_8JYN4-2IA"/>
+    <edges id="_HBYYYK9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_HBXxUK9BEeCF_8JYN4-2IA"
+        source="#_CBRJ869AEeCF_8JYN4-2IA" target="#_CDStwa9BEeCF_8JYN4-2IA"/>
+    <edges id="_HtBWYK9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_HtAvUK9BEeCF_8JYN4-2IA"
+        source="#_CBRJ869AEeCF_8JYN4-2IA" target="#_Ca8YwK9BEeCF_8JYN4-2IA"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_E3RtwK9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_E3RGsK9AEeCF_8JYN4-2IA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_E3Rtwa9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_E3RGsa9AEeCF_8JYN4-2IA"
+        outgoing="#_P9a7wa9AEeCF_8JYN4-2IA #_QIj0wK9AEeCF_8JYN4-2IA #_QU19Qa9AEeCF_8JYN4-2IA #_QmKWwK9AEeCF_8JYN4-2IA"
+        x="284" y="259" width="112" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_IDkqoa9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_IDkqoK9AEeCF_8JYN4-2IA"
+        outgoing="#_UfpJwa9AEeCF_8JYN4-2IA #_WBORQK9AEeCF_8JYN4-2IA" incoming="#_QIj0wK9AEeCF_8JYN4-2IA"
+        x="210" y="116" width="98" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_I6H4Ia9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_I6H4IK9AEeCF_8JYN4-2IA"
+        incoming="#_P9a7wa9AEeCF_8JYN4-2IA #_UfpJwa9AEeCF_8JYN4-2IA" x="16" y="113"
+        width="85" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_JvTzsK9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_JvTMoK9AEeCF_8JYN4-2IA"
+        outgoing="#_UDRW0K9AEeCF_8JYN4-2IA" incoming="#_QU19Qa9AEeCF_8JYN4-2IA #_9YLpgK9AEeCF_8JYN4-2IA"
+        x="365" y="114" width="98" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_KtyOIa9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_KtyOIK9AEeCF_8JYN4-2IA"
+        incoming="#_QmKWwK9AEeCF_8JYN4-2IA #_UDRW0K9AEeCF_8JYN4-2IA" x="547" y="115"
+        width="85" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_RMwcsa9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_RMwcsK9AEeCF_8JYN4-2IA"
+        incoming="#_WBORQK9AEeCF_8JYN4-2IA #_8y3V8K9AEeCF_8JYN4-2IA" x="202" y="24"
+        width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_SdY-Ia9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_SdY-IK9AEeCF_8JYN4-2IA"
+        outgoing="#_8y3V8K9AEeCF_8JYN4-2IA #_9YLpgK9AEeCF_8JYN4-2IA" x="332" y="23"
+        width="140" height="28"/>
+    <edges id="_P9a7wa9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_P9a7wK9AEeCF_8JYN4-2IA"
+        source="#_E3Rtwa9AEeCF_8JYN4-2IA" target="#_I6H4Ia9AEeCF_8JYN4-2IA"/>
+    <edges id="_QIj0wK9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_QIjNsK9AEeCF_8JYN4-2IA"
+        source="#_E3Rtwa9AEeCF_8JYN4-2IA" target="#_IDkqoa9AEeCF_8JYN4-2IA">
+      <bendPoints xsi:type="notation:RelativeBendPoint" sourceX="-68" sourceY="-69"
+          targetX="13" targetY="77"/>
+    </edges>
+    <edges id="_QU19Qa9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_QU19QK9AEeCF_8JYN4-2IA"
+        source="#_E3Rtwa9AEeCF_8JYN4-2IA" target="#_JvTzsK9AEeCF_8JYN4-2IA">
+      <bendPoints xsi:type="notation:RelativeBendPoint" sourceX="58" sourceY="-56"
+          targetX="-16" targetY="92"/>
+    </edges>
+    <edges id="_QmKWwK9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_QmJvsK9AEeCF_8JYN4-2IA"
+        source="#_E3Rtwa9AEeCF_8JYN4-2IA" target="#_KtyOIa9AEeCF_8JYN4-2IA"/>
+    <edges id="_UDRW0K9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_UDQvwK9AEeCF_8JYN4-2IA"
+        source="#_JvTzsK9AEeCF_8JYN4-2IA" target="#_KtyOIa9AEeCF_8JYN4-2IA"/>
+    <edges id="_UfpJwa9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_UfpJwK9AEeCF_8JYN4-2IA"
+        source="#_IDkqoa9AEeCF_8JYN4-2IA" target="#_I6H4Ia9AEeCF_8JYN4-2IA"/>
+    <edges id="_WBORQK9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_WBNqMK9AEeCF_8JYN4-2IA"
+        source="#_IDkqoa9AEeCF_8JYN4-2IA" target="#_RMwcsa9AEeCF_8JYN4-2IA"/>
+    <edges id="_8y3V8K9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_8y2H0K9AEeCF_8JYN4-2IA"
+        source="#_SdY-Ia9AEeCF_8JYN4-2IA" target="#_RMwcsa9AEeCF_8JYN4-2IA"/>
+    <edges id="_9YLpgK9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_9YKbYK9AEeCF_8JYN4-2IA"
+        source="#_SdY-Ia9AEeCF_8JYN4-2IA" target="#_JvTzsK9AEeCF_8JYN4-2IA"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_Xl_Poq9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_Xl_PoK9AEeCF_8JYN4-2IA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_Xl_Po69AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_Xl_Poa9AEeCF_8JYN4-2IA"
+        outgoing="#_bC9s0K9AEeCF_8JYN4-2IA #_bPnowa9AEeCF_8JYN4-2IA #_bfWG0K9AEeCF_8JYN4-2IA"
+        x="260" y="39" width="96" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_ZSLrsa9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_ZSLrsK9AEeCF_8JYN4-2IA"
+        incoming="#_bC9s0K9AEeCF_8JYN4-2IA" x="49" y="119" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_ZbG-Ma9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_ZbG-MK9AEeCF_8JYN4-2IA"
+        incoming="#_bPnowa9AEeCF_8JYN4-2IA" x="276" y="121" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_ZnZGsa9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_ZnZGsK9AEeCF_8JYN4-2IA"
+        incoming="#_bfWG0K9AEeCF_8JYN4-2IA" x="505" y="112" width="78" height="22"/>
+    <edges id="_bC9s0K9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_bC9FwK9AEeCF_8JYN4-2IA"
+        source="#_Xl_Po69AEeCF_8JYN4-2IA" target="#_ZSLrsa9AEeCF_8JYN4-2IA"/>
+    <edges id="_bPnowa9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_bPnowK9AEeCF_8JYN4-2IA"
+        source="#_Xl_Po69AEeCF_8JYN4-2IA" target="#_ZbG-Ma9AEeCF_8JYN4-2IA"/>
+    <edges id="_bfWG0K9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_bfVfwK9AEeCF_8JYN4-2IA"
+        source="#_Xl_Po69AEeCF_8JYN4-2IA" target="#_ZnZGsa9AEeCF_8JYN4-2IA"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_nkALgq9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_nkALgK9AEeCF_8JYN4-2IA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_nkALg69AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_nkALga9AEeCF_8JYN4-2IA"
+        outgoing="#_xvOpYK9AEeCF_8JYN4-2IA #_x9kAUa9AEeCF_8JYN4-2IA #_y2P70K9AEeCF_8JYN4-2IA"
+        x="228" y="59" width="144" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_uCxlwa9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_uCxlwK9AEeCF_8JYN4-2IA"
+        outgoing="#_1QwPYK9AEeCF_8JYN4-2IA" incoming="#_xvOpYK9AEeCF_8JYN4-2IA" x="56"
+        y="139" width="98" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_uSuGQK9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_uStfMK9AEeCF_8JYN4-2IA"
+        outgoing="#_1bp30K9AEeCF_8JYN4-2IA" incoming="#_x9kAUa9AEeCF_8JYN4-2IA #_1QwPYK9AEeCF_8JYN4-2IA #_QY9pEbGBEeCDAa1tErEpvg #_QqXiIbGBEeCDAa1tErEpvg"
+        x="267" y="140" width="67" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_uePZwa9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_uePZwK9AEeCF_8JYN4-2IA"
+        incoming="#_y2P70K9AEeCF_8JYN4-2IA #_1bp30K9AEeCF_8JYN4-2IA" x="451" y="140"
+        width="98" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_M7ljQbGBEeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_M7ljQLGBEeCDAa1tErEpvg"
+        outgoing="#_QqXiIbGBEeCDAa1tErEpvg" x="149" y="225" width="135" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_NTP1UbGBEeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_NTP1ULGBEeCDAa1tErEpvg"
+        outgoing="#_QY9pEbGBEeCDAa1tErEpvg" x="352" y="231" width="150" height="28"/>
+    <edges id="_xvOpYK9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_xvOCUK9AEeCF_8JYN4-2IA"
+        source="#_nkALg69AEeCF_8JYN4-2IA" target="#_uCxlwa9AEeCF_8JYN4-2IA"/>
+    <edges id="_x9kAUa9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_x9kAUK9AEeCF_8JYN4-2IA"
+        source="#_nkALg69AEeCF_8JYN4-2IA" target="#_uSuGQK9AEeCF_8JYN4-2IA"/>
+    <edges id="_y2P70K9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_y2PUwK9AEeCF_8JYN4-2IA"
+        source="#_nkALg69AEeCF_8JYN4-2IA" target="#_uePZwa9AEeCF_8JYN4-2IA"/>
+    <edges id="_1QwPYK9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_1QvoUK9AEeCF_8JYN4-2IA"
+        source="#_uCxlwa9AEeCF_8JYN4-2IA" target="#_uSuGQK9AEeCF_8JYN4-2IA"/>
+    <edges id="_1bp30K9AEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_1bpQwK9AEeCF_8JYN4-2IA"
+        source="#_uSuGQK9AEeCF_8JYN4-2IA" target="#_uePZwa9AEeCF_8JYN4-2IA"/>
+    <edges id="_QY9pEbGBEeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_QY9pELGBEeCDAa1tErEpvg"
+        source="#_NTP1UbGBEeCDAa1tErEpvg" target="#_uSuGQK9AEeCF_8JYN4-2IA"/>
+    <edges id="_QqXiIbGBEeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_QqXiILGBEeCDAa1tErEpvg"
+        source="#_M7ljQbGBEeCDAa1tErEpvg" target="#_uSuGQK9AEeCF_8JYN4-2IA"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_vXaoAq9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_vXaoAK9BEeCF_8JYN4-2IA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_vXaoA69BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_vXaoAa9BEeCF_8JYN4-2IA"
+        outgoing="#_ysqFgK9BEeCF_8JYN4-2IA #_y_fh8a9BEeCF_8JYN4-2IA" x="274" y="43"
+        width="203" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_wmC-Ua9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_wmC-UK9BEeCF_8JYN4-2IA"
+        outgoing="#_-QU9AK9BEeCF_8JYN4-2IA" incoming="#_y_fh8a9BEeCF_8JYN4-2IA #_Hcv-oLEWEeCUkfYLwzc8Zg"
+        x="528" y="118" width="123" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_wz3X4K9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_wz2w0K9BEeCF_8JYN4-2IA"
+        outgoing="#_AWc8AK9CEeCF_8JYN4-2IA #_Hcv-oLEWEeCUkfYLwzc8Zg" incoming="#_ysqFgK9BEeCF_8JYN4-2IA"
+        x="121" y="118" width="85" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_76oQ8a9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_76oQ8K9BEeCF_8JYN4-2IA"
+        outgoing="#_ClNSkK9CEeCF_8JYN4-2IA #_C4NHEK9CEeCF_8JYN4-2IA" x="295" y="213"
+        width="180" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_82D-cK9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_82DXYK9BEeCF_8JYN4-2IA"
+        incoming="#_-QU9AK9BEeCF_8JYN4-2IA #_ClNSkK9CEeCF_8JYN4-2IA" x="524" y="215"
+        width="131" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_9HEO4a9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_9HEO4K9BEeCF_8JYN4-2IA"
+        incoming="#_AWc8AK9CEeCF_8JYN4-2IA #_C4NHEK9CEeCF_8JYN4-2IA" x="121" y="215"
+        width="119" height="22"/>
+    <edges id="_ysqFgK9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_yspecK9BEeCF_8JYN4-2IA"
+        source="#_vXaoA69BEeCF_8JYN4-2IA" target="#_wz3X4K9BEeCF_8JYN4-2IA"/>
+    <edges id="_y_fh8a9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_y_fh8K9BEeCF_8JYN4-2IA"
+        source="#_vXaoA69BEeCF_8JYN4-2IA" target="#_wmC-Ua9BEeCF_8JYN4-2IA"/>
+    <edges id="_-QU9AK9BEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_-QUV8K9BEeCF_8JYN4-2IA"
+        source="#_wmC-Ua9BEeCF_8JYN4-2IA" target="#_82D-cK9BEeCF_8JYN4-2IA"/>
+    <edges id="_AWc8AK9CEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_AWcU8K9CEeCF_8JYN4-2IA"
+        source="#_wz3X4K9BEeCF_8JYN4-2IA" target="#_9HEO4a9BEeCF_8JYN4-2IA"/>
+    <edges id="_ClNSkK9CEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_ClMrgK9CEeCF_8JYN4-2IA"
+        source="#_76oQ8a9BEeCF_8JYN4-2IA" target="#_82D-cK9BEeCF_8JYN4-2IA"/>
+    <edges id="_C4NHEK9CEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_C4MgAK9CEeCF_8JYN4-2IA"
+        source="#_76oQ8a9BEeCF_8JYN4-2IA" target="#_9HEO4a9BEeCF_8JYN4-2IA"/>
+    <edges id="_Hcv-oLEWEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_HcvXkLEWEeCUkfYLwzc8Zg"
+        source="#_wz3X4K9BEeCF_8JYN4-2IA" target="#_wmC-Ua9BEeCF_8JYN4-2IA"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_qxKjsK9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_qxJ8oK9DEeCF_8JYN4-2IA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_qxKjsa9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_qxJ8oa9DEeCF_8JYN4-2IA"
+        outgoing="#_wf19wK9DEeCF_8JYN4-2IA #_wvQSwK9DEeCF_8JYN4-2IA #_X-CQkbEfEeCUkfYLwzc8Zg #_YRfYEbEfEeCUkfYLwzc8Zg"
+        x="283" y="212" width="80" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_sjJesK9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_sjI3oK9DEeCF_8JYN4-2IA"
+        outgoing="#_9W6W0K9DEeCF_8JYN4-2IA" incoming="#_wvQSwK9DEeCF_8JYN4-2IA #_31v0UK9DEeCF_8JYN4-2IA #_yRZsILEeEeCUkfYLwzc8Zg"
+        x="484" y="114" width="308" height="62">
+      <nodes id="_F2VEUbEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_F2VEULEfEeCUkfYLwzc8Zg"/>
+      <nodes id="_ISSJYbEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_ISSJYLEfEeCUkfYLwzc8Zg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_t8U4Ia9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_t8U4IK9DEeCF_8JYN4-2IA"
+        outgoing="#_929I0K9DEeCF_8JYN4-2IA #_xyW_sLEeEeCUkfYLwzc8Zg" incoming="#_wf19wK9DEeCF_8JYN4-2IA #_jNZbELEWEeCUkfYLwzc8Zg #_AudLkbEfEeCUkfYLwzc8Zg"
+        x="31" y="129" width="144" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_zu5Tsa9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_zu5TsK9DEeCF_8JYN4-2IA"
+        outgoing="#_31v0UK9DEeCF_8JYN4-2IA #_jNZbELEWEeCUkfYLwzc8Zg" x="264" y="127"
+        width="140" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_6Sb5Ma9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_6Sb5MK9DEeCF_8JYN4-2IA"
+        outgoing="#_AhuXILEfEeCUkfYLwzc8Zg" incoming="#_9W6W0K9DEeCF_8JYN4-2IA #__R-VUK9DEeCF_8JYN4-2IA #_YRfYEbEfEeCUkfYLwzc8Zg #_g0X_IbEfEeCUkfYLwzc8Zg"
+        x="579" y="279" width="192" height="42">
+      <nodes id="_Dnz-UbEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_Dnz-ULEfEeCUkfYLwzc8Zg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_7khzMa9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_7khzMK9DEeCF_8JYN4-2IA"
+        incoming="#_929I0K9DEeCF_8JYN4-2IA #__dQ_UK9DEeCF_8JYN4-2IA #_X-CQkbEfEeCUkfYLwzc8Zg"
+        x="51" y="291" width="104" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_-VT4wK9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_-VTRsK9DEeCF_8JYN4-2IA"
+        outgoing="#__R-VUK9DEeCF_8JYN4-2IA #__dQ_UK9DEeCF_8JYN4-2IA" x="243" y="287"
+        width="160" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_p6MJkbEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_p6MJkLEeEeCUkfYLwzc8Zg"
+        outgoing="#_x9pCoLEeEeCUkfYLwzc8Zg" incoming="#_xyW_sLEeEeCUkfYLwzc8Zg #_9D6f8bGAEeCDAa1tErEpvg"
+        x="11" y="36" width="234" height="42">
+      <nodes id="_sTIW4bEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_sTIW4LEeEeCUkfYLwzc8Zg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_vmMDELEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_vmLcALEeEeCUkfYLwzc8Zg"
+        outgoing="#_yRZsILEeEeCUkfYLwzc8Zg" incoming="#_x9pCoLEeEeCUkfYLwzc8Zg" x="564"
+        y="47" width="149" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_-MjPgbEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_-MjPgLEeEeCUkfYLwzc8Zg"
+        outgoing="#_AudLkbEfEeCUkfYLwzc8Zg" incoming="#_AhuXILEfEeCUkfYLwzc8Zg" x="112"
+        y="386" width="193" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_xTbKgLEqEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_xFjGkLEqEeCUkfYLwzc8Zg"
+        x="498" y="379" width="352" height="68">
+      <nodes xsi:type="notation:HierarchicalNode" id="_eWqmkbEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_eWqmkLEfEeCUkfYLwzc8Zg"
+          outgoing="#_g0X_IbEfEeCUkfYLwzc8Zg" x="22" y="6" width="310" height="28"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_7iBPYbGAEeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_7iBPYLGAEeCDAa1tErEpvg"
+        outgoing="#_9D6f8bGAEeCDAa1tErEpvg" x="253" y="21" width="135" height="28"/>
+    <edges id="_wf19wK9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_wf1WsK9DEeCF_8JYN4-2IA"
+        source="#_qxKjsa9DEeCF_8JYN4-2IA" target="#_t8U4Ia9DEeCF_8JYN4-2IA"/>
+    <edges id="_wvQSwK9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_wvPrsK9DEeCF_8JYN4-2IA"
+        source="#_qxKjsa9DEeCF_8JYN4-2IA" target="#_sjJesK9DEeCF_8JYN4-2IA"/>
+    <edges id="_31v0UK9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_31vNQK9DEeCF_8JYN4-2IA"
+        source="#_zu5Tsa9DEeCF_8JYN4-2IA" target="#_sjJesK9DEeCF_8JYN4-2IA"/>
+    <edges id="_9W6W0K9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_9W5vwK9DEeCF_8JYN4-2IA"
+        source="#_sjJesK9DEeCF_8JYN4-2IA" target="#_6Sb5Ma9DEeCF_8JYN4-2IA"/>
+    <edges id="_929I0K9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#_928hwK9DEeCF_8JYN4-2IA"
+        source="#_t8U4Ia9DEeCF_8JYN4-2IA" target="#_7khzMa9DEeCF_8JYN4-2IA"/>
+    <edges id="__R-VUK9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#__R9uQK9DEeCF_8JYN4-2IA"
+        source="#_-VT4wK9DEeCF_8JYN4-2IA" target="#_6Sb5Ma9DEeCF_8JYN4-2IA"/>
+    <edges id="__dQ_UK9DEeCF_8JYN4-2IA" model="PatternsCatalogNew.psc#__dQYQK9DEeCF_8JYN4-2IA"
+        source="#_-VT4wK9DEeCF_8JYN4-2IA" target="#_7khzMa9DEeCF_8JYN4-2IA"/>
+    <edges id="_jNZbELEWEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_jNY0ALEWEeCUkfYLwzc8Zg"
+        source="#_zu5Tsa9DEeCF_8JYN4-2IA" target="#_t8U4Ia9DEeCF_8JYN4-2IA"/>
+    <edges id="_xyW_sLEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_xyWYoLEeEeCUkfYLwzc8Zg"
+        source="#_t8U4Ia9DEeCF_8JYN4-2IA" target="#_p6MJkbEeEeCUkfYLwzc8Zg"/>
+    <edges id="_x9pCoLEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_x9obkLEeEeCUkfYLwzc8Zg"
+        source="#_p6MJkbEeEeCUkfYLwzc8Zg" target="#_vmMDELEeEeCUkfYLwzc8Zg"/>
+    <edges id="_yRZsILEeEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_yRZFELEeEeCUkfYLwzc8Zg"
+        source="#_vmMDELEeEeCUkfYLwzc8Zg" target="#_sjJesK9DEeCF_8JYN4-2IA"/>
+    <edges id="_AhuXILEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_AhtwELEfEeCUkfYLwzc8Zg"
+        source="#_6Sb5Ma9DEeCF_8JYN4-2IA" target="#_-MjPgbEeEeCUkfYLwzc8Zg"/>
+    <edges id="_AudLkbEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_AudLkLEfEeCUkfYLwzc8Zg"
+        source="#_-MjPgbEeEeCUkfYLwzc8Zg" target="#_t8U4Ia9DEeCF_8JYN4-2IA"/>
+    <edges id="_X-CQkbEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_X-CQkLEfEeCUkfYLwzc8Zg"
+        source="#_qxKjsa9DEeCF_8JYN4-2IA" target="#_7khzMa9DEeCF_8JYN4-2IA"/>
+    <edges id="_YRfYEbEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_YRfYELEfEeCUkfYLwzc8Zg"
+        source="#_qxKjsa9DEeCF_8JYN4-2IA" target="#_6Sb5Ma9DEeCF_8JYN4-2IA"/>
+    <edges id="_g0X_IbEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_g0X_ILEfEeCUkfYLwzc8Zg"
+        source="#_eWqmkbEfEeCUkfYLwzc8Zg" target="#_6Sb5Ma9DEeCF_8JYN4-2IA"/>
+    <edges id="_9D6f8bGAEeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_9D6f8LGAEeCDAa1tErEpvg"
+        source="#_7iBPYbGAEeCDAa1tErEpvg" target="#_p6MJkbEeEeCUkfYLwzc8Zg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_cgukMbEVEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_cgt9ILEVEeCUkfYLwzc8Zg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_cgukMrEVEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_cgukMLEVEeCUkfYLwzc8Zg"
+        outgoing="#_tAwykbEWEeCUkfYLwzc8Zg #_tNgOEbEWEeCUkfYLwzc8Zg" x="103" y="162"
+        width="180" height="50"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_p_lgkLEWEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_p_k5gLEWEeCUkfYLwzc8Zg"
+        incoming="#_tAwykbEWEeCUkfYLwzc8Zg #_tiGlELEWEeCUkfYLwzc8Zg" x="404" y="115"
+        width="188" height="42">
+      <nodes id="_MDsuQdX6EeC4_4Y9pe3SQw" model="PatternsCatalogNew.psc#_MDsuQNX6EeC4_4Y9pe3SQw"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_qSkuAbEWEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_qSkuALEWEeCUkfYLwzc8Zg"
+        outgoing="#_tiGlELEWEeCUkfYLwzc8Zg" incoming="#_tNgOEbEWEeCUkfYLwzc8Zg" x="401"
+        y="240" width="120" height="22"/>
+    <edges id="_tAwykbEWEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_tAwykLEWEeCUkfYLwzc8Zg"
+        source="#_cgukMrEVEeCUkfYLwzc8Zg" target="#_p_lgkLEWEeCUkfYLwzc8Zg"/>
+    <edges id="_tNgOEbEWEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_tNgOELEWEeCUkfYLwzc8Zg"
+        source="#_cgukMrEVEeCUkfYLwzc8Zg" target="#_qSkuAbEWEeCUkfYLwzc8Zg"/>
+    <edges id="_tiGlELEWEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_tiF-ALEWEeCUkfYLwzc8Zg"
+        source="#_qSkuAbEWEeCUkfYLwzc8Zg" target="#_p_lgkLEWEeCUkfYLwzc8Zg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_dlelwrEVEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_dlelwLEVEeCUkfYLwzc8Zg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_dlelw7EVEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_dlelwbEVEeCUkfYLwzc8Zg"
+        outgoing="#_4pGHoLEWEeCUkfYLwzc8Zg #_430gILEWEeCUkfYLwzc8Zg" x="96" y="281"
+        width="188" height="47"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_z_6WAbEWEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_z_6WALEWEeCUkfYLwzc8Zg"
+        incoming="#_4pGHoLEWEeCUkfYLwzc8Zg #_ZkV_sLEiEeCUkfYLwzc8Zg" x="517" y="124"
+        width="131" height="42">
+      <nodes id="_SVFz0dX6EeC4_4Y9pe3SQw" model="PatternsCatalogNew.psc#_SVFz0NX6EeC4_4Y9pe3SQw"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_0U0PAbEWEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_0U0PALEWEeCUkfYLwzc8Zg"
+        incoming="#_430gILEWEeCUkfYLwzc8Zg #_V9TnkbEiEeCUkfYLwzc8Zg" x="484" y="494"
+        width="119" height="26"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_Xvv2kbEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_Xvv2kLEXEeCUkfYLwzc8Zg"
+        incoming="#_VxkRoLEiEeCUkfYLwzc8Zg #_Z3ovILEiEeCUkfYLwzc8Zg" x="534" y="307"
+        width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_UQDbkbEiEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_UQDbkLEiEeCUkfYLwzc8Zg"
+        outgoing="#_VxkRoLEiEeCUkfYLwzc8Zg #_V9TnkbEiEeCUkfYLwzc8Zg" x="507" y="398"
+        width="201" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_XxCPAbEiEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_XxCPALEiEeCUkfYLwzc8Zg"
+        outgoing="#_ZkV_sLEiEeCUkfYLwzc8Zg #_Z3ovILEiEeCUkfYLwzc8Zg" x="528" y="218"
+        width="168" height="28"/>
+    <edges id="_4pGHoLEWEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_4pFgkLEWEeCUkfYLwzc8Zg"
+        source="#_dlelw7EVEeCUkfYLwzc8Zg" target="#_z_6WAbEWEeCUkfYLwzc8Zg"/>
+    <edges id="_430gILEWEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_43z5ELEWEeCUkfYLwzc8Zg"
+        source="#_dlelw7EVEeCUkfYLwzc8Zg" target="#_0U0PAbEWEeCUkfYLwzc8Zg"/>
+    <edges id="_VxkRoLEiEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_VxjqkLEiEeCUkfYLwzc8Zg"
+        source="#_UQDbkbEiEeCUkfYLwzc8Zg" target="#_Xvv2kbEXEeCUkfYLwzc8Zg"/>
+    <edges id="_V9TnkbEiEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_V9TnkLEiEeCUkfYLwzc8Zg"
+        source="#_UQDbkbEiEeCUkfYLwzc8Zg" target="#_0U0PAbEWEeCUkfYLwzc8Zg"/>
+    <edges id="_ZkV_sLEiEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_ZkVYoLEiEeCUkfYLwzc8Zg"
+        source="#_XxCPAbEiEeCUkfYLwzc8Zg" target="#_z_6WAbEWEeCUkfYLwzc8Zg"/>
+    <edges id="_Z3ovILEiEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_Z3oIELEiEeCUkfYLwzc8Zg"
+        source="#_XxCPAbEiEeCUkfYLwzc8Zg" target="#_Xvv2kbEXEeCUkfYLwzc8Zg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_emQtUrEVEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_emQtULEVEeCUkfYLwzc8Zg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_emQtU7EVEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_emQtUbEVEeCUkfYLwzc8Zg"
+        outgoing="#_BWP9oLEaEeCUkfYLwzc8Zg #_BptFILEaEeCUkfYLwzc8Zg #_CCuCEbEaEeCUkfYLwzc8Zg"
+        x="268" y="91" width="180" height="41"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_5bo3gbEZEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_5bo3gLEZEeCUkfYLwzc8Zg"
+        incoming="#_BWP9oLEaEeCUkfYLwzc8Zg #_GedNkbEaEeCUkfYLwzc8Zg #_nv1QYLFWEeC57dSY1qJBVw"
+        x="84" y="235" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_5xYeAbEZEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_5xYeALEZEeCUkfYLwzc8Zg"
+        outgoing="#_MGWy8LFWEeC57dSY1qJBVw #_nv1QYLFWEeC57dSY1qJBVw" incoming="#_BptFILEaEeCUkfYLwzc8Zg #_GuLroLEaEeCUkfYLwzc8Zg"
+        x="290" y="234" width="140" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_6C2ogbEZEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_6C2ogLEZEeCUkfYLwzc8Zg"
+        incoming="#_CCuCEbEaEeCUkfYLwzc8Zg #_G-DToLEaEeCUkfYLwzc8Zg #_MXls4LFWEeC57dSY1qJBVw"
+        x="553" y="100" width="137" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_Emg0gbEaEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_Emg0gLEaEeCUkfYLwzc8Zg"
+        outgoing="#_GedNkbEaEeCUkfYLwzc8Zg #_GuLroLEaEeCUkfYLwzc8Zg #_G-DToLEaEeCUkfYLwzc8Zg #_KdwF8LYCEeCuArslgmqeJw"
+        x="145" y="356" width="438" height="48"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_HNTZUbFWEeC57dSY1qJBVw" model="PatternsCatalogNew.psc#_HNTZULFWEeC57dSY1qJBVw"
+        outgoing="#_MOvS4LFWEeC57dSY1qJBVw" incoming="#_MGWy8LFWEeC57dSY1qJBVw #_KdwF8LYCEeCuArslgmqeJw"
+        x="552" y="233" width="140" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_HcaMULFWEeC57dSY1qJBVw" model="PatternsCatalogNew.psc#_HcZlQLFWEeC57dSY1qJBVw"
+        outgoing="#_MXls4LFWEeC57dSY1qJBVw" incoming="#_MOvS4LFWEeC57dSY1qJBVw" x="507"
+        y="164" width="228" height="22"/>
+    <edges id="_BWP9oLEaEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_BWPWkLEaEeCUkfYLwzc8Zg"
+        source="#_emQtU7EVEeCUkfYLwzc8Zg" target="#_5bo3gbEZEeCUkfYLwzc8Zg"/>
+    <edges id="_BptFILEaEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_BpseELEaEeCUkfYLwzc8Zg"
+        source="#_emQtU7EVEeCUkfYLwzc8Zg" target="#_5xYeAbEZEeCUkfYLwzc8Zg"/>
+    <edges id="_CCuCEbEaEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_CCuCELEaEeCUkfYLwzc8Zg"
+        source="#_emQtU7EVEeCUkfYLwzc8Zg" target="#_6C2ogbEZEeCUkfYLwzc8Zg"/>
+    <edges id="_GedNkbEaEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_GedNkLEaEeCUkfYLwzc8Zg"
+        source="#_Emg0gbEaEeCUkfYLwzc8Zg" target="#_5bo3gbEZEeCUkfYLwzc8Zg"/>
+    <edges id="_GuLroLEaEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_GuLEkLEaEeCUkfYLwzc8Zg"
+        source="#_Emg0gbEaEeCUkfYLwzc8Zg" target="#_5xYeAbEZEeCUkfYLwzc8Zg"/>
+    <edges id="_G-DToLEaEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_G-CskLEaEeCUkfYLwzc8Zg"
+        source="#_Emg0gbEaEeCUkfYLwzc8Zg" target="#_6C2ogbEZEeCUkfYLwzc8Zg"/>
+    <edges id="_MGWy8LFWEeC57dSY1qJBVw" model="PatternsCatalogNew.psc#_MGWL4LFWEeC57dSY1qJBVw"
+        source="#_5xYeAbEZEeCUkfYLwzc8Zg" target="#_HNTZUbFWEeC57dSY1qJBVw"/>
+    <edges id="_MOvS4LFWEeC57dSY1qJBVw" model="PatternsCatalogNew.psc#_MOur0LFWEeC57dSY1qJBVw"
+        source="#_HNTZUbFWEeC57dSY1qJBVw" target="#_HcaMULFWEeC57dSY1qJBVw"/>
+    <edges id="_MXls4LFWEeC57dSY1qJBVw" model="PatternsCatalogNew.psc#_MXlF0LFWEeC57dSY1qJBVw"
+        source="#_HcaMULFWEeC57dSY1qJBVw" target="#_6C2ogbEZEeCUkfYLwzc8Zg"/>
+    <edges id="_nv1QYLFWEeC57dSY1qJBVw" model="PatternsCatalogNew.psc#_nv0pULFWEeC57dSY1qJBVw"
+        source="#_5xYeAbEZEeCUkfYLwzc8Zg" target="#_5bo3gbEZEeCUkfYLwzc8Zg"/>
+    <edges id="_KdwF8LYCEeCuArslgmqeJw" model="PatternsCatalogNew.psc#_Kdve4LYCEeCuArslgmqeJw"
+        source="#_Emg0gbEaEeCUkfYLwzc8Zg" target="#_HNTZUbFWEeC57dSY1qJBVw"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_hb758rEVEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_hb758LEVEeCUkfYLwzc8Zg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_hb7587EVEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_hb758bEVEeCUkfYLwzc8Zg"
+        outgoing="#_MDE-oLEYEeCUkfYLwzc8Zg #_MM1-oLEYEeCUkfYLwzc8Zg #_MmGMILEYEeCUkfYLwzc8Zg #_O5uboLEYEeCUkfYLwzc8Zg"
+        x="185" y="59" width="248" height="40"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_yYrdAbEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_yYrdALEXEeCUkfYLwzc8Zg"
+        outgoing="#_2sHBEbEXEeCUkfYLwzc8Zg" incoming="#_IJqdELEYEeCUkfYLwzc8Zg #_KXlGILEYEeCUkfYLwzc8Zg #_MDE-oLEYEeCUkfYLwzc8Zg"
+        x="29" y="183" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_z0J8gLEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_z0JVcLEXEeCUkfYLwzc8Zg"
+        incoming="#_2sHBEbEXEeCUkfYLwzc8Zg #_47Y8EbEXEeCUkfYLwzc8Zg #_FnT_oLEZEeCUkfYLwzc8Zg"
+        x="-9" y="382" width="154" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_30gMgbEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_30gMgLEXEeCUkfYLwzc8Zg"
+        outgoing="#_47Y8EbEXEeCUkfYLwzc8Zg" x="-17" y="458" width="174" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_6pZWAbEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_6pZWALEXEeCUkfYLwzc8Zg"
+        outgoing="#_IJqdELEYEeCUkfYLwzc8Zg #_IexKYbEYEeCUkfYLwzc8Zg" incoming="#_MM1-oLEYEeCUkfYLwzc8Zg"
+        x="173" y="184" width="141" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_8nIOAbEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_8nIOALEXEeCUkfYLwzc8Zg"
+        outgoing="#_ItwBkbEYEeCUkfYLwzc8Zg #_K3iYkLEYEeCUkfYLwzc8Zg" incoming="#_IexKYbEYEeCUkfYLwzc8Zg #_MmGMILEYEeCUkfYLwzc8Zg"
+        x="372" y="150" width="248" height="83">
+      <nodes id="_ipnGobEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_ipnGoLEYEeCUkfYLwzc8Zg"/>
+      <nodes id="_jJncYbEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_jJncYLEYEeCUkfYLwzc8Zg"/>
+      <nodes id="_jwcy4bEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_jwcy4LEYEeCUkfYLwzc8Zg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="__HvJkLEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#__HuigLEXEeCUkfYLwzc8Zg"
+        outgoing="#_rjreoLEYEeCUkfYLwzc8Zg" incoming="#_ItwBkbEYEeCUkfYLwzc8Zg #_uoNmoLEYEeCUkfYLwzc8Zg"
+        x="698" y="182" width="149" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_CXx-AbEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_CXx-ALEYEeCUkfYLwzc8Zg"
+        outgoing="#_LKYcEbEYEeCUkfYLwzc8Zg #_LWXCkbEYEeCUkfYLwzc8Zg #_Lj36ILEYEeCUkfYLwzc8Zg"
+        incoming="#_K3iYkLEYEeCUkfYLwzc8Zg" x="440" y="272" width="178" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_E3xOgbEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_E3xOgLEYEeCUkfYLwzc8Zg"
+        outgoing="#_KXlGILEYEeCUkfYLwzc8Zg" incoming="#_LKYcEbEYEeCUkfYLwzc8Zg" x="171"
+        y="271" width="161" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_FILCAbEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_FILCALEYEeCUkfYLwzc8Zg"
+        outgoing="#_uoNmoLEYEeCUkfYLwzc8Zg" incoming="#_LWXCkbEYEeCUkfYLwzc8Zg" x="685"
+        y="272" width="171" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_FbPvAbEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_FbPvALEYEeCUkfYLwzc8Zg"
+        outgoing="#_FnT_oLEZEeCUkfYLwzc8Zg" incoming="#_Lj36ILEYEeCUkfYLwzc8Zg" x="436"
+        y="382" width="186" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_M2exgbEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_M2exgLEYEeCUkfYLwzc8Zg"
+        incoming="#_O5uboLEYEeCUkfYLwzc8Zg #_rjreoLEYEeCUkfYLwzc8Zg" x="673" y="67"
+        width="199" height="22"/>
+    <edges id="_2sHBEbEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_2sHBELEXEeCUkfYLwzc8Zg"
+        source="#_yYrdAbEXEeCUkfYLwzc8Zg" target="#_z0J8gLEXEeCUkfYLwzc8Zg"/>
+    <edges id="_47Y8EbEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_47Y8ELEXEeCUkfYLwzc8Zg"
+        source="#_30gMgbEXEeCUkfYLwzc8Zg" target="#_z0J8gLEXEeCUkfYLwzc8Zg"/>
+    <edges id="_IJqdELEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_IJp2ALEYEeCUkfYLwzc8Zg"
+        source="#_6pZWAbEXEeCUkfYLwzc8Zg" target="#_yYrdAbEXEeCUkfYLwzc8Zg"/>
+    <edges id="_IexKYbEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_IexKYLEYEeCUkfYLwzc8Zg"
+        source="#_6pZWAbEXEeCUkfYLwzc8Zg" target="#_8nIOAbEXEeCUkfYLwzc8Zg"/>
+    <edges id="_ItwBkbEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_ItwBkLEYEeCUkfYLwzc8Zg"
+        source="#_8nIOAbEXEeCUkfYLwzc8Zg" target="#__HvJkLEXEeCUkfYLwzc8Zg"/>
+    <edges id="_KXlGILEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_KXkfELEYEeCUkfYLwzc8Zg"
+        source="#_E3xOgbEYEeCUkfYLwzc8Zg" target="#_yYrdAbEXEeCUkfYLwzc8Zg"/>
+    <edges id="_K3iYkLEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_K3hxgLEYEeCUkfYLwzc8Zg"
+        source="#_8nIOAbEXEeCUkfYLwzc8Zg" target="#_CXx-AbEYEeCUkfYLwzc8Zg"/>
+    <edges id="_LKYcEbEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_LKYcELEYEeCUkfYLwzc8Zg"
+        source="#_CXx-AbEYEeCUkfYLwzc8Zg" target="#_E3xOgbEYEeCUkfYLwzc8Zg"/>
+    <edges id="_LWXCkbEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_LWXCkLEYEeCUkfYLwzc8Zg"
+        source="#_CXx-AbEYEeCUkfYLwzc8Zg" target="#_FILCAbEYEeCUkfYLwzc8Zg"/>
+    <edges id="_Lj36ILEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_Lj3TELEYEeCUkfYLwzc8Zg"
+        source="#_CXx-AbEYEeCUkfYLwzc8Zg" target="#_FbPvAbEYEeCUkfYLwzc8Zg"/>
+    <edges id="_MDE-oLEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_MDEXkLEYEeCUkfYLwzc8Zg"
+        source="#_hb7587EVEeCUkfYLwzc8Zg" target="#_yYrdAbEXEeCUkfYLwzc8Zg"/>
+    <edges id="_MM1-oLEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_MM1XkLEYEeCUkfYLwzc8Zg"
+        source="#_hb7587EVEeCUkfYLwzc8Zg" target="#_6pZWAbEXEeCUkfYLwzc8Zg"/>
+    <edges id="_MmGMILEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_MmFlELEYEeCUkfYLwzc8Zg"
+        source="#_hb7587EVEeCUkfYLwzc8Zg" target="#_8nIOAbEXEeCUkfYLwzc8Zg"/>
+    <edges id="_O5uboLEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_O5t0kLEYEeCUkfYLwzc8Zg"
+        source="#_hb7587EVEeCUkfYLwzc8Zg" target="#_M2exgbEYEeCUkfYLwzc8Zg"/>
+    <edges id="_rjreoLEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_rjq3kLEYEeCUkfYLwzc8Zg"
+        source="#__HvJkLEXEeCUkfYLwzc8Zg" target="#_M2exgbEYEeCUkfYLwzc8Zg"/>
+    <edges id="_uoNmoLEYEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_uoM_kLEYEeCUkfYLwzc8Zg"
+        source="#_FILCAbEYEeCUkfYLwzc8Zg" target="#__HvJkLEXEeCUkfYLwzc8Zg"/>
+    <edges id="_FnT_oLEZEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_FnTYkLEZEeCUkfYLwzc8Zg"
+        source="#_FbPvAbEYEeCUkfYLwzc8Zg" target="#_z0J8gLEXEeCUkfYLwzc8Zg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_etoOsrEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_etoOsLEXEeCUkfYLwzc8Zg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_etoOs7EXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_etoOsbEXEeCUkfYLwzc8Zg"
+        outgoing="#_vHupoLEXEeCUkfYLwzc8Zg" x="287" y="61" width="180" height="80"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_fkTYAbEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_fkTYALEXEeCUkfYLwzc8Zg"
+        incoming="#_tOQmkbEXEeCUkfYLwzc8Zg #_vHupoLEXEeCUkfYLwzc8Zg" x="66" y="240"
+        width="154" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_g6XMAbEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_g6XMALEXEeCUkfYLwzc8Zg"
+        incoming="#_s6gkILEXEeCUkfYLwzc8Zg" x="449" y="227" width="265" height="42">
+      <nodes id="_ly3zEbEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_ly3zELEXEeCUkfYLwzc8Zg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_rSMigbEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_rSMigLEXEeCUkfYLwzc8Zg"
+        outgoing="#_s6gkILEXEeCUkfYLwzc8Zg #_tOQmkbEXEeCUkfYLwzc8Zg" x="265" y="237"
+        width="135" height="28"/>
+    <edges id="_s6gkILEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_s6f9ELEXEeCUkfYLwzc8Zg"
+        source="#_rSMigbEXEeCUkfYLwzc8Zg" target="#_g6XMAbEXEeCUkfYLwzc8Zg"/>
+    <edges id="_tOQmkbEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_tOQmkLEXEeCUkfYLwzc8Zg"
+        source="#_rSMigbEXEeCUkfYLwzc8Zg" target="#_fkTYAbEXEeCUkfYLwzc8Zg"/>
+    <edges id="_vHupoLEXEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_vHuCkLEXEeCUkfYLwzc8Zg"
+        source="#_etoOs7EXEeCUkfYLwzc8Zg" target="#_fkTYAbEXEeCUkfYLwzc8Zg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_5RVgkK0qEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_3qb0MK0qEeC73qeN65GIrA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_5RVgka0qEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_3qb0Ma0qEeC73qeN65GIrA"
+        outgoing="#_Q4_HUK0rEeC73qeN65GIrA #_RbL1cK0rEeC73qeN65GIrA #_MnxpcK0uEeC73qeN65GIrA"
+        x="277" y="42" width="180" height="38"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_-lkaUK0qEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_-ljzQK0qEeC73qeN65GIrA"
+        outgoing="#_NexqQK0rEeC73qeN65GIrA #_DwI6YK0uEeC73qeN65GIrA #_zlDWYK0uEeC73qeN65GIrA"
+        incoming="#_Q4_HUK0rEeC73qeN65GIrA #_MbjyYK0uEeC73qeN65GIrA" x="41" y="274"
+        width="91" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_Cv-lQa0rEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_Cv-lQK0rEeC73qeN65GIrA"
+        outgoing="#_OD2GMK0rEeC73qeN65GIrA" incoming="#_NexqQK0rEeC73qeN65GIrA" x="271"
+        y="273" width="120" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_IDfGQa0rEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_IDfGQK0rEeC73qeN65GIrA"
+        outgoing="#_HVZJ0K0uEeC73qeN65GIrA #_HPmOYK0vEeC73qeN65GIrA" incoming="#_OD2GMK0rEeC73qeN65GIrA #_RbL1cK0rEeC73qeN65GIrA"
+        x="503" y="274" width="93" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_5Ty3Ua0tEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_5Ty3UK0tEeC73qeN65GIrA"
+        incoming="#_H_1N8K0uEeC73qeN65GIrA #_IMHWcK0uEeC73qeN65GIrA" x="298" y="405"
+        width="138" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_98ReUa0tEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_98ReUK0tEeC73qeN65GIrA"
+        outgoing="#_IMHWcK0uEeC73qeN65GIrA" incoming="#_DwI6YK0uEeC73qeN65GIrA" x="4"
+        y="344" width="276" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_EfCnwa0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_EfCnwK0uEeC73qeN65GIrA"
+        outgoing="#_H_1N8K0uEeC73qeN65GIrA" incoming="#_HVZJ0K0uEeC73qeN65GIrA" x="449"
+        y="347" width="278" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_JFxiUa0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_JFxiUK0uEeC73qeN65GIrA"
+        outgoing="#_MbjyYK0uEeC73qeN65GIrA" incoming="#_MnxpcK0uEeC73qeN65GIrA" x="23"
+        y="53" width="130" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_JHrxYK0vEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_H1z50K0vEeC73qeN65GIrA"
+        x="158" y="89" width="687" height="176">
+      <nodes xsi:type="notation:HierarchicalNode" id="_haPy0a0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_haPy0K0uEeC73qeN65GIrA"
+          outgoing="#_CIJMYa0vEeC73qeN65GIrA" incoming="#_zlDWYK0uEeC73qeN65GIrA"
+          x="22" y="110" width="149" height="22"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_q6idUK0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_q6h2QK0uEeC73qeN65GIrA"
+          outgoing="#_CTvYYK0vEeC73qeN65GIrA" incoming="#_CIJMYa0vEeC73qeN65GIrA"
+          x="102" y="60" width="217" height="22"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_1nuYwa0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_1nuYwK0uEeC73qeN65GIrA"
+          outgoing="#_Cj6iYK0vEeC73qeN65GIrA" incoming="#_HPmOYK0vEeC73qeN65GIrA"
+          x="461" y="117" width="156" height="22"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_5-Df0a0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_5-Df0K0uEeC73qeN65GIrA"
+          outgoing="#_C1id4K0vEeC73qeN65GIrA" incoming="#_Cj6iYK0vEeC73qeN65GIrA"
+          x="440" y="65" width="224" height="22"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_7-6kUa0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_7-6kUK0uEeC73qeN65GIrA"
+          incoming="#_CTvYYK0vEeC73qeN65GIrA #_C1id4K0vEeC73qeN65GIrA" x="351" y="12"
+          width="137" height="22"/>
+    </nodes>
+    <edges id="_NexqQK0rEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_NZdFYK0rEeC73qeN65GIrA"
+        source="#_-lkaUK0qEeC73qeN65GIrA" target="#_Cv-lQa0rEeC73qeN65GIrA"/>
+    <edges id="_OD2GMK0rEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_OD1fIK0rEeC73qeN65GIrA"
+        source="#_Cv-lQa0rEeC73qeN65GIrA" target="#_IDfGQa0rEeC73qeN65GIrA"/>
+    <edges id="_Q4_HUK0rEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_Q4wd0K0rEeC73qeN65GIrA"
+        source="#_5RVgka0qEeC73qeN65GIrA" target="#_-lkaUK0qEeC73qeN65GIrA"/>
+    <edges id="_RbL1cK0rEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_RbLOYK0rEeC73qeN65GIrA"
+        source="#_5RVgka0qEeC73qeN65GIrA" target="#_IDfGQa0rEeC73qeN65GIrA"/>
+    <edges id="_DwI6YK0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_DwITUK0uEeC73qeN65GIrA"
+        source="#_-lkaUK0qEeC73qeN65GIrA" target="#_98ReUa0tEeC73qeN65GIrA"/>
+    <edges id="_HVZJ0K0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_HVYiwK0uEeC73qeN65GIrA"
+        source="#_IDfGQa0rEeC73qeN65GIrA" target="#_EfCnwa0uEeC73qeN65GIrA"/>
+    <edges id="_H_1N8K0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_H_0m4K0uEeC73qeN65GIrA"
+        source="#_EfCnwa0uEeC73qeN65GIrA" target="#_5Ty3Ua0tEeC73qeN65GIrA"/>
+    <edges id="_IMHWcK0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_IMGvYK0uEeC73qeN65GIrA"
+        source="#_98ReUa0tEeC73qeN65GIrA" target="#_5Ty3Ua0tEeC73qeN65GIrA"/>
+    <edges id="_MbjyYK0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_MbjLUK0uEeC73qeN65GIrA"
+        source="#_JFxiUa0uEeC73qeN65GIrA" target="#_-lkaUK0qEeC73qeN65GIrA"/>
+    <edges id="_MnxpcK0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_MnxCYK0uEeC73qeN65GIrA"
+        source="#_5RVgka0qEeC73qeN65GIrA" target="#_JFxiUa0uEeC73qeN65GIrA"/>
+    <edges id="_zlDWYK0uEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_zlCvUK0uEeC73qeN65GIrA"
+        source="#_-lkaUK0qEeC73qeN65GIrA" target="#_haPy0a0uEeC73qeN65GIrA"/>
+    <edges id="_CIJMYa0vEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_CIJMYK0vEeC73qeN65GIrA"
+        source="#_haPy0a0uEeC73qeN65GIrA" target="#_q6idUK0uEeC73qeN65GIrA"/>
+    <edges id="_CTvYYK0vEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_CTuxUK0vEeC73qeN65GIrA"
+        source="#_q6idUK0uEeC73qeN65GIrA" target="#_7-6kUa0uEeC73qeN65GIrA"/>
+    <edges id="_Cj6iYK0vEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_Cj57UK0vEeC73qeN65GIrA"
+        source="#_1nuYwa0uEeC73qeN65GIrA" target="#_5-Df0a0uEeC73qeN65GIrA"/>
+    <edges id="_C1id4K0vEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_C1h20K0vEeC73qeN65GIrA"
+        source="#_5-Df0a0uEeC73qeN65GIrA" target="#_7-6kUa0uEeC73qeN65GIrA"/>
+    <edges id="_HPmOYK0vEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_HPlnUK0vEeC73qeN65GIrA"
+        source="#_IDfGQa0rEeC73qeN65GIrA" target="#_1nuYwa0uEeC73qeN65GIrA"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_zz5LAa0rEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_zz1goK0rEeC73qeN65GIrA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_zz5LAq0rEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_zz5LAK0rEeC73qeN65GIrA"
+        outgoing="#_JyRt4K0sEeC73qeN65GIrA #_KBAGYK0sEeC73qeN65GIrA #_I0yVcK0tEeC73qeN65GIrA"
+        x="364" y="112" width="180" height="45"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_49rvUa0rEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_49rvUK0rEeC73qeN65GIrA"
+        outgoing="#_4oyA4K0sEeC73qeN65GIrA" incoming="#_KmFwcK0sEeC73qeN65GIrA" x="85"
+        y="232" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_89a7UK0rEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_89aUQK0rEeC73qeN65GIrA"
+        outgoing="#_LfOX4K0sEeC73qeN65GIrA" incoming="#_VSWpYK0tEeC73qeN65GIrA" x="163"
+        y="329" width="120" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_-3fbUK0rEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_-3e0QK0rEeC73qeN65GIrA"
+        incoming="#_KBAGYK0sEeC73qeN65GIrA #_LfOX4K0sEeC73qeN65GIrA" x="437" y="328"
+        width="93" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_BnCKwa0sEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_BnCKwK0sEeC73qeN65GIrA"
+        outgoing="#_KmFwcK0sEeC73qeN65GIrA" incoming="#_JyRt4K0sEeC73qeN65GIrA #_Eg0l4a0tEeC73qeN65GIrA"
+        x="77" y="175" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_DDHRwa0tEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_DDHRwK0tEeC73qeN65GIrA"
+        outgoing="#_Eg0l4a0tEeC73qeN65GIrA" incoming="#_I0yVcK0tEeC73qeN65GIrA" x="44"
+        y="107" width="130" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_13sZUK0sEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_13ryQK0sEeC73qeN65GIrA"
+        outgoing="#_VSWpYK0tEeC73qeN65GIrA" incoming="#_4oyA4K0sEeC73qeN65GIrA" x="128"
+        y="284" width="107" height="22"/>
+    <edges id="_JyRt4K0sEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_JyRG0K0sEeC73qeN65GIrA"
+        source="#_zz5LAq0rEeC73qeN65GIrA" target="#_BnCKwa0sEeC73qeN65GIrA"/>
+    <edges id="_KBAGYK0sEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_KA_fUK0sEeC73qeN65GIrA"
+        source="#_zz5LAq0rEeC73qeN65GIrA" target="#_-3fbUK0rEeC73qeN65GIrA"/>
+    <edges id="_KmFwcK0sEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_KmFJYK0sEeC73qeN65GIrA"
+        source="#_BnCKwa0sEeC73qeN65GIrA" target="#_49rvUa0rEeC73qeN65GIrA"/>
+    <edges id="_LfOX4K0sEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_LfNw0K0sEeC73qeN65GIrA"
+        source="#_89a7UK0rEeC73qeN65GIrA" target="#_-3fbUK0rEeC73qeN65GIrA"/>
+    <edges id="_Eg0l4a0tEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_Eg0l4K0tEeC73qeN65GIrA"
+        source="#_DDHRwa0tEeC73qeN65GIrA" target="#_BnCKwa0sEeC73qeN65GIrA"/>
+    <edges id="_I0yVcK0tEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_I0xuYK0tEeC73qeN65GIrA"
+        source="#_zz5LAq0rEeC73qeN65GIrA" target="#_DDHRwa0tEeC73qeN65GIrA"/>
+    <edges id="_VSWpYK0tEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_VSWCUK0tEeC73qeN65GIrA"
+        source="#_13sZUK0sEeC73qeN65GIrA" target="#_89a7UK0rEeC73qeN65GIrA"/>
+    <edges id="_4oyA4K0sEeC73qeN65GIrA" model="PatternsCatalogNew.psc#_4oxZ0K0sEeC73qeN65GIrA"
+        source="#_49rvUa0rEeC73qeN65GIrA" target="#_13sZUK0sEeC73qeN65GIrA"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_Y_pvgrEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_Y_pvgLEoEeCUkfYLwzc8Zg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_Y_pvg7EoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_Y_pvgbEoEeCUkfYLwzc8Zg"
+        outgoing="#_kyXIkbEoEeCUkfYLwzc8Zg #_k_keILEoEeCUkfYLwzc8Zg" x="405" y="169"
+        width="180" height="40"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_ak-HgbEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_ak-HgLEoEeCUkfYLwzc8Zg"
+        outgoing="#_q4KpMLEoEeCUkfYLwzc8Zg #_vXN1ILEtEeCUkfYLwzc8Zg" incoming="#_kyXIkbEoEeCUkfYLwzc8Zg"
+        x="239" y="294" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_a1mkgbEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_a1mkgLEoEeCUkfYLwzc8Zg"
+        outgoing="#_xqzZoLEzEeCUkfYLwzc8Zg" incoming="#_k_keILEoEeCUkfYLwzc8Zg #_rhHfkbEoEeCUkfYLwzc8Zg"
+        x="692" y="295" width="137" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_oCHCEbEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_oCHCELEoEeCUkfYLwzc8Zg"
+        outgoing="#_rhHfkbEoEeCUkfYLwzc8Zg" incoming="#_q4KpMLEoEeCUkfYLwzc8Zg" x="442"
+        y="295" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_i1HmgbEtEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_i1HmgLEtEeCUkfYLwzc8Zg"
+        outgoing="#_oYl2ILEtEeCUkfYLwzc8Zg" incoming="#_vXN1ILEtEeCUkfYLwzc8Zg" x="356"
+        y="380" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_lIhzkLEtEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_lIhMgLEtEeCUkfYLwzc8Zg"
+        incoming="#_oYl2ILEtEeCUkfYLwzc8Zg #_xqzZoLEzEeCUkfYLwzc8Zg" x="600" y="379"
+        width="78" height="22"/>
+    <edges id="_kyXIkbEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_kyXIkLEoEeCUkfYLwzc8Zg"
+        source="#_Y_pvg7EoEeCUkfYLwzc8Zg" target="#_ak-HgbEoEeCUkfYLwzc8Zg"/>
+    <edges id="_k_keILEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_k_j3ELEoEeCUkfYLwzc8Zg"
+        source="#_Y_pvg7EoEeCUkfYLwzc8Zg" target="#_a1mkgbEoEeCUkfYLwzc8Zg"/>
+    <edges id="_q4KpMLEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_q4KCILEoEeCUkfYLwzc8Zg"
+        source="#_ak-HgbEoEeCUkfYLwzc8Zg" target="#_oCHCEbEoEeCUkfYLwzc8Zg"/>
+    <edges id="_rhHfkbEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_rhHfkLEoEeCUkfYLwzc8Zg"
+        source="#_oCHCEbEoEeCUkfYLwzc8Zg" target="#_a1mkgbEoEeCUkfYLwzc8Zg"/>
+    <edges id="_oYl2ILEtEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_oYlPELEtEeCUkfYLwzc8Zg"
+        source="#_i1HmgbEtEeCUkfYLwzc8Zg" target="#_lIhzkLEtEeCUkfYLwzc8Zg"/>
+    <edges id="_vXN1ILEtEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_vXNOELEtEeCUkfYLwzc8Zg"
+        source="#_ak-HgbEoEeCUkfYLwzc8Zg" target="#_i1HmgbEtEeCUkfYLwzc8Zg"/>
+    <edges id="_xqzZoLEzEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_xqyykLEzEeCUkfYLwzc8Zg"
+        source="#_a1mkgbEoEeCUkfYLwzc8Zg" target="#_lIhzkLEtEeCUkfYLwzc8Zg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_6ritQrEmEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_6ritQLEmEeCUkfYLwzc8Zg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_6ritQ7EmEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_6ritQbEmEeCUkfYLwzc8Zg"
+        outgoing="#_PCFvoLEnEeCUkfYLwzc8Zg" x="125" y="110" width="180" height="38"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_8WZFgbEmEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_8WZFgLEmEeCUkfYLwzc8Zg"
+        outgoing="#_btUsILEnEeCUkfYLwzc8Zg" incoming="#_OGH2oLEnEeCUkfYLwzc8Zg #_PCFvoLEnEeCUkfYLwzc8Zg"
+        x="140" y="233" width="160" height="42">
+      <nodes id="_I8t3YbEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_I8t3YLEoEeCUkfYLwzc8Zg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_F69DoLE1EeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_FoVpoLE1EeCUkfYLwzc8Zg"
+        x="417" y="162" width="949" height="431">
+      <nodes xsi:type="notation:HierarchicalNode" id="_9TNTEbEmEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_9TNTELEmEeCUkfYLwzc8Zg"
+          incoming="#_OeJ8ILEnEeCUkfYLwzc8Zg #_ibUOILEnEeCUkfYLwzc8Zg" x="759" y="79"
+          width="163" height="42">
+        <nodes id="_UVUuYbEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_UVUuYLEoEeCUkfYLwzc8Zg"/>
+      </nodes>
+      <nodes xsi:type="notation:HierarchicalNode" id="_Y2RmgbEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_Y2RmgLEnEeCUkfYLwzc8Zg"
+          outgoing="#_iQe3ILEnEeCUkfYLwzc8Zg" incoming="#_btUsILEnEeCUkfYLwzc8Zg #_wK1SILEnEeCUkfYLwzc8Zg"
+          x="72" y="45" width="143" height="42">
+        <nodes id="_NfGdcbEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_NfGdcLEoEeCUkfYLwzc8Zg"/>
+      </nodes>
+      <nodes xsi:type="notation:HierarchicalNode" id="_e2akAbEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_e2akALEnEeCUkfYLwzc8Zg"
+          outgoing="#_ibUOILEnEeCUkfYLwzc8Zg" incoming="#_iQe3ILEnEeCUkfYLwzc8Zg"
+          x="370" y="75" width="193" height="22"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_9lmDkbEmEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_9lmDkLEmEeCUkfYLwzc8Zg"
+          incoming="#_OoJlobEnEeCUkfYLwzc8Zg #_sJzFobEnEeCUkfYLwzc8Zg #_El9mobE1EeCUkfYLwzc8Zg"
+          x="746" y="305" width="168" height="42">
+        <nodes id="_R61B4LEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_R60a0LEoEeCUkfYLwzc8Zg"/>
+      </nodes>
+      <nodes xsi:type="notation:HierarchicalNode" id="_KyUjkbEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_KyUjkLEnEeCUkfYLwzc8Zg"
+          outgoing="#_OeJ8ILEnEeCUkfYLwzc8Zg #_OoJlobEnEeCUkfYLwzc8Zg" x="733" y="163"
+          width="168" height="28"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_j6SGgbEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_j6SGgLEnEeCUkfYLwzc8Zg"
+          outgoing="#_sBA9EbEnEeCUkfYLwzc8Zg" incoming="#_r3yIkbEnEeCUkfYLwzc8Zg #_wdrVoLEnEeCUkfYLwzc8Zg #_C96DsLE1EeCUkfYLwzc8Zg"
+          x="90" y="286" width="148" height="42">
+        <nodes id="_QSTk4LEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_QSS90LEoEeCUkfYLwzc8Zg"/>
+      </nodes>
+      <nodes xsi:type="notation:HierarchicalNode" id="_kSBREbEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_kSBRELEnEeCUkfYLwzc8Zg"
+          outgoing="#_sJzFobEnEeCUkfYLwzc8Zg" incoming="#_sBA9EbEnEeCUkfYLwzc8Zg"
+          x="424" y="225" width="193" height="22"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_ude_gbEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_ude_gLEnEeCUkfYLwzc8Zg"
+          outgoing="#_wK1SILEnEeCUkfYLwzc8Zg #_wdrVoLEnEeCUkfYLwzc8Zg" x="60" y="169"
+          width="184" height="28"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_M4p1kLE1EeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_L9nJoLE1EeCUkfYLwzc8Zg"
+        x="65" y="338" width="1368" height="242">
+      <nodes xsi:type="notation:HierarchicalNode" id="_82qhAbEmEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_82qhALEmEeCUkfYLwzc8Zg"
+          outgoing="#_r3yIkbEnEeCUkfYLwzc8Zg" incoming="#_OQbCILEnEeCUkfYLwzc8Zg"
+          x="20" y="129" width="165" height="42">
+        <nodes id="_KRtUYbEoEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_KRtUYLEoEeCUkfYLwzc8Zg"/>
+      </nodes>
+      <nodes xsi:type="notation:HierarchicalNode" id="_KWx3EbEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_KWx3ELEnEeCUkfYLwzc8Zg"
+          outgoing="#_OGH2oLEnEeCUkfYLwzc8Zg #_OQbCILEnEeCUkfYLwzc8Zg" x="43" y="29"
+          width="180" height="28"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_-kInEbE0EeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_-kInELE0EeCUkfYLwzc8Zg"
+          outgoing="#_C96DsLE1EeCUkfYLwzc8Zg #_El9mobE1EeCUkfYLwzc8Zg" x="721" y="154"
+          width="246" height="28"/>
+    </nodes>
+    <edges id="_OGH2oLEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_OGHPkLEnEeCUkfYLwzc8Zg"
+        source="#_KWx3EbEnEeCUkfYLwzc8Zg" target="#_8WZFgbEmEeCUkfYLwzc8Zg"/>
+    <edges id="_OQbCILEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_OQabELEnEeCUkfYLwzc8Zg"
+        source="#_KWx3EbEnEeCUkfYLwzc8Zg" target="#_82qhAbEmEeCUkfYLwzc8Zg"/>
+    <edges id="_OeJ8ILEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_OeJVELEnEeCUkfYLwzc8Zg"
+        source="#_KyUjkbEnEeCUkfYLwzc8Zg" target="#_9TNTEbEmEeCUkfYLwzc8Zg"/>
+    <edges id="_OoJlobEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_OoJloLEnEeCUkfYLwzc8Zg"
+        source="#_KyUjkbEnEeCUkfYLwzc8Zg" target="#_9lmDkbEmEeCUkfYLwzc8Zg"/>
+    <edges id="_PCFvoLEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_PCFIkLEnEeCUkfYLwzc8Zg"
+        source="#_6ritQ7EmEeCUkfYLwzc8Zg" target="#_8WZFgbEmEeCUkfYLwzc8Zg"/>
+    <edges id="_btUsILEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_btUFELEnEeCUkfYLwzc8Zg"
+        source="#_8WZFgbEmEeCUkfYLwzc8Zg" target="#_Y2RmgbEnEeCUkfYLwzc8Zg"/>
+    <edges id="_iQe3ILEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_iQeQELEnEeCUkfYLwzc8Zg"
+        source="#_Y2RmgbEnEeCUkfYLwzc8Zg" target="#_e2akAbEnEeCUkfYLwzc8Zg"/>
+    <edges id="_ibUOILEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_ibTnELEnEeCUkfYLwzc8Zg"
+        source="#_e2akAbEnEeCUkfYLwzc8Zg" target="#_9TNTEbEmEeCUkfYLwzc8Zg"/>
+    <edges id="_r3yIkbEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_r3yIkLEnEeCUkfYLwzc8Zg"
+        source="#_82qhAbEmEeCUkfYLwzc8Zg" target="#_j6SGgbEnEeCUkfYLwzc8Zg"/>
+    <edges id="_sBA9EbEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_sBA9ELEnEeCUkfYLwzc8Zg"
+        source="#_j6SGgbEnEeCUkfYLwzc8Zg" target="#_kSBREbEnEeCUkfYLwzc8Zg"/>
+    <edges id="_sJzFobEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_sJzFoLEnEeCUkfYLwzc8Zg"
+        source="#_kSBREbEnEeCUkfYLwzc8Zg" target="#_9lmDkbEmEeCUkfYLwzc8Zg"/>
+    <edges id="_wK1SILEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_wK0rELEnEeCUkfYLwzc8Zg"
+        source="#_ude_gbEnEeCUkfYLwzc8Zg" target="#_Y2RmgbEnEeCUkfYLwzc8Zg"/>
+    <edges id="_wdrVoLEnEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_wdqukLEnEeCUkfYLwzc8Zg"
+        source="#_ude_gbEnEeCUkfYLwzc8Zg" target="#_j6SGgbEnEeCUkfYLwzc8Zg"/>
+    <edges id="_C96DsLE1EeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_C95coLE1EeCUkfYLwzc8Zg"
+        source="#_-kInEbE0EeCUkfYLwzc8Zg" target="#_j6SGgbEnEeCUkfYLwzc8Zg"/>
+    <edges id="_El9mobE1EeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_El9moLE1EeCUkfYLwzc8Zg"
+        source="#_-kInEbE0EeCUkfYLwzc8Zg" target="#_9lmDkbEmEeCUkfYLwzc8Zg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_ijcUkrEVEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_ijcUkLEVEeCUkfYLwzc8Zg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_ijcUk7EVEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_ijcUkbEVEeCUkfYLwzc8Zg"
+        outgoing="#_Gy8oILEgEeCUkfYLwzc8Zg #_ItZGILEhEeCUkfYLwzc8Zg" x="189" y="70"
+        width="180" height="41"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_4gP-kbEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_4gP-kLEfEeCUkfYLwzc8Zg"
+        outgoing="#_HZd1kbEgEeCUkfYLwzc8Zg" incoming="#_Gy8oILEgEeCUkfYLwzc8Zg #_G-PSILEgEeCUkfYLwzc8Zg"
+        x="78" y="202" width="95" height="42">
+      <nodes id="_dbC2YLEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_dbCPULEgEeCUkfYLwzc8Zg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_5BWggbEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_5BWggLEfEeCUkfYLwzc8Zg"
+        outgoing="#_pq76sLEgEeCUkfYLwzc8Zg" incoming="#_HJI6kbEgEeCUkfYLwzc8Zg" x="75"
+        y="356" width="150" height="42">
+      <nodes id="_eNPIUbEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_eNPIULEgEeCUkfYLwzc8Zg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_5SIugbEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_5SIugLEfEeCUkfYLwzc8Zg"
+        outgoing="#_wPE9ILEgEeCUkfYLwzc8Zg" incoming="#_HZd1kbEgEeCUkfYLwzc8Zg #_ItZGILEhEeCUkfYLwzc8Zg"
+        x="284" y="201" width="156" height="42">
+      <nodes id="_dqSMQLEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_dqRlMLEgEeCUkfYLwzc8Zg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_FJNqMbEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_FJNqMLEgEeCUkfYLwzc8Zg"
+        outgoing="#_G-PSILEgEeCUkfYLwzc8Zg #_HJI6kbEgEeCUkfYLwzc8Zg" x="72" y="288"
+        width="158" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_3tlWELEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_3clFoLEgEeCUkfYLwzc8Zg"
+        x="445" y="163" width="480" height="209">
+      <nodes xsi:type="notation:HierarchicalNode" id="_4wCuELEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_4wCHALEfEeCUkfYLwzc8Zg"
+          incoming="#_mlxgkbEgEeCUkfYLwzc8Zg #_pq76sLEgEeCUkfYLwzc8Zg" x="15" y="133"
+          width="162" height="22"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_5gpEkLEfEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_5godgLEfEeCUkfYLwzc8Zg"
+          incoming="#_mcFZELEgEeCUkfYLwzc8Zg #_uzS7obEgEeCUkfYLwzc8Zg" x="281" y="16"
+          width="112" height="42">
+        <nodes id="_d4fAUbEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_d4fAULEgEeCUkfYLwzc8Zg"/>
+      </nodes>
+      <nodes xsi:type="notation:HierarchicalNode" id="_k_dqEbEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_k_dqELEgEeCUkfYLwzc8Zg"
+          outgoing="#_mcFZELEgEeCUkfYLwzc8Zg #_mlxgkbEgEeCUkfYLwzc8Zg" x="246" y="128"
+          width="184" height="28"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_tNNHkLEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_tNMggLEgEeCUkfYLwzc8Zg"
+          outgoing="#_uzS7obEgEeCUkfYLwzc8Zg" incoming="#_wPE9ILEgEeCUkfYLwzc8Zg"
+          x="47" y="27" width="120" height="22"/>
+    </nodes>
+    <edges id="_Gy8oILEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_Gy8BELEgEeCUkfYLwzc8Zg"
+        source="#_ijcUk7EVEeCUkfYLwzc8Zg" target="#_4gP-kbEfEeCUkfYLwzc8Zg"/>
+    <edges id="_G-PSILEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_G-OrELEgEeCUkfYLwzc8Zg"
+        source="#_FJNqMbEgEeCUkfYLwzc8Zg" target="#_4gP-kbEfEeCUkfYLwzc8Zg"/>
+    <edges id="_HJI6kbEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_HJI6kLEgEeCUkfYLwzc8Zg"
+        source="#_FJNqMbEgEeCUkfYLwzc8Zg" target="#_5BWggbEfEeCUkfYLwzc8Zg"/>
+    <edges id="_HZd1kbEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_HZd1kLEgEeCUkfYLwzc8Zg"
+        source="#_4gP-kbEfEeCUkfYLwzc8Zg" target="#_5SIugbEfEeCUkfYLwzc8Zg"/>
+    <edges id="_mcFZELEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_mcEyALEgEeCUkfYLwzc8Zg"
+        source="#_k_dqEbEgEeCUkfYLwzc8Zg" target="#_5gpEkLEfEeCUkfYLwzc8Zg"/>
+    <edges id="_mlxgkbEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_mlxgkLEgEeCUkfYLwzc8Zg"
+        source="#_k_dqEbEgEeCUkfYLwzc8Zg" target="#_4wCuELEfEeCUkfYLwzc8Zg"/>
+    <edges id="_pq76sLEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_pq7ToLEgEeCUkfYLwzc8Zg"
+        source="#_5BWggbEfEeCUkfYLwzc8Zg" target="#_4wCuELEfEeCUkfYLwzc8Zg"/>
+    <edges id="_uzS7obEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_uzS7oLEgEeCUkfYLwzc8Zg"
+        source="#_tNNHkLEgEeCUkfYLwzc8Zg" target="#_5gpEkLEfEeCUkfYLwzc8Zg"/>
+    <edges id="_wPE9ILEgEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_wPEWELEgEeCUkfYLwzc8Zg"
+        source="#_5SIugbEfEeCUkfYLwzc8Zg" target="#_tNNHkLEgEeCUkfYLwzc8Zg"/>
+    <edges id="_ItZGILEhEeCUkfYLwzc8Zg" model="PatternsCatalogNew.psc#_ItYfELEhEeCUkfYLwzc8Zg"
+        source="#_ijcUk7EVEeCUkfYLwzc8Zg" target="#_5SIugbEfEeCUkfYLwzc8Zg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_lOThQrF2EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_lOThQLF2EeCDAa1tErEpvg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_lOThQ7F2EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_lOThQbF2EeCDAa1tErEpvg"
+        outgoing="#_IUt_cbF5EeCDAa1tErEpvg #_IfIfsbF5EeCDAa1tErEpvg #_Ipsw8bF5EeCDAa1tErEpvg #_IzEvYbF5EeCDAa1tErEpvg"
+        x="342" y="196" width="180" height="43"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_qNNZUbF4EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_qNNZULF4EeCDAa1tErEpvg"
+        incoming="#_IUt_cbF5EeCDAa1tErEpvg #_cuXZIbF5EeCDAa1tErEpvg #_g5HiULF5EeCDAa1tErEpvg"
+        x="35" y="69" width="163" height="42">
+      <nodes id="_3pkQwbF4EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_3pkQwLF4EeCDAa1tErEpvg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_qgjMEbF4EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_qgjMELF4EeCDAa1tErEpvg"
+        incoming="#_IfIfsbF5EeCDAa1tErEpvg #_c5E0ULF5EeCDAa1tErEpvg #_tjMBMbF5EeCDAa1tErEpvg"
+        x="35" y="197" width="168" height="42">
+      <nodes id="_34v8QbF4EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_34v8QLF4EeCDAa1tErEpvg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_rgOgYbF4EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_rgOgYLF4EeCDAa1tErEpvg"
+        outgoing="#_gt9bMbF5EeCDAa1tErEpvg" incoming="#_IzEvYbF5EeCDAa1tErEpvg #_X0m04bF5EeCDAa1tErEpvg"
+        x="630" y="67" width="191" height="42">
+      <nodes id="_4I9igbF4EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_4I9igLF4EeCDAa1tErEpvg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_rxCjkbF4EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_rxCjkLF4EeCDAa1tErEpvg"
+        incoming="#_Ipsw8bF5EeCDAa1tErEpvg #_YAD28bF5EeCDAa1tErEpvg #_tVWZgbF5EeCDAa1tErEpvg"
+        x="644" y="197" width="196" height="42">
+      <nodes id="_4YIm8bF4EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_4YIm8LF4EeCDAa1tErEpvg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_WHjdMbF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_WHjdMLF5EeCDAa1tErEpvg"
+        outgoing="#_cuXZIbF5EeCDAa1tErEpvg #_c5E0ULF5EeCDAa1tErEpvg" x="36" y="142"
+        width="158" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_WeKmYbF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_WeKmYLF5EeCDAa1tErEpvg"
+        outgoing="#_X0m04bF5EeCDAa1tErEpvg #_YAD28bF5EeCDAa1tErEpvg" x="649" y="140"
+        width="184" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_eFQTkbF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_eFQTkLF5EeCDAa1tErEpvg"
+        outgoing="#_g5HiULF5EeCDAa1tErEpvg" incoming="#_gt9bMbF5EeCDAa1tErEpvg" x="305"
+        y="78" width="245" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_sBSwobF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_sBSwoLF5EeCDAa1tErEpvg"
+        outgoing="#_tVWZgbF5EeCDAa1tErEpvg #_tjMBMbF5EeCDAa1tErEpvg" x="354" y="287"
+        width="178" height="28"/>
+    <edges id="_IUt_cbF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_IUt_cLF5EeCDAa1tErEpvg"
+        source="#_lOThQ7F2EeCDAa1tErEpvg" target="#_qNNZUbF4EeCDAa1tErEpvg"/>
+    <edges id="_IfIfsbF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_IfIfsLF5EeCDAa1tErEpvg"
+        source="#_lOThQ7F2EeCDAa1tErEpvg" target="#_qgjMEbF4EeCDAa1tErEpvg"/>
+    <edges id="_Ipsw8bF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_Ipsw8LF5EeCDAa1tErEpvg"
+        source="#_lOThQ7F2EeCDAa1tErEpvg" target="#_rxCjkbF4EeCDAa1tErEpvg"/>
+    <edges id="_IzEvYbF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_IzEvYLF5EeCDAa1tErEpvg"
+        source="#_lOThQ7F2EeCDAa1tErEpvg" target="#_rgOgYbF4EeCDAa1tErEpvg"/>
+    <edges id="_X0m04bF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_X0m04LF5EeCDAa1tErEpvg"
+        source="#_WeKmYbF5EeCDAa1tErEpvg" target="#_rgOgYbF4EeCDAa1tErEpvg"/>
+    <edges id="_YAD28bF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_YAD28LF5EeCDAa1tErEpvg"
+        source="#_WeKmYbF5EeCDAa1tErEpvg" target="#_rxCjkbF4EeCDAa1tErEpvg"/>
+    <edges id="_cuXZIbF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_cuXZILF5EeCDAa1tErEpvg"
+        source="#_WHjdMbF5EeCDAa1tErEpvg" target="#_qNNZUbF4EeCDAa1tErEpvg"/>
+    <edges id="_c5E0ULF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_c47qYLF5EeCDAa1tErEpvg"
+        source="#_WHjdMbF5EeCDAa1tErEpvg" target="#_qgjMEbF4EeCDAa1tErEpvg"/>
+    <edges id="_gt9bMbF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_gt9bMLF5EeCDAa1tErEpvg"
+        source="#_rgOgYbF4EeCDAa1tErEpvg" target="#_eFQTkbF5EeCDAa1tErEpvg"/>
+    <edges id="_g5HiULF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_g4-YYLF5EeCDAa1tErEpvg"
+        source="#_eFQTkbF5EeCDAa1tErEpvg" target="#_qNNZUbF4EeCDAa1tErEpvg"/>
+    <edges id="_tVWZgbF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_tVWZgLF5EeCDAa1tErEpvg"
+        source="#_sBSwobF5EeCDAa1tErEpvg" target="#_rxCjkbF4EeCDAa1tErEpvg"/>
+    <edges id="_tjMBMbF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_tjMBMLF5EeCDAa1tErEpvg"
+        source="#_sBSwobF5EeCDAa1tErEpvg" target="#_qgjMEbF4EeCDAa1tErEpvg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_6Rk_YrF5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_6Rk_YLF5EeCDAa1tErEpvg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_6Rk_Y7F5EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_6Rk_YbF5EeCDAa1tErEpvg"
+        outgoing="#_IiAYEbF6EeCDAa1tErEpvg #_IvGY4bF6EeCDAa1tErEpvg #_I9rAYbF6EeCDAa1tErEpvg #_JIiMkbF6EeCDAa1tErEpvg"
+        x="359" y="214" width="180" height="37"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_B7ySAbF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_B7ySALF6EeCDAa1tErEpvg"
+        outgoing="#_JXkHEbF6EeCDAa1tErEpvg #_gTXUcbF6EeCDAa1tErEpvg" incoming="#_IiAYEbF6EeCDAa1tErEpvg #_PgD54LF7EeCDAa1tErEpvg #_UNBYQLF7EeCDAa1tErEpvg"
+        x="111" y="143" width="144" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_CQUXkbF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_CQUXkLF6EeCDAa1tErEpvg"
+        outgoing="#_JohUMbF6EeCDAa1tErEpvg" incoming="#_IvGY4bF6EeCDAa1tErEpvg #_fzhWwbF6EeCDAa1tErEpvg #_UXSukbF7EeCDAa1tErEpvg"
+        x="689" y="119" width="181" height="69">
+      <nodes id="_ZAXA4bF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_ZAXA4LF6EeCDAa1tErEpvg"/>
+      <nodes id="_u2-u4bF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_u2-u4LF6EeCDAa1tErEpvg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_Cgru0bF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_Cgru0LF6EeCDAa1tErEpvg"
+        outgoing="#_POgP0bF7EeCDAa1tErEpvg" incoming="#_JIiMkbF6EeCDAa1tErEpvg #_JohUMbF6EeCDAa1tErEpvg #_SXKfULF6EeCDAa1tErEpvg"
+        x="730" y="302" width="98" height="42">
+      <nodes id="_GEohQbF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_GEohQLF7EeCDAa1tErEpvg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_CxDGEbF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_CxDGELF6EeCDAa1tErEpvg"
+        incoming="#_I9rAYbF6EeCDAa1tErEpvg #_JXkHEbF6EeCDAa1tErEpvg #_SKYAgbF6EeCDAa1tErEpvg"
+        x="130" y="313" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_QwXgobF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_QwXgoLF6EeCDAa1tErEpvg"
+        outgoing="#_SKYAgbF6EeCDAa1tErEpvg #_SXKfULF6EeCDAa1tErEpvg" x="382" y="311"
+        width="135" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_b8QxUbF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_b8QxULF6EeCDAa1tErEpvg"
+        outgoing="#_fqJYULF6EeCDAa1tErEpvg" incoming="#_gTXUcbF6EeCDAa1tErEpvg #_C-_XQbGBEeCDAa1tErEpvg"
+        x="126" y="58" width="113" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_cM7DgbF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_cM7DgLF6EeCDAa1tErEpvg"
+        outgoing="#_fzhWwbF6EeCDAa1tErEpvg" incoming="#_fqJYULF6EeCDAa1tErEpvg" x="701"
+        y="57" width="149" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_MpEeobF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_MpEeoLF7EeCDAa1tErEpvg"
+        outgoing="#_PgD54LF7EeCDAa1tErEpvg" incoming="#_POgP0bF7EeCDAa1tErEpvg" x="309"
+        y="380" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_RiYW8bF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_RiYW8LF7EeCDAa1tErEpvg"
+        outgoing="#_UNBYQLF7EeCDAa1tErEpvg #_UXSukbF7EeCDAa1tErEpvg" x="402" y="141"
+        width="135" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_BLFwsbGBEeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_BLFwsLGBEeCDAa1tErEpvg"
+        outgoing="#_C-_XQbGBEeCDAa1tErEpvg" x="264" y="29" width="135" height="28"/>
+    <edges id="_IiAYEbF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_IiAYELF6EeCDAa1tErEpvg"
+        source="#_6Rk_Y7F5EeCDAa1tErEpvg" target="#_B7ySAbF6EeCDAa1tErEpvg"/>
+    <edges id="_IvGY4bF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_IvGY4LF6EeCDAa1tErEpvg"
+        source="#_6Rk_Y7F5EeCDAa1tErEpvg" target="#_CQUXkbF6EeCDAa1tErEpvg"/>
+    <edges id="_I9rAYbF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_I9rAYLF6EeCDAa1tErEpvg"
+        source="#_6Rk_Y7F5EeCDAa1tErEpvg" target="#_CxDGEbF6EeCDAa1tErEpvg"/>
+    <edges id="_JIiMkbF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_JIiMkLF6EeCDAa1tErEpvg"
+        source="#_6Rk_Y7F5EeCDAa1tErEpvg" target="#_Cgru0bF6EeCDAa1tErEpvg"/>
+    <edges id="_JXkHEbF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_JXkHELF6EeCDAa1tErEpvg"
+        source="#_B7ySAbF6EeCDAa1tErEpvg" target="#_CxDGEbF6EeCDAa1tErEpvg"/>
+    <edges id="_JohUMbF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_JohUMLF6EeCDAa1tErEpvg"
+        source="#_CQUXkbF6EeCDAa1tErEpvg" target="#_Cgru0bF6EeCDAa1tErEpvg"/>
+    <edges id="_SKYAgbF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_SKYAgLF6EeCDAa1tErEpvg"
+        source="#_QwXgobF6EeCDAa1tErEpvg" target="#_CxDGEbF6EeCDAa1tErEpvg"/>
+    <edges id="_SXKfULF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_SXBVYLF6EeCDAa1tErEpvg"
+        source="#_QwXgobF6EeCDAa1tErEpvg" target="#_Cgru0bF6EeCDAa1tErEpvg"/>
+    <edges id="_fqJYULF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_fqAOYLF6EeCDAa1tErEpvg"
+        source="#_b8QxUbF6EeCDAa1tErEpvg" target="#_cM7DgbF6EeCDAa1tErEpvg"/>
+    <edges id="_fzhWwbF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_fzhWwLF6EeCDAa1tErEpvg"
+        source="#_cM7DgbF6EeCDAa1tErEpvg" target="#_CQUXkbF6EeCDAa1tErEpvg"/>
+    <edges id="_gTXUcbF6EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_gTXUcLF6EeCDAa1tErEpvg"
+        source="#_B7ySAbF6EeCDAa1tErEpvg" target="#_b8QxUbF6EeCDAa1tErEpvg"/>
+    <edges id="_POgP0bF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_POgP0LF7EeCDAa1tErEpvg"
+        source="#_Cgru0bF6EeCDAa1tErEpvg" target="#_MpEeobF7EeCDAa1tErEpvg"/>
+    <edges id="_PgD54LF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_Pf6I4LF7EeCDAa1tErEpvg"
+        source="#_MpEeobF7EeCDAa1tErEpvg" target="#_B7ySAbF6EeCDAa1tErEpvg"/>
+    <edges id="_UNBYQLF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_UM4OULF7EeCDAa1tErEpvg"
+        source="#_RiYW8bF7EeCDAa1tErEpvg" target="#_B7ySAbF6EeCDAa1tErEpvg"/>
+    <edges id="_UXSukbF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_UXSukLF7EeCDAa1tErEpvg"
+        source="#_RiYW8bF7EeCDAa1tErEpvg" target="#_CQUXkbF6EeCDAa1tErEpvg"/>
+    <edges id="_C-_XQbGBEeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_C-_XQLGBEeCDAa1tErEpvg"
+        source="#_BLFwsbGBEeCDAa1tErEpvg" target="#_b8QxUbF6EeCDAa1tErEpvg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_bUtzsrF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_bUtzsLF7EeCDAa1tErEpvg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_bUtzs7F7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_bUtzsbF7EeCDAa1tErEpvg"
+        outgoing="#_vu9DQbF7EeCDAa1tErEpvg #_xSeusbF_EeCDAa1tErEpvg" x="304" y="76"
+        width="180" height="35"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_ewJ_0bF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_ewJ_0LF7EeCDAa1tErEpvg"
+        outgoing="#_y8sxobF7EeCDAa1tErEpvg #_NiRsobF9EeCDAa1tErEpvg" incoming="#_vu9DQbF7EeCDAa1tErEpvg #_GffmYbF9EeCDAa1tErEpvg"
+        x="266" y="154" width="252" height="84">
+      <nodes id="_iRsz8bF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_iRsz8LF7EeCDAa1tErEpvg"/>
+      <nodes id="_jzTJkbF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_jzTJkLF7EeCDAa1tErEpvg"/>
+      <nodes id="_mjTMAbF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_mjTMALF7EeCDAa1tErEpvg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_xeFekbF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_xeFekLF7EeCDAa1tErEpvg"
+        outgoing="#_-OTzUbF8EeCDAa1tErEpvg" incoming="#_y8sxobF7EeCDAa1tErEpvg" x="636"
+        y="184" width="149" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_5u3zkbF8EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_5u3zkLF8EeCDAa1tErEpvg"
+        outgoing="#_-1u_sbF8EeCDAa1tErEpvg" incoming="#_GTvCUbF9EeCDAa1tErEpvg #_MnqegbF9EeCDAa1tErEpvg #_xSeusbF_EeCDAa1tErEpvg"
+        x="84" y="316" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_7CohgbF8EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_7CohgLF8EeCDAa1tErEpvg"
+        incoming="#_-OTzUbF8EeCDAa1tErEpvg #_-1u_sbF8EeCDAa1tErEpvg" x="648" y="316"
+        width="127" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_DOnEcbF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_DOnEcLF9EeCDAa1tErEpvg"
+        outgoing="#_GTvCUbF9EeCDAa1tErEpvg #_GffmYbF9EeCDAa1tErEpvg" x="51" y="185"
+        width="141" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_KoKE4bF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_KoKE4LF9EeCDAa1tErEpvg"
+        outgoing="#_MnqegbF9EeCDAa1tErEpvg" incoming="#_NiRsobF9EeCDAa1tErEpvg" x="309"
+        y="262" width="161" height="42">
+      <nodes id="_Pb-ZMbF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_Pb-ZMLF9EeCDAa1tErEpvg"/>
+    </nodes>
+    <edges id="_vu9DQbF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_vu9DQLF7EeCDAa1tErEpvg"
+        source="#_bUtzs7F7EeCDAa1tErEpvg" target="#_ewJ_0bF7EeCDAa1tErEpvg"/>
+    <edges id="_y8sxobF7EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_y8sxoLF7EeCDAa1tErEpvg"
+        source="#_ewJ_0bF7EeCDAa1tErEpvg" target="#_xeFekbF7EeCDAa1tErEpvg"/>
+    <edges id="_-OTzUbF8EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_-OTzULF8EeCDAa1tErEpvg"
+        source="#_xeFekbF7EeCDAa1tErEpvg" target="#_7CohgbF8EeCDAa1tErEpvg"/>
+    <edges id="_-1u_sbF8EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_-1u_sLF8EeCDAa1tErEpvg"
+        source="#_5u3zkbF8EeCDAa1tErEpvg" target="#_7CohgbF8EeCDAa1tErEpvg"/>
+    <edges id="_GTvCUbF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_GTvCULF9EeCDAa1tErEpvg"
+        source="#_DOnEcbF9EeCDAa1tErEpvg" target="#_5u3zkbF8EeCDAa1tErEpvg"/>
+    <edges id="_GffmYbF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_GffmYLF9EeCDAa1tErEpvg"
+        source="#_DOnEcbF9EeCDAa1tErEpvg" target="#_ewJ_0bF7EeCDAa1tErEpvg"/>
+    <edges id="_MnqegbF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_MnqegLF9EeCDAa1tErEpvg"
+        source="#_KoKE4bF9EeCDAa1tErEpvg" target="#_5u3zkbF8EeCDAa1tErEpvg"/>
+    <edges id="_NiRsobF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_NiRsoLF9EeCDAa1tErEpvg"
+        source="#_ewJ_0bF7EeCDAa1tErEpvg" target="#_KoKE4bF9EeCDAa1tErEpvg"/>
+    <edges id="_xSeusbF_EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_xSeusLF_EeCDAa1tErEpvg"
+        source="#_bUtzs7F7EeCDAa1tErEpvg" target="#_5u3zkbF8EeCDAa1tErEpvg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_neldorF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_neldoLF9EeCDAa1tErEpvg">
+    <nodes xsi:type="notation:HierarchicalNode" id="_neldo7F9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_neldobF9EeCDAa1tErEpvg"
+        outgoing="#_6WxrobF9EeCDAa1tErEpvg #_qmmskbF_EeCDAa1tErEpvg" x="299" y="66"
+        width="180" height="40"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_pEC_kbF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_pEC_kLF9EeCDAa1tErEpvg"
+        outgoing="#_5w1tAbF9EeCDAa1tErEpvg #_59MG8bF9EeCDAa1tErEpvg" x="86" y="185"
+        width="141" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_pnAisbF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_pnAisLF9EeCDAa1tErEpvg"
+        outgoing="#_6KSHwbF9EeCDAa1tErEpvg #_loX4AbF_EeCDAa1tErEpvg #_EurBobGAEeCDAa1tErEpvg"
+        incoming="#_5w1tAbF9EeCDAa1tErEpvg #_6WxrobF9EeCDAa1tErEpvg" x="276" y="166"
+        width="218" height="58">
+      <nodes id="_J0aeUbF-EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_J0aeULF-EeCDAa1tErEpvg"/>
+      <nodes id="_NbnOgbF-EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_NbnOgLF-EeCDAa1tErEpvg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_qQEt0bF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_qQEt0LF9EeCDAa1tErEpvg"
+        outgoing="#_43aKobF9EeCDAa1tErEpvg" incoming="#_6KSHwbF9EeCDAa1tErEpvg" x="594"
+        y="184" width="245" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_qkAWcbF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_qkAWcLF9EeCDAa1tErEpvg"
+        incoming="#_43aKobF9EeCDAa1tErEpvg #_5RAWYLF9EeCDAa1tErEpvg" x="600" y="336"
+        width="127" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_q00ZobF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_q00ZoLF9EeCDAa1tErEpvg"
+        outgoing="#_Fyq1QbGAEeCDAa1tErEpvg" incoming="#_F6cr0LxCEeCmFO4k1VVXaw" x="265"
+        y="285" width="132" height="42">
+      <nodes id="_ERJqEbF-EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_ERJqELF-EeCDAa1tErEpvg"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_rQfpAbF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_rQfpALF9EeCDAa1tErEpvg"
+        outgoing="#_5RAWYLF9EeCDAa1tErEpvg" incoming="#_59MG8bF9EeCDAa1tErEpvg #_qmmskbF_EeCDAa1tErEpvg #_Fyq1QbGAEeCDAa1tErEpvg"
+        x="118" y="335" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_kO91EbF_EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_kO91ELF_EeCDAa1tErEpvg"
+        incoming="#_loX4AbF_EeCDAa1tErEpvg" x="618" y="89" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_A3HhQbGAEeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_A3HhQLGAEeCDAa1tErEpvg"
+        outgoing="#_F6cr0LxCEeCmFO4k1VVXaw" incoming="#_EurBobGAEeCDAa1tErEpvg" x="461"
+        y="263" width="251" height="42">
+      <nodes id="_Cp0N8bGAEeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_Cp0N8LGAEeCDAa1tErEpvg"/>
+    </nodes>
+    <edges id="_43aKobF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_43aKoLF9EeCDAa1tErEpvg"
+        source="#_qQEt0bF9EeCDAa1tErEpvg" target="#_qkAWcbF9EeCDAa1tErEpvg"/>
+    <edges id="_5RAWYLF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_5Q2lYLF9EeCDAa1tErEpvg"
+        source="#_rQfpAbF9EeCDAa1tErEpvg" target="#_qkAWcbF9EeCDAa1tErEpvg"/>
+    <edges id="_5w1tAbF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_5w1tALF9EeCDAa1tErEpvg"
+        source="#_pEC_kbF9EeCDAa1tErEpvg" target="#_pnAisbF9EeCDAa1tErEpvg"/>
+    <edges id="_59MG8bF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_59MG8LF9EeCDAa1tErEpvg"
+        source="#_pEC_kbF9EeCDAa1tErEpvg" target="#_rQfpAbF9EeCDAa1tErEpvg"/>
+    <edges id="_6KSHwbF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_6KSHwLF9EeCDAa1tErEpvg"
+        source="#_pnAisbF9EeCDAa1tErEpvg" target="#_qQEt0bF9EeCDAa1tErEpvg"/>
+    <edges id="_6WxrobF9EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_6WxroLF9EeCDAa1tErEpvg"
+        source="#_neldo7F9EeCDAa1tErEpvg" target="#_pnAisbF9EeCDAa1tErEpvg"/>
+    <edges id="_loX4AbF_EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_loX4ALF_EeCDAa1tErEpvg"
+        source="#_pnAisbF9EeCDAa1tErEpvg" target="#_kO91EbF_EeCDAa1tErEpvg"/>
+    <edges id="_qmmskbF_EeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_qmmskLF_EeCDAa1tErEpvg"
+        source="#_neldo7F9EeCDAa1tErEpvg" target="#_rQfpAbF9EeCDAa1tErEpvg"/>
+    <edges id="_EurBobGAEeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_EurBoLGAEeCDAa1tErEpvg"
+        source="#_pnAisbF9EeCDAa1tErEpvg" target="#_A3HhQbGAEeCDAa1tErEpvg"/>
+    <edges id="_Fyq1QbGAEeCDAa1tErEpvg" model="PatternsCatalogNew.psc#_Fyq1QLGAEeCDAa1tErEpvg"
+        source="#_q00ZobF9EeCDAa1tErEpvg" target="#_rQfpAbF9EeCDAa1tErEpvg"/>
+    <edges id="_F6cr0LxCEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_F6cEwLxCEeCmFO4k1VVXaw"
+        source="#_A3HhQbGAEeCDAa1tErEpvg" target="#_q00ZobF9EeCDAa1tErEpvg"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_ixwVsrw_EeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_ixwVsLw_EeCmFO4k1VVXaw">
+    <nodes xsi:type="notation:HierarchicalNode" id="_ixwVs7w_EeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_ixwVsbw_EeCmFO4k1VVXaw"
+        outgoing="#_faY70LxAEeCmFO4k1VVXaw #_fxWqULxAEeCmFO4k1VVXaw" x="294" y="97"
+        width="253" height="40"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_Ol3OsbxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_Ol3OsLxAEeCmFO4k1VVXaw"
+        outgoing="#_gnvfwbxAEeCmFO4k1VVXaw #_g46IQbxAEeCmFO4k1VVXaw #_q72z4LxAEeCmFO4k1VVXaw"
+        incoming="#_faY70LxAEeCmFO4k1VVXaw #_kNAWQbxAEeCmFO4k1VVXaw" x="341" y="223"
+        width="276" height="67">
+      <nodes id="_umAxcbxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_umAxcLxAEeCmFO4k1VVXaw"/>
+      <nodes id="_vTzEgbxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_vTzEgLxAEeCmFO4k1VVXaw"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_O7wmMbxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_O7wmMLxAEeCmFO4k1VVXaw"
+        outgoing="#_iErX0LxAEeCmFO4k1VVXaw" incoming="#_fxWqULxAEeCmFO4k1VVXaw #_jabp0LxAEeCmFO4k1VVXaw #_qPhSULxAEeCmFO4k1VVXaw"
+        x="140" y="391" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_PUBVMbxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_PUBVMLxAEeCmFO4k1VVXaw"
+        incoming="#_gnvfwbxAEeCmFO4k1VVXaw" x="706" y="100" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_PircQLxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_Piq1MLxAEeCmFO4k1VVXaw"
+        outgoing="#_hQaCQbxAEeCmFO4k1VVXaw" incoming="#_g46IQbxAEeCmFO4k1VVXaw" x="785"
+        y="252" width="245" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_P-6FQLxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_P-5eMLxAEeCmFO4k1VVXaw"
+        outgoing="#_jabp0LxAEeCmFO4k1VVXaw #_kNAWQbxAEeCmFO4k1VVXaw" incoming="#_hQaCQbxAEeCmFO4k1VVXaw #_iErX0LxAEeCmFO4k1VVXaw"
+        x="831" y="391" width="152" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_QUabMbxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_QUabMLxAEeCmFO4k1VVXaw"
+        outgoing="#_rQcj0LxAEeCmFO4k1VVXaw" incoming="#_q72z4LxAEeCmFO4k1VVXaw" x="523"
+        y="343" width="143" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_QuWlMbxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_QuWlMLxAEeCmFO4k1VVXaw"
+        outgoing="#_qPhSULxAEeCmFO4k1VVXaw" incoming="#_rQcj0LxAEeCmFO4k1VVXaw" x="303"
+        y="343" width="161" height="22"/>
+    <edges id="_faY70LxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_faYUwLxAEeCmFO4k1VVXaw"
+        source="#_ixwVs7w_EeCmFO4k1VVXaw" target="#_Ol3OsbxAEeCmFO4k1VVXaw"/>
+    <edges id="_fxWqULxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_fxWDQLxAEeCmFO4k1VVXaw"
+        source="#_ixwVs7w_EeCmFO4k1VVXaw" target="#_O7wmMbxAEeCmFO4k1VVXaw"/>
+    <edges id="_gnvfwbxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_gnvfwLxAEeCmFO4k1VVXaw"
+        source="#_Ol3OsbxAEeCmFO4k1VVXaw" target="#_PUBVMbxAEeCmFO4k1VVXaw"/>
+    <edges id="_g46IQbxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_g46IQLxAEeCmFO4k1VVXaw"
+        source="#_Ol3OsbxAEeCmFO4k1VVXaw" target="#_PircQLxAEeCmFO4k1VVXaw"/>
+    <edges id="_hQaCQbxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_hQaCQLxAEeCmFO4k1VVXaw"
+        source="#_PircQLxAEeCmFO4k1VVXaw" target="#_P-6FQLxAEeCmFO4k1VVXaw"/>
+    <edges id="_iErX0LxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_iEqwwLxAEeCmFO4k1VVXaw"
+        source="#_O7wmMbxAEeCmFO4k1VVXaw" target="#_P-6FQLxAEeCmFO4k1VVXaw">
+      <bendPoints xsi:type="notation:RelativeBendPoint" sourceX="317" sourceY="36"
+          targetX="-341" targetY="31"/>
+    </edges>
+    <edges id="_jabp0LxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_jabCwLxAEeCmFO4k1VVXaw"
+        source="#_P-6FQLxAEeCmFO4k1VVXaw" target="#_O7wmMbxAEeCmFO4k1VVXaw"/>
+    <edges id="_kNAWQbxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_kNAWQLxAEeCmFO4k1VVXaw"
+        source="#_P-6FQLxAEeCmFO4k1VVXaw" target="#_Ol3OsbxAEeCmFO4k1VVXaw"/>
+    <edges id="_qPhSULxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_qPgrQLxAEeCmFO4k1VVXaw"
+        source="#_QuWlMbxAEeCmFO4k1VVXaw" target="#_O7wmMbxAEeCmFO4k1VVXaw"/>
+    <edges id="_q72z4LxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_q71lwLxAEeCmFO4k1VVXaw"
+        source="#_Ol3OsbxAEeCmFO4k1VVXaw" target="#_QUabMbxAEeCmFO4k1VVXaw"/>
+    <edges id="_rQcj0LxAEeCmFO4k1VVXaw" model="PatternsCatalogNew.psc#_rQb8wLxAEeCmFO4k1VVXaw"
+        source="#_QUabMbxAEeCmFO4k1VVXaw" target="#_QuWlMbxAEeCmFO4k1VVXaw"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_K6R2YMyqEeCDk6rZEciVDQ" model="PatternsCatalogNew.psc#_K6LIsMyqEeCDk6rZEciVDQ">
+    <nodes xsi:type="notation:HierarchicalNode" id="_K6R2YcyqEeCDk6rZEciVDQ" model="PatternsCatalogNew.psc#_K6RPUMyqEeCDk6rZEciVDQ"
+        outgoing="#_W_1S8MyqEeCDk6rZEciVDQ" x="60" y="40" width="180" height="80"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_OcbHcMyqEeCDk6rZEciVDQ" model="PatternsCatalogNew.psc#_OcagYMyqEeCDk6rZEciVDQ"
+        incoming="#_W_1S8MyqEeCDk6rZEciVDQ" x="119" y="188" width="324" height="42">
+      <nodes id="_TN88wcyqEeCDk6rZEciVDQ" model="PatternsCatalogNew.psc#_TN88wMyqEeCDk6rZEciVDQ"/>
+    </nodes>
+    <edges id="_W_1S8MyqEeCDk6rZEciVDQ" model="PatternsCatalogNew.psc#_W_0r4MyqEeCDk6rZEciVDQ"
+        source="#_K6R2YcyqEeCDk6rZEciVDQ" target="#_OcbHcMyqEeCDk6rZEciVDQ"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_RUBQUdSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_RSSyANSlEeCMoPg60M3fRQ">
+    <nodes xsi:type="notation:HierarchicalNode" id="_RUBQUtSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_RUBQUNSlEeCMoPg60M3fRQ"
+        outgoing="#_npT3UNSlEeCMoPg60M3fRQ #_n29RwNSlEeCMoPg60M3fRQ #_oE61QNSlEeCMoPg60M3fRQ"
+        x="355" y="65" width="180" height="80"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_Uq9W8NSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_Uq7hwNSlEeCMoPg60M3fRQ"
+        outgoing="#_muB60NSlEeCMoPg60M3fRQ #_nM19wNSlEeCMoPg60M3fRQ" incoming="#_n29RwNSlEeCMoPg60M3fRQ"
+        x="404" y="227" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_U6kgQNSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_U6j5MNSlEeCMoPg60M3fRQ"
+        outgoing="#_v-DUsdSlEeCMoPg60M3fRQ" incoming="#_muB60NSlEeCMoPg60M3fRQ #_oE61QNSlEeCMoPg60M3fRQ"
+        x="168" y="249" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_VIEJsNSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_VIDioNSlEeCMoPg60M3fRQ"
+        incoming="#_nM19wNSlEeCMoPg60M3fRQ #_npT3UNSlEeCMoPg60M3fRQ #_oS4_0NSlEeCMoPg60M3fRQ"
+        x="769" y="319" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_VWoKIdSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_VWoKINSlEeCMoPg60M3fRQ"
+        outgoing="#_wIcm0NSlEeCMoPg60M3fRQ" incoming="#_v-DUsdSlEeCMoPg60M3fRQ" x="243"
+        y="338" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_VoZ2odSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_VoZ2oNSlEeCMoPg60M3fRQ"
+        outgoing="#_wSWwwdSlEeCMoPg60M3fRQ" incoming="#_wIcm0NSlEeCMoPg60M3fRQ" x="290"
+        y="406" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_V8P_sNSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_V8PYoNSlEeCMoPg60M3fRQ"
+        outgoing="#_oS4_0NSlEeCMoPg60M3fRQ" incoming="#_wSWwwdSlEeCMoPg60M3fRQ" x="450"
+        y="452" width="78" height="22"/>
+    <edges id="_muB60NSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_muBTwNSlEeCMoPg60M3fRQ"
+        source="#_Uq9W8NSlEeCMoPg60M3fRQ" target="#_U6kgQNSlEeCMoPg60M3fRQ"/>
+    <edges id="_nM19wNSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_nM1WsNSlEeCMoPg60M3fRQ"
+        source="#_Uq9W8NSlEeCMoPg60M3fRQ" target="#_VIEJsNSlEeCMoPg60M3fRQ"/>
+    <edges id="_npT3UNSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_npTQQNSlEeCMoPg60M3fRQ"
+        source="#_RUBQUtSlEeCMoPg60M3fRQ" target="#_VIEJsNSlEeCMoPg60M3fRQ"/>
+    <edges id="_n29RwNSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_n28qsNSlEeCMoPg60M3fRQ"
+        source="#_RUBQUtSlEeCMoPg60M3fRQ" target="#_Uq9W8NSlEeCMoPg60M3fRQ"/>
+    <edges id="_oE61QNSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_oE6OMNSlEeCMoPg60M3fRQ"
+        source="#_RUBQUtSlEeCMoPg60M3fRQ" target="#_U6kgQNSlEeCMoPg60M3fRQ"/>
+    <edges id="_oS4_0NSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_oS4YwNSlEeCMoPg60M3fRQ"
+        source="#_V8P_sNSlEeCMoPg60M3fRQ" target="#_VIEJsNSlEeCMoPg60M3fRQ"/>
+    <edges id="_v-DUsdSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_v-DUsNSlEeCMoPg60M3fRQ"
+        source="#_U6kgQNSlEeCMoPg60M3fRQ" target="#_VWoKIdSlEeCMoPg60M3fRQ"/>
+    <edges id="_wIcm0NSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_wIb_wNSlEeCMoPg60M3fRQ"
+        source="#_VWoKIdSlEeCMoPg60M3fRQ" target="#_VoZ2odSlEeCMoPg60M3fRQ"/>
+    <edges id="_wSWwwdSlEeCMoPg60M3fRQ" model="PatternsCatalogNew.psc#_wSWwwNSlEeCMoPg60M3fRQ"
+        source="#_VoZ2odSlEeCMoPg60M3fRQ" target="#_V8P_sNSlEeCMoPg60M3fRQ"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_xBa_UdUrEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_xBYjENUrEeCOSvCxQ0HiYA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_xBa_UtUrEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_xBa_UNUrEeCOSvCxQ0HiYA"
+        outgoing="#_ZkVNUNUsEeCOSvCxQ0HiYA #_Zu8h4NUsEeCOSvCxQ0HiYA #_Z7AA4NUsEeCOSvCxQ0HiYA #_aO1i4NUsEeCOSvCxQ0HiYA #_abkXUNUsEeCOSvCxQ0HiYA"
+        x="241" y="48" width="180" height="80"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_5SnZcNUrEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_5SlkQNUrEeCOSvCxQ0HiYA"
+        outgoing="#_NwkEUdUsEeCOSvCxQ0HiYA" incoming="#_OHJYUNUsEeCOSvCxQ0HiYA #_Oi_m0NUsEeCOSvCxQ0HiYA #_ZkVNUNUsEeCOSvCxQ0HiYA"
+        x="16" y="148" width="178" height="62">
+      <nodes id="_SVavkNUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_SVaIgNUsEeCOSvCxQ0HiYA"/>
+      <nodes id="_SkwMENUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_SkvlANUsEeCOSvCxQ0HiYA"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_5luisdUrEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_5luisNUrEeCOSvCxQ0HiYA"
+        outgoing="#_NUpkYNUsEeCOSvCxQ0HiYA #_NihoUdUsEeCOSvCxQ0HiYA" incoming="#_OX7mUdUsEeCOSvCxQ0HiYA #_Zu8h4NUsEeCOSvCxQ0HiYA"
+        x="516" y="168" width="268" height="42">
+      <nodes id="_SBcDoNUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_SBbckNUsEeCOSvCxQ0HiYA"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_6PYjsdUrEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_6PYjsNUrEeCOSvCxQ0HiYA"
+        outgoing="#_N91rUNUsEeCOSvCxQ0HiYA" incoming="#_NUpkYNUsEeCOSvCxQ0HiYA #_aO1i4NUsEeCOSvCxQ0HiYA"
+        x="438" y="252" width="105" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_6jJ0QdUrEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_6jJ0QNUrEeCOSvCxQ0HiYA"
+        incoming="#_NihoUdUsEeCOSvCxQ0HiYA #_PBqf0NUsEeCOSvCxQ0HiYA #_abkXUNUsEeCOSvCxQ0HiYA"
+        x="628" y="325" width="94" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_62KP0dUrEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_62KP0NUrEeCOSvCxQ0HiYA"
+        incoming="#_NwkEUdUsEeCOSvCxQ0HiYA #_Xhfy4NUsEeCOSvCxQ0HiYA #_Z7AA4NUsEeCOSvCxQ0HiYA #_tguqUNUsEeCOSvCxQ0HiYA"
+        x="52" y="287" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_7S_VwdUrEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_7S_VwNUrEeCOSvCxQ0HiYA"
+        outgoing="#_OX7mUdUsEeCOSvCxQ0HiYA #_Oi_m0NUsEeCOSvCxQ0HiYA" x="250" y="168"
+        width="135" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_7pzTQdUrEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_7pzTQNUrEeCOSvCxQ0HiYA"
+        incoming="#_PpbDYNUsEeCOSvCxQ0HiYA #_QmmdUNUsEeCOSvCxQ0HiYA" x="343" y="290"
+        width="85" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_7-oTwdUrEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_7-oTwNUrEeCOSvCxQ0HiYA"
+        outgoing="#_PBqf0NUsEeCOSvCxQ0HiYA #_PpbDYNUsEeCOSvCxQ0HiYA" x="435" y="341"
+        width="135" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_8UcywdUrEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_8UcywNUrEeCOSvCxQ0HiYA"
+        outgoing="#_QmmdUNUsEeCOSvCxQ0HiYA #_Xhfy4NUsEeCOSvCxQ0HiYA" x="144" y="318"
+        width="188" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_LhMpwdUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_LhMpwNUsEeCOSvCxQ0HiYA"
+        outgoing="#_OHJYUNUsEeCOSvCxQ0HiYA" incoming="#_N91rUNUsEeCOSvCxQ0HiYA" x="215"
+        y="246" width="121" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_uqz30NUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_ubAhQNUsEeCOSvCxQ0HiYA"
+        x="9" y="368" width="279" height="103">
+      <nodes xsi:type="notation:HierarchicalNode" id="_r9TIsdUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_r9TIsNUsEeCOSvCxQ0HiYA"
+          outgoing="#_tguqUNUsEeCOSvCxQ0HiYA" x="38" y="18" width="208" height="28"/>
+    </nodes>
+    <edges id="_NUpkYNUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_NUo9UNUsEeCOSvCxQ0HiYA"
+        source="#_5luisdUrEeCOSvCxQ0HiYA" target="#_6PYjsdUrEeCOSvCxQ0HiYA"/>
+    <edges id="_NihoUdUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_NihoUNUsEeCOSvCxQ0HiYA"
+        source="#_5luisdUrEeCOSvCxQ0HiYA" target="#_6jJ0QdUrEeCOSvCxQ0HiYA"/>
+    <edges id="_NwkEUdUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_NwkEUNUsEeCOSvCxQ0HiYA"
+        source="#_5SnZcNUrEeCOSvCxQ0HiYA" target="#_62KP0dUrEeCOSvCxQ0HiYA"/>
+    <edges id="_N91rUNUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_N91EQNUsEeCOSvCxQ0HiYA"
+        source="#_6PYjsdUrEeCOSvCxQ0HiYA" target="#_LhMpwdUsEeCOSvCxQ0HiYA"/>
+    <edges id="_OHJYUNUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_OHIxQNUsEeCOSvCxQ0HiYA"
+        source="#_LhMpwdUsEeCOSvCxQ0HiYA" target="#_5SnZcNUrEeCOSvCxQ0HiYA"/>
+    <edges id="_OX7mUdUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_OX7mUNUsEeCOSvCxQ0HiYA"
+        source="#_7S_VwdUrEeCOSvCxQ0HiYA" target="#_5luisdUrEeCOSvCxQ0HiYA"/>
+    <edges id="_Oi_m0NUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_Oi-_wNUsEeCOSvCxQ0HiYA"
+        source="#_7S_VwdUrEeCOSvCxQ0HiYA" target="#_5SnZcNUrEeCOSvCxQ0HiYA"/>
+    <edges id="_PBqf0NUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_PBp4wNUsEeCOSvCxQ0HiYA"
+        source="#_7-oTwdUrEeCOSvCxQ0HiYA" target="#_6jJ0QdUrEeCOSvCxQ0HiYA"/>
+    <edges id="_PpbDYNUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_PpacUNUsEeCOSvCxQ0HiYA"
+        source="#_7-oTwdUrEeCOSvCxQ0HiYA" target="#_7pzTQdUrEeCOSvCxQ0HiYA"/>
+    <edges id="_QmmdUNUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_Qml2QNUsEeCOSvCxQ0HiYA"
+        source="#_8UcywdUrEeCOSvCxQ0HiYA" target="#_7pzTQdUrEeCOSvCxQ0HiYA"/>
+    <edges id="_Xhfy4NUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_XhfL0NUsEeCOSvCxQ0HiYA"
+        source="#_8UcywdUrEeCOSvCxQ0HiYA" target="#_62KP0dUrEeCOSvCxQ0HiYA"/>
+    <edges id="_ZkVNUNUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_ZkUmQNUsEeCOSvCxQ0HiYA"
+        source="#_xBa_UtUrEeCOSvCxQ0HiYA" target="#_5SnZcNUrEeCOSvCxQ0HiYA"/>
+    <edges id="_Zu8h4NUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_Zu760NUsEeCOSvCxQ0HiYA"
+        source="#_xBa_UtUrEeCOSvCxQ0HiYA" target="#_5luisdUrEeCOSvCxQ0HiYA"/>
+    <edges id="_Z7AA4NUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_Z6_Z0NUsEeCOSvCxQ0HiYA"
+        source="#_xBa_UtUrEeCOSvCxQ0HiYA" target="#_62KP0dUrEeCOSvCxQ0HiYA"/>
+    <edges id="_aO1i4NUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_aO070NUsEeCOSvCxQ0HiYA"
+        source="#_xBa_UtUrEeCOSvCxQ0HiYA" target="#_6PYjsdUrEeCOSvCxQ0HiYA"/>
+    <edges id="_abkXUNUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_abjwQNUsEeCOSvCxQ0HiYA"
+        source="#_xBa_UtUrEeCOSvCxQ0HiYA" target="#_6jJ0QdUrEeCOSvCxQ0HiYA"/>
+    <edges id="_tguqUNUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_tguDQNUsEeCOSvCxQ0HiYA"
+        source="#_r9TIsdUsEeCOSvCxQ0HiYA" target="#_62KP0dUrEeCOSvCxQ0HiYA"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_xmA6ItUrEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_xmA6INUrEeCOSvCxQ0HiYA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_xmA6I9UrEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_xmA6IdUrEeCOSvCxQ0HiYA"
+        outgoing="#_7NpGQdUsEeCOSvCxQ0HiYA #_FxEowdUtEeCOSvCxQ0HiYA #_F9bpwdUtEeCOSvCxQ0HiYA #_GNdp0dUtEeCOSvCxQ0HiYA #_GaNFUdUtEeCOSvCxQ0HiYA"
+        x="214" y="6" width="180" height="46"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_29WVwdUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_29WVwNUsEeCOSvCxQ0HiYA"
+        outgoing="#_LTUJUdUtEeCOSvCxQ0HiYA" incoming="#_GaNFUdUtEeCOSvCxQ0HiYA #_LHodwdUtEeCOSvCxQ0HiYA #_eRwwUNUtEeCOSvCxQ0HiYA"
+        x="46" y="171" width="150" height="62">
+      <nodes id="_25tcwdX5EeC4_4Y9pe3SQw" model="PatternsCatalogNew.psc#_25tcwNX5EeC4_4Y9pe3SQw"/>
+      <nodes id="_3M5egdX5EeC4_4Y9pe3SQw" model="PatternsCatalogNew.psc#_3M5egNX5EeC4_4Y9pe3SQw"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_3P9vwdUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_3P9vwNUsEeCOSvCxQ0HiYA"
+        outgoing="#_KcTo0NUtEeCOSvCxQ0HiYA #_Kr3u0NUtEeCOSvCxQ0HiYA" incoming="#_7NpGQdUsEeCOSvCxQ0HiYA #_eCp9UNUtEeCOSvCxQ0HiYA"
+        x="495" y="150" width="95" height="42">
+      <nodes id="_7FNM0dX5EeC4_4Y9pe3SQw" model="PatternsCatalogNew.psc#_7FNM0NX5EeC4_4Y9pe3SQw"/>
+    </nodes>
+    <nodes xsi:type="notation:HierarchicalNode" id="_3eYmQdUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_3eYmQNUsEeCOSvCxQ0HiYA"
+        outgoing="#_K9zMUNUtEeCOSvCxQ0HiYA" incoming="#_FxEowdUtEeCOSvCxQ0HiYA #_KcTo0NUtEeCOSvCxQ0HiYA"
+        x="457" y="234" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_3tfZQdUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_3tfZQNUsEeCOSvCxQ0HiYA"
+        incoming="#_F9bpwdUtEeCOSvCxQ0HiYA #_Kr3u0NUtEeCOSvCxQ0HiYA #_W9AwUNUtEeCOSvCxQ0HiYA"
+        x="561" y="307" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_39qjQdUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_39qjQNUsEeCOSvCxQ0HiYA"
+        outgoing="#_LHodwdUtEeCOSvCxQ0HiYA" incoming="#_K9zMUNUtEeCOSvCxQ0HiYA" x="218"
+        y="236" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_4SQ6QNUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_4SQTMNUsEeCOSvCxQ0HiYA"
+        incoming="#_GNdp0dUtEeCOSvCxQ0HiYA #_LTUJUdUtEeCOSvCxQ0HiYA #_Wl0YUNUtEeCOSvCxQ0HiYA #_XdIa0NUtEeCOSvCxQ0HiYA"
+        x="82" y="325" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_5EAgQdUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_5EAgQNUsEeCOSvCxQ0HiYA"
+        incoming="#_XIJpUNUtEeCOSvCxQ0HiYA #_XSTD0NUtEeCOSvCxQ0HiYA" x="374" y="303"
+        width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_N6PIQdUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_N6PIQNUtEeCOSvCxQ0HiYA"
+        outgoing="#_eCp9UNUtEeCOSvCxQ0HiYA #_eRwwUNUtEeCOSvCxQ0HiYA" x="276" y="123"
+        width="184" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_OlV6wdUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_OlV6wNUtEeCOSvCxQ0HiYA"
+        outgoing="#_W9AwUNUtEeCOSvCxQ0HiYA #_XIJpUNUtEeCOSvCxQ0HiYA" x="465" y="349"
+        width="135" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_O-NtwdUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_O-NtwNUtEeCOSvCxQ0HiYA"
+        outgoing="#_XSTD0NUtEeCOSvCxQ0HiYA #_XdIa0NUtEeCOSvCxQ0HiYA" x="217" y="345"
+        width="135" height="28"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_aTJlsNUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_aHVXQNUtEeCOSvCxQ0HiYA"
+        y="399" width="275" height="78">
+      <nodes xsi:type="notation:HierarchicalNode" id="_PVVNQdUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_PVVNQNUtEeCOSvCxQ0HiYA"
+          outgoing="#_Wl0YUNUtEeCOSvCxQ0HiYA" x="44" y="11" width="208" height="28"/>
+    </nodes>
+    <edges id="_7NpGQdUsEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_7NpGQNUsEeCOSvCxQ0HiYA"
+        source="#_xmA6I9UrEeCOSvCxQ0HiYA" target="#_3P9vwdUsEeCOSvCxQ0HiYA"/>
+    <edges id="_FxEowdUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_FxEowNUtEeCOSvCxQ0HiYA"
+        source="#_xmA6I9UrEeCOSvCxQ0HiYA" target="#_3eYmQdUsEeCOSvCxQ0HiYA"/>
+    <edges id="_F9bpwdUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_F9bpwNUtEeCOSvCxQ0HiYA"
+        source="#_xmA6I9UrEeCOSvCxQ0HiYA" target="#_3tfZQdUsEeCOSvCxQ0HiYA"/>
+    <edges id="_GNdp0dUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_GNdp0NUtEeCOSvCxQ0HiYA"
+        source="#_xmA6I9UrEeCOSvCxQ0HiYA" target="#_4SQ6QNUsEeCOSvCxQ0HiYA"/>
+    <edges id="_GaNFUdUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_GaNFUNUtEeCOSvCxQ0HiYA"
+        source="#_xmA6I9UrEeCOSvCxQ0HiYA" target="#_29WVwdUsEeCOSvCxQ0HiYA"/>
+    <edges id="_KcTo0NUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_KcTBwNUtEeCOSvCxQ0HiYA"
+        source="#_3P9vwdUsEeCOSvCxQ0HiYA" target="#_3eYmQdUsEeCOSvCxQ0HiYA"/>
+    <edges id="_Kr3u0NUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_Kr3HwNUtEeCOSvCxQ0HiYA"
+        source="#_3P9vwdUsEeCOSvCxQ0HiYA" target="#_3tfZQdUsEeCOSvCxQ0HiYA"/>
+    <edges id="_K9zMUNUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_K9ylQNUtEeCOSvCxQ0HiYA"
+        source="#_3eYmQdUsEeCOSvCxQ0HiYA" target="#_39qjQdUsEeCOSvCxQ0HiYA"/>
+    <edges id="_LHodwdUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_LHodwNUtEeCOSvCxQ0HiYA"
+        source="#_39qjQdUsEeCOSvCxQ0HiYA" target="#_29WVwdUsEeCOSvCxQ0HiYA"/>
+    <edges id="_LTUJUdUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_LTUJUNUtEeCOSvCxQ0HiYA"
+        source="#_29WVwdUsEeCOSvCxQ0HiYA" target="#_4SQ6QNUsEeCOSvCxQ0HiYA"/>
+    <edges id="_Wl0YUNUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_WlzxQNUtEeCOSvCxQ0HiYA"
+        source="#_PVVNQdUtEeCOSvCxQ0HiYA" target="#_4SQ6QNUsEeCOSvCxQ0HiYA"/>
+    <edges id="_W9AwUNUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_W9AJQNUtEeCOSvCxQ0HiYA"
+        source="#_OlV6wdUtEeCOSvCxQ0HiYA" target="#_3tfZQdUsEeCOSvCxQ0HiYA"/>
+    <edges id="_XIJpUNUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_XIJCQNUtEeCOSvCxQ0HiYA"
+        source="#_OlV6wdUtEeCOSvCxQ0HiYA" target="#_5EAgQdUsEeCOSvCxQ0HiYA"/>
+    <edges id="_XSTD0NUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_XSScwNUtEeCOSvCxQ0HiYA"
+        source="#_O-NtwdUtEeCOSvCxQ0HiYA" target="#_5EAgQdUsEeCOSvCxQ0HiYA"/>
+    <edges id="_XdIa0NUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_XdHzwNUtEeCOSvCxQ0HiYA"
+        source="#_O-NtwdUtEeCOSvCxQ0HiYA" target="#_4SQ6QNUsEeCOSvCxQ0HiYA"/>
+    <edges id="_eCp9UNUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_eCpWQNUtEeCOSvCxQ0HiYA"
+        source="#_N6PIQdUtEeCOSvCxQ0HiYA" target="#_3P9vwdUsEeCOSvCxQ0HiYA"/>
+    <edges id="_eRwwUNUtEeCOSvCxQ0HiYA" model="PatternsCatalogNew.psc#_eRwJQNUtEeCOSvCxQ0HiYA"
+        source="#_N6PIQdUtEeCOSvCxQ0HiYA" target="#_29WVwdUsEeCOSvCxQ0HiYA"/>
+  </notation:HierarchicalNode>
+</xmi:XMI>

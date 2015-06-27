@@ -1,0 +1,61 @@
+#summary Installation instructions for users and developers.
+#labels eclipse,installation
+
+This page describes how users and developers may set up their Eclipse environment to run Reclipse. It is divided into two sections: The user installation and  the developer installation.
+
+<wiki:toc max_depth="4" />
+
+= User Installation =
+
+If you want to use Reclipse without looking into the source code, then execute the following few steps: 
+  
+   * (1) Download and install the [http://www.eclipse.org/downloads/packages/release/Luna/R Eclipse Modeling Tools (Luna)] by choosing the your target OS.
+   * (2) Select Help -> Install New Software... and install !MoDisco SDK Incubation from the category Modelling under Eclipse Luna update site.
+   * (3) Select Help -> Install New Software... and install Palladio from the nightly build [https://sdqweb.ipd.kit.edu/eclipse/palladio/nightly/ site].
+   * (4) Select Help -> Install New Software... and install the SoMoX feature from the [https://sdqweb.ipd.kit.edu/eclipse/somox/nightly/ update site].
+   * (5) Select Help -> Install New Software... and install the Reclipse feature from our nightly build [https://sdqweb.ipd.kit.edu/eclipse/reclipse/nightly/ site].
+
+   * Remark: In the Reclipse feature, we included the registration of !MoDisco, Palladio PCM and !SoureCodeDecorator metamodels. This allows you to create and detect patterns over these metamodels. You may refer to the [https://code.google.com/p/reclipse-emf/wiki/UserGuide User guide] for more details. When you want to use other metamodels then you need to switch to the Developer installation. 
+
+
+= Developer Installation =
+
+In order to set up the Eclipse Kepler environment to develop Reclipse or register your own metamodels for the patterns specification and detection, you need to execute the following steps:
+
+   * (1) Download and install the [http://www.eclipse.org/downloads/packages/release/Luna/R Eclipse Modeling Tools (Luna)] by choosing the your target OS.
+   * Execute steps (2-4) if you want to have registered !MoDisco, Palladio PCM, and !SourceCodeDecorator metamodels. If you do not want to use those metamodels and want to register your own metamodels proceed from step 5 and afterwards follow the subsection 'Metamodel registration'.
+   * (2) Select Help -> Install New Software... and install !MoDisco SDK Incubation from the category Modelling under Eclipse Luna update site.
+   * (3) Select Help -> Install New Software... and install Palladio from the nightly build [https://sdqweb.ipd.kit.edu/eclipse/palladio/nightly/ site].
+   * (4) From the [https://svnserver.informatik.kit.edu/i43/svn/code/SoMoX/Core/ SoMoX repository] (read access: anonymous, anonymous) check out the following plugins: 
+
+http://reclipse-emf.googlecode.com/svn/wiki/images/plugins/SoMoXPlugins.png
+
+   * (5) From the [https://svn.codespot.com/a/eclipselabs.org/sdm-commons/ Story Driven repository] check our the following plugins:
+
+http://reclipse-emf.googlecode.com/svn/wiki/images/plugins/SDPlugins.png
+
+  * (6) From the [https://reclipse-emf.googlecode.com/svn/trunk/ Reclipse repository] check out the following plugins:
+
+http://reclipse-emf.googlecode.com/svn/wiki/images/plugins/ReclipsePlugins.png
+
+
+=== Metamodel registration ===
+
+While specifying the patterns in Reclipse, the objects in the patterns need to be predefined over a given metamodel. Reclipse may work with any user-specified valid metamodel. The metamodels have to be registered first, in order to be used in the pattern specification. To register your own metamodels, execute the following steps:
+  * (1) Make sure that your metamodels are accessible in your workspace and you have defined the URIs.
+  * (2) Create new Eclipse plugin project
+  * (3) In the MANIFEST.MF file, in the Dependencies tab, add the plugins there your metamodels are located
+  * (4) In the MANIFEST.MF file, in the Extensions tab, add org.reclipse.structure.specification.metamodel extension
+  * (5) Add your metamodel to the extension from step (4)
+  * (6) Add the packages required for your metamodel from step (5)
+
+In the [https://code.google.com/p/reclipse-emf/wiki/UserGuide User guide], we use the !SourceCodeDecorator metamodel, which also references the !MoDisco and SoMoX metamodels. For this purpose, we created the plugin org.reclipse.kdm2pcm plugin. In the Extensions of this plugin, we added the !SourceCodeDecorator metamodel and we listed the required packages for this metamodel. The following figure shows the Extensions view of this plugin. 
+
+http://reclipse-emf.googlecode.com/svn/wiki/images/MetamodelExtension.png
+
+=== Reclipse runtime ===
+
+Now, when you have set up the Reclipse workspace environment, you are ready to run and test Reclipse. Open the Run configuration wizard, and create new Eclipse runtime instance. Navigate to the Arguments tap, and in the VM arguments textfield use the following arguments: 
+http://reclipse-emf.googlecode.com/svn/wiki/images/VMarguments.png
+
+Press run. 

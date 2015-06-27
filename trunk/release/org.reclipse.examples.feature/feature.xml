@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.reclipse.examples.feature"
+      label="Reclipse Examples"
+      version="1.2.0.qualifier"
+      provider-name="University of Paderborn">
+
+   <description>
+      This feature contains examples for Reclipse.
+   </description>
+
+   <requires>
+      <import feature="org.reclipse.models.gast.feature" version="1.2.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="org.reclipse.examples"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

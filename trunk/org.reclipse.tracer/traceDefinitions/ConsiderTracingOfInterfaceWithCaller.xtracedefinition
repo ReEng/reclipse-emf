@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE TraceDefinition SYSTEM "http://wwwcs.uni-paderborn.de/cs/fujaba/DTDs/TraceDefinition.dtd">
+
+<TraceDefinition>
+
+  <ConsiderTrace>
+
+    <ConsiderClass name="org.reclipse.tracer.demo.ITracerTestInterface">
+      <ConsiderMethod name="interfaceMethod">
+      	<Parameter type="int"/>
+      	<Parameter type="float"/>
+      	<CallerClass name="org.reclipse.tracer.demo.Caller"/>
+      </ConsiderMethod>
+    </ConsiderClass>
+
+  </ConsiderTrace>
+
+</TraceDefinition>
+

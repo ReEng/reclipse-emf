@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+<plugin>
+   <extension-point id="evaluator" name="Inference Annotation Evaluator" schema="schema/evaluator.exsd"/>
+
+   <extension
+         point="org.reclipse.structure.inference.evaluator">
+      <evaluator
+            class="org.reclipse.structure.inference.evaluation.SimilarityEvaluator"
+            id="org.reclipse.structure.inference.evaluation.SimilarityEvaluator"
+            name="Similarity Evaluator">
+         <description>
+            This evaluator calculates the rating hierarchically by its weighted satisfaction.
+         </description>
+      </evaluator>
+   </extension>
+</plugin>

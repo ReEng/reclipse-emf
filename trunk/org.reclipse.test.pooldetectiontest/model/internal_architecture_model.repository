@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:seff="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0" id="_KA9e0vbgEeOeYJP9coicjQ">
+  <components__Repository xsi:type="repository:BasicComponent" id="_KA-s8PbgEeOeYJP9coicjQ" entityName=" &lt;PC No. 0 org.reclipse.test.pooldetectiontest.ThreadPool>">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_KA_7FfbgEeOeYJP9coicjQ" entityName="ThreadPool 0 (prov)" providedInterface__OperationProvidedRole="_KA_7EPbgEeOeYJP9coicjQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_KCAAoPbgEeOeYJP9coicjQ" entityName="Done 2 (req)" requiredInterface__OperationRequiredRole="_KBBwQPbgEeOeYJP9coicjQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_KCAAofbgEeOeYJP9coicjQ" entityName="WorkerThread 3 (req)" requiredInterface__OperationRequiredRole="_KBAiIfbgEeOeYJP9coicjQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_KA_7FvbgEeOeYJP9coicjQ" describedService__SEFF="_KA_7EfbgEeOeYJP9coicjQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_KCKYsPbgEeOeYJP9coicjQ" successor_AbstractAction="_KCKYsvbgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_KCKYsvbgEeOeYJP9coicjQ" entityName="workerBegin" predecessor_AbstractAction="_KCKYsPbgEeOeYJP9coicjQ" successor_AbstractAction="_KCKYs_bgEeOeYJP9coicjQ" calledService_ExternalService="_KBBwQ_bgEeOeYJP9coicjQ" role_ExternalService="_KCAAoPbgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_KCKYs_bgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.ThreadPool.assign() from 65 to 65" predecessor_AbstractAction="_KCKYsvbgEeOeYJP9coicjQ" successor_AbstractAction="_KCKYsfbgEeOeYJP9coicjQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="0"/>
+          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_KCKYsfbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCKYs_bgEeOeYJP9coicjQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_KA_7F_bgEeOeYJP9coicjQ" describedService__SEFF="_KA_7E_bgEeOeYJP9coicjQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_KCKYtPbgEeOeYJP9coicjQ" successor_AbstractAction="_KCK_wPbgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_KCK_wPbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.ThreadPool.getAssignment() from 76 to 86" predecessor_AbstractAction="_KCKYtPbgEeOeYJP9coicjQ" successor_AbstractAction="_KCKYtfbgEeOeYJP9coicjQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="0"/>
+          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_KCKYtfbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCK_wPbgEeOeYJP9coicjQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_KA_7GPbgEeOeYJP9coicjQ" describedService__SEFF="_KA_7FPbgEeOeYJP9coicjQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_KCK_wfbgEeOeYJP9coicjQ" successor_AbstractAction="_KCK_w_bgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_KCK_w_bgEeOeYJP9coicjQ" entityName="waitBegin" predecessor_AbstractAction="_KCK_wfbgEeOeYJP9coicjQ" successor_AbstractAction="_KCK_xPbgEeOeYJP9coicjQ" calledService_ExternalService="_KBBwQvbgEeOeYJP9coicjQ" role_ExternalService="_KCAAoPbgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_KCK_xPbgEeOeYJP9coicjQ" entityName="waitDone" predecessor_AbstractAction="_KCK_w_bgEeOeYJP9coicjQ" successor_AbstractAction="_KCK_wvbgEeOeYJP9coicjQ" calledService_ExternalService="_KBBwQfbgEeOeYJP9coicjQ" role_ExternalService="_KCAAoPbgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_KCK_wvbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCK_xPbgEeOeYJP9coicjQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_KA_7GfbgEeOeYJP9coicjQ" entityName=" &lt;PC No. 1 org.reclipse.test.pooldetectiontest.WorkerThread>">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_KBAiI_bgEeOeYJP9coicjQ" entityName="WorkerThread 1 (prov)" providedInterface__OperationProvidedRole="_KBAiIfbgEeOeYJP9coicjQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_KBAiIPbgEeOeYJP9coicjQ" entityName="ThreadPool 0 (req)" requiredInterface__OperationRequiredRole="_KA_7EPbgEeOeYJP9coicjQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_KCAnsPbgEeOeYJP9coicjQ" entityName="Done 4 (req)" requiredInterface__OperationRequiredRole="_KBBwQPbgEeOeYJP9coicjQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_KBAiJPbgEeOeYJP9coicjQ" describedService__SEFF="_KBAiIvbgEeOeYJP9coicjQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_KCLm0PbgEeOeYJP9coicjQ" successor_AbstractAction="_KCLm0vbgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_KCLm0vbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.WorkerThread.run() from 144 to 144" predecessor_AbstractAction="_KCLm0PbgEeOeYJP9coicjQ" successor_AbstractAction="_KCLm0fbgEeOeYJP9coicjQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="0"/>
+          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_KCLm0fbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCLm0vbgEeOeYJP9coicjQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_KBAiJfbgEeOeYJP9coicjQ" entityName=" &lt;PC No. 2 org.reclipse.test.pooldetectiontest.TestThreadPool>">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_KBBJMPbgEeOeYJP9coicjQ" entityName="TestThreadPool 2 (prov)" providedInterface__OperationProvidedRole="_KBAiJ_bgEeOeYJP9coicjQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_KBAiJvbgEeOeYJP9coicjQ" entityName="ThreadPool 1 (req)" requiredInterface__OperationRequiredRole="_KA_7EPbgEeOeYJP9coicjQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_KCAnsfbgEeOeYJP9coicjQ" entityName="TestWorkerThread 5 (req)" requiredInterface__OperationRequiredRole="_KBBJM_bgEeOeYJP9coicjQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_KBBJMfbgEeOeYJP9coicjQ" describedService__SEFF="_KBAiKPbgEeOeYJP9coicjQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_KCLm0_bgEeOeYJP9coicjQ" successor_AbstractAction="_KCLm1fbgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_KCLm1fbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.TestThreadPool.main() from 17 to 17" predecessor_AbstractAction="_KCLm0_bgEeOeYJP9coicjQ" successor_AbstractAction="_KCLm1vbgEeOeYJP9coicjQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="0"/>
+          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:LoopAction" id="_KCLm1vbgEeOeYJP9coicjQ" entityName="SoMoX default loop count value" predecessor_AbstractAction="_KCLm1fbgEeOeYJP9coicjQ" successor_AbstractAction="_KCLm2_bgEeOeYJP9coicjQ">
+        <bodyBehaviour_Loop id="_KCLm1_bgEeOeYJP9coicjQ">
+          <steps_Behaviour xsi:type="seff:StartAction" id="_KCLm2PbgEeOeYJP9coicjQ" successor_AbstractAction="_KCLm2fbgEeOeYJP9coicjQ"/>
+          <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_KCLm2fbgEeOeYJP9coicjQ" entityName="assign" predecessor_AbstractAction="_KCLm2PbgEeOeYJP9coicjQ" successor_AbstractAction="_KCLm2vbgEeOeYJP9coicjQ" calledService_ExternalService="_KA_7EfbgEeOeYJP9coicjQ" role_ExternalService="_KBAiJvbgEeOeYJP9coicjQ"/>
+          <steps_Behaviour xsi:type="seff:StopAction" id="_KCLm2vbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCLm2fbgEeOeYJP9coicjQ"/>
+        </bodyBehaviour_Loop>
+        <iterationCount_LoopAction specification="1"/>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_KCLm2_bgEeOeYJP9coicjQ" entityName="complete" predecessor_AbstractAction="_KCLm1vbgEeOeYJP9coicjQ" successor_AbstractAction="_KCMN4PbgEeOeYJP9coicjQ" calledService_ExternalService="_KA_7FPbgEeOeYJP9coicjQ" role_ExternalService="_KBAiJvbgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_KCMN4PbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.TestThreadPool.main() from 25 to 25" predecessor_AbstractAction="_KCLm2_bgEeOeYJP9coicjQ" successor_AbstractAction="_KCLm1PbgEeOeYJP9coicjQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="0"/>
+          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_KCLm1PbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCMN4PbgEeOeYJP9coicjQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_KBBJMvbgEeOeYJP9coicjQ" entityName=" &lt;PC No. 3 org.reclipse.test.pooldetectiontest.TestWorkerThread>">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_KBBJNfbgEeOeYJP9coicjQ" entityName="TestWorkerThread 3 (prov)" providedInterface__OperationProvidedRole="_KBBJM_bgEeOeYJP9coicjQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_KCAnsvbgEeOeYJP9coicjQ" entityName="Done 6 (req)" requiredInterface__OperationRequiredRole="_KBBwQPbgEeOeYJP9coicjQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_KBBJNvbgEeOeYJP9coicjQ" describedService__SEFF="_KBBJNPbgEeOeYJP9coicjQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_KCMN4fbgEeOeYJP9coicjQ" successor_AbstractAction="_KCMN4_bgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_KCMN4_bgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.TestWorkerThread.run() from 29 to 36" predecessor_AbstractAction="_KCMN4fbgEeOeYJP9coicjQ" successor_AbstractAction="_KCMN4vbgEeOeYJP9coicjQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="0"/>
+          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_KCMN4vbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCMN4_bgEeOeYJP9coicjQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_KBBJN_bgEeOeYJP9coicjQ" entityName=" &lt;PC No. 4 org.reclipse.test.pooldetectiontest.Done>">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_KBBwRvbgEeOeYJP9coicjQ" entityName="Done 4 (prov)" providedInterface__OperationProvidedRole="_KBBwQPbgEeOeYJP9coicjQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_KBBwR_bgEeOeYJP9coicjQ" describedService__SEFF="_KBBwQfbgEeOeYJP9coicjQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_KCMN5PbgEeOeYJP9coicjQ" successor_AbstractAction="_KCMN5vbgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_KCMN5vbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.Done.waitDone() from 49 to 54" predecessor_AbstractAction="_KCMN5PbgEeOeYJP9coicjQ" successor_AbstractAction="_KCMN5fbgEeOeYJP9coicjQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="0"/>
+          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_KCMN5fbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCMN5vbgEeOeYJP9coicjQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_KBBwSPbgEeOeYJP9coicjQ" describedService__SEFF="_KBBwQvbgEeOeYJP9coicjQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_KCMN5_bgEeOeYJP9coicjQ" successor_AbstractAction="_KCM08PbgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_KCM08PbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.Done.waitBegin() from 64 to 69" predecessor_AbstractAction="_KCMN5_bgEeOeYJP9coicjQ" successor_AbstractAction="_KCMN6PbgEeOeYJP9coicjQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="0"/>
+          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_KCMN6PbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCM08PbgEeOeYJP9coicjQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_KBBwSfbgEeOeYJP9coicjQ" describedService__SEFF="_KBBwQ_bgEeOeYJP9coicjQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_KCM08fbgEeOeYJP9coicjQ" successor_AbstractAction="_KCM08_bgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_KCM08_bgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.Done.workerBegin() from 80 to 80" predecessor_AbstractAction="_KCM08fbgEeOeYJP9coicjQ" successor_AbstractAction="_KCM08vbgEeOeYJP9coicjQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="0"/>
+          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_KCM08vbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCM08_bgEeOeYJP9coicjQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_KBBwSvbgEeOeYJP9coicjQ" describedService__SEFF="_KBBwRPbgEeOeYJP9coicjQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_KCM09PbgEeOeYJP9coicjQ" successor_AbstractAction="_KCM09vbgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_KCM09vbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.Done.workerEnd() from 92 to 92" predecessor_AbstractAction="_KCM09PbgEeOeYJP9coicjQ" successor_AbstractAction="_KCM09fbgEeOeYJP9coicjQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="0"/>
+          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_KCM09fbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCM09vbgEeOeYJP9coicjQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_KBBwS_bgEeOeYJP9coicjQ" describedService__SEFF="_KBBwRfbgEeOeYJP9coicjQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_KCM09_bgEeOeYJP9coicjQ" successor_AbstractAction="_KCM0-fbgEeOeYJP9coicjQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_KCM0-fbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.Done.reset() from 102 to 102" predecessor_AbstractAction="_KCM09_bgEeOeYJP9coicjQ" successor_AbstractAction="_KCM0-PbgEeOeYJP9coicjQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="0"/>
+          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_KCM0-PbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCM0-fbgEeOeYJP9coicjQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_KCJKkvbgEeOeYJP9coicjQ" entityName="SoMoX System-Level Dummy Component"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_KA_7EPbgEeOeYJP9coicjQ" entityName="Itest.pooldetectiontest.ThreadPool">
+    <signatures__OperationInterface id="_KA_7EfbgEeOeYJP9coicjQ" entityName="assign">
+      <parameters__OperationSignature dataType__Parameter="_KA_7EvbgEeOeYJP9coicjQ" parameterName="r"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_KA_7E_bgEeOeYJP9coicjQ" entityName="getAssignment" returnType__OperationSignature="_KA_7EvbgEeOeYJP9coicjQ"/>
+    <signatures__OperationInterface id="_KA_7FPbgEeOeYJP9coicjQ" entityName="complete"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_KBAiIfbgEeOeYJP9coicjQ" entityName="Itest.pooldetectiontest.WorkerThread">
+    <signatures__OperationInterface id="_KBAiIvbgEeOeYJP9coicjQ" entityName="run"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_KBAiJ_bgEeOeYJP9coicjQ" entityName="Itest.pooldetectiontest.TestThreadPool">
+    <signatures__OperationInterface id="_KBAiKPbgEeOeYJP9coicjQ" entityName="main">
+      <parameters__OperationSignature parameterName="args">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_KBBJM_bgEeOeYJP9coicjQ" entityName="Itest.pooldetectiontest.TestWorkerThread">
+    <signatures__OperationInterface id="_KBBJNPbgEeOeYJP9coicjQ" entityName="run"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_KBBwQPbgEeOeYJP9coicjQ" entityName="Itest.pooldetectiontest.Done">
+    <signatures__OperationInterface id="_KBBwQfbgEeOeYJP9coicjQ" entityName="waitDone"/>
+    <signatures__OperationInterface id="_KBBwQvbgEeOeYJP9coicjQ" entityName="waitBegin"/>
+    <signatures__OperationInterface id="_KBBwQ_bgEeOeYJP9coicjQ" entityName="workerBegin"/>
+    <signatures__OperationInterface id="_KBBwRPbgEeOeYJP9coicjQ" entityName="workerEnd"/>
+    <signatures__OperationInterface id="_KBBwRfbgEeOeYJP9coicjQ" entityName="reset"/>
+  </interfaces__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_KA_7EvbgEeOeYJP9coicjQ" entityName="Runnable"/>
+</repository:Repository>

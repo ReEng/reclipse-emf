@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.somox:SEFF2JavaAST xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.somox="http://www.somox.org/seff2method/1.0" xmlns:seff="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0">
+  <seff2MethodMappings>
+    <blockstatement href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.4/@body"/>
+    <seff xsi:type="seff:ResourceDemandingSEFF" href="internal_architecture_model.repository#_KA_7FvbgEeOeYJP9coicjQ"/>
+  </seff2MethodMappings>
+  <seff2MethodMappings>
+    <blockstatement href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.5/@body"/>
+    <seff xsi:type="seff:ResourceDemandingSEFF" href="internal_architecture_model.repository#_KA_7F_bgEeOeYJP9coicjQ"/>
+  </seff2MethodMappings>
+  <seff2MethodMappings>
+    <blockstatement href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.6/@body"/>
+    <seff xsi:type="seff:ResourceDemandingSEFF" href="internal_architecture_model.repository#_KA_7GPbgEeOeYJP9coicjQ"/>
+  </seff2MethodMappings>
+  <seff2MethodMappings>
+    <blockstatement href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.3/@body"/>
+    <seff xsi:type="seff:ResourceDemandingSEFF" href="internal_architecture_model.repository#_KBAiJPbgEeOeYJP9coicjQ"/>
+  </seff2MethodMappings>
+  <seff2MethodMappings>
+    <blockstatement href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.0/@body"/>
+    <seff xsi:type="seff:ResourceDemandingSEFF" href="internal_architecture_model.repository#_KBBJMfbgEeOeYJP9coicjQ"/>
+  </seff2MethodMappings>
+  <seff2MethodMappings>
+    <blockstatement href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.4/@body"/>
+    <seff xsi:type="seff:ResourceDemandingSEFF" href="internal_architecture_model.repository#_KBBJNvbgEeOeYJP9coicjQ"/>
+  </seff2MethodMappings>
+  <seff2MethodMappings>
+    <blockstatement href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.2/@body"/>
+    <seff xsi:type="seff:ResourceDemandingSEFF" href="internal_architecture_model.repository#_KBBwR_bgEeOeYJP9coicjQ"/>
+  </seff2MethodMappings>
+  <seff2MethodMappings>
+    <blockstatement href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.3/@body"/>
+    <seff xsi:type="seff:ResourceDemandingSEFF" href="internal_architecture_model.repository#_KBBwSPbgEeOeYJP9coicjQ"/>
+  </seff2MethodMappings>
+  <seff2MethodMappings>
+    <blockstatement href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.4/@body"/>
+    <seff xsi:type="seff:ResourceDemandingSEFF" href="internal_architecture_model.repository#_KBBwSfbgEeOeYJP9coicjQ"/>
+  </seff2MethodMappings>
+  <seff2MethodMappings>
+    <blockstatement href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.5/@body"/>
+    <seff xsi:type="seff:ResourceDemandingSEFF" href="internal_architecture_model.repository#_KBBwSvbgEeOeYJP9coicjQ"/>
+  </seff2MethodMappings>
+  <seff2MethodMappings>
+    <blockstatement href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.6/@body"/>
+    <seff xsi:type="seff:ResourceDemandingSEFF" href="internal_architecture_model.repository#_KBBwS_bgEeOeYJP9coicjQ"/>
+  </seff2MethodMappings>
+</org.somox:SEFF2JavaAST>

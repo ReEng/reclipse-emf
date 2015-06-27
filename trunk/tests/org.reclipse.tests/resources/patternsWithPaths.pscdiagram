@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:notation="http://www.fujaba.org/ns/notation">
+  <notation:HierarchicalNode id="_5RVgkK0qEeC73qeN65GIrA" model="PatternsCatalog.psc#_3qb0MK0qEeC73qeN65GIrA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_5RVgka0qEeC73qeN65GIrA" model="PatternsCatalog.psc#_3qb0Ma0qEeC73qeN65GIrA"
+        outgoing="#_Q4_HUK0rEeC73qeN65GIrA #_RbL1cK0rEeC73qeN65GIrA #_MnxpcK0uEeC73qeN65GIrA #_M1vM8K0uEeC73qeN65GIrA"
+        x="277" y="42" width="180" height="38"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_-lkaUK0qEeC73qeN65GIrA" model="PatternsCatalog.psc#_-ljzQK0qEeC73qeN65GIrA"
+        outgoing="#_NexqQK0rEeC73qeN65GIrA #_DwI6YK0uEeC73qeN65GIrA #_zlDWYK0uEeC73qeN65GIrA"
+        incoming="#_Q4_HUK0rEeC73qeN65GIrA #_MbjyYK0uEeC73qeN65GIrA" x="41" y="274"
+        width="91" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_Cv-lQa0rEeC73qeN65GIrA" model="PatternsCatalog.psc#_Cv-lQK0rEeC73qeN65GIrA"
+        outgoing="#_OD2GMK0rEeC73qeN65GIrA" incoming="#_NexqQK0rEeC73qeN65GIrA" x="271"
+        y="273" width="120" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_IDfGQa0rEeC73qeN65GIrA" model="PatternsCatalog.psc#_IDfGQK0rEeC73qeN65GIrA"
+        outgoing="#_HVZJ0K0uEeC73qeN65GIrA #_HPmOYK0vEeC73qeN65GIrA" incoming="#_OD2GMK0rEeC73qeN65GIrA #_RbL1cK0rEeC73qeN65GIrA #_MK110a0uEeC73qeN65GIrA"
+        x="503" y="274" width="93" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_5Ty3Ua0tEeC73qeN65GIrA" model="PatternsCatalog.psc#_5Ty3UK0tEeC73qeN65GIrA"
+        incoming="#_H_1N8K0uEeC73qeN65GIrA #_IMHWcK0uEeC73qeN65GIrA" x="298" y="405"
+        width="138" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_98ReUa0tEeC73qeN65GIrA" model="PatternsCatalog.psc#_98ReUK0tEeC73qeN65GIrA"
+        outgoing="#_IMHWcK0uEeC73qeN65GIrA" incoming="#_DwI6YK0uEeC73qeN65GIrA" x="4"
+        y="344" width="276" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_EfCnwa0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_EfCnwK0uEeC73qeN65GIrA"
+        outgoing="#_H_1N8K0uEeC73qeN65GIrA" incoming="#_HVZJ0K0uEeC73qeN65GIrA" x="449"
+        y="347" width="278" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_I4WKUK0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_I4VjQK0uEeC73qeN65GIrA"
+        outgoing="#_MK110a0uEeC73qeN65GIrA" incoming="#_M1vM8K0uEeC73qeN65GIrA" x="588"
+        y="61" width="132" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_JFxiUa0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_JFxiUK0uEeC73qeN65GIrA"
+        outgoing="#_MbjyYK0uEeC73qeN65GIrA" incoming="#_MnxpcK0uEeC73qeN65GIrA" x="23"
+        y="53" width="130" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_JHrxYK0vEeC73qeN65GIrA" model="PatternsCatalog.psc#_H1z50K0vEeC73qeN65GIrA"
+        x="158" y="89" width="687" height="245">
+      <nodes xsi:type="notation:HierarchicalNode" id="_haPy0a0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_haPy0K0uEeC73qeN65GIrA"
+          outgoing="#_CIJMYa0vEeC73qeN65GIrA" incoming="#_zlDWYK0uEeC73qeN65GIrA"
+          x="22" y="110" width="149" height="22"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_q6idUK0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_q6h2QK0uEeC73qeN65GIrA"
+          outgoing="#_CTvYYK0vEeC73qeN65GIrA" incoming="#_CIJMYa0vEeC73qeN65GIrA"
+          x="102" y="60" width="217" height="22"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_1nuYwa0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_1nuYwK0uEeC73qeN65GIrA"
+          outgoing="#_Cj6iYK0vEeC73qeN65GIrA" incoming="#_HPmOYK0vEeC73qeN65GIrA"
+          x="461" y="117" width="156" height="22"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_5-Df0a0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_5-Df0K0uEeC73qeN65GIrA"
+          outgoing="#_C1id4K0vEeC73qeN65GIrA" incoming="#_Cj6iYK0vEeC73qeN65GIrA"
+          x="440" y="65" width="224" height="22"/>
+      <nodes xsi:type="notation:HierarchicalNode" id="_7-6kUa0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_7-6kUK0uEeC73qeN65GIrA"
+          incoming="#_CTvYYK0vEeC73qeN65GIrA #_C1id4K0vEeC73qeN65GIrA" x="351" y="12"
+          width="137" height="22"/>
+    </nodes>
+    <edges id="_NexqQK0rEeC73qeN65GIrA" model="PatternsCatalog.psc#_NZdFYK0rEeC73qeN65GIrA"
+        source="#_-lkaUK0qEeC73qeN65GIrA" target="#_Cv-lQa0rEeC73qeN65GIrA"/>
+    <edges id="_OD2GMK0rEeC73qeN65GIrA" model="PatternsCatalog.psc#_OD1fIK0rEeC73qeN65GIrA"
+        source="#_Cv-lQa0rEeC73qeN65GIrA" target="#_IDfGQa0rEeC73qeN65GIrA"/>
+    <edges id="_Q4_HUK0rEeC73qeN65GIrA" model="PatternsCatalog.psc#_Q4wd0K0rEeC73qeN65GIrA"
+        source="#_5RVgka0qEeC73qeN65GIrA" target="#_-lkaUK0qEeC73qeN65GIrA"/>
+    <edges id="_RbL1cK0rEeC73qeN65GIrA" model="PatternsCatalog.psc#_RbLOYK0rEeC73qeN65GIrA"
+        source="#_5RVgka0qEeC73qeN65GIrA" target="#_IDfGQa0rEeC73qeN65GIrA"/>
+    <edges id="_DwI6YK0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_DwITUK0uEeC73qeN65GIrA"
+        source="#_-lkaUK0qEeC73qeN65GIrA" target="#_98ReUa0tEeC73qeN65GIrA"/>
+    <edges id="_HVZJ0K0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_HVYiwK0uEeC73qeN65GIrA"
+        source="#_IDfGQa0rEeC73qeN65GIrA" target="#_EfCnwa0uEeC73qeN65GIrA"/>
+    <edges id="_H_1N8K0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_H_0m4K0uEeC73qeN65GIrA"
+        source="#_EfCnwa0uEeC73qeN65GIrA" target="#_5Ty3Ua0tEeC73qeN65GIrA"/>
+    <edges id="_IMHWcK0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_IMGvYK0uEeC73qeN65GIrA"
+        source="#_98ReUa0tEeC73qeN65GIrA" target="#_5Ty3Ua0tEeC73qeN65GIrA"/>
+    <edges id="_MK110a0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_MK110K0uEeC73qeN65GIrA"
+        source="#_I4WKUK0uEeC73qeN65GIrA" target="#_IDfGQa0rEeC73qeN65GIrA"/>
+    <edges id="_MbjyYK0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_MbjLUK0uEeC73qeN65GIrA"
+        source="#_JFxiUa0uEeC73qeN65GIrA" target="#_-lkaUK0qEeC73qeN65GIrA"/>
+    <edges id="_MnxpcK0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_MnxCYK0uEeC73qeN65GIrA"
+        source="#_5RVgka0qEeC73qeN65GIrA" target="#_JFxiUa0uEeC73qeN65GIrA"/>
+    <edges id="_M1vM8K0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_M1ul4K0uEeC73qeN65GIrA"
+        source="#_5RVgka0qEeC73qeN65GIrA" target="#_I4WKUK0uEeC73qeN65GIrA"/>
+    <edges id="_zlDWYK0uEeC73qeN65GIrA" model="PatternsCatalog.psc#_zlCvUK0uEeC73qeN65GIrA"
+        source="#_-lkaUK0qEeC73qeN65GIrA" target="#_haPy0a0uEeC73qeN65GIrA"/>
+    <edges id="_CIJMYa0vEeC73qeN65GIrA" model="PatternsCatalog.psc#_CIJMYK0vEeC73qeN65GIrA"
+        source="#_haPy0a0uEeC73qeN65GIrA" target="#_q6idUK0uEeC73qeN65GIrA"/>
+    <edges id="_CTvYYK0vEeC73qeN65GIrA" model="PatternsCatalog.psc#_CTuxUK0vEeC73qeN65GIrA"
+        source="#_q6idUK0uEeC73qeN65GIrA" target="#_7-6kUa0uEeC73qeN65GIrA"/>
+    <edges id="_Cj6iYK0vEeC73qeN65GIrA" model="PatternsCatalog.psc#_Cj57UK0vEeC73qeN65GIrA"
+        source="#_1nuYwa0uEeC73qeN65GIrA" target="#_5-Df0a0uEeC73qeN65GIrA"/>
+    <edges id="_C1id4K0vEeC73qeN65GIrA" model="PatternsCatalog.psc#_C1h20K0vEeC73qeN65GIrA"
+        source="#_5-Df0a0uEeC73qeN65GIrA" target="#_7-6kUa0uEeC73qeN65GIrA"/>
+    <edges id="_HPmOYK0vEeC73qeN65GIrA" model="PatternsCatalog.psc#_HPlnUK0vEeC73qeN65GIrA"
+        source="#_IDfGQa0rEeC73qeN65GIrA" target="#_1nuYwa0uEeC73qeN65GIrA"/>
+  </notation:HierarchicalNode>
+  <notation:HierarchicalNode id="_zz5LAa0rEeC73qeN65GIrA" model="PatternsCatalog.psc#_zz1goK0rEeC73qeN65GIrA">
+    <nodes xsi:type="notation:HierarchicalNode" id="_zz5LAq0rEeC73qeN65GIrA" model="PatternsCatalog.psc#_zz5LAK0rEeC73qeN65GIrA"
+        outgoing="#_JyRt4K0sEeC73qeN65GIrA #_KBAGYK0sEeC73qeN65GIrA #_Ip8XYK0tEeC73qeN65GIrA #_I0yVcK0tEeC73qeN65GIrA"
+        x="364" y="112" width="180" height="45"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_49rvUa0rEeC73qeN65GIrA" model="PatternsCatalog.psc#_49rvUK0rEeC73qeN65GIrA"
+        outgoing="#_4oyA4K0sEeC73qeN65GIrA" incoming="#_KmFwcK0sEeC73qeN65GIrA" x="85"
+        y="232" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_89a7UK0rEeC73qeN65GIrA" model="PatternsCatalog.psc#_89aUQK0rEeC73qeN65GIrA"
+        outgoing="#_LfOX4K0sEeC73qeN65GIrA" incoming="#_VSWpYK0tEeC73qeN65GIrA" x="163"
+        y="329" width="120" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_-3fbUK0rEeC73qeN65GIrA" model="PatternsCatalog.psc#_-3e0QK0rEeC73qeN65GIrA"
+        incoming="#_KBAGYK0sEeC73qeN65GIrA #_LfOX4K0sEeC73qeN65GIrA #_AVLr4K0tEeC73qeN65GIrA"
+        x="450" y="311" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_BnCKwa0sEeC73qeN65GIrA" model="PatternsCatalog.psc#_BnCKwK0sEeC73qeN65GIrA"
+        outgoing="#_KmFwcK0sEeC73qeN65GIrA" incoming="#_JyRt4K0sEeC73qeN65GIrA #_Eg0l4a0tEeC73qeN65GIrA"
+        x="77" y="175" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_13sZUK0sEeC73qeN65GIrA" model="PatternsCatalog.psc#_13ryQK0sEeC73qeN65GIrA"
+        outgoing="#_VSWpYK0tEeC73qeN65GIrA" incoming="#_4oyA4K0sEeC73qeN65GIrA" x="113"
+        y="279" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_9pWXwa0sEeC73qeN65GIrA" model="PatternsCatalog.psc#_9pWXwK0sEeC73qeN65GIrA"
+        outgoing="#_AVLr4K0tEeC73qeN65GIrA" incoming="#_Ip8XYK0tEeC73qeN65GIrA" x="567"
+        y="231" width="78" height="22"/>
+    <nodes xsi:type="notation:HierarchicalNode" id="_DDHRwa0tEeC73qeN65GIrA" model="PatternsCatalog.psc#_DDHRwK0tEeC73qeN65GIrA"
+        outgoing="#_Eg0l4a0tEeC73qeN65GIrA" incoming="#_I0yVcK0tEeC73qeN65GIrA" x="44"
+        y="107" width="130" height="22"/>
+    <edges id="_JyRt4K0sEeC73qeN65GIrA" model="PatternsCatalog.psc#_JyRG0K0sEeC73qeN65GIrA"
+        source="#_zz5LAq0rEeC73qeN65GIrA" target="#_BnCKwa0sEeC73qeN65GIrA"/>
+    <edges id="_KBAGYK0sEeC73qeN65GIrA" model="PatternsCatalog.psc#_KA_fUK0sEeC73qeN65GIrA"
+        source="#_zz5LAq0rEeC73qeN65GIrA" target="#_-3fbUK0rEeC73qeN65GIrA"/>
+    <edges id="_KmFwcK0sEeC73qeN65GIrA" model="PatternsCatalog.psc#_KmFJYK0sEeC73qeN65GIrA"
+        source="#_BnCKwa0sEeC73qeN65GIrA" target="#_49rvUa0rEeC73qeN65GIrA"/>
+    <edges id="_LfOX4K0sEeC73qeN65GIrA" model="PatternsCatalog.psc#_LfNw0K0sEeC73qeN65GIrA"
+        source="#_89a7UK0rEeC73qeN65GIrA" target="#_-3fbUK0rEeC73qeN65GIrA"/>
+    <edges id="_4oyA4K0sEeC73qeN65GIrA" model="PatternsCatalog.psc#_4oxZ0K0sEeC73qeN65GIrA"
+        source="#_49rvUa0rEeC73qeN65GIrA" target="#_13sZUK0sEeC73qeN65GIrA"/>
+    <edges id="_AVLr4K0tEeC73qeN65GIrA" model="PatternsCatalog.psc#_AVLE0K0tEeC73qeN65GIrA"
+        source="#_9pWXwa0sEeC73qeN65GIrA" target="#_-3fbUK0rEeC73qeN65GIrA"/>
+    <edges id="_Eg0l4a0tEeC73qeN65GIrA" model="PatternsCatalog.psc#_Eg0l4K0tEeC73qeN65GIrA"
+        source="#_DDHRwa0tEeC73qeN65GIrA" target="#_BnCKwa0sEeC73qeN65GIrA"/>
+    <edges id="_Ip8XYK0tEeC73qeN65GIrA" model="PatternsCatalog.psc#_Ip7wUK0tEeC73qeN65GIrA"
+        source="#_zz5LAq0rEeC73qeN65GIrA" target="#_9pWXwa0sEeC73qeN65GIrA"/>
+    <edges id="_I0yVcK0tEeC73qeN65GIrA" model="PatternsCatalog.psc#_I0xuYK0tEeC73qeN65GIrA"
+        source="#_zz5LAq0rEeC73qeN65GIrA" target="#_DDHRwa0tEeC73qeN65GIrA"/>
+    <edges id="_VSWpYK0tEeC73qeN65GIrA" model="PatternsCatalog.psc#_VSWCUK0tEeC73qeN65GIrA"
+        source="#_13sZUK0sEeC73qeN65GIrA" target="#_89a7UK0rEeC73qeN65GIrA"/>
+  </notation:HierarchicalNode>
+</xmi:XMI>

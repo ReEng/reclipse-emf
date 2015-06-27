@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<org.somox:SEFF2JavaAST xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.somox="http://www.somox.org/seff2method/1.0" xmlns:seff="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0">
+  <seff2MethodMappings>
+    <blockstatement href="../SomoxSynchronizedTest_java.xmi#//@ownedElements.0/@ownedElements.0/@bodyDeclarations.0/@body"/>
+    <seff xsi:type="seff:ResourceDemandingSEFF" href="internal_architecture_model.repository#_7hAUIPVlEeOyK_DQUhm3hQ"/>
+  </seff2MethodMappings>
+</org.somox:SEFF2JavaAST>

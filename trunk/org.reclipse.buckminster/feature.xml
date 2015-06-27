@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.reclipse.buckminster"
+      label="Buckminster"
+      version="1.0.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <url>
+      <discovery label="luna" url="http://download.eclipse.org/releases/luna/"/>
+      <discovery label="PCM" url="http://sdqweb.ipd.kit.edu/eclipse/palladio/nightly/"/>
+      <discovery label="StoryDriven Diagram" url="https://sdqweb.ipd.kit.edu/eclipse/storydiagraminterpreter/nightly/"/>
+      <discovery label="orbit" url="http://download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository/"/>
+      <discovery label="SoMoX" url="https://sdqweb.ipd.kit.edu/eclipse/somox/nightly/"/>
+   </url>
+
+   <includes
+         id="org.reclipse.feature"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.reclipse.dummy.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="no"?>
+
+<!DOCTYPE StructuralAnnotations SYSTEM "http://wwwcs.uni-paderborn.de/cs/fujaba/DTDs/StructuralAnnotations.dtd">
+
+<StructuralAnnotations>
+
+  <StructuralAnnotation name="State">
+    <BoundObject key="context" name="org.eclipse.swt.widgets.Composite"/>
+    <BoundObject key="setState" name="setLayout(org.eclipse.swt.widgets.Layout)"/>
+    <BoundObject key="request" name="WM_SIZE(int, int)"/>
+    <BoundObject key="abstractState" name="org.eclipse.swt.widgets.Layout"/>
+    <BoundObject key="handle" name="layout(org.eclipse.swt.widgets.Composite, boolean)"/>
+  </StructuralAnnotation>
+
+  <StructuralAnnotation name="Strategy">
+    <BoundObject key="context" name="org.eclipse.swt.widgets.Composite"/>
+    <BoundObject key="setStrategy" name="setLayout(org.eclipse.swt.widgets.Layout)"/>
+    <BoundObject key="request" name="WM_SIZE(int, int)"/>
+    <BoundObject key="abstractStrategy" name="org.eclipse.swt.widgets.Layout"/>
+    <BoundObject key="algorithm" name="layout(org.eclipse.swt.widgets.Composite, boolean)"/>
+  </StructuralAnnotation>
+
+  <StructuralAnnotation name="State">
+    <BoundObject key="context" name="org.eclipse.jface.viewers.StructuredViewer"/>
+    <BoundObject key="setState" name="setSorter(org.eclipse.jface.viewers.ViewerSorter)"/>
+    <BoundObject key="request" name="getSortedChildren(java.lang.Object)"/>
+    <BoundObject key="abstractState" name="org.eclipse.jface.viewers.ViewerSorter"/>
+    <BoundObject key="handle" name="sort(org.eclipse.jface.viewers.Viewer, java.lang.Object[])"/>
+  </StructuralAnnotation>
+
+  <StructuralAnnotation name="Strategy">
+    <BoundObject key="context" name="org.eclipse.jface.viewers.StructuredViewer"/>
+    <BoundObject key="setStrategy" name="setSorter(org.eclipse.jface.viewers.ViewerSorter)"/>
+    <BoundObject key="request" name="getSortedChildren(java.lang.Object)"/>
+    <BoundObject key="abstractStrategy" name="org.eclipse.jface.viewers.ViewerSorter"/>
+    <BoundObject key="algorithm" name="sort(org.eclipse.jface.viewers.Viewer, java.lang.Object[])"/>
+  </StructuralAnnotation>
+
+  <StructuralAnnotation name="State">
+    <BoundObject key="context" name="org.eclipse.jface.viewers.StructuredViewer"/>
+    <BoundObject key="setState" name="addFilter(org.eclipse.jface.viewers.ViewerFilter)"/>
+    <BoundObject key="request" name="filter(java.lang.Object[])"/>
+    <BoundObject key="abstractState" name="org.eclipse.jface.viewers.ViewerFilter"/>
+    <BoundObject key="handle" name="select(org.eclipse.jface.viewers.Viewer, java.lang.Object, java.lang.Object)"/>
+  </StructuralAnnotation>
+
+  <StructuralAnnotation name="Strategy">
+    <BoundObject key="context" name="org.eclipse.jface.viewers.StructuredViewer"/>
+    <BoundObject key="setStrategy" name="addFilter(org.eclipse.jface.viewers.ViewerFilter)"/>
+    <BoundObject key="request" name="filter(java.lang.Object[])"/>
+    <BoundObject key="abstractStrategy" name="org.eclipse.jface.viewers.ViewerFilter"/>
+    <BoundObject key="algorithm" name="select(org.eclipse.jface.viewers.Viewer, java.lang.Object, java.lang.Object)"/>
+  </StructuralAnnotation>
+
+</StructuralAnnotations>

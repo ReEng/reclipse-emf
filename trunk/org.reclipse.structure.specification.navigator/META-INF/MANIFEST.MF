@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.reclipse.structure.specification.navigator.PSNavigatorPlugin
+Bundle-Vendor: %providerName
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Localization: plugin
+Bundle-SymbolicName: org.reclipse.structure.specification.navigator;singleton:=true
+Require-Bundle: org.eclipse.ui.ide;bundle-version="[3.6.1,4.0.0)",
+ org.eclipse.ui.navigator;bundle-version="[3.5.0,4.0.0)",
+ org.eclipse.emf.common.ui;bundle-version="[2.6.0,3.0.0)",
+ org.eclipse.emf.workspace;bundle-version="[1.4.0,2.0.0)",
+ org.fujaba.commons;bundle-version="[1.0.0,2.0.0)",
+ org.reclipse.structure.specification;bundle-version="[1.0.0,2.0.0)"

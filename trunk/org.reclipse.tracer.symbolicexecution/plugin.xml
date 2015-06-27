@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTabs">
+      <tab
+            class="org.reclipse.tracer.symbolicexecution.ui.launching.SymbolicExecutionLaunchConfigurationTab"
+            group="org.reclipse.tracer.ui.TracerAppTabGroup"
+            id="org.reclipse.tracer.symbolicexecution.ui.symbexectab"
+            name="org.reclipse.tracer.symbolicexecution.ui.symbexectab">
+         <placement
+               after="org.eclipse.debug.ui.commonTab">
+         </placement>
+         <associatedDelegate
+               delegate="org.reclipse.symbolicexecution.ui.symbexecdelegate">
+         </associatedDelegate>
+      </tab>
+   </extension>
+   <extension
+         point="org.eclipse.debug.core.launchDelegates">
+      <launchDelegate
+            delegate="org.reclipse.tracer.symbolicexecution.ui.launching.SymbolicExecutionLaunchConfigurationDelegate"
+            id="org.reclipse.symbolicexecution.ui.symbexecdelegate"
+            modes="trace"
+            name="Symbolic Execution"
+            type="org.reclipse.tracer.tracerApplication">
+      </launchDelegate>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="true"
+            locationURI="popup:org.reclipse.ui.views.annotations?after=additions">
+         <command
+               commandId="org.reclipse.tracer.symbolicexecution.startSymbolicExecutionForCandidate"
+               label="Start Symbolic Execution For Candidate"
+               style="push">
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="org.reclipse.tracer.symbolicexecution.ui.commands.RunSymbolicExecutionForCandidateCommand"
+            id="org.reclipse.tracer.symbolicexecution.startSymbolicExecutionForCandidate"
+            name="Start Symbolic Execution For Candidate">
+      </command>
+   </extension>
+</plugin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="dependencygraph"
+    nsURI="http://ns.reclipse.org/inference/dependencygraph" nsPrefix="dependencygraph">
+  <eClassifiers xsi:type="ecore:EClass" name="ASTNode" eSuperTypes="#//DependencyNode">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EClass"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DependencyNode" abstract="true" interface="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="triggering" ordered="false"
+        upperBound="-1" eType="#//PatternNode" eOpposite="#//PatternNode/triggeredBy"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rank" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PatternNode" eSuperTypes="#//DependencyNode">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" unique="false"
+        lowerBound="1" eType="ecore:EClass ../../org.reclipse.structure.specification/design/org.reclipse.structure.specification.ecore#//PSPatternSpecification"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="triggeredBy" ordered="false"
+        lowerBound="1" upperBound="-1" eType="#//DependencyNode" eOpposite="#//DependencyNode/triggering"/>
+  </eClassifiers>
+</ecore:EPackage>

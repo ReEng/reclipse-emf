@@ -1,0 +1,14 @@
+digraph G {
+"org.reclipse.test.pooldetectiontest.TestWorkerThread";
+"org.reclipse.test.pooldetectiontest.ThreadPool";
+"org.reclipse.test.pooldetectiontest.Done";
+"org.reclipse.test.pooldetectiontest.TestThreadPool";
+"org.reclipse.test.pooldetectiontest.WorkerThread";
+"org.reclipse.test.pooldetectiontest.TestWorkerThread" -> "org.reclipse.test.pooldetectiontest.Done" [label="From: TestWorkerThread To: Done Count: 1"];
+"org.reclipse.test.pooldetectiontest.ThreadPool" -> "org.reclipse.test.pooldetectiontest.Done" [label="From: ThreadPool To: Done Count: 9"];
+"org.reclipse.test.pooldetectiontest.ThreadPool" -> "org.reclipse.test.pooldetectiontest.WorkerThread" [label="From: ThreadPool To: WorkerThread Count: 1"];
+"org.reclipse.test.pooldetectiontest.TestThreadPool" -> "org.reclipse.test.pooldetectiontest.ThreadPool" [label="From: TestThreadPool To: ThreadPool Count: 4"];
+"org.reclipse.test.pooldetectiontest.TestThreadPool" -> "org.reclipse.test.pooldetectiontest.TestWorkerThread" [label="From: TestThreadPool To: TestWorkerThread Count: 1"];
+"org.reclipse.test.pooldetectiontest.WorkerThread" -> "org.reclipse.test.pooldetectiontest.ThreadPool" [label="From: WorkerThread To: ThreadPool Count: 4"];
+"org.reclipse.test.pooldetectiontest.WorkerThread" -> "org.reclipse.test.pooldetectiontest.Done" [label="From: WorkerThread To: Done Count: 1"];
+}

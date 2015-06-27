@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="../../../../content/org.eclipse.platform/book.css" type="text/css" />
+<link rel="stylesheet" href="../../../../content/org.reclipse.help/style.css" type="text/css" />
+<title>Story Diagram Generation</title>
+</head>
+<body>
+	<h1>Story Diagram Generation</h1>
+
+	<p>The pattern analysis works on activities which have to be generated before a host graph (e.g. parsed source code) can be analyzed.</p>
+	<p>We use a story diagram interpreter for the analysis, which will work on activities containing story patterns.</p>
+	<p>Such activities will be generated in the following manner:</p>
+
+	<h2>Preparation</h2>
+	<p>Before we generate the classes, methods and its contained activities, we transform all <em>Set Nodes</em> into <em>Set Fragments</em> by wrapping them into a new, temporary set fragment.</p>
+
+	<h2>Annotation Class Creation</h2>
+	<p>For each specified pattern a new <code>PatternAnnotation</code> EClass will be generated which will be used for annotations of the pattern when the story diagram is interpreted.</p>
+	
+	<h2>Engine Class Creation</h2>
+	<p>For each non-abstract pattern a new <code>PatternEngine</code> EClass will be generated. This class contains the activities that will be interpreted to annotate the specified pattern on a host graph.</p>
+	<p>In the following all generated methods with its contained activity will be described.</p>
+
+	<ul>
+		<li>
+			<h3>Annotate</h3>
+			<p>Signature: <code>annotate(EObject context, boolean searchAdditionals, PatternEngine this): AnnotationSet</code></p>
+			<p>The contained activity is the entry point to annotate the pattern. The following figure represents a general overview over the annotation activity.</p>
+			
+			<div class="figure">
+				<img src="../../images/dev/generator_overview.png" alt="General overview of the pattern annotation process" />
+				<p>Figure: General overview of the pattern annotation process</p>
+			</div>
+			<dl>
+				<dt>Match Core</dt>
+				<dd>Matches all <em>core nodes</em>: all nodes will be matched that comply to the following constraints:
+					<ul>
+						<li>Node has <strong>no modifier</strong></li>
+						<li>Node is <strong>not contained in any fragment</strong></li>
+					</ul>
+				</dd>
+
+				<dt>Match Negative Fragments</dt>
+				<dd>For each negative fragment in the pattern, a single story pattern node will be created that matches all nodes contained in the fragment. On failure the whole pattern cannot be applied to the current context and therefore a new core matching is necessary.</dd>
+		
+				<dt>Match Set Elements</dt>
+				<dd>Before matching set fragments we try to match all mandatory nodes of all set fragments. When </dd>
+			</dl>
+		</li>
+		<li>
+			<h3>Find Additional Elements</h3>
+			<p>Signature: <code>findAdditionals(ASGAnnotation annotation, PatternEngine this): void</code></p>
+			<p>This method and its contained activity will be generated when any additional element has been specified.</p>
+		</li>
+	</ul>
+<!--
+	<p>To be continued!</p>
+-->
+</body>
+</html>

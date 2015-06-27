@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sourcecodedecorator:SourceCodeDecoratorRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:java="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:sourcecodedecorator="http://somox.org/SourceCodeDecorator/2.0">
+  <fileLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KA-s8PbgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3"/>
+  </fileLevelSourceCodeLink>
+  <fileLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KA_7GfbgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3"/>
+  </fileLevelSourceCodeLink>
+  <fileLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBAiJfbgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.1"/>
+  </fileLevelSourceCodeLink>
+  <fileLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBBJMvbgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.2"/>
+  </fileLevelSourceCodeLink>
+  <fileLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBBJN_bgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0"/>
+  </fileLevelSourceCodeLink>
+  <methodLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KA-s8PbgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3"/>
+    <operation xsi:type="repository:OperationSignature" href="internal_architecture_model.repository#_KA_7EfbgEeOeYJP9coicjQ"/>
+    <function xsi:type="java:MethodDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.4"/>
+  </methodLevelSourceCodeLink>
+  <methodLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KA-s8PbgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3"/>
+    <operation xsi:type="repository:OperationSignature" href="internal_architecture_model.repository#_KA_7E_bgEeOeYJP9coicjQ"/>
+    <function xsi:type="java:MethodDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.5"/>
+  </methodLevelSourceCodeLink>
+  <methodLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KA-s8PbgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3"/>
+    <operation xsi:type="repository:OperationSignature" href="internal_architecture_model.repository#_KA_7FPbgEeOeYJP9coicjQ"/>
+    <function xsi:type="java:MethodDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.6"/>
+  </methodLevelSourceCodeLink>
+  <methodLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KA_7GfbgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3"/>
+    <operation xsi:type="repository:OperationSignature" href="internal_architecture_model.repository#_KBAiIvbgEeOeYJP9coicjQ"/>
+    <function xsi:type="java:MethodDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.3"/>
+  </methodLevelSourceCodeLink>
+  <methodLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBAiJfbgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.1"/>
+    <operation xsi:type="repository:OperationSignature" href="internal_architecture_model.repository#_KBAiKPbgEeOeYJP9coicjQ"/>
+    <function xsi:type="java:MethodDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.0"/>
+  </methodLevelSourceCodeLink>
+  <methodLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBBJMvbgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.2"/>
+    <operation xsi:type="repository:OperationSignature" href="internal_architecture_model.repository#_KBBJNPbgEeOeYJP9coicjQ"/>
+    <function xsi:type="java:MethodDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.4"/>
+  </methodLevelSourceCodeLink>
+  <methodLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBBJN_bgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0"/>
+    <operation xsi:type="repository:OperationSignature" href="internal_architecture_model.repository#_KBBwQfbgEeOeYJP9coicjQ"/>
+    <function xsi:type="java:MethodDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.2"/>
+  </methodLevelSourceCodeLink>
+  <methodLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBBJN_bgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0"/>
+    <operation xsi:type="repository:OperationSignature" href="internal_architecture_model.repository#_KBBwQvbgEeOeYJP9coicjQ"/>
+    <function xsi:type="java:MethodDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.3"/>
+  </methodLevelSourceCodeLink>
+  <methodLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBBJN_bgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0"/>
+    <operation xsi:type="repository:OperationSignature" href="internal_architecture_model.repository#_KBBwQ_bgEeOeYJP9coicjQ"/>
+    <function xsi:type="java:MethodDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.4"/>
+  </methodLevelSourceCodeLink>
+  <methodLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBBJN_bgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0"/>
+    <operation xsi:type="repository:OperationSignature" href="internal_architecture_model.repository#_KBBwRPbgEeOeYJP9coicjQ"/>
+    <function xsi:type="java:MethodDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.5"/>
+  </methodLevelSourceCodeLink>
+  <methodLevelSourceCodeLink>
+    <repositoryComponent xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBBJN_bgEeOeYJP9coicjQ"/>
+    <file href="../org.reclipse.test.pooldetectiontest_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0"/>
+    <operation xsi:type="repository:OperationSignature" href="internal_architecture_model.repository#_KBBwRfbgEeOeYJP9coicjQ"/>
+    <function xsi:type="java:MethodDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.6"/>
+  </methodLevelSourceCodeLink>
+  <interfaceSourceCodeLink>
+    <interface xsi:type="repository:OperationInterface" href="internal_architecture_model.repository#_KA_7EPbgEeOeYJP9coicjQ"/>
+    <gastClass xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0"/>
+  </interfaceSourceCodeLink>
+  <interfaceSourceCodeLink>
+    <interface xsi:type="repository:OperationInterface" href="internal_architecture_model.repository#_KA_7EPbgEeOeYJP9coicjQ"/>
+    <gastClass xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0"/>
+  </interfaceSourceCodeLink>
+  <interfaceSourceCodeLink>
+    <interface xsi:type="repository:OperationInterface" href="internal_architecture_model.repository#_KBAiIfbgEeOeYJP9coicjQ"/>
+    <gastClass xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.1"/>
+  </interfaceSourceCodeLink>
+  <interfaceSourceCodeLink>
+    <interface xsi:type="repository:OperationInterface" href="internal_architecture_model.repository#_KA_7EPbgEeOeYJP9coicjQ"/>
+    <gastClass xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0"/>
+  </interfaceSourceCodeLink>
+  <interfaceSourceCodeLink>
+    <interface xsi:type="repository:OperationInterface" href="internal_architecture_model.repository#_KBAiJ_bgEeOeYJP9coicjQ"/>
+    <gastClass xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.2"/>
+  </interfaceSourceCodeLink>
+  <interfaceSourceCodeLink>
+    <interface xsi:type="repository:OperationInterface" href="internal_architecture_model.repository#_KBBJM_bgEeOeYJP9coicjQ"/>
+    <gastClass xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3"/>
+  </interfaceSourceCodeLink>
+  <interfaceSourceCodeLink>
+    <interface xsi:type="repository:OperationInterface" href="internal_architecture_model.repository#_KBBwQPbgEeOeYJP9coicjQ"/>
+    <gastClass xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4"/>
+  </interfaceSourceCodeLink>
+  <interfaceSourceCodeLink>
+    <interface xsi:type="repository:OperationInterface" href="internal_architecture_model.repository#_KBBwQPbgEeOeYJP9coicjQ"/>
+    <gastClass xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4"/>
+  </interfaceSourceCodeLink>
+  <interfaceSourceCodeLink>
+    <interface xsi:type="repository:OperationInterface" href="internal_architecture_model.repository#_KBAiIfbgEeOeYJP9coicjQ"/>
+    <gastClass xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.1"/>
+  </interfaceSourceCodeLink>
+  <interfaceSourceCodeLink>
+    <interface xsi:type="repository:OperationInterface" href="internal_architecture_model.repository#_KBBwQPbgEeOeYJP9coicjQ"/>
+    <gastClass xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4"/>
+  </interfaceSourceCodeLink>
+  <interfaceSourceCodeLink>
+    <interface xsi:type="repository:OperationInterface" href="internal_architecture_model.repository#_KBBJM_bgEeOeYJP9coicjQ"/>
+    <gastClass xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3"/>
+  </interfaceSourceCodeLink>
+  <interfaceSourceCodeLink>
+    <interface xsi:type="repository:OperationInterface" href="internal_architecture_model.repository#_KBBwQPbgEeOeYJP9coicjQ"/>
+    <gastClass xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4"/>
+  </interfaceSourceCodeLink>
+  <componentImplementingClassesLink providedInterfaces="//@interfaceSourceCodeLink.0" requiredInterfaces="//@interfaceSourceCodeLink.7 //@interfaceSourceCodeLink.8">
+    <component xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KA-s8PbgEeOeYJP9coicjQ"/>
+    <implementingClasses xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0"/>
+  </componentImplementingClassesLink>
+  <componentImplementingClassesLink providedInterfaces="//@interfaceSourceCodeLink.2" requiredInterfaces="//@interfaceSourceCodeLink.1 //@interfaceSourceCodeLink.9">
+    <component xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KA_7GfbgEeOeYJP9coicjQ"/>
+    <implementingClasses xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.1"/>
+  </componentImplementingClassesLink>
+  <componentImplementingClassesLink providedInterfaces="//@interfaceSourceCodeLink.4" requiredInterfaces="//@interfaceSourceCodeLink.3 //@interfaceSourceCodeLink.10">
+    <component xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBAiJfbgEeOeYJP9coicjQ"/>
+    <implementingClasses xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.2"/>
+  </componentImplementingClassesLink>
+  <componentImplementingClassesLink providedInterfaces="//@interfaceSourceCodeLink.5" requiredInterfaces="//@interfaceSourceCodeLink.11">
+    <component xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBBJMvbgEeOeYJP9coicjQ"/>
+    <implementingClasses xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3"/>
+  </componentImplementingClassesLink>
+  <componentImplementingClassesLink providedInterfaces="//@interfaceSourceCodeLink.6">
+    <component xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBBJN_bgEeOeYJP9coicjQ"/>
+    <implementingClasses xsi:type="java:ClassDeclaration" href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4"/>
+  </componentImplementingClassesLink>
+</sourcecodedecorator:SourceCodeDecoratorRepository>

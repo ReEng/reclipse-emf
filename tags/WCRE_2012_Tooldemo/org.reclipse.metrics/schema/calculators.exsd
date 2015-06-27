@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="org.reclipse.metrics" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appinfo>
+         <meta.schema plugin="org.reclipse.metrics" id="calculators" name="Reclipse Metric Calculators"/>
+      </appinfo>
+      <documentation>
+         This extension point can be used to extend Reclipse with additional metric calculators.
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appinfo>
+            <meta.element />
+         </appinfo>
+      </annotation>
+      <complexType>
+         <sequence minOccurs="1" maxOccurs="unbounded">
+            <element ref="calculator"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  org.reclipse.metrics.calculators
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  An optional identifier of the extension instance.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  An optional name of the extension instance.
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="calculator">
+      <complexType>
+         <attribute name="id" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The unique identifier for the metrics calculator.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="metric_id" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The metric (identifier) for which the metric contributor can be used.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="identifier" basedOn="org.reclipse.metrics.metrics/metric/@id"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="metamodel_id" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The meta model (identifier) for which the metric contributor can be used.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="identifier" basedOn="org.reclipse.structure.specification.metamodel/metamodel/@id"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="class" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The calculator class which supports the defined metrics. It is required that the class implements IMetricCalculator.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn=":org.reclipse.metrics.extensionpoints.IMetricCalculator"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="since"/>
+      </appinfo>
+      <documentation>
+         1.0
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="examples"/>
+      </appinfo>
+      <documentation>
+         [Enter extension point usage example here.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="apiinfo"/>
+      </appinfo>
+      <documentation>
+         [Enter API information here.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="implementation"/>
+      </appinfo>
+      <documentation>
+         [Enter information about supplied implementation of this extension point.]
+      </documentation>
+   </annotation>
+
+
+</schema>

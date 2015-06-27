@@ -1,0 +1,4 @@
+digraph G {
+"(default package).ISynchronizable";
+"(default package).SynchronizedTest";
+}

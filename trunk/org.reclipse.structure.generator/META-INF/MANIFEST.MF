@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-SymbolicName: org.reclipse.structure.generator;singleton:=true
+Bundle-Vendor: %providerName
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.fujaba.commons;bundle-version="1.0.0",
+ org.reclipse.structure.specification;bundle-version="1.0.0",
+ org.reclipse.structure.inference.annotations;bundle-version="1.0.0",
+ org.storydriven.storydiagrams;bundle-version="1.0.1",
+ org.storydriven.storydiagrams.expressions;bundle-version="1.0.0"
+Export-Package: org.reclipse.structure.generator,
+ org.reclipse.structure.generator.preparationstrategies

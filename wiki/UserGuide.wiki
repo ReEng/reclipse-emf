@@ -1,0 +1,46 @@
+#summary Reclipse user guide.
+
+= User guide =
+
+This page provides a simple example which may help the new users to get familiar with our Reclipse tool in Eclipse. In this example, we create a pattern which detects all synchronized blocks in any java source code. 
+
+== Test code ==
+
+The first step in our pattern detection process is to provide a source code in which we want to check if the pattern occurs. For this purpose, we create a simple java project which contains a synchronized block. We want the pattern to be detected by Reclipse engine. In the Reclipse repository under trunk, you may find the !SomoxSynchronizedTest project which we used as our test code. 
+
+== Create Patterns catalog ==
+
+Now, when we have the test code, we can create our pattern catalog in Reclipse. For this, execute the following steps:
+
+  * (1) Create new Eclipse Project.
+  * (2) Right click on the newly created project -> New -> Other -> Reclipse -> Select Pattern Specification Catalog and press Next. Name the model file and press Next. Name the diagram file and press Next. Name the catalog, choose the !SourceCodeDecorator metamodel and press Finish.
+  * (3) Open the diagram file. Add new pattern and name it '!FindPrimitiveComponents'. Double click to open new tab to create the pattern. This pattern should find all primitive components in our input model. Remember that our input model will be an instance of the !SourceCodeDecorator metamodel. The following image shows our first simple pattern. The root element in our model where we start to search is a !ComponentImplementingClassesLink object. This Object references to all !BasicComponent objects which represent our Primitive Components. To detect them, we point the Pattern '!FindprimitiveComponents' (green ellipse) to the !BasicComponent object. 
+http://reclipse-emf.googlecode.com/svn/wiki/images/PrimComponentsPattern.png  
+  * (4) Now, we add the second pattern '!AcquireReleasePair' from the overview tab. This pattern will detect the synchronized blocks in our input model. First, we create annotation which will call our first pattern '!FindPrimitiveComponents'. Then, from the detected Primitive components we navigate to all '!ResourceDemantingSEFF' objects. The '!ResourceDemantingSEFF' objects reference to '!AcquireAction' objects and '!ReleaseAction' objects. Each pair of '!Acquireaction' and '!Releaseaction' objects reference to the same '!PassiveResource' object. Finally, we set the '!AcquireReleasePair' pattern to point to each pair of '!AcquireAction' and '!ReleaseAction' objects. The following figure shows our pattern:
+http://reclipse-emf.googlecode.com/svn/wiki/images/AcquireReleasePattern.png
+
+In Reclipse repository under trunk, you may find the !PatternCatalog project which contains the catalog described in this section.
+
+== Detect patterns ==
+
+To detect the specified patterns in our test code, execute the following steps:
+  * (1) Parse the source code project into an abstract syntax tree. For this, we use !MoDisco. Under Run configurations create new !MoDisco Discovery instance: Choose org.eclipse.modisco.java.composition.discoverer.fromProject discoverer, select the source code test project as a source element, and check Deep_analysis and Serialize_target to true. Then, press run. 
+  * (2) Create a !SourceCodeDecorator model for the source code. For this, we use SoMoX. Under Run configurations create new SoMoX instance: Select the source code test project as Project input and the java2kdm.xmi file creates in step (1) as an input file. Optionally, in the SoMoX configuration tab you may adjust the parameters. Then, press run. 
+  * (3) Call the Reclipse engine to detect the patterns. Select Start Structural Pattern Detection under EMF Reclipse. In the wizard, under pattern specification select the .psc file which contains our catalog and under host graph select the !SourceCodeDecorator model file created in step (2). Then, press Finish. 
+  * (4) Results. The execution of the engine can be followed in the Console view: 
+ * The process has been created.
+ * The process has been started.
+ * TASK Loading catalog input resource...
+ * TASK Loading host graph resource...
+ * INFO Host graph resource loaded.
+ * TASK Creating context queue...
+ * TASK Collecting axiom elements...
+ * INFO Axiom elements collected.
+ * TASK Starting to detect patterns...
+ * INFO Found pattern '!FindPrimitiveComponents'.
+ * INFO Found pattern '!AcquireReleasePair'.
+ * The process has been finished after 00:00:00,316.
+
+The detected patterns are annotated and shown in the Annotation view. The following figure shows the results:
+http://reclipse-emf.googlecode.com/svn/wiki/images/DetectedPatterns.png
+We see that one Primitive Component and one Acquire Release Pair were detected. This is correct for our input source code. 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.exportWizards">
+      <wizard
+            category="org.reclipse.category"
+            class="org.reclipse.behavior.generator.ui.wizards.ExportCatalogWizard"
+            icon="icons/behavioralPatternsCatalog.png"
+            id="org.reclipse.behavior.generator.ui.wizards.ExportCatalogWizard"
+            name="Behavioral Patterns Catalog">
+      </wizard>
+      <wizard
+            category="org.reclipse.category"
+            class="org.reclipse.behavior.generator.ui.wizards.ExportTraceDefinitionWizard"
+            icon="icons/traceDefinition.gif"
+            id="org.reclipse.behavior.generator.ui.wizards.ExportTraceDefinitionWizard"
+            name="Trace Definition">
+      </wizard>
+   </extension>
+
+</plugin>

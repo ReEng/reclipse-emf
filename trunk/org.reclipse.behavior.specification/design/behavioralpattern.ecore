@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="specification"
+    nsURI="http://org.reclipse.behavior.specification" nsPrefix="org.reclipse.behavior">
+  <eClassifiers xsi:type="ecore:EClass" name="BPAnyObject" eSuperTypes="../../de.uni_paderborn.basicsequencediagram/design/basicsequencediagram.ecore#//AbstractSequenceDiagramObject">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="BPAnyObject represents an Objects that can be of any type."/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BPObject" eSuperTypes="../../de.uni_paderborn.basicsequencediagram/design/basicsequencediagram.ecore#//AbstractSequenceDiagramObject">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="BPObject represents an object within a BehavioralPattern. A BPObject has a reference to an SPObject from the structure specification plugin."/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeReference" eType="ecore:EClass ../../org.reclipse.structure.specification/design/specification.ecore#//PSObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BPSetObject" eSuperTypes="../../de.uni_paderborn.basicsequencediagram/design/basicsequencediagram.ecore#//AbstractSequenceDiagramObject">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="BPSetObject represents a set of objects."/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeReference" eType="ecore:EClass ../../org.reclipse.structure.specification/design/specification.ecore#//PSObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BPAssignment" eSuperTypes="../../de.uni_paderborn.basicsequencediagram/design/basicsequencediagram.ecore#//LifelineFragment">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="A BPAssignment represents assignments with a BPObject on the leftSide and a BPArgument on the right side. An assignment means that the object's identity is changed. BPAssignment is visualized at the lifeline of the left-side-object."/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leftSide" lowerBound="1"
+        eType="#//BPObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rightSide" lowerBound="1"
+        eType="#//BPArgument"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BehavioralPattern" eSuperTypes="../../de.uni_paderborn.basicsequencediagram/design/basicsequencediagram.ecore#//SequenceDiagram">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="A BehavioralPattern is a SequenceDiagram. It specifies the behavior of a pattern at run-time. If the property &quot;negative&quot; is true, it specifies behavior that is not allowed. A BehavioralPattern has a reference on a PSPatternSpecification."/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="negative" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="psPatternSpecification"
+        eType="ecore:EClass ../../org.reclipse.structure.specification/design/specification.ecore#//PSPatternSpecification"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="catalog" eType="#//BPCatalog"
+        eOpposite="#//BPCatalog/behavioralPatterns"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BPMessage" eSuperTypes="../../de.uni_paderborn.basicsequencediagram/design/basicsequencediagram.ecore#//AbstractMessage">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="A BPMessage represents messages that are sent between objects within a BehavioralPattern. It has reference to a PSObject from the structure specification plugin. The selfCall property determines if the sending and the receiving object is the same for messages from/to PSSetObjects. A BPMessage can have an arbitrary number of BPArguments."/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="arguments" upperBound="-1"
+        eType="#//BPArgument" containment="true" eOpposite="#//BPArgument/message"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="selfCall" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="methodReference" eType="ecore:EClass ../../org.reclipse.structure.specification/design/specification.ecore#//PSObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BPArgument" eSuperTypes="../../org.fujaba.commons/design/identifier.ecore#//Identifier">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="A BPArgument belongs to a BPMessage. It has a reference to a PSObject from the structure specification plugin."/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="message" lowerBound="1"
+        eType="#//BPMessage" eOpposite="#//BPMessage/arguments"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="statement" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" eType="ecore:EClass ../../org.reclipse.structure.specification/design/specification.ecore#//PSObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BPEachFragment" eSuperTypes="../../de.uni_paderborn.basicsequencediagram/design/basicsequencediagram.ecore#//CombinedFragment">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="A BPEachFragment is a CombinedFragment that can contain a message from or to a BPSetObject. It means that the message is called on/from each object in the set."/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BPCatalog" eSuperTypes="../../org.fujaba.commons/design/identifier.ecore#//Identifier">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="behavioralPatterns" upperBound="-1"
+        eType="#//BehavioralPattern" containment="true" eOpposite="#//BehavioralPattern/catalog"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="psCatalog" lowerBound="1"
+        eType="ecore:EClass ../../org.reclipse.structure.specification/design/specification.ecore#//PSCatalog"/>
+  </eClassifiers>
+</ecore:EPackage>

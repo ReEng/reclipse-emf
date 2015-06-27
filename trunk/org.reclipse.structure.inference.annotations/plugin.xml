@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://org.reclipse.structure.inference.annotations"
+            class="org.reclipse.structure.inference.annotations.AnnotationsPackage"
+            genModel="design/annotations.genmodel"/>
+   </extension>
+
+</plugin>

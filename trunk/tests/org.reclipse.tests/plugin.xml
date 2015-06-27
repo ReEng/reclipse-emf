@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension point="org.reclipse.structure.specification.metamodel">
+      <metamodel
+            description="This meta model is used to test various units."
+            id="org.reclipse.tests.metamodel"
+            labeler="org.reclipse.tests.TestLabeler"
+            name="Test Meta Model"
+            version="1.0">
+         <package
+               uri="http://www.reclipse.org/ns/tests">
+         </package>
+      </metamodel>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.reclipse.org/ns/tests"
+            class="org.reclipse.tests.TestsPackage"
+            genModel="model/tests.genmodel"/>
+   </extension>
+</plugin>

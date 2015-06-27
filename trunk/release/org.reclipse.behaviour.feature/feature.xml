@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.reclipse.behaviour.feature"
+      label="Reclipse Behavioral Analysis"
+      version="1.2.0.qualifier"
+      provider-name="University of Paderborn">
+
+   <description>
+      This feature contains all relevant features for a behavioural analysis of Java source code. It consists of the specification model and editor, the inference engine and the tracer.
+   </description>
+
+   <requires>
+      <import feature="org.reclipse.models.gast.feature" version="1.2.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="org.reclipse.behavior.generator.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.behavior.specification.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.tracer.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.behavior.generator"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.behavior.inference"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.behavior.inference.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.behavior.specification"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.behavior.specification.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.tracer"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.reclipse.tracer.symbolicexecution"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_paderborn.basicsequencediagram"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_paderborn.basicsequencediagram.edit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_paderborn.sequencediagram.viewer"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_paderborn.sequencediagram"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

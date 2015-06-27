@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:system="http://sdq.ipd.uka.de/PalladioComponentModel/System/5.0" xsi:schemaLocation="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0 http://sdq.ipd.uka.de/PalladioComponentModel/5.0#//core/composition http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0 http://sdq.ipd.uka.de/PalladioComponentModel/5.0#//repository http://sdq.ipd.uka.de/PalladioComponentModel/System/5.0 http://sdq.ipd.uka.de/PalladioComponentModel/5.0#//system" xmi:id="_NtbdcPbIEeOeYJP9coicjQ" type="CompositeModel" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_N0vmYPbIEeOeYJP9coicjQ" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_N0vmYvbIEeOeYJP9coicjQ" type="5012"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_N0vmY_bIEeOeYJP9coicjQ" type="7002">
+      <children xmi:type="notation:Shape" xmi:id="_N0xbkPbIEeOeYJP9coicjQ" type="3006" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_N0yCoPbIEeOeYJP9coicjQ" type="5009"/>
+        <children xmi:type="notation:Shape" xmi:id="_N0z30PbIEeOeYJP9coicjQ" type="3007" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_N0z30vbIEeOeYJP9coicjQ" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_N0z30_bIEeOeYJP9coicjQ" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="internal_architecture_model.repository#_gMVToPbGEeOeYJP9coicjQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N0z30fbIEeOeYJP9coicjQ" x="-29" y="1"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_N0z31PbIEeOeYJP9coicjQ" type="3007" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_N0z31vbIEeOeYJP9coicjQ" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_N00e4PbIEeOeYJP9coicjQ" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="internal_architecture_model.repository#_gMVTpPbGEeOeYJP9coicjQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N0z31fbIEeOeYJP9coicjQ"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_N00e4fbIEeOeYJP9coicjQ" type="3007" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_N00e4_bIEeOeYJP9coicjQ" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_N00e5PbIEeOeYJP9coicjQ" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="internal_architecture_model.repository#_gMVTpvbGEeOeYJP9coicjQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N00e4vbIEeOeYJP9coicjQ"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_N00e5fbIEeOeYJP9coicjQ" type="3007" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_N01F8PbIEeOeYJP9coicjQ" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_N01F8fbIEeOeYJP9coicjQ" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="internal_architecture_model.repository#_gMV6sPbGEeOeYJP9coicjQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N00e5vbIEeOeYJP9coicjQ"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_N01F8vbIEeOeYJP9coicjQ" type="3007" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_N01F9PbIEeOeYJP9coicjQ" type="5007">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_N01F9fbIEeOeYJP9coicjQ" y="5"/>
+          </children>
+          <element xmi:type="repository:OperationProvidedRole" href="internal_architecture_model.repository#_gMV6svbGEeOeYJP9coicjQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N01F8_bIEeOeYJP9coicjQ"/>
+        </children>
+        <element xmi:type="composition:AssemblyContext" href="internal_architecture_model.system#_gSrMMPbGEeOeYJP9coicjQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N0xbkfbIEeOeYJP9coicjQ" x="140" y="100" width="336"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_N0yCofbIEeOeYJP9coicjQ" type="3006" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_N0yCo_bIEeOeYJP9coicjQ" type="5009"/>
+        <element xmi:type="composition:AssemblyContext" href="internal_architecture_model.system#_gTBKcfbGEeOeYJP9coicjQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N0yCovbIEeOeYJP9coicjQ" x="200"/>
+      </children>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_N1B6QPbIEeOeYJP9coicjQ" type="3011" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_N1B6QvbIEeOeYJP9coicjQ" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_N1B6Q_bIEeOeYJP9coicjQ" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationProvidedRole" href="internal_architecture_model.system#_gSsaUfbGEeOeYJP9coicjQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N1B6QfbIEeOeYJP9coicjQ" x="-59" y="305"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_N1B6RPbIEeOeYJP9coicjQ" type="3011" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_N1B6RvbIEeOeYJP9coicjQ" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_N1ChUPbIEeOeYJP9coicjQ" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationProvidedRole" href="internal_architecture_model.system#_gStocfbGEeOeYJP9coicjQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N1B6RfbIEeOeYJP9coicjQ" x="-59" y="430"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_N1ChUfbIEeOeYJP9coicjQ" type="3011" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_N1ChU_bIEeOeYJP9coicjQ" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_N1ChVPbIEeOeYJP9coicjQ" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationProvidedRole" href="internal_architecture_model.system#_gStoc_bGEeOeYJP9coicjQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N1ChUvbIEeOeYJP9coicjQ" x="235" y="499"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_N1ChVfbIEeOeYJP9coicjQ" type="3011" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_N1DIYPbIEeOeYJP9coicjQ" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_N1DIYfbIEeOeYJP9coicjQ" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationProvidedRole" href="internal_architecture_model.system#_gStodfbGEeOeYJP9coicjQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N1ChVvbIEeOeYJP9coicjQ" x="499" y="425"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_N1DIYvbIEeOeYJP9coicjQ" type="3011" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_N1DIZPbIEeOeYJP9coicjQ" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_N1DIZfbIEeOeYJP9coicjQ" y="5"/>
+      </children>
+      <element xmi:type="repository:OperationProvidedRole" href="internal_architecture_model.system#_gStod_bGEeOeYJP9coicjQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N1DIY_bIEeOeYJP9coicjQ" x="499" y="240"/>
+    </children>
+    <element xmi:type="system:System" href="internal_architecture_model.system#_gEJoAPbGEeOeYJP9coicjQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N0vmYfbIEeOeYJP9coicjQ" x="470" y="85"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_NtcEgPbIEeOeYJP9coicjQ"/>
+  <element xmi:type="system:System" href="internal_architecture_model.system#_gEJoAPbGEeOeYJP9coicjQ"/>
+</notation:Diagram>

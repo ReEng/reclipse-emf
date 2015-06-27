@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.reclipse.structure.inference/src"
+    editDirectory="/org.reclipse.structure.inference.graph.edit/src" modelPluginID="/org.reclipse.structure.inference"
+    modelName="Graph" updateClasspath="false" nonNLSMarkers="true" suppressEMFMetaData="true"
+    suppressEMFModelTags="true" suppressInterfaces="true" codeFormatting="true" importerID="org.eclipse.emf.importer.ecore"
+    suppressContainment="true" complianceLevel="6.0" copyrightFields="false" usedGenPackages="../../org.reclipse.structure.specification/design/org.reclipse.structure.specification.genmodel#//specification">
+  <foreignModel>dependencygraph.ecore</foreignModel>
+  <genPackages prefix="Graph" basePackage="org.reclipse.structure.inference.strategy"
+      disposableProviderFactory="true" adapterFactory="false" literalsInterface="false"
+      contentTypeIdentifier="" ecorePackage="dependencygraph.ecore#/">
+    <genClasses ecoreClass="dependencygraph.ecore#//ASTNode">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference dependencygraph.ecore#//ASTNode/type"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="dependencygraph.ecore#//DependencyNode">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference dependencygraph.ecore#//DependencyNode/triggering"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute dependencygraph.ecore#//DependencyNode/rank"/>
+    </genClasses>
+    <genClasses ecoreClass="dependencygraph.ecore#//PatternNode">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference dependencygraph.ecore#//PatternNode/type"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference dependencygraph.ecore#//PatternNode/triggeredBy"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

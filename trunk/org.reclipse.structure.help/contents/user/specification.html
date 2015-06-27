@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="../../../../content/org.eclipse.platform/book.css" type="text/css" />
+<link rel="stylesheet" href="../../../../content/org.reclipse.help/style.css" type="text/css" />
+<title>Pattern Specification</title>
+</head>
+<body>
+	<h1>Pattern Specification</h1>
+
+	<p>The GAST is the first input you need, to start a static pattern detection analysis. Furthermore, you need a
+		catalog pattern specifications. This can be created using the pattern specification editor.</p>
+			<p>The structural pattern detection in Reclipse uses a pattern specification language based on graph grammars, the so-called structural patterns.</p>
+
+	<h2>Creating a new structural patterns catalog</h2>
+	<ol>
+		<li>To create a new catalog, use <em>File</em> &rarr; <em>New</em> &rarr; <em>Other</em> &rarr; <em>Reclipse</em> &rarr; <em>Pattern Specification Catalog</em> and click <em>Next</em>.</li>
+		<li>Select the folder and provide a file name for the file containing the catalog model.</li>
+		<li>On the next page, select the folder and provide a file name for the file containing the layout information of the catalog.</li>
+		<li>Next, type in a name for the catalog and choose an ASG meta model. Choose <b>G-AST</b> to analyze software systems parsed with SISSy.</li>
+		<li>After clicking <em>Finish</em> the catalog will be opened in an editor.</li>
+	</ol>
+
+	<h2>Add A New Pattern Specification</h2>
+	<div class="figure">
+		<img src="../../images/specification_editor_overview.png" alt="Catalog Editor Overview Page" />
+		<p>Figure: Catalog Editor Overview Page</p>
+	</div>
+	<ol>
+		<li>To add a new structural pattern to an existing catalog, double-click on the diagram file of the catalog (*.pscdiagram) to open the editor.</li>
+		<li>Click <em>Add</em> to add a new pattern to the catalog.</li>
+		<li>Type in the name of the new pattern and click <em>OK</em> to confirm the creation.</li>
+		<li>Double-click on a pattern to open and edit the pattern specification.</li>
+	</ol>
+
+	<h2>Editing A Pattern Specification</h2>
+	<p>The tools for editing are accessible on the palette at the right border of the editor. The palette includes tools for adding objects, annotations, links, paths and combined fragments.</p>
+	<p>Below the editor window is the properties view located. There the properties of the elements which are selected in the editor can be changed, for example name or type.</p>
+
+	<div class="figure">
+		<img src="../../images/specification_editor_pattern.png" alt="Structural Patterns Editor" />
+		<p>Figure: Structural Patterns Editor</p>
+	</div>
+
+	<p>In a new structural pattern, there already exists a green annotation, marked with &#x00ab;create&#x00bb;, which represents the pattern occurrence. It should be linked to the objects in the specification, that play key roles in the pattern. For each of these links a qualifier has to be set. It should describe the annotated object's role in the pattern (e.g. &quot;observer&quot;). A qualifier must have a specified name.</p>
+
+	<h3>Object types and names</h3>
+	<p>Use the <em>type</em> attribute to reference a type from the underlying abstract syntax graph. E.g.: to specify a certain class in a pattern, create an object and change the property <em>type</em> into the corresponding type of the used meta model (e.g. &quot;GASTClass&quot; for a Class in a GAST model parsed by SISSy).</p>
+	<p>When choosing a name for an object or an annotation, pay attention to the following points:</p>
+	<ul>
+		<li>In one pattern, there must not be two objects with the same name.</li>
+		<li>An object's name should not be equal to the pattern's name, that contains the object (without case sensitivity).</li>
+	</ul>
+
+	<h3>Reusing sub patterns</h3>
+	<p>Annotation nodes reference other pattern specifications from the catalog and thereby mark sub patterns. For example, use an annotation with type &quot;Delegation&quot; to specify a situation, where a pattern contains a method that delegates to another method.</p>
+
+	<h3>Modifier</h3>
+	<p>The property &quot;modifier&quot; can be used to specify additional objects, set objects or negative objects.</p>
+	<ul>
+		<li>Additional objects will be displayed with dashed borders. If an additional object is matched, the rating of the pattern candidate will be increased.</li>
+		<li>Set objects are used to bind an arbitrary number of objects and are represented by a double border. Furthermore, set nodes are marked with a dashed border because sets can always be empty.</li>
+		<li>Negative objects are used to specify elements which must not appear in the pattern candidate. They are marked with a cross-through.</li>
+	</ul>
+
+	<h3>Combined Fragments</h3>
+	<p>Three different types of combined fragments can be used inside a structural pattern: additional fragments, set fragments and negative fragments. Different fragments types must not be combined with each other.</p>
+
+	<h4>Additional Fragments</h4>
+	<p>The palette's tool <em>Additional Fragment</em> is used to define parts of the specified pattern as additional (can include several classes, methods, links, ...). The structural pattern has to be strongly connected without the parts that is are contained in an additional fragment.</p>
+
+	<h4>Set Fragments</h4>
+	<p>The palette's tool <em>Set Fragment</em> is used to define subgraphs of the specified pattern that can occur multiple times. Set fragments can be overlapping and nested up to two times (a node can be contained in at most two set fragments).</p>
+<!--
+	<p>When using set fragments, the user has to pay attention to the following restrictions:</p>
+	<ul>
+		<li>The structural pattern has to be strongly connected without the parts that is are contained in a set fragment.</li>
+		<li>In each set fragment there has to be one element that is connected to an element that is not contained in any fragment.</li>
+		<li>The subgraph contained in a set fragment has to be strongly connected.</li>
+		<li>Set Fragments and Additional Fragments must not be combined with each other.</li>
+	</ul>
+-->
+	<h4>Negative Fragments</h4>
+	<p>The palette's tool <em>Negative Fragment</em> is used to define a subgraph of the specified pattern as negative. For a successful match of the pattern during the inference, the negative subgraph must not be matched.</p>
+<!--
+	<p>A Set Fragment has a size expression. The default expression is <em>&geq;1</em> which means, that the subgraph in the set has to be found at least one time.</p>
+	<p>The user can change the expression's value to any integer value and the expression's operator to <em>equal</em>, <em>greater</em> or <em>greater or equal</em>.</p>
+-->
+
+	<h3>Attributes</h3>
+	<p>You can add attributes to objects by right-clicking on the object and choosing <em>Add Attribute Expression</em>. For example you can use an attribute <em>abstract</em> to specify abstract classes and methods. To use regular expressions in attribute expressions (for example for specifying an element's name), use <em>RegEx</em> as operator. Only String-attributes can have regular expressions. You can mark attributes as additional. Additional attributes will be marked with an {additional}-label.</p>
+
+	<h3>Paths</h3>
+	<p>Paths can be used instead of links to specify a sequence of containment references through the host graph model. This can be used to specify methods, that contain calles to other methods somewhere in their method body, or patterns, where a certain statement has to be contained in the block of a loop, for example.</p>
+</body>
+</html>

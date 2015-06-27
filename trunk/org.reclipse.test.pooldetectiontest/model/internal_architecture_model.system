@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://sdq.ipd.uka.de/PalladioComponentModel/Core/Composition/5.0" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:system="http://sdq.ipd.uka.de/PalladioComponentModel/System/5.0" id="_KA9e0PbgEeOeYJP9coicjQ" entityName="SoMoX Reverse Engineered System">
+  <assemblyContexts__ComposedStructure id="_KCH8cPbgEeOeYJP9coicjQ" entityName=" &lt;PC No. 0 org.reclipse.test.pooldetectiontest.ThreadPool>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KA-s8PbgEeOeYJP9coicjQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_KCH8dPbgEeOeYJP9coicjQ" entityName=" &lt;PC No. 1 org.reclipse.test.pooldetectiontest.WorkerThread>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KA_7GfbgEeOeYJP9coicjQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_KCH8ePbgEeOeYJP9coicjQ" entityName=" &lt;PC No. 2 org.reclipse.test.pooldetectiontest.TestThreadPool>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBAiJfbgEeOeYJP9coicjQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_KCH8fPbgEeOeYJP9coicjQ" entityName=" &lt;PC No. 3 org.reclipse.test.pooldetectiontest.TestWorkerThread>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBBJMvbgEeOeYJP9coicjQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_KCH8gPbgEeOeYJP9coicjQ" entityName=" &lt;PC No. 4 org.reclipse.test.pooldetectiontest.Done>">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KBBJN_bgEeOeYJP9coicjQ"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_KCJKk_bgEeOeYJP9coicjQ" entityName="SoMoX Dummy Component Instance">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="internal_architecture_model.repository#_KCJKkvbgEeOeYJP9coicjQ"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_KCH8c_bgEeOeYJP9coicjQ" entityName="Itest.pooldetectiontest.ThreadPool" outerProvidedRole_ProvidedDelegationConnector="_KCH8cvbgEeOeYJP9coicjQ" assemblyContext_ProvidedDelegationConnector="_KCH8cPbgEeOeYJP9coicjQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="internal_architecture_model.repository#_KA_7FfbgEeOeYJP9coicjQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_KCH8d_bgEeOeYJP9coicjQ" entityName="Itest.pooldetectiontest.WorkerThread" outerProvidedRole_ProvidedDelegationConnector="_KCH8dvbgEeOeYJP9coicjQ" assemblyContext_ProvidedDelegationConnector="_KCH8dPbgEeOeYJP9coicjQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="internal_architecture_model.repository#_KBAiI_bgEeOeYJP9coicjQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_KCH8e_bgEeOeYJP9coicjQ" entityName="Itest.pooldetectiontest.TestThreadPool" outerProvidedRole_ProvidedDelegationConnector="_KCH8evbgEeOeYJP9coicjQ" assemblyContext_ProvidedDelegationConnector="_KCH8ePbgEeOeYJP9coicjQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="internal_architecture_model.repository#_KBBJMPbgEeOeYJP9coicjQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_KCH8f_bgEeOeYJP9coicjQ" entityName="Itest.pooldetectiontest.TestWorkerThread" outerProvidedRole_ProvidedDelegationConnector="_KCH8fvbgEeOeYJP9coicjQ" assemblyContext_ProvidedDelegationConnector="_KCH8fPbgEeOeYJP9coicjQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="internal_architecture_model.repository#_KBBJNfbgEeOeYJP9coicjQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_KCH8g_bgEeOeYJP9coicjQ" entityName="Itest.pooldetectiontest.Done" outerProvidedRole_ProvidedDelegationConnector="_KCH8gvbgEeOeYJP9coicjQ" assemblyContext_ProvidedDelegationConnector="_KCH8gPbgEeOeYJP9coicjQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="internal_architecture_model.repository#_KBBwRvbgEeOeYJP9coicjQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_KCH8hPbgEeOeYJP9coicjQ" entityName="Assembly Connector from  &lt;PC No. 0 org.reclipse.test.pooldetectiontest.ThreadPool> to  &lt;PC No. 4 org.reclipse.test.pooldetectiontest.Done>" requiringAssemblyContext_AssemblyConnector="_KCH8cPbgEeOeYJP9coicjQ" providingAssemblyContext_AssemblyConnector="_KCH8gPbgEeOeYJP9coicjQ">
+    <providedRole_AssemblyConnector href="internal_architecture_model.repository#_KBBwRvbgEeOeYJP9coicjQ"/>
+    <requiredRole_AssemblyConnector href="internal_architecture_model.repository#_KCAAoPbgEeOeYJP9coicjQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_KCIjgPbgEeOeYJP9coicjQ" entityName="Assembly Connector from  &lt;PC No. 0 org.reclipse.test.pooldetectiontest.ThreadPool> to  &lt;PC No. 1 org.reclipse.test.pooldetectiontest.WorkerThread>" requiringAssemblyContext_AssemblyConnector="_KCH8cPbgEeOeYJP9coicjQ" providingAssemblyContext_AssemblyConnector="_KCH8dPbgEeOeYJP9coicjQ">
+    <providedRole_AssemblyConnector href="internal_architecture_model.repository#_KBAiI_bgEeOeYJP9coicjQ"/>
+    <requiredRole_AssemblyConnector href="internal_architecture_model.repository#_KCAAofbgEeOeYJP9coicjQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_KCIjgfbgEeOeYJP9coicjQ" entityName="Assembly Connector from  &lt;PC No. 1 org.reclipse.test.pooldetectiontest.WorkerThread> to  &lt;PC No. 0 org.reclipse.test.pooldetectiontest.ThreadPool>" requiringAssemblyContext_AssemblyConnector="_KCH8dPbgEeOeYJP9coicjQ" providingAssemblyContext_AssemblyConnector="_KCH8cPbgEeOeYJP9coicjQ">
+    <providedRole_AssemblyConnector href="internal_architecture_model.repository#_KA_7FfbgEeOeYJP9coicjQ"/>
+    <requiredRole_AssemblyConnector href="internal_architecture_model.repository#_KBAiIPbgEeOeYJP9coicjQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_KCIjgvbgEeOeYJP9coicjQ" entityName="Assembly Connector from  &lt;PC No. 1 org.reclipse.test.pooldetectiontest.WorkerThread> to  &lt;PC No. 4 org.reclipse.test.pooldetectiontest.Done>" requiringAssemblyContext_AssemblyConnector="_KCH8dPbgEeOeYJP9coicjQ" providingAssemblyContext_AssemblyConnector="_KCH8gPbgEeOeYJP9coicjQ">
+    <providedRole_AssemblyConnector href="internal_architecture_model.repository#_KBBwRvbgEeOeYJP9coicjQ"/>
+    <requiredRole_AssemblyConnector href="internal_architecture_model.repository#_KCAnsPbgEeOeYJP9coicjQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_KCIjg_bgEeOeYJP9coicjQ" entityName="Assembly Connector from  &lt;PC No. 2 org.reclipse.test.pooldetectiontest.TestThreadPool> to  &lt;PC No. 0 org.reclipse.test.pooldetectiontest.ThreadPool>" requiringAssemblyContext_AssemblyConnector="_KCH8ePbgEeOeYJP9coicjQ" providingAssemblyContext_AssemblyConnector="_KCH8cPbgEeOeYJP9coicjQ">
+    <providedRole_AssemblyConnector href="internal_architecture_model.repository#_KA_7FfbgEeOeYJP9coicjQ"/>
+    <requiredRole_AssemblyConnector href="internal_architecture_model.repository#_KBAiJvbgEeOeYJP9coicjQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_KCJKkPbgEeOeYJP9coicjQ" entityName="Assembly Connector from  &lt;PC No. 2 org.reclipse.test.pooldetectiontest.TestThreadPool> to  &lt;PC No. 3 org.reclipse.test.pooldetectiontest.TestWorkerThread>" requiringAssemblyContext_AssemblyConnector="_KCH8ePbgEeOeYJP9coicjQ" providingAssemblyContext_AssemblyConnector="_KCH8fPbgEeOeYJP9coicjQ">
+    <providedRole_AssemblyConnector href="internal_architecture_model.repository#_KBBJNfbgEeOeYJP9coicjQ"/>
+    <requiredRole_AssemblyConnector href="internal_architecture_model.repository#_KCAnsfbgEeOeYJP9coicjQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_KCJKkfbgEeOeYJP9coicjQ" entityName="Assembly Connector from  &lt;PC No. 3 org.reclipse.test.pooldetectiontest.TestWorkerThread> to  &lt;PC No. 4 org.reclipse.test.pooldetectiontest.Done>" requiringAssemblyContext_AssemblyConnector="_KCH8fPbgEeOeYJP9coicjQ" providingAssemblyContext_AssemblyConnector="_KCH8gPbgEeOeYJP9coicjQ">
+    <providedRole_AssemblyConnector href="internal_architecture_model.repository#_KBBwRvbgEeOeYJP9coicjQ"/>
+    <requiredRole_AssemblyConnector href="internal_architecture_model.repository#_KCAnsvbgEeOeYJP9coicjQ"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_KCH8cvbgEeOeYJP9coicjQ" entityName="ThreadPool 0 (prov)(sys)">
+    <providedInterface__OperationProvidedRole href="internal_architecture_model.repository#_KA_7EPbgEeOeYJP9coicjQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_KCH8dvbgEeOeYJP9coicjQ" entityName="WorkerThread 1 (prov)(sys)">
+    <providedInterface__OperationProvidedRole href="internal_architecture_model.repository#_KBAiIfbgEeOeYJP9coicjQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_KCH8evbgEeOeYJP9coicjQ" entityName="TestThreadPool 2 (prov)(sys)">
+    <providedInterface__OperationProvidedRole href="internal_architecture_model.repository#_KBAiJ_bgEeOeYJP9coicjQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_KCH8fvbgEeOeYJP9coicjQ" entityName="TestWorkerThread 3 (prov)(sys)">
+    <providedInterface__OperationProvidedRole href="internal_architecture_model.repository#_KBBJM_bgEeOeYJP9coicjQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_KCH8gvbgEeOeYJP9coicjQ" entityName="Done 4 (prov)(sys)">
+    <providedInterface__OperationProvidedRole href="internal_architecture_model.repository#_KBBwQPbgEeOeYJP9coicjQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

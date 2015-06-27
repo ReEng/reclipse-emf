@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+<plugin>
+
+   <extension point="org.eclipse.ui.exportWizards">
+      <wizard
+            category="org.reclipse.category"
+            class="org.reclipse.patterns.structure.generator.ui.ExportPatternsWizard"
+            icon="icons/icon.png"
+            id="org.reclipse.patterns.structure.generator.ui.wizards.ExportCatalogWizard"
+            name="Structural Patterns Catalog">
+         <description>
+            Export a Structural Patterns Catalog
+         </description>
+      </wizard>
+   </extension>
+
+</plugin>

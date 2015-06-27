@@ -1,0 +1,227 @@
+<?xml version="1.0" standalone="no"?>
+
+<!DOCTYPE BehavioralPatternsCatalog SYSTEM "http://wwwcs.uni-paderborn.de/cs/fujaba/DTDs/BehavioralPatternsCatalog.dtd">
+
+<BehavioralPatternsCatalog>
+
+  <BehavioralPattern name="Strategy" negative="false">
+
+    <DFA>
+      <PermittedMethodCallSymbol id="symbol0" methodSignature="setStrategy">
+        <Caller name="cl" type="client"/>
+        <Callee name="co" type="context"/>
+      </PermittedMethodCallSymbol>
+      <PermittedMethodCallSymbol id="symbol1" methodSignature="request">
+        <Caller name="cl" type="client"/>
+        <Callee name="co" type="context"/>
+      </PermittedMethodCallSymbol>
+      <PermittedMethodCallSymbol id="symbol2" methodSignature="algorithm">
+        <Caller name="co" type="context"/>
+        <Callee name="a" type="abstractStrategy"/>
+      </PermittedMethodCallSymbol>
+      <PermittedMethodCallSymbol id="symbol3" methodSignature="algorithm">
+        <Caller name="co" type="context"/>
+        <Callee name="b" type="abstractStrategy"/>
+      </PermittedMethodCallSymbol>
+      <ProhibitedMethodCallSymbol id="symbol4" methodSignature="setStrategy">
+        <Callee name="co" type="context"/>
+      </ProhibitedMethodCallSymbol>
+      <ProhibitedMethodCallSymbol id="symbol5" methodSignature="request">
+        <Callee name="co" type="context"/>
+      </ProhibitedMethodCallSymbol>
+      <ProhibitedMethodCallSymbol id="symbol6" methodSignature="algorithm">
+        <Callee name="a" type="abstractStrategy"/>
+      </ProhibitedMethodCallSymbol>
+      <ProhibitedMethodCallSymbol id="symbol7" methodSignature="algorithm">
+        <Callee name="b" type="abstractStrategy"/>
+      </ProhibitedMethodCallSymbol>
+      <ProhibitedCallerSymbol id="symbol8" methodSignature="request">
+        <PermittedCaller name="cl" type="client"/>
+        <Callee name="co" type="context"/>
+      </ProhibitedCallerSymbol>
+      <ProhibitedCallerSymbol id="symbol9" methodSignature="algorithm">
+        <PermittedCaller name="co" type="context"/>
+        <Callee name="a" type="abstractStrategy"/>
+      </ProhibitedCallerSymbol>
+      <ProhibitedCallerSymbol id="symbol10" methodSignature="algorithm">
+        <PermittedCaller name="co" type="context"/>
+        <Callee name="b" type="abstractStrategy"/>
+      </ProhibitedCallerSymbol>
+      <ProhibitedCallerSymbol id="symbol11" methodSignature="setStrategy">
+        <PermittedCaller name="cl" type="client"/>
+        <Callee name="co" type="context"/>
+      </ProhibitedCallerSymbol>
+
+      <State id="state0" name="0" type="0"/>
+      <State id="state1" name="1" type="0"/>
+      <State id="state2" name="2" type="0"/>
+      <State id="state3" name="R" type="2"/>
+      <State id="state4" name="1,3,4,6" type="0"/>
+      <State id="state5" name="4" type="0"/>
+      <State id="state6" name="2,5" type="0"/>
+      <State id="state7" name="4,6" type="1"/>
+      <State id="state8" name="5" type="0"/>
+
+      <Transition previousStateId="state0" nextStateId="state1" symbolId="symbol0"/>
+
+      <Transition previousStateId="state1" nextStateId="state2" symbolId="symbol1"/>
+      <Transition previousStateId="state1" nextStateId="state3" symbolId="symbol4"/>
+      <Transition previousStateId="state1" nextStateId="state3" symbolId="symbol6"/>
+      <Transition previousStateId="state1" nextStateId="state3" symbolId="symbol7"/>
+      <Transition previousStateId="state1" nextStateId="state3" symbolId="symbol8"/>
+
+      <Transition previousStateId="state2" nextStateId="state4" symbolId="symbol2"/>
+      <Transition previousStateId="state2" nextStateId="state3" symbolId="symbol4"/>
+      <Transition previousStateId="state2" nextStateId="state3" symbolId="symbol5"/>
+      <Transition previousStateId="state2" nextStateId="state3" symbolId="symbol7"/>
+      <Transition previousStateId="state2" nextStateId="state3" symbolId="symbol9"/>
+
+      <Transition previousStateId="state4" nextStateId="state5" symbolId="symbol0"/>
+      <Transition previousStateId="state4" nextStateId="state6" symbolId="symbol1"/>
+      <Transition previousStateId="state4" nextStateId="state3" symbolId="symbol6"/>
+      <Transition previousStateId="state4" nextStateId="state3" symbolId="symbol7"/>
+      <Transition previousStateId="state4" nextStateId="state3" symbolId="symbol8"/>
+      <Transition previousStateId="state4" nextStateId="state3" symbolId="symbol11"/>
+
+      <Transition previousStateId="state5" nextStateId="state8" symbolId="symbol1"/>
+      <Transition previousStateId="state5" nextStateId="state3" symbolId="symbol4"/>
+      <Transition previousStateId="state5" nextStateId="state3" symbolId="symbol6"/>
+      <Transition previousStateId="state5" nextStateId="state3" symbolId="symbol7"/>
+      <Transition previousStateId="state5" nextStateId="state3" symbolId="symbol8"/>
+
+      <Transition previousStateId="state6" nextStateId="state4" symbolId="symbol2"/>
+      <Transition previousStateId="state6" nextStateId="state7" symbolId="symbol3"/>
+      <Transition previousStateId="state6" nextStateId="state3" symbolId="symbol4"/>
+      <Transition previousStateId="state6" nextStateId="state3" symbolId="symbol5"/>
+      <Transition previousStateId="state6" nextStateId="state3" symbolId="symbol9"/>
+      <Transition previousStateId="state6" nextStateId="state3" symbolId="symbol10"/>
+
+      <Transition previousStateId="state7" nextStateId="state8" symbolId="symbol1"/>
+
+      <Transition previousStateId="state8" nextStateId="state7" symbolId="symbol3"/>
+      <Transition previousStateId="state8" nextStateId="state3" symbolId="symbol4"/>
+      <Transition previousStateId="state8" nextStateId="state3" symbolId="symbol5"/>
+      <Transition previousStateId="state8" nextStateId="state3" symbolId="symbol6"/>
+      <Transition previousStateId="state8" nextStateId="state3" symbolId="symbol10"/>
+
+      <StartState id="state0"/>
+    </DFA>
+
+    <Trigger type="context" methodSignature="setStrategy"/>
+
+  </BehavioralPattern>
+
+  <BehavioralPattern name="State" negative="false">
+
+    <DFA>
+      <PermittedMethodCallSymbol id="symbol12" methodSignature="setState">
+        <Caller name="cl" type="client"/>
+        <Callee name="co" type="context"/>
+      </PermittedMethodCallSymbol>
+      <PermittedMethodCallSymbol id="symbol13" methodSignature="request">
+        <Caller name="cl" type="client"/>
+        <Callee name="co" type="context"/>
+      </PermittedMethodCallSymbol>
+      <PermittedMethodCallSymbol id="symbol14" methodSignature="handle">
+        <Caller name="co" type="context"/>
+        <Callee name="a" type="abstractState"/>
+      </PermittedMethodCallSymbol>
+      <PermittedMethodCallSymbol id="symbol15" methodSignature="handle">
+        <Caller name="co" type="context"/>
+        <Callee name="b" type="abstractState"/>
+      </PermittedMethodCallSymbol>
+      <PermittedMethodCallSymbol id="symbol16" methodSignature="setState">
+        <Caller name="co" type="context"/>
+        <Callee name="co" type="context"/>
+      </PermittedMethodCallSymbol>
+      <PermittedMethodCallSymbol id="symbol17" methodSignature="setState">
+        <Caller name="a" type="abstractState"/>
+        <Callee name="co" type="context"/>
+      </PermittedMethodCallSymbol>
+      <ProhibitedMethodCallSymbol id="symbol18" methodSignature="setState">
+        <Callee name="co" type="context"/>
+      </ProhibitedMethodCallSymbol>
+      <ProhibitedMethodCallSymbol id="symbol19" methodSignature="request">
+        <Callee name="co" type="context"/>
+      </ProhibitedMethodCallSymbol>
+      <ProhibitedMethodCallSymbol id="symbol20" methodSignature="handle">
+        <Callee name="a" type="abstractState"/>
+      </ProhibitedMethodCallSymbol>
+      <ProhibitedMethodCallSymbol id="symbol21" methodSignature="handle">
+        <Callee name="b" type="abstractState"/>
+      </ProhibitedMethodCallSymbol>
+      <ProhibitedCallerSymbol id="symbol22" methodSignature="request">
+        <PermittedCaller name="cl" type="client"/>
+        <Callee name="co" type="context"/>
+      </ProhibitedCallerSymbol>
+      <ProhibitedCallerSymbol id="symbol23" methodSignature="handle">
+        <PermittedCaller name="co" type="context"/>
+        <Callee name="a" type="abstractState"/>
+      </ProhibitedCallerSymbol>
+      <ProhibitedCallerSymbol id="symbol24" methodSignature="handle">
+        <PermittedCaller name="co" type="context"/>
+        <Callee name="b" type="abstractState"/>
+      </ProhibitedCallerSymbol>
+      <ProhibitedCallerSymbol id="symbol25" methodSignature="setState">
+        <PermittedCaller name="a" type="abstractState"/>
+        <PermittedCaller name="co" type="context"/>
+        <Callee name="co" type="context"/>
+      </ProhibitedCallerSymbol>
+
+      <State id="state9" name="1,0" type="0"/>
+      <State id="state10" name="1" type="0"/>
+      <State id="state11" name="2" type="0"/>
+      <State id="state12" name="R" type="2"/>
+      <State id="state13" name="3,1" type="0"/>
+      <State id="state14" name="4" type="0"/>
+      <State id="state15" name="5" type="0"/>
+      <State id="state16" name="4,6" type="1"/>
+
+      <Transition previousStateId="state9" nextStateId="state10" symbolId="symbol12"/>
+      <Transition previousStateId="state9" nextStateId="state11" symbolId="symbol13"/>
+
+      <Transition previousStateId="state10" nextStateId="state11" symbolId="symbol13"/>
+      <Transition previousStateId="state10" nextStateId="state12" symbolId="symbol18"/>
+      <Transition previousStateId="state10" nextStateId="state12" symbolId="symbol20"/>
+      <Transition previousStateId="state10" nextStateId="state12" symbolId="symbol21"/>
+      <Transition previousStateId="state10" nextStateId="state12" symbolId="symbol22"/>
+
+      <Transition previousStateId="state11" nextStateId="state13" symbolId="symbol14"/>
+      <Transition previousStateId="state11" nextStateId="state12" symbolId="symbol18"/>
+      <Transition previousStateId="state11" nextStateId="state12" symbolId="symbol19"/>
+      <Transition previousStateId="state11" nextStateId="state12" symbolId="symbol21"/>
+      <Transition previousStateId="state11" nextStateId="state12" symbolId="symbol23"/>
+
+      <Transition previousStateId="state13" nextStateId="state11" symbolId="symbol13"/>
+      <Transition previousStateId="state13" nextStateId="state14" symbolId="symbol16"/>
+      <Transition previousStateId="state13" nextStateId="state14" symbolId="symbol17"/>
+      <Transition previousStateId="state13" nextStateId="state12" symbolId="symbol20"/>
+      <Transition previousStateId="state13" nextStateId="state12" symbolId="symbol21"/>
+      <Transition previousStateId="state13" nextStateId="state12" symbolId="symbol22"/>
+      <Transition previousStateId="state13" nextStateId="state12" symbolId="symbol25"/>
+
+      <Transition previousStateId="state14" nextStateId="state15" symbolId="symbol13"/>
+      <Transition previousStateId="state14" nextStateId="state12" symbolId="symbol18"/>
+      <Transition previousStateId="state14" nextStateId="state12" symbolId="symbol20"/>
+      <Transition previousStateId="state14" nextStateId="state12" symbolId="symbol21"/>
+      <Transition previousStateId="state14" nextStateId="state12" symbolId="symbol22"/>
+
+      <Transition previousStateId="state15" nextStateId="state16" symbolId="symbol15"/>
+      <Transition previousStateId="state15" nextStateId="state12" symbolId="symbol18"/>
+      <Transition previousStateId="state15" nextStateId="state12" symbolId="symbol19"/>
+      <Transition previousStateId="state15" nextStateId="state12" symbolId="symbol20"/>
+      <Transition previousStateId="state15" nextStateId="state12" symbolId="symbol24"/>
+
+      <Transition previousStateId="state16" nextStateId="state15" symbolId="symbol13"/>
+
+      <StartState id="state9"/>
+    </DFA>
+
+    <Trigger type="context" methodSignature="setState"/>
+
+    <Trigger type="context" methodSignature="request"/>
+
+  </BehavioralPattern>
+
+</BehavioralPatternsCatalog>
+

@@ -1,0 +1,14 @@
+div.figure img {
+	display: block;
+	margin: 2px auto;
+	border: 1px solid #555;
+	border: none;
+	padding: 2px;
+}
+
+div.figure p {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	font-style: italic;
+}

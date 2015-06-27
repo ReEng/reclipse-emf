@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<kdm:Segment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kdm="http://www.eclipse.org/MoDisco/kdm/kdm" xmlns:source="http://www.eclipse.org/MoDisco/kdm/source">
+  <model xsi:type="source:InventoryModel" name="SomoxSynchronizedTest">
+    <inventoryElement xsi:type="source:Project" name="SomoxSynchronizedTest">
+      <inventoryElement xsi:type="source:Configuration" name=".classpath" path="C:\Users\jinying\runtime-kepler-New_configuration\SomoxSynchronizedTest\.classpath"/>
+      <inventoryElement xsi:type="source:Configuration" name=".project" path="C:\Users\jinying\runtime-kepler-New_configuration\SomoxSynchronizedTest\.project"/>
+      <inventoryElement xsi:type="source:Directory" name=".settings" path="C:\Users\jinying\runtime-kepler-New_configuration\SomoxSynchronizedTest\.settings">
+        <inventoryElement xsi:type="source:Configuration" name="org.eclipse.jdt.core.prefs" path="C:\Users\jinying\runtime-kepler-New_configuration\SomoxSynchronizedTest\.settings\org.eclipse.jdt.core.prefs"/>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:Directory" name="bin" path="C:\Users\jinying\runtime-kepler-New_configuration\SomoxSynchronizedTest\bin">
+        <inventoryElement xsi:type="source:BinaryFile" name="ISynchronizable.class" path="C:\Users\jinying\runtime-kepler-New_configuration\SomoxSynchronizedTest\bin\ISynchronizable.class"/>
+        <inventoryElement xsi:type="source:BinaryFile" name="SynchronizedTest.class" path="C:\Users\jinying\runtime-kepler-New_configuration\SomoxSynchronizedTest\bin\SynchronizedTest.class"/>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:SourceFile" name="SomoxSynchronizedTest_java.xmi" path="C:\Users\jinying\runtime-kepler-New_configuration\SomoxSynchronizedTest\SomoxSynchronizedTest_java.xmi"/>
+      <inventoryElement xsi:type="source:Directory" name="src" path="C:\Users\jinying\runtime-kepler-New_configuration\SomoxSynchronizedTest\src">
+        <inventoryElement xsi:type="source:SourceFile" name="ISynchronizable.java" path="C:\Users\jinying\runtime-kepler-New_configuration\SomoxSynchronizedTest\src\ISynchronizable.java"/>
+        <inventoryElement xsi:type="source:SourceFile" name="SynchronizedTest.java" path="C:\Users\jinying\runtime-kepler-New_configuration\SomoxSynchronizedTest\src\SynchronizedTest.java"/>
+      </inventoryElement>
+    </inventoryElement>
+  </model>
+</kdm:Segment>

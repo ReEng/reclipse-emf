@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.reclipse.structure.specification.metamodel">
+      <metamodel
+            id="org.reclipse.kdm2pcm.sourcecodedecorator"
+            name="sourcecodedecorator"
+            trigger_chooser="org.reclipse.structure.specification.util.ContainmentWeightedTriggerChooser">
+         <package
+               uri="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0">
+         </package>
+         <package
+               uri="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0">
+         </package>
+         <package
+               uri="http://sdq.ipd.uka.de/PalladioComponentModel/Core/5.0">
+         </package>
+         <package
+               uri="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java">
+         </package>
+         <package
+               uri="http://somox.org/SourceCodeDecorator/2.0">
+         </package>
+      </metamodel>
+   </extension>
+
+</plugin>

@@ -1,0 +1,45 @@
+<!ELEMENT BehavioralAnalysisResult (Annotation*)>
+<!ATTLIST BehavioralAnalysisResult date CDATA #IMPLIED
+                                   size CDATA #IMPLIED>
+
+<!ELEMENT Annotation (StructuralAnnotation, BehavioralAnnotation)>
+<!ATTLIST Annotation type CDATA #REQUIRED>
+
+<!ELEMENT StructuralAnnotation (BoundObject*)>
+<!ATTLIST StructuralAnnotation fuzzyBelief CDATA #IMPLIED>
+
+<!ELEMENT BoundObject EMPTY>
+<!ATTLIST BoundObject key  CDATA #REQUIRED
+                      name CDATA #REQUIRED>
+
+<!ELEMENT BehavioralAnnotation (Trace*)>
+<!ATTLIST BehavioralAnnotation traces                     CDATA #REQUIRED
+                               acceptedTraces             CDATA #REQUIRED
+                               notAcceptedTraces          CDATA #REQUIRED
+                               rejectedTraces             CDATA #REQUIRED
+                               passedAcceptingStateTraces CDATA #REQUIRED
+                               avgLengthAcceptedTraces    CDATA #REQUIRED
+                               symbolicExecution		  CDATA #REQUIRED>
+
+<!ELEMENT Trace (BoundObject+, MethodCall+)>
+<!ATTLIST Trace id                    CDATA #REQUIRED
+                result                CDATA #REQUIRED
+                passedAcceptingState  CDATA #REQUIRED
+                lengthOfAcceptedTrace CDATA #REQUIRED>
+
+<!ELEMENT MethodCall (Caller, Callee, Argument*)>
+<!ATTLIST MethodCall id     CDATA #REQUIRED
+                     name   CDATA #REQUIRED>
+
+<!ELEMENT Caller EMPTY>
+<!ATTLIST Caller id   CDATA #REQUIRED
+                 type CDATA #REQUIRED>
+
+<!ELEMENT Callee EMPTY>
+<!ATTLIST Callee id   CDATA #REQUIRED
+                 type CDATA #REQUIRED>
+
+<!ELEMENT Argument EMPTY>
+<!ATTLIST Argument value CDATA #IMPLIED
+                   id    CDATA #IMPLIED
+                   type  CDATA #REQUIRED>

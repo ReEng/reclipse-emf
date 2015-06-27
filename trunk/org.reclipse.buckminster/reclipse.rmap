@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rm:rmap xmlns:bc="http://www.eclipse.org/buckminster/Common-1.0" xmlns:rm="http://www.eclipse.org/buckminster/RMap-1.0">
+
+  <rm:locator searchPathRef="luna" failOnError="true" pattern="^org\.eclipse\..*" />
+  <rm:locator searchPathRef="svnresources" failOnError="false"/>
+  <rm:locator searchPathRef="pcm" failOnError="false" />
+<rm:locator searchPathRef="orbit" failOnError="false" />
+ 
+ <rm:locator searchPathRef="sdmnightly" failOnError="true" />
+  
+
+  
+
+  
+  
+  <rm:searchPath name="luna">
+    <rm:provider componentTypes="osgi.bundle,eclipse.feature,buckminster" readerType="p2" source="false" mutable="false">
+      <rm:property key="buckminster.source" value="false"/>
+      <rm:property key="buckminster.mutable" value="false"/>
+      <rm:uri format="http://download.eclipse.org/releases/luna/"/>
+    </rm:provider>
+  </rm:searchPath>
+  
+  <rm:searchPath name="svnresources">
+    <rm:provider componentTypes="osgi.bundle,eclipse.feature" readerType="svn" source="true">
+      <rm:uri format="https://reclipse-emf.googlecode.com/svn/trunk/{0}">
+         <bc:propertyRef key="buckminster.component" />
+      </rm:uri>
+    </rm:provider>
+  </rm:searchPath>
+  
+  <rm:searchPath name="sdmnightly">
+     <rm:provider componentTypes="osgi.bundle,eclipse.feature,buckminster" readerType="p2" source="false" mutable="false">
+      <rm:property key="buckminster.source" value="false"/>
+      <rm:property key="buckminster.mutable" value="false"/>
+      <rm:uri format="https://sdqweb.ipd.kit.edu/eclipse/storydiagraminterpreter/nightly/">
+      </rm:uri>
+    </rm:provider>
+  </rm:searchPath>
+  
+  
+  
+ 
+  
+<rm:searchPath name="pcm">
+    <rm:provider componentTypes="osgi.bundle,eclipse.feature,buckminster" readerType="p2" source="false" mutable="false">
+      <rm:property key="buckminster.source" value="false"/>
+      <rm:property key="buckminster.mutable" value="false"/>
+      <rm:uri format="http://sdqweb.ipd.kit.edu/eclipse/palladio/nightly/"/>
+    </rm:provider>
+  </rm:searchPath>
+
+
+  
+  <rm:searchPath name="orbit">
+    <rm:provider componentTypes="osgi.bundle,eclipse.feature,buckminster" readerType="p2" source="false" mutable="false">
+      <rm:property key="buckminster.source" value="false"/>
+      <rm:property key="buckminster.mutable" value="false"/>
+      <rm:uri format="http://download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository/"/>
+    </rm:provider>
+  </rm:searchPath>
+
+
+
+
+</rm:rmap>

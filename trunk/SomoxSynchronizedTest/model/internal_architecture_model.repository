@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0" xmlns:seff="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0" id="_7d4usPVlEeOyK_DQUhm3hQ">
+  <components__Repository xsi:type="repository:BasicComponent" id="_7gORAPVlEeOyK_DQUhm3hQ" entityName=" &lt;PC No. 0 (default package).SynchronizedTest>">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_7g-e8PVlEeOyK_DQUhm3hQ" entityName="ISynchronizable 0 (prov)" providedInterface__OperationProvidedRole="_7grkAPVlEeOyK_DQUhm3hQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_7hAUIPVlEeOyK_DQUhm3hQ" describedService__SEFF="_7gwcgPVlEeOyK_DQUhm3hQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_7npusPVlEeOyK_DQUhm3hQ" successor_AbstractAction="_7ocY4PVlEeOyK_DQUhm3hQ"/>
+      <steps_Behaviour xsi:type="seff:AcquireAction" id="_7ocY4PVlEeOyK_DQUhm3hQ" entityName="position: (default package).SynchronizedTest.showMessage() from 10 to 12" predecessor_AbstractAction="_7npusPVlEeOyK_DQUhm3hQ" successor_AbstractAction="_7odnAPVlEeOyK_DQUhm3hQ" passiveresource_AcquireAction="_7oajsPVlEeOyK_DQUhm3hQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7odnAPVlEeOyK_DQUhm3hQ" entityName="IA position: (default package).SynchronizedTest.showMessage() from 11 to 11" predecessor_AbstractAction="_7ocY4PVlEeOyK_DQUhm3hQ" successor_AbstractAction="_7oe1IPVlEeOyK_DQUhm3hQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="0"/>
+          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:ReleaseAction" id="_7oe1IPVlEeOyK_DQUhm3hQ" entityName="position: (default package).SynchronizedTest.showMessage() from 10 to 12" predecessor_AbstractAction="_7odnAPVlEeOyK_DQUhm3hQ" successor_AbstractAction="_7npusfVlEeOyK_DQUhm3hQ" passiveResource_ReleaseAction="_7oajsPVlEeOyK_DQUhm3hQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_7npusfVlEeOyK_DQUhm3hQ" predecessor_AbstractAction="_7oe1IPVlEeOyK_DQUhm3hQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <passiveResource_BasicComponent id="_7oajsPVlEeOyK_DQUhm3hQ" entityName="position: (default package).SynchronizedTest.showMessage() from 10 to 12">
+      <capacity_PassiveResource specification="1"/>
+    </passiveResource_BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_7nhL0PVlEeOyK_DQUhm3hQ" entityName="SoMoX System-Level Dummy Component"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_7grkAPVlEeOyK_DQUhm3hQ" entityName="(default package).ISynchronizable">
+    <signatures__OperationInterface id="_7gwcgPVlEeOyK_DQUhm3hQ" entityName="showMessage">
+      <parameters__OperationSignature parameterName="s">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+</repository:Repository>

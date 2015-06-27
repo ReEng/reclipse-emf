@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   <extension
+         point="org.reclipse.tracer.monitoredEventsListeners">
+      <monitoredEventsListener
+            class="org.reclipse.behavior.inference.extensions.InferenceMonitoredEventsListener"
+            enabled="false"
+            name="Behavioral Patterns Inference"
+            optional="true">
+         <propertyKey
+               name="annotationsFileName"
+               type="String"/>
+         <propertyKey
+               name="catalogFileName"
+               type="String"/>
+         <propertyKey
+               defaultValue="BehavioralAnalysisResult.xml"
+               name="resultsFileName"
+               type="String"/>
+         <propertyKey
+               defaultValue="true"
+               name="logTraces"
+               type="Boolean"/>
+      </monitoredEventsListener>
+   </extension>
+   <extension
+         point="org.reclipse.tracer.methodCallListeners">
+      <methodCallListener
+            class="org.reclipse.behavior.inference.extensions.InferenceMethodCallListener"
+            name="Behavioral Patterns Inference">
+         <propertyKey
+               name="annotationsFileName"
+               type="String"/>
+         <propertyKey
+               name="catalogFileName"
+               type="String"/>
+         <propertyKey
+               defaultValue="BehavioralAnalysisResult.xml"
+               name="resultsFileName"
+               type="String"/>
+         <propertyKey
+               defaultValue="true"
+               name="logTraces"
+               type="Boolean"/>
+      </methodCallListener>
+   </extension>
+
+</plugin>

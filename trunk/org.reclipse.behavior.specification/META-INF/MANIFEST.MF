@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.reclipse.behavior.specification;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.reclipse.behavior.specification,
+ org.reclipse.behavior.specification.impl,
+ org.reclipse.behavior.specification.util
+Require-Bundle: org.eclipse.emf.ecore;bundle-version="[2.6.1,3.0.0)",
+ org.fujaba.commons;bundle-version="[1.0.0,2.0.0)",
+ de.uni_paderborn.basicsequencediagram;bundle-version="[1.0.0,2.0.0)",
+ org.reclipse.structure.specification;bundle-version="[1.0.0,2.0.0)"
+Bundle-ActivationPolicy: lazy

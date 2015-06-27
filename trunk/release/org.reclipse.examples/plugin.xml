@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="org.reclipse.ui.examples"
+            name="Reclipse"
+            parentCategory="org.eclipse.ui.Examples">
+      </category>
+      <wizard
+            canFinishEarly="true"
+            category="org.eclipse.ui.Examples/org.reclipse.ui.examples"
+            class="org.reclipse.examples.wizards.BlogExampleWizard"
+            hasPages="true"
+            icon="icons/example.png"
+            id="org.reclipse.examples.wizard.blog"
+            name="Blog (Structural Analysis)"
+            project="true">
+         <description>
+            Creates an example blog project showing different structural patterns.
+         </description>
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            category="org.reclipse.help"
+            extradir="help/contents"
+            file="help/user.xml"
+            primary="false">
+      </toc>
+   </extension>
+
+</plugin>

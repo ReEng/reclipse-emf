@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="../../../../content/org.eclipse.platform/book.css" type="text/css" />
+<link rel="stylesheet" href="../../../../content/org.reclipse.help/style.css" type="text/css" />
+<title>Analyzing the Results</title>
+</head>
+<body>
+	<h1>Analyzing the Results</h1>
+
+	<p>The Pattern Matching Views show the details of a detected pattern candidate. They consist of three views: The
+		pattern view, the abstract syntax view and the class view.</p>
+
+	<p>The views can be opened via the menu bar: "Reclipse" &rarr; "Open Matching Views".</p>
+
+	<h2>Pattern View</h2>
+	<p>The pattern view shows the pattern specification of the selected pattern candidate. The specification is
+		enhanced by information about which conditions of the pattern rule are satisfied, and which not. Satisfied conditions
+		are illustrated in black, and unsatisfied conditions in gray.</p>
+
+	<h2>Abstract Syntax View</h2>
+	<p>The pattern view shows the matched pattern candidate in abstract syntax. There you can view the concrete objects
+		that have been matched to the pattern during the inference. For each object the name attributes are shown.</p>
+
+	<h2>Class View</h2>
+	<p>Coming soon.</p>
+
+	<h2>Additional Features</h2>
+
+	<h3>Consistent Selection</h3>
+	<p>To simplify comparing the detected candidate and the pattern specification, three views provide a consistent
+		selection. If an object in one of the views is selected, the according objects in the other views will be highlighted
+		as well.</p>
+
+	<h3>Set Contents</h3>
+	<p>If the pattern specification of the selected candidate contains set objects, the Abstract Syntax View can show
+		all the objects that belong to the content of the set. Use the toggle button "Toggle Set" to control this
+		functionality.</p>
+</body>
+</html>

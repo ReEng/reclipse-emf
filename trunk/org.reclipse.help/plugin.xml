@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+<plugin>
+
+	<extension point="org.eclipse.help.toc">
+		<toc
+        category="org.reclipse.help"
+        extradir="contents"
+        file="toc.xml"
+        primary="true">
+		</toc>
+	</extension>
+
+</plugin>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+<plugin>
+   <extension-point id="calculators" name="Metric Calculators" schema="schema/calculators.exsd"/>
+   <extension-point id="metrics" name="Metrics" schema="schema/metrics.exsd"/>
+
+   <extension point="org.reclipse.metrics.metrics">
+        <metric acronym="CC" id="org.reclipse.metrics.cc" name="McCabe's Cyclomatic Complexity"><description>The number of flows through a piece of code. Each time a branch occurs (if, for, while, do, case, catch or ternary operators, as well as the &amp;&amp; and || conditional logic operators in expressions) this metric is incremented by one.</description></metric>
+        <metric acronym="COND" id="org.reclipse.metrics.cond" name="Number of Conditional Statements"><description>The number of if-else and case statements contained in the scoped element.</description></metric>
+        <metric acronym="DIT" id="org.reclipse.metrics.dit" name="Depth of Inheritance Tree"><description>The maximum distance from the class Object in the inheritance hierarchy for the scoped element.</description></metric>
+        <metric acronym="LCOM" id="org.reclipse.metrics.lcom" name="Lack of Cohesion in Methods (Chidamber and Kemerer)"><description>The number of pairs of methods in a class that don"t have at least one field in common minus the number of pairs of methods in the class that do share at least one field. When this value is negative, the metric value is set to 0.</description></metric>
+        <metric acronym="LCOM2" id="org.reclipse.metrics.lcom2" name="Lack of Cohesion in Methods"><description>The percentage of methods that do not access a specific attribute averaged over all attributes in the class.</description></metric>
+        <metric acronym="LCOM3" id="org.reclipse.metrics.lcom3" name="Lack of Cohesion in Methods (Henderson-Sellers)"><description>The total number of methods accessing a field of the class minus the total number of methods defined by the class divided through 1 minus the the total number of defined methods.</description></metric>
+        <metric acronym="LOC" id="org.reclipse.metrics.loc" name="Lines of Code"><description>The number of lines in the program"s source code representing the element.</description></metric>
+        <metric acronym="NAA" id="org.reclipse.metrics.naa" name="Lines of Code"><description>The number of lines in the program"s source code representing the element.</description></metric>
+        <metric acronym="NAM" id="org.reclipse.metrics.nam" name="Number of Abstract Methods"><description>The number of abstract methods contained in the scoped element.</description></metric>
+        <metric acronym="NBLD" id="org.reclipse.metrics.nbld" name="Nested Block Depth"><description>The depth of nested blocks of code.</description></metric>
+        <metric acronym="NCV" id="org.reclipse.metrics.ncv" name="Number of Class Variables"><description>The number of class variables contained in the scoped element.</description></metric>
+        <metric acronym="NI" id="org.reclipse.metrics.ni" name="Number of Invocations"><description>The number of invocations of the method.</description></metric>
+        <metric acronym="NIA" id="org.reclipse.metrics.nia" name="Number of inherited attributes"><description>The number of inherited attributes contained in the scoped element.</description></metric>
+        <metric acronym="NIV" id="org.reclipse.metrics.niv" name="Number of instance variables"><description>The number of instance variables contained in the scoped element.</description></metric>
+        <metric acronym="NLA" id="org.reclipse.metrics.nla" name="Number of Local Accesses"><description>The number of local accesses (from the defining type) to the attribute.</description></metric>
+        <metric acronym="NMA" id="org.reclipse.metrics.nma" name="Number of methods added"><description>The number of methods added contained in the scoped element.</description></metric>
+        <metric acronym="NME" id="org.reclipse.metrics.nme" name="Number of methods extended"><description>The number of extended methods contained in the scoped element.</description></metric>
+        <metric acronym="NMI" id="org.reclipse.metrics.nmi" name="Number of methods inherited"><description>The number of inherited methods contained in the scoped element.</description></metric>
+        <metric acronym="NMO" id="org.reclipse.metrics.nmo" name="Number of Overridden Methods"><description>The number of overidden methods contained in the scoped element.</description></metric>
+        <metric acronym="NOA" id="org.reclipse.metrics.noa" name="Number of Attributes"><description>The number of attributes contained in the scoped element.</description></metric>
+        <metric acronym="NOC" id="org.reclipse.metrics.noc" name="Number of Children"><description>The number of direct subclasses of a class. A class implementing an interface counts as a direct child of that interface.</description></metric>
+        <metric acronym="NOCL" id="org.reclipse.metrics.nocl" name="Number of Classes"><description>The number of classes (and interfaces) contained in the scoped element.</description></metric>
+        <metric acronym="NOCM" id="org.reclipse.metrics.nocm" name="Number of Constructors"><description>The number of constructors contained in the scoped element.</description></metric>
+        <metric acronym="NOINT" id="org.reclipse.metrics.noint" name="Number of Interfaces"><description>The number of interfaces contained in the scoped element.</description></metric>
+        <metric acronym="NOM" id="org.reclipse.metrics.nom" name="Number of Methods"><description>The number of methods contained in the scoped element.</description></metric>
+        <metric acronym="NOP" id="org.reclipse.metrics.nop" name="Number of Parameters"><description>The number of parameters of a method.</description></metric>
+        <metric acronym="NOS" id="org.reclipse.metrics.nos" name="Number of Statements"><description>The number of statements contained in the scoped element.</description></metric>
+        <metric acronym="NOSL" id="org.reclipse.metrics.nosl" name="Number of String Literals"><description>The number of String literals contained in the element.</description></metric>
+        <metric acronym="NPA" id="org.reclipse.metrics.npa" name="Number of Public Attributes"><description>The number of public attributes contained in the scoped element.</description></metric>
+        <metric acronym="SIZE" id="org.reclipse.metrics.size" name="Set Size"><description>The number of elements found in the set.</description></metric>
+        <metric acronym="SIX" id="org.reclipse.metrics.six" name="Specialization Index"><description>The average of the specialization index, defined as NMO * DIT / NOM.</description></metric>
+        <metric acronym="WNOC" id="org.reclipse.metrics.wnoc" name="Number of all descedant classes"><description>The number of all descedant classes contained in the scoped element.</description></metric>
+   </extension>
+</plugin>

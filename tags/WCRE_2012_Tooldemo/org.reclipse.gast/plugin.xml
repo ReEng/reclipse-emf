@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+
+<plugin>
+
+   <extension point="org.reclipse.structure.specification.metamodel">
+      <metamodel
+            description="The generalized abstract syntax graph meta model, which is used by SISSy for parsing C++ and Java."
+            id="de.fzi.gast"
+            labeler="org.reclipse.gast.GASTLabeler"
+            name="G-AST"
+            version="1.0">
+         <package
+               uri="http://www.fzi.de/gast/accesses">
+         </package>
+         <package
+               uri="http://www.fzi.de/gast/core">
+         </package>
+         <package
+               uri="http://www.fzi.de/gast/expressions">
+         </package>
+         <package
+               uri="http://www.fzi.de/gast/functions">
+         </package>
+         <package
+               uri="http://www.fzi.de/gast/statements">
+         </package>
+         <package
+               uri="http://www.fzi.de/gast/types">
+         </package>
+         <package
+               uri="http://www.fzi.de/gast/variables">
+         </package>
+      </metamodel>
+   </extension>
+
+   <extension point="org.reclipse.metrics.calculators">
+        <calculator class="org.reclipse.metrics.gast.DITCalculator" id="org.reclipse.metrics.gast.dit" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.dit"></calculator>
+        <calculator class="org.reclipse.metrics.gast.LCOM1Calculator" id="org.reclipse.metrics.gast.lcom" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.lcom"></calculator>
+        <calculator class="org.reclipse.metrics.gast.LCOM2Calculator" id="org.reclipse.metrics.gast.lcom2" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.lcom2"></calculator>
+        <calculator class="org.reclipse.metrics.gast.LCOM3Calculator" id="org.reclipse.metrics.gast.lcom3" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.lcom3"></calculator>
+        <calculator class="org.reclipse.metrics.gast.LOCCalculator" id="org.reclipse.metrics.gast.loc" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.loc"></calculator>
+        <calculator class="org.reclipse.metrics.gast.CCCalculator" id="org.reclipse.metrics.gast.cc" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.cc"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NBLDCalculator" id="org.reclipse.metrics.gast.nbld" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nbld"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NAMCalculator" id="org.reclipse.metrics.gast.nam" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nam"></calculator>
+        <calculator class="org.reclipse.metrics.gast.WNOCCalculator" id="org.reclipse.metrics.gast.wnoc" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.wnoc"></calculator>
+        <calculator class="org.reclipse.metrics.gast.CONDCalculator" id="org.reclipse.metrics.gast.naa" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.naa"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NOACalculator" id="org.reclipse.metrics.gast.noa" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.noa"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NOCCalculator" id="org.reclipse.metrics.gast.noc" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.noc"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NCVCalculator" id="org.reclipse.metrics.gast.ncv" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.ncv"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NOCLCalculator" id="org.reclipse.metrics.gast.nocl" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nocl"></calculator>
+        <calculator class="org.reclipse.metrics.gast.CONDCalculator" id="org.reclipse.metrics.gast.cond" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.cond"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NOCMCalculator" id="org.reclipse.metrics.gast.nocm" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nocm"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NOINTCalculator" id="org.reclipse.metrics.gast.noint" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.noint"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NICalculator" id="org.reclipse.metrics.gast.ni" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.ni"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NLACalculator" id="org.reclipse.metrics.gast.nla" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nla"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NMACalculator" id="org.reclipse.metrics.gast.nma" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nma"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NOMCalculator" id="org.reclipse.metrics.gast.nom" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nom"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NMECalculator" id="org.reclipse.metrics.gast.nme" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nme"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NMICalculator" id="org.reclipse.metrics.gast.nmi" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nmi"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NMOCalculator" id="org.reclipse.metrics.gast.nmo" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nmo"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NOPCalculator" id="org.reclipse.metrics.gast.nop" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nop"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NPACalculator" id="org.reclipse.metrics.gast.npa" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.npa"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NOSCalculator" id="org.reclipse.metrics.gast.nos" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nos"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NOSLCalculator" id="org.reclipse.metrics.gast.nosl" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nosl"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NIACalculator" id="org.reclipse.metrics.gast.nia" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.nia"></calculator>
+        <calculator class="org.reclipse.metrics.gast.NIVCalculator" id="org.reclipse.metrics.gast.niv" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.niv"></calculator>
+        <calculator class="org.reclipse.metrics.gast.SIZECalculator" id="org.reclipse.metrics.gast.size" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.size"></calculator>
+        <calculator class="org.reclipse.metrics.gast.SIXCalculator" id="org.reclipse.metrics.gast.six" metamodel_id="de.fzi.gast" metric_id="org.reclipse.metrics.six"></calculator>
+   </extension>
+
+</plugin>

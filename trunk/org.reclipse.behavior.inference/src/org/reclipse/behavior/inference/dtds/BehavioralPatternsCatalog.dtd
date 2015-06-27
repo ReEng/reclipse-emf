@@ -1,0 +1,69 @@
+<!ELEMENT  BehavioralPatternsCatalog  (BehavioralPatternEntry*)>
+
+<!ELEMENT  BehavioralPatternEntry  (DFA,  Trigger+)>
+<!ATTLIST  BehavioralPatternEntry  name      CDATA  #REQUIRED
+                                   negative  CDATA  #IMPLIED>
+																	 
+<!ELEMENT  DFA  ((PermittedMethodCallSymbol|
+                  ProhibitedMethodCallSymbol|
+                  ProhibitedCallerSymbol)+,  State+, Assignment*, Transition*,
+                  StartState, RejectingState)>
+
+<!ELEMENT  PermittedMethodCallSymbol  (Caller,  Callee)>
+<!ATTLIST  PermittedMethodCallSymbol  id              CDATA  #REQUIRED
+                                      methodName      CDATA  #REQUIRED>
+
+<!ELEMENT  ProhibitedMethodCallSymbol  (Callee)>
+<!ATTLIST  ProhibitedMethodCallSymbol  id         CDATA  #REQUIRED
+                                       methodName CDATA  #REQUIRED>
+
+<!ELEMENT  ProhibitedCallerSymbol  (PermittedCaller+,  Callee)>
+<!ATTLIST  ProhibitedCallerSymbol  id         CDATA  #REQUIRED
+                                   methodName CDATA  #REQUIRED>
+
+<!ELEMENT  Caller  EMPTY>
+<!ATTLIST  Caller  name      CDATA  #REQUIRED
+                   typeName  CDATA  #IMPLIED
+                   set       CDATA  #IMPLIED
+                   forEach   CDATA  #IMPLIED>
+                   
+<!ELEMENT  Callee  EMPTY>
+<!ATTLIST  Callee  name      CDATA  #REQUIRED
+                   typeName  CDATA  #REQUIRED
+                   set       CDATA  #IMPLIED
+                   forEach   CDATA  #IMPLIED>
+
+<!ELEMENT  PermittedCaller  EMPTY>
+<!ATTLIST  PermittedCaller  name      CDATA  #REQUIRED
+                            typeName  CDATA  #IMPLIED
+                   	    set       CDATA  #IMPLIED
+                   	    forEach   CDATA  #IMPLIED>
+
+<!ELEMENT  State  EMPTY>
+<!ATTLIST  State  id       CDATA  #REQUIRED
+                  name     CDATA  #IMPLIED
+                  type     CDATA  #REQUIRED>
+                  
+<!ELEMENT  Assignment  EMPTY>
+<!ATTLIST  Assignment  id         CDATA  #REQUIRED
+                       leftSide   CDATA  #REQUIRED
+                       rightSide  CDATA  #REQUIRED>
+                
+<!ELEMENT  Transition  EMPTY>
+<!ATTLIST  Transition  previousStateId  CDATA  #REQUIRED
+                       nextStateId      CDATA  #REQUIRED
+                       symbolId         CDATA  #REQUIRED
+                       assignmentId     CDATA  #IMPLIED>  
+                       
+<!ELEMENT  StartState  EMPTY>
+<!ATTLIST  StartState  id     CDATA  #REQUIRED>
+
+<!ELEMENT  RejectingState  EMPTY>
+<!ATTLIST  RejectingState  id     CDATA  #REQUIRED>
+
+<!ELEMENT  Trigger  EMPTY>
+<!ATTLIST  Trigger  callerName      CDATA  #IMPLIED
+		    callerTypeName  CDATA  #IMPLIED
+		    calleeName      CDATA  #IMPLIED	
+                    calleeTypeName  CDATA  #REQUIRED
+                    methodName      CDATA  #REQUIRED>

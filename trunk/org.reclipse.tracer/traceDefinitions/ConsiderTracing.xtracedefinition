@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE TraceDefinition SYSTEM "http://wwwcs.uni-paderborn.de/cs/fujaba/DTDs/TraceDefinition.dtd">
+
+<TraceDefinition>
+
+  <ConsiderTrace>
+
+    <ConsiderClass name="org.reclipse.tracer.demo.SimpleClass">
+      <ConsiderMethod name="method1"/>
+    </ConsiderClass>
+
+  </ConsiderTrace>
+
+</TraceDefinition>
+

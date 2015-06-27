@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.reclipse.structure.inference.annotations/src"
+    modelPluginID="org.reclipse.structure.inference.annotations" modelName="Annotations"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0" copyrightFields="false"
+    usedGenPackages="platform:/plugin/org.eclipse.emf.ecore/model/Ecore.genmodel#//ecore ../../org.reclipse.structure.specification/design/org.reclipse.structure.specification.genmodel#//specification">
+  <foreignModel>annotations.ecore</foreignModel>
+  <genPackages prefix="Annotations" basePackage="org.reclipse.structure.inference"
+      disposableProviderFactory="true" ecorePackage="annotations.ecore#/">
+    <genClasses ecoreClass="annotations.ecore#//ASGAnnotation">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference annotations.ecore#//ASGAnnotation/annotatedElements"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference annotations.ecore#//ASGAnnotation/antecedentAnnos"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference annotations.ecore#//ASGAnnotation/consequentAnnos"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference annotations.ecore#//ASGAnnotation/boundObjects"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute annotations.ecore#//ASGAnnotation/valid"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference annotations.ecore#//ASGAnnotation/pattern"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute annotations.ecore#//ASGAnnotation/annotationRanking"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference annotations.ecore#//ASGAnnotation/satisfiedConstraints"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference annotations.ecore#//ASGAnnotation/setResultSet"/>
+    </genClasses>
+    <genClasses ecoreClass="annotations.ecore#//TemporaryAnnotation"/>
+    <genClasses ecoreClass="annotations.ecore#//SetInstanceAnnotation"/>
+    <genClasses ecoreClass="annotations.ecore#//AnnotationSet">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference annotations.ecore#//AnnotationSet/annotations"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference annotations.ecore#//AnnotationSet/setResultSet"/>
+    </genClasses>
+    <genClasses ecoreClass="annotations.ecore#//SetResultSet">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference annotations.ecore#//SetResultSet/annotationSets"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference annotations.ecore#//SetResultSet/parentAnnotation"/>
+    </genClasses>
+    <genClasses ecoreClass="annotations.ecore#//StringToEObjectMap">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute annotations.ecore#//StringToEObjectMap/key"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference annotations.ecore#//StringToEObjectMap/value"/>
+    </genClasses>
+    <genClasses ecoreClass="annotations.ecore#//AnnotationEngine">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference annotations.ecore#//AnnotationEngine/failedApplications"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference annotations.ecore#//AnnotationEngine/foundAnnotations"/>
+      <genOperations ecoreOperation="annotations.ecore#//AnnotationEngine/removeFromFailedApplications">
+        <genParameters ecoreParameter="annotations.ecore#//AnnotationEngine/removeFromFailedApplications/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses image="false" ecoreClass="annotations.ecore#//SatisfiedConstraint">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference annotations.ecore#//SatisfiedConstraint/annotation"/>
+    </genClasses>
+    <genClasses ecoreClass="annotations.ecore#//SatisfiedAttributeConstraint">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute annotations.ecore#//SatisfiedAttributeConstraint/nodeID"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute annotations.ecore#//SatisfiedAttributeConstraint/attributeIndex"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference annotations.ecore#//SatisfiedAttributeConstraint/context"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference annotations.ecore#//SatisfiedAttributeConstraint/constraint"/>
+    </genClasses>
+    <genClasses ecoreClass="annotations.ecore#//SatisfiedSpecificationConstraint">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute annotations.ecore#//SatisfiedSpecificationConstraint/expression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference annotations.ecore#//SatisfiedSpecificationConstraint/constraint"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

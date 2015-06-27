@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.reclipse.structure.interpreter.feature"
+      label="Story Pattern Interpreter"
+      version="1.1.0.201201191235"
+      provider-name="University of Paderborn">
+
+   <description>
+      This feature contains all relevant plug-ins for the story diagram interpreter component. It is used for the structural analysis of structural patterns.
+   </description>
+
+   <requires>
+      <import plugin="org.eclipse.ui" version="3.6.1" match="compatible"/>
+      <import plugin="org.eclipse.core.runtime" version="3.6.0" match="compatible"/>
+      <import plugin="de.mdelab.sdm.interpreter.common" version="1.0.0" match="compatible"/>
+      <import plugin="de.mdelab.sdm.interpreter.common.eclipse" version="1.0.0" match="compatible"/>
+      <import plugin="de.mdelab.sdm.interpreter.ocl" version="1.0.0" match="compatible"/>
+      <import plugin="org.storydriven.modeling.interpreter.adapter" version="1.0.0" match="compatible"/>
+      <import plugin="org.reclipse.structure.inference.annotations" version="1.0.0" match="compatible"/>
+      <import plugin="org.eclipse.core.runtime" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="de.mdelab.sdm.interpreter.common" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ocl.ecore" version="3.0.1" match="greaterOrEqual"/>
+      <import plugin="de.mdelab.sdm.interpreter.common.eclipse" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.storydriven.core" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.storydriven.storydiagrams" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui" version="3.6.0" match="compatible"/>
+      <import plugin="org.storydriven.storydiagrams.expressions" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.storydriven.core.edit" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.storydriven.storydiagrams.edit" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.storydriven.storydiagrams.expressions.common" version="1.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.reclipse.interpreter.adapter.extension"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.mdelab.sdm.interpreter.common"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.mdelab.sdm.interpreter.common.eclipse"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.mdelab.sdm.interpreter.ocl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.storydriven.modeling.interpreter.adapter"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

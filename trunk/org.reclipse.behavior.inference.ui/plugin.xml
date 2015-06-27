@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+<extension point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="menu:org.reclipse.ui.main.menu?endof=structure.inference">
+            <separator
+                  name="behavior.inference"
+                  visible="true">
+            </separator>
+            <command
+                  commandId="org.reclipse.behavior.inference.control.start"
+                  label="Start Behavioral Pattern Detection"
+                  style="push">
+            </command>
+            <separator
+                  name="behavior.inference.additions">
+            </separator>
+      </menuContribution>
+   </extension>
+   
+   <extension point="org.eclipse.ui.views">
+      <category
+      		name="Behavioral Inference"
+            id="org.reclipse.behavior.inference.ui.views">
+      </category>
+      <view
+            icon="icons/behavioralAnalysisResultView.png"
+            class="org.reclipse.behavior.inference.ui.views.BehavioralAnalysisResultView"
+            category="org.reclipse.behavior.inference.ui.views"
+            name="Behavioral Analysis Results"
+            id="org.reclipse.ui.views.behavior.inference"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="org.reclipse.behavior.inference.ui.handler.InferenceStartingHandler"
+            id="org.reclipse.behavior.inference.control.start"
+            name="Start Behavioral Pattern Detection">
+      </command>
+   </extension>
+      <extension
+         point="org.eclipse.ui.commandImages">
+      <image
+            commandId="org.reclipse.behavior.inference.control.start"
+            icon="icons/behavioralPatternsRecognition.png">
+      </image>
+   </extension>
+</plugin>

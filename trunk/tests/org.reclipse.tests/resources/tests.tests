@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:tests="http://www.reclipse.org/ns/tests/2012" name="Test Root">
+  <allAs name="a2"/>
+  <allAs name="a1" someAs="//@allBs.0 //@allBs.1 //@allBs.2"/>
+  <allBs name="b1"/>
+  <allBs name="b2"/>
+  <allBs name="b3"/>
+</tests:Root>

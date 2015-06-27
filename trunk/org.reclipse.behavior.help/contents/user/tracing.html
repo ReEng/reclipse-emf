@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="../../../../content/org.eclipse.platform/book.css" type="text/css" />
+<link rel="stylesheet" href="../../../../content/org.reclipse.help/style.css" type="text/css" />
+<title>Tracing</title>
+</head>
+<body>
+	<h1>Tracing</h1>
+
+	<p>The behavioral pattern recognition of RECLIPSE is a dynamic analysis. It works with runtime data of the software
+		to analyze. There are two possibilities to monitor the runtime data: Debugging by using the RECLIPSE TRACER and the
+		Instrumentation.</p>
+
+	<p>In order to get the information, which objects and method calls have to be monitored, RECLIPSE needs a trace
+		definition</p>
+
+	<h2>Exporting the trace definition</h2>
+
+	<p>Export the trace definition by following these steps:</p>
+	<ol>
+		<li>Open the context menu of the analyzed model by rightclicking on it.</li>
+		<li>Select "Export..." &rarr; "Trace Definition", click "Next".</li>
+		<li>Then select the model which has been analyzed, click "Next".</li>
+		<li>On the next wizard page select the path and name of the file which is supposed to contain the exported trace
+			definition.</li>
+		<li>After clicking "Finish", the trace definition will be exported.</li>
+	</ol>
+
+	<h2>Debugging</h2>
+	<p>Start the RECLIPSE Tracer by selecting "Reclipse" &rarr; "Run Reclipse Tracer..." &rarr; "Reclipse Tracer
+		Configurations". In the opening dialog, you can create and save a new RECLIPSE TRACER Configuration. There are six
+		tabs with several options to set up. Most important are the tabs "Main" and "Classpath", the other options work with
+		default values.</p>
+	<ol>
+		<li>Tab "Main": Enter the main class of the program to traced and the working directory. Optionally enter program
+			or VM arguments. Specifying the trace definition file is important, too.</li>
+		<li>Tab "Classpath": Here you have to add all the directories or JARs that contain source code to be executed.</li>
+		<li>Tab "JRE": Select the runtime JRE.</li>
+		<li>Tab "Options": Here you can set up some additional options, like optional tracing information.</li>
+		<li>Tab "Listeners": You can enable the behavioral patterns inference and/or the trace file logger. Both contain
+			important options to set up, for example the annotation file, the pattern catalog or the trace file's name and
+			format. Use the behavioral patterns inference for an online and the trace file logger for an offline analysis.</li>
+		<li>Tab "Common": Set up further options like the standard input and output and console encoding.</li>
+	</ol>
+	<p>
+		The screenshots below show an example configuration for the tracer: <img src="../../images/tracer1.png" alt="Main tab"
+			border="0"> <img src="../../images/tracer2.png" alt="Classpath tab" border="0">
+	</p>
+
+	<p>After starting the tracer, the tracer view shows information about the progress.</p>
+
+	<p>The resulting trace file can be found in the eclipse folder.</p>
+
+
+	<h2>Instrumentation</h2>
+	<p>Call the instrumentation wizard with "Reclipse" &rarr; "Instrumentation". The wizard consists of six dialogs.
+	<ol>
+		<li>In the first dialog, you can decide if you want to create an new configuration or use an existing one.</li>
+		<li>On the second page, the java classes or directories and libraries which are to be instrumented, have to be
+			selected.</li>
+		<li>The third dialog demands the trace definition file and the main class of the monitored program. The
+			instrumented classes require a library including the instrumentation's runtime application. This library can be
+			inserted into a another input library, or copied into a given directory. The library has to be available for the
+			other classes at runtime. In addition to that, a configuration file has to be created. This file has also to be in
+			the class path.</li>
+		<li>The fourth page is equal to the one in the configuration of the RECLIPSE Tracer as described above.</li>
+	</ol>
+</body>
+</html>

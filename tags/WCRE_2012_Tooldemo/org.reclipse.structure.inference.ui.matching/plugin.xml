@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+
+<plugin>
+
+   <extension point="org.eclipse.ui.views">
+      <view
+            category="org.reclipse.structure.inference.ui.views"
+            class="org.reclipse.structure.inference.ui.matching.views.PatternMatchingView"
+            icon="icons/views/pattern.png"
+            id="org.reclipse.ui.views.structure.inference.matching.pattern"
+            name="Pattern Matchings"
+            restorable="true">
+      </view>
+      <view
+            category="org.reclipse.structure.inference.ui.views"
+            class="org.reclipse.structure.inference.ui.matching.views.ObjectMatchingView"
+            icon="icons/views/ast.png"
+            id="org.reclipse.ui.views.structure.inference.matching.ast"
+            name="Abstract Syntax Tree Matchings"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="menu:org.reclipse.ui.main.menu?endof=structure.inference">
+         <command
+               commandId="org.reclipse.structure.inference.ui.OpenMatchingViews"
+               label="Open Matching Views"
+               style="push">
+         </command>
+      </menuContribution>
+      <menuContribution
+            allPopups="false"
+            locationURI="toolbar:org.reclipse.ui.views.structure.inference.matching.ast">
+         <command
+               commandId="org.reclipse.structure.inference.ui.ToggleSet"
+               label="Toggle Set"
+               style="push">
+         </command>
+         <separator
+               name="resize"
+               visible="true">
+         </separator>
+         <command
+               commandId="org.fujaba.commons.editor.resize"
+               icon="icons/commands/resize_min.png"
+               label="Resize Elements to Minimum Size"
+               style="push">
+            <parameter
+                  name="org.fujaba.commons.editor.resize.minimum"
+                  value="true">
+            </parameter>
+            <parameter
+                  name="org.fujaba.commons.editor.resize.commandstack"
+                  value="false">
+            </parameter>
+         </command>
+         <command
+               commandId="org.fujaba.commons.editor.resize"
+               icon="icons/commands/resize_pref.png"
+               label="Resize Elements to Preferred Size"
+               style="push">
+            <parameter
+                  name="org.fujaba.commons.editor.resize.minimum"
+                  value="false">
+            </parameter>
+            <parameter
+                  name="org.fujaba.commons.editor.resize.commandstack"
+                  value="false">
+            </parameter>
+         </command>
+         <command
+               commandId="org.reclipse.structure.inference.ui.CopyLayout"
+               icon="icons/commands/copy_layout.png"
+               label="Copy Layout"
+               style="push">
+         </command>
+      </menuContribution>
+      <menuContribution
+            allPopups="false"
+            locationURI="toolbar:org.reclipse.ui.views.structure.inference.matching.pattern">
+         <separator
+               name="resize"
+               visible="true">
+         </separator>
+         <command
+               commandId="org.fujaba.commons.editor.resize"
+               icon="icons/commands/resize_min.png"
+               label="Resize Elements to Minimum Size"
+               style="push">
+            <parameter
+                  name="org.fujaba.commons.editor.resize.minimum"
+                  value="true">
+            </parameter>
+            <parameter
+                  name="org.fujaba.commons.editor.resize.commandstack"
+                  value="false">
+            </parameter>
+         </command>
+         <command
+               commandId="org.fujaba.commons.editor.resize"
+               icon="icons/commands/resize_pref.png"
+               label="Resize Elements to Preferred Size"
+               style="push">
+            <parameter
+                  name="org.fujaba.commons.editor.resize.minimum"
+                  value="false">
+            </parameter>
+            <parameter
+                  name="org.fujaba.commons.editor.resize.commandstack"
+                  value="false">
+            </parameter>
+         </command>
+         <command
+               commandId="org.reclipse.structure.inference.ui.CopyLayout"
+               icon="icons/commands/copy_layout.png"
+               label="Copy Layout"
+               style="push">
+         </command>
+      </menuContribution>
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:org.reclipse.ui.views.structure.inference.matching.pattern">
+         <command
+               commandId="org.reclipse.ui.commands.matching.openAnnotation"
+               icon="icons/commands/openMatchedAnnotation.png"
+               label="Open Matched Annotation"
+               style="push">
+            <visibleWhen
+                  checkEnabled="false">
+               <with
+                     variable="selection">
+                  <iterate>
+                        <test
+                              property="org.reclipse.structure.inference.ui.matching.hasMatchingAnnotation">
+                        </test>
+                  </iterate>
+               </with>
+            </visibleWhen>
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commandImages">
+      <image
+            commandId="org.reclipse.structure.inference.ui.ToggleSet"
+            icon="icons/commands/toggleset.png">
+      </image>
+      <image
+            commandId="org.reclipse.structure.inference.ui.OpenMatchingViews"
+            icon="icons/openviews.png">
+      </image>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="org.reclipse.structure.inference.ui.matching.handlers.OpenMatchedAnnotationHandler"
+            id="org.reclipse.structure.inference.ui.OpenMatchingViews"
+            name="Open Matching Views">
+      </command>
+      <command
+            defaultHandler="org.reclipse.structure.inference.ui.matching.handlers.CopyLayoutHandler"
+            id="org.reclipse.structure.inference.ui.CopyLayout"
+            name="Copy Layout">
+      </command>
+      <command
+            defaultHandler="org.reclipse.structure.inference.ui.matching.handlers.ToggleSetHandler"
+            id="org.reclipse.structure.inference.ui.ToggleSet"
+            name="Toggle Set">
+      </command>
+      <command
+            defaultHandler="org.reclipse.structure.inference.ui.matching.handlers.OpenMatchedAnnotationHandler"
+            id="org.reclipse.ui.commands.matching.openAnnotation"
+            name="Open Matched Annotation">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.core.expressions.propertyTesters">
+      <propertyTester
+            class="org.reclipse.structure.inference.ui.matching.PropertyTester"
+            id="org.reclipse.structure.inference.ui.matching.PropertyTester"
+            namespace="org.reclipse.structure.inference.ui.matching"
+            properties="hasMatchingAnnotation"
+            type="org.fujaba.commons.edit.parts.AbstractNodeEditPart">
+      </propertyTester>
+   </extension>
+
+</plugin>

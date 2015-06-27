@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="../../../../content/org.eclipse.platform/book.css" type="text/css" />
+<link rel="stylesheet" href="../../../../content/org.reclipse.help/style.css" type="text/css" />
+<title>Pattern Specification</title>
+</head>
+<body>
+	<h1>Pattern Specification</h1>
+
+	<p>After a static analysis has been executed, a dynamic analysis can be started.</p>
+
+	<p>Coming soon!</p>
+
+	<!--
+<p>The specification language for the behavior of design patterns is based on UML sequence diagrams with a restricted syntax.
+</p>
+<h2>Add a new behavioral pattern</h2>
+<ol>
+	<li>To add a new behavioral pattern to an existing catalog, use either the context menu of the catalog or the menu bar of Eclipse (File &rarr; New &rarr; Behavioral Pattern).</li>
+	<li>A wizard will open in which you can enter the diagram's name and select the catalog where you would like to create the new behavioral pattern. </li>
+	<li>The next page of the wizard is for selecting the corresponding structural pattern. There is also a checkbox for defining if the behavioral pattern is positive or negative. It is only possible to create one positive behavioral pattern for each structural pattern, but you can create an unlimited number of negative behavioral patterns.
+	Positive behavioral patterns present the behavior which is shown by a pattern instance, whereas negative behavioral patterns define behavior which must not be shown by a pattern instance.
+	Click "Finish".</li>
+	<li>Now the new pattern is added to the chosen catalog. The editor view for behavior specification opens automatically.</li>
+
+</ol>
+
+<h2>Using the behavior specification editor</h2>
+<p>The tools for editing are accessible by the palette at the right border of the editor. 
+The palette includes amongst others tools for adding objects, methods and different combined fragments. </p>
+<p>Below the editor window, there is the properties view located.</p>
+
+<img src="../../images/specifyBehavioralPatterns.png" alt="Behavioral Patterns Editor" border="0" >
+
+<p>Behavioral pattern objects can be defined having one of the types which have been specified in the structural pattern (all elements which classifier is "class"). In addition to the type, objects have the property "isSet". If isSet is true, the object is called set object and can contain several object instances of the specified type.
+With the palette's tool "Any Object", you can create objects without type. This can be used in situations where the type of an object does not matter, for example to specify a client.</p>
+<p>Objects can have incoming messages corresponding to the specified methods in the related structural pattern (classifier has to be "method" and "owning class" has to be specified). In particular the properties modifier and the owning class have to be defined in the structural pattern so that a method is provided in the behavior specification.
+If there are parameters specified in the structural pattern, the wizard for message creation will ask for argument names. </p> 
+<p>Behavioral patterns can also contain several interaction fragments: alternative fragments, loop fragments, optional fragments and each fragments. 
+<ul>
+	<li>Alternative fragments are used to specify a situations in which exist multiple possibilities for methodcalls. </li>
+	<li>Loop fragments mark method sequences which can be executed repeatedly.</li>
+	<li>Optional fragments are used for optional method sequences.</li>
+	<li>Each fragments can only be used in combination with set objects. They can only contain one message. With each fragments you can model a methodcall from or to each object within a set object. 
+</ul>
+</p>
+<p>The palette's tool assignment is used for situations, when the instance of an object is to be changed. On the left side stands the name of the object which is the current owner of the lifeline. Arguments which are bound in a message, can be referenced with an assignment. They are on the right side of the assignment and will be assigned to the lifeline at the specified time.</p>
+
+<p> You can view the automaton which will be generated for the behavioral analysis by rightclicking on the diagram and choosing the "Create and View Automaton" action.</p>
+
+<p> <a href="../tasks/specifyStructuralPattern.html">Read more
+	about creating structural patterns</a>.</p>
+	
+<p> Any problems with the specification of behavioral patterns? Read the <a href="../problems.html">known problems section</a>.</p>
+-->
+</body>
+</html>

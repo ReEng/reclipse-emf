@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-SymbolicName: org.reclipse.math;singleton:=true
+Bundle-Vendor: %providerName
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.reclipse.math.functions

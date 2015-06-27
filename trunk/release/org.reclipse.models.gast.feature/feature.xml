@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.reclipse.models.gast.feature"
+      label="Reclipse G-AST Meta Model"
+      version="1.2.0.qualifier"
+      provider-name="University of Paderborn">
+
+   <description>
+      This is currently the only available meta model which is fully supported. It is based on the general abstract syntax graph (G-AST) model of the FZI and represents Java or C++ source code. Those resources can be created by the SiSSy parser of the Q-ImPrESS tool suite.
+   </description>
+
+   <requires>
+      <import feature="org.reclipse.structure.feature" version="1.2.0.qualifier"/>
+      <import plugin="org.eclipse.ui" version="3.6.1" match="compatible"/>
+      <import plugin="de.fzi.gast" version="1.0.0" match="compatible"/>
+      <import plugin="org.reclipse.structure.specification" version="1.0.0" match="compatible"/>
+      <import plugin="org.reclipse.metrics" version="1.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.reclipse.gast"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

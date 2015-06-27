@@ -1,0 +1,23 @@
+<!ELEMENT TraceDefinition (CriticalTrace?, ConsiderTrace?)>
+
+
+<!ELEMENT CriticalTrace (CriticalClass+)>
+
+<!ELEMENT CriticalClass (CallerClass*)>
+<!ATTLIST CriticalClass name CDATA #REQUIRED>
+
+<!ELEMENT CallerClass EMPTY>
+<!ATTLIST CallerClass name CDATA #REQUIRED>
+
+
+<!ELEMENT ConsiderTrace (ConsiderClass+)>
+
+<!ELEMENT ConsiderClass (ConsiderMethod+)>
+<!ATTLIST ConsiderClass name CDATA #REQUIRED>
+
+<!ELEMENT ConsiderMethod (Parameter*, CallerClass*)>
+<!ATTLIST ConsiderMethod name        CDATA #REQUIRED
+                         constructor CDATA #IMPLIED>
+
+<!ELEMENT Parameter EMPTY>
+<!ATTLIST Parameter type CDATA #REQUIRED>

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Kdm2pcm
+Bundle-SymbolicName: org.reclipse.kdm2pcm;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.reclipse.kdm2pcm.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.reclipse.structure.specification;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

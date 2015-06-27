@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE TraceDefinition SYSTEM "http://wwwcs.uni-paderborn.de/cs/fujaba/DTDs/TraceDefinition.dtd">
+
+<TraceDefinition>
+
+  <CriticalTrace>
+
+    <CriticalClass name="org.reclipse.tracer.demo.AbstractTracerTest"/>
+
+  </CriticalTrace>
+
+</TraceDefinition>
+

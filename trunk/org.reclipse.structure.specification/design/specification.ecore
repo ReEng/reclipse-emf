@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="specification"
+    nsURI="http://www.reclipse.org/ns/specification" nsPrefix="specification">
+  <eClassifiers xsi:type="ecore:EEnum" name="PatternType">
+    <eLiterals name="DESIGN_PATTERN"/>
+    <eLiterals name="ANTI_PATTERN" value="1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ModifierType">
+    <eLiterals name="NONE" literal="NONE"/>
+    <eLiterals name="ADDITIONAL" value="1"/>
+    <eLiterals name="NEGATIVE" value="2"/>
+    <eLiterals name="SET" value="3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="OperatorType">
+    <eLiterals name="LESS"/>
+    <eLiterals name="LESS_OR_EQUAL" value="1"/>
+    <eLiterals name="GREATER" value="2"/>
+    <eLiterals name="GREATER_OR_EQUAL" value="3"/>
+    <eLiterals name="EQUAL" value="4"/>
+    <eLiterals name="REGULAR_EXPRESSION" value="5"/>
+    <eLiterals name="UNEQUAL" value="6" literal="UNEQUAL"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSCatalog" eSuperTypes="../../org.fujaba.commons/design/identifier.ecore#//Identifier">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="patternSpecifications"
+        upperBound="-1" eType="#//PSPatternSpecification" containment="true" eOpposite="#//PSPatternSpecification/catalog"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metamodel" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSPatternSpecification" eSuperTypes="../../org.fujaba.commons/design/identifier.ecore#//Identifier">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="catalog" ordered="false"
+        unique="false" lowerBound="1" eType="#//PSCatalog" eOpposite="#//PSCatalog/patternSpecifications"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="connections" upperBound="-1"
+        eType="#//PSConnection" containment="true" eOpposite="#//PSConnection/patternSpecification"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nodes" upperBound="-1"
+        eType="#//PSNode" containment="true" eOpposite="#//PSNode/patternSpecification"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="combinedFragments" upperBound="-1"
+        eType="#//PSCombinedFragment" containment="true" eOpposite="#//PSCombinedFragment/patternSpecification"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="constraints" upperBound="-1"
+        eType="#//PSSpecificationConstraint" containment="true" eOpposite="#//PSSpecificationConstraint/patternSpecification"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="superPattern" ordered="false"
+        unique="false" eType="#//PSPatternSpecification" eOpposite="#//PSPatternSpecification/subPatterns"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subPatterns" upperBound="-1"
+        eType="#//PSPatternSpecification" eOpposite="#//PSPatternSpecification/superPattern"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" ordered="false" unique="false"
+        lowerBound="1" eType="#//PatternType" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="abstract" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        defaultValueLiteral="false"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSItem" abstract="true" interface="true"
+      eSuperTypes="../../org.fujaba.commons/design/identifier.ecore#//Identifier">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="weight" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"
+        defaultValueLiteral="1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSConnection" abstract="true" interface="true"
+      eSuperTypes="#//PSItem">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" ordered="false"
+        unique="false" lowerBound="1" eType="#//PSNode" eOpposite="#//PSNode/outgoing"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" ordered="false"
+        unique="false" lowerBound="1" eType="#//PSNode" eOpposite="#//PSNode/incoming"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="patternSpecification" ordered="false"
+        unique="false" lowerBound="1" eType="#//PSPatternSpecification" eOpposite="#//PSPatternSpecification/connections"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSLink" eSuperTypes="#//PSConnection">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="qualifier" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="negative" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="instanceOf" ordered="false"
+        unique="false" eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EReference"
+        eKeys="http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSPath" eSuperTypes="#//PSConnection">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tabooClasses" ordered="false"
+        upperBound="-1" eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EClass"
+        eKeys="http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSCombinedFragmentItem" abstract="true"
+      interface="true" eSuperTypes="#//PSItem">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parents" ordered="false"
+        upperBound="-1" eType="#//PSCombinedFragment" eOpposite="#//PSCombinedFragment/children"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSCombinedFragment" eSuperTypes="#//PSCombinedFragmentItem">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="children" ordered="false"
+        upperBound="-1" eType="#//PSCombinedFragmentItem" eOpposite="#//PSCombinedFragmentItem/parents"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="kind" ordered="false" unique="false"
+        lowerBound="1" eType="#//ModifierType" defaultValueLiteral="1"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="patternSpecification" ordered="false"
+        unique="false" lowerBound="1" eType="#//PSPatternSpecification" eOpposite="#//PSPatternSpecification/combinedFragments"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="constraint" ordered="false"
+        unique="false" eType="#//PSNodeConstraint" containment="true" eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSSpecificationConstraint" eSuperTypes="#//PSCombinedFragmentItem">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="additional" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="patternSpecification" ordered="false"
+        unique="false" lowerBound="1" eType="#//PSPatternSpecification" eOpposite="#//PSPatternSpecification/constraints"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="expression" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSNode" abstract="true" interface="true"
+      eSuperTypes="#//PSCombinedFragmentItem">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="trigger" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modifier" ordered="false"
+        unique="false" lowerBound="1" eType="#//ModifierType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outgoing" upperBound="-1"
+        eType="#//PSConnection" eOpposite="#//PSConnection/source" eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="incoming" upperBound="-1"
+        eType="#//PSConnection" eOpposite="#//PSConnection/target" eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="patternSpecification" ordered="false"
+        unique="false" lowerBound="1" eType="#//PSPatternSpecification" eOpposite="#//PSPatternSpecification/nodes"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nodeConstraints" upperBound="-1"
+        eType="#//PSNodeConstraint" containment="true" eOpposite="#//PSNodeConstraint/node"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSObject" eSuperTypes="#//PSNode">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="instanceOf" ordered="false"
+        unique="false" eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EClass"
+        eKeys="http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSAnnotation" eSuperTypes="#//PSNode">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" ordered="false" unique="false"
+        eType="#//PSPatternSpecification" eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSNodeConstraint" abstract="true" interface="true"
+      eSuperTypes="#//PSItem">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="node" ordered="false" unique="false"
+        eType="#//PSNode" eOpposite="#//PSNode/nodeConstraints" eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="expression" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSFuzzyConstraint" abstract="true" interface="true"
+      eSuperTypes="#//PSNodeConstraint">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mathFunctionID" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" upperBound="-1"
+        eType="#//PSFunctionParameter" containment="true" eOpposite="#//PSFunctionParameter/constraint"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSFuzzyMetricConstraint" eSuperTypes="#//PSFuzzyConstraint">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metricAcronym" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSFuzzySetRatingConstraint" eSuperTypes="#//PSFuzzyConstraint"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PSBooleanConstraint" abstract="true"
+      interface="true" eSuperTypes="#//PSNodeConstraint">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="additional" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="valueExpression" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="operator" ordered="false"
+        unique="false" lowerBound="1" eType="#//OperatorType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSAttributeConstraint" eSuperTypes="#//PSBooleanConstraint">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" ordered="false"
+        unique="false" eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EAttribute"
+        eKeys="http://www.eclipse.org/emf/2002/Ecore#//ENamedElement/name"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSMetricConstraint" eSuperTypes="#//PSBooleanConstraint">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metricAcronym" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PSFunctionParameter" eSuperTypes="../../org.fujaba.commons/design/identifier.ecore#//Identifier">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" ordered="false"
+        unique="false" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="constraint" ordered="false"
+        unique="false" lowerBound="1" eType="#//PSFuzzyConstraint" eOpposite="#//PSFuzzyConstraint/parameters"
+        eKeys="../../org.fujaba.commons/design/identifier.ecore#//Identifier/id"/>
+  </eClassifiers>
+</ecore:EPackage>

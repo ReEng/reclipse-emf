@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="../../../../content/org.eclipse.platform/book.css" type="text/css" />
+<link rel="stylesheet" href="../../../../content/org.reclipse.help/style.css" type="text/css" />
+<title>Meta Model Contribution</title>
+</head>
+<body>
+	<h1>Meta Model Contribution</h1>
+
+	<p>With the extension point <code>org.reclipse.specification.metamodel</code> you have the ability to extend Reclipse with additional meta models.</p>
+	
+	<h2>Ecore Example</h2>
+	<p>As simple extension we will create a meta model which represents the Ecore meta model itself.</p>
+	<ol>
+		<li>Create a new plug-in project <code>org.reclipse.models.ecore</code>.</li>
+		<li>On the <em>Dependencies</em> tab of the manifest editor, add <code>org.reclipse.specification</code>.</li>
+		<li>On the <em>Extensions</em> tab add a new extension with the stated identifier.</li>
+		<li>Fill the required fields of the created extension element <code>metamodel</code>.</li>
+		<li>The created child element <code>package</code> represent the namespace URI of ecore packages which represent the meta model. In this case we select <code>http://www.eclipse.org/emf/2002/Ecore</code>, for your own meta model you can simply add as much URIs as you want, including already existing - as in this case.</li>
+	</ol>
+	<p>Your <code>plugin.xml</code> could now look like this:</p>
+<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;?eclipse version=&quot;3.5&quot;?&gt;
+&lt;plugin&gt;
+   &lt;extension point=&quot;org.reclipse.structure.specification.metamodel&quot;&gt;
+    &lt;metamodel
+      description=&quot;The Eclipse EMF Ecore meta model.&quot;
+      id=&quot;org.reclipse.models.ecore&quot;
+      trigger_chooser=&quot;org.reclipse.models.ecore.EcoreTriggerer&quot;
+      labeler=&quot;org.reclipse.models.ecore.EcoreLabeler&quot;
+      name=&quot;EMF Ecore&quot;
+      version=&quot;2.7&quot;&gt;
+     &lt;package uri=&quot;http://www.eclipse.org/emf/2002/Ecore&quot;&gt;
+     &lt;/package&gt;
+    &lt;/metamodel&gt;
+   &lt;/extension&gt;
+&lt;/plugin&gt;</pre>
+	
+	<h3>Trigger Chooser</h3>
+	<p>To detect a specified pattern, the interpreter needs to know where to start the matching process. Therefore we have to determine an object type from which to start the matching. As default we use the type with the lowest ranking estimated by the containment hierarchy of the meta models type graph.</p>
+	<p>Because the containment hierarchy cannot be exact in all cases, you can provide your own trigger chooser by implementing the interface <code>org.reclipse.metamodel.ITriggerChooser</code>.</p>
+	<p>For the Ecore example we create a class <code>org.reclipse.models.ecore.EcoreTriggerer</code> that implements the interface. The required method <code>EClass getTrigger(Collection<EClass>)</code> will be called from Reclipse when a trigger has to be chosen for a specified pattern for the meta model the trigger chooser is registered at.</p>
+	<p>The parameter hold all types of pattern nodes that could possibly be used as a trigger - that contains normally only all object nodes without modifier. When more that one type has been used in a pattern - e.g. <em>EClass</em> and <em>EOperation</em> - those will be given into the method.</p>
+	<p>We implement a simple strategy to get the best type: we associate an integer rank to each EClass of the Ecore package and do a maximum search in the interface method:</p>
+<pre>public class EcoreTriggerer implements ITriggerChooser {
+  private final Map&lt;EClass, Integer&gt; ranks;
+
+  public EcoreTriggerer() {
+    ranks = new HashMap&lt;EClass, Integer&gt;();
+
+    ranks.put(Literals.EPACKAGE, 100);
+    ranks.put(Literals.ECLASS, 50);
+    ranks.put(Literals.EOPERATION, 30);
+    ranks.put(Literals.EATTRIBUTE, 20);
+    // ...
+  }
+
+  @Override
+  public EClass getTrigger(Collection&lt;EClass&gt; possibilities) {
+    EClass bestType = null;
+    int bestRank = -1;
+
+    for (EClass currentType : possibilities) {
+      Integer currentRank = ranks.get(currentType);
+      if (currentRank != null &amp;&amp; currentRank &gt; bestRank) {
+        bestRank = currentRank;
+        bestType = currentType;
+      }
+    }
+
+    return bestType;
+  }
+}</pre>
+	
+	<h3>Element Labeler</h3>
+	<p>When displaying results of a structural analysis, the name of the matched elements on the host graph are shown, e.g. in the Annotations view. Those names (simple and full) and an icon are retrieved by a registered element labeler.</p>
+	<p>We create a new one as <code>org.reclipse.models.ecore.ElementLabeler</code> which extends <code>AbstractElementLabeler</code>.</p>
+	<p>The method <code>String getText(EObject)</code> should return the simple name of any element of the meta model. In our case we return the <code>name</code> attribute in case of an instance of <code>ENamedElement</code>.</p>
+	<p>The method <code>String getFullText(EObject)</code> should return the full name of any element of the meta model. A more complex methodology would be to add (return) types of EOperations and EAttributes, formal and type parameters as well as generics. In our case for simplicity we return the simple names of all elements on the elements containment hierarchy:</p>
+	
+<pre>public class EcoreLabeler extends AbstractElementLabeler {
+  @Override
+  public Image getImage(EObject element) {
+    if (element instanceof EPackage) {
+      return getImage(Element.PACKAGE);
+    }
+    if (element instanceof EClass) {
+      return getImage(Element.CLASS);
+    }
+    if (element instanceof EAttribute) {
+      return getImage(Element.FIELD);
+    }
+    // ...
+
+    return getImage(Element.UNKNOWN);
+  }
+
+  @Override
+  public String getText(EObject element) {
+    if (element instanceof ENamedElement) {
+      return ((ENamedElement) element).getName();
+    }
+
+    return String.valueOf(element);
+  }
+
+  @Override
+  public String getFullText(EObject element) {
+    StringBuilder full = new StringBuilder(getText(element));
+
+    EObject container = element.eContainer();
+    while (container != null) {
+      full.insert(0, &quot;/&quot;);
+      full.insert(0, getText(container));
+      container = container.eContainer();
+    }
+
+    return full.toString();
+  }
+}</pre>
+
+</body>
+</html>

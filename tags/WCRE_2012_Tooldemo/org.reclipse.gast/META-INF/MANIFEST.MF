@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-SymbolicName: org.reclipse.gast;singleton:=true
+Bundle-Vendor: %providerName
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: 
+ org.eclipse.ui;bundle-version="[3.6.1,4.0.0)",
+ de.fzi.gast;bundle-version="[1.0.0,2.0.0)",
+ org.reclipse.structure.specification;bundle-version="[1.0.0,2.0.0)",
+ org.reclipse.metrics;bundle-version="[1.0.0,2.0.0)"

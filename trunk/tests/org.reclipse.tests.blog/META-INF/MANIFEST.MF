@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Reclipse Structural Inference Tests: Model
+Bundle-SymbolicName: org.reclipse.tests.blog
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: University of Paderborn
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
