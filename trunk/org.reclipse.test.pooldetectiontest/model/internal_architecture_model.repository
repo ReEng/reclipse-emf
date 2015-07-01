@@ -10,7 +10,7 @@
       <steps_Behaviour xsi:type="seff:InternalAction" id="_KCKYs_bgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.ThreadPool.assign() from 65 to 65" predecessor_AbstractAction="_KCKYsvbgEeOeYJP9coicjQ" successor_AbstractAction="_KCKYsfbgEeOeYJP9coicjQ">
         <resourceDemand_Action>
           <specification_ParametericResourceDemand specification="0"/>
-          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
         </resourceDemand_Action>
       </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:StopAction" id="_KCKYsfbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCKYs_bgEeOeYJP9coicjQ"/>
@@ -20,7 +20,7 @@
       <steps_Behaviour xsi:type="seff:InternalAction" id="_KCK_wPbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.ThreadPool.getAssignment() from 76 to 86" predecessor_AbstractAction="_KCKYtPbgEeOeYJP9coicjQ" successor_AbstractAction="_KCKYtfbgEeOeYJP9coicjQ">
         <resourceDemand_Action>
           <specification_ParametericResourceDemand specification="0"/>
-          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
         </resourceDemand_Action>
       </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:StopAction" id="_KCKYtfbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCK_wPbgEeOeYJP9coicjQ"/>
@@ -41,7 +41,7 @@
       <steps_Behaviour xsi:type="seff:InternalAction" id="_KCLm0vbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.WorkerThread.run() from 144 to 144" predecessor_AbstractAction="_KCLm0PbgEeOeYJP9coicjQ" successor_AbstractAction="_KCLm0fbgEeOeYJP9coicjQ">
         <resourceDemand_Action>
           <specification_ParametericResourceDemand specification="0"/>
-          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
         </resourceDemand_Action>
       </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:StopAction" id="_KCLm0fbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCLm0vbgEeOeYJP9coicjQ"/>
@@ -56,7 +56,7 @@
       <steps_Behaviour xsi:type="seff:InternalAction" id="_KCLm1fbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.TestThreadPool.main() from 17 to 17" predecessor_AbstractAction="_KCLm0_bgEeOeYJP9coicjQ" successor_AbstractAction="_KCLm1vbgEeOeYJP9coicjQ">
         <resourceDemand_Action>
           <specification_ParametericResourceDemand specification="0"/>
-          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
         </resourceDemand_Action>
       </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:LoopAction" id="_KCLm1vbgEeOeYJP9coicjQ" entityName="SoMoX default loop count value" predecessor_AbstractAction="_KCLm1fbgEeOeYJP9coicjQ" successor_AbstractAction="_KCLm2_bgEeOeYJP9coicjQ">
@@ -71,7 +71,7 @@
       <steps_Behaviour xsi:type="seff:InternalAction" id="_KCMN4PbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.TestThreadPool.main() from 25 to 25" predecessor_AbstractAction="_KCLm2_bgEeOeYJP9coicjQ" successor_AbstractAction="_KCLm1PbgEeOeYJP9coicjQ">
         <resourceDemand_Action>
           <specification_ParametericResourceDemand specification="0"/>
-          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
         </resourceDemand_Action>
       </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:StopAction" id="_KCLm1PbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCMN4PbgEeOeYJP9coicjQ"/>
@@ -85,7 +85,7 @@
       <steps_Behaviour xsi:type="seff:InternalAction" id="_KCMN4_bgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.TestWorkerThread.run() from 29 to 36" predecessor_AbstractAction="_KCMN4fbgEeOeYJP9coicjQ" successor_AbstractAction="_KCMN4vbgEeOeYJP9coicjQ">
         <resourceDemand_Action>
           <specification_ParametericResourceDemand specification="0"/>
-          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
         </resourceDemand_Action>
       </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:StopAction" id="_KCMN4vbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCMN4_bgEeOeYJP9coicjQ"/>
@@ -98,7 +98,7 @@
       <steps_Behaviour xsi:type="seff:InternalAction" id="_KCMN5vbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.Done.waitDone() from 49 to 54" predecessor_AbstractAction="_KCMN5PbgEeOeYJP9coicjQ" successor_AbstractAction="_KCMN5fbgEeOeYJP9coicjQ">
         <resourceDemand_Action>
           <specification_ParametericResourceDemand specification="0"/>
-          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
         </resourceDemand_Action>
       </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:StopAction" id="_KCMN5fbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCMN5vbgEeOeYJP9coicjQ"/>
@@ -108,7 +108,7 @@
       <steps_Behaviour xsi:type="seff:InternalAction" id="_KCM08PbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.Done.waitBegin() from 64 to 69" predecessor_AbstractAction="_KCMN5_bgEeOeYJP9coicjQ" successor_AbstractAction="_KCMN6PbgEeOeYJP9coicjQ">
         <resourceDemand_Action>
           <specification_ParametericResourceDemand specification="0"/>
-          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
         </resourceDemand_Action>
       </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:StopAction" id="_KCMN6PbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCM08PbgEeOeYJP9coicjQ"/>
@@ -118,7 +118,7 @@
       <steps_Behaviour xsi:type="seff:InternalAction" id="_KCM08_bgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.Done.workerBegin() from 80 to 80" predecessor_AbstractAction="_KCM08fbgEeOeYJP9coicjQ" successor_AbstractAction="_KCM08vbgEeOeYJP9coicjQ">
         <resourceDemand_Action>
           <specification_ParametericResourceDemand specification="0"/>
-          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
         </resourceDemand_Action>
       </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:StopAction" id="_KCM08vbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCM08_bgEeOeYJP9coicjQ"/>
@@ -128,7 +128,7 @@
       <steps_Behaviour xsi:type="seff:InternalAction" id="_KCM09vbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.Done.workerEnd() from 92 to 92" predecessor_AbstractAction="_KCM09PbgEeOeYJP9coicjQ" successor_AbstractAction="_KCM09fbgEeOeYJP9coicjQ">
         <resourceDemand_Action>
           <specification_ParametericResourceDemand specification="0"/>
-          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
         </resourceDemand_Action>
       </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:StopAction" id="_KCM09fbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCM09vbgEeOeYJP9coicjQ"/>
@@ -138,7 +138,7 @@
       <steps_Behaviour xsi:type="seff:InternalAction" id="_KCM0-fbgEeOeYJP9coicjQ" entityName="IA position: org.reclipse.test.pooldetectiontest.Done.reset() from 102 to 102" predecessor_AbstractAction="_KCM09_bgEeOeYJP9coicjQ" successor_AbstractAction="_KCM0-PbgEeOeYJP9coicjQ">
         <resourceDemand_Action>
           <specification_ParametericResourceDemand specification="0"/>
-          <requiredResource_ParametricResourceDemand href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
         </resourceDemand_Action>
       </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:StopAction" id="_KCM0-PbgEeOeYJP9coicjQ" predecessor_AbstractAction="_KCM0-fbgEeOeYJP9coicjQ"/>
@@ -158,7 +158,7 @@
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_KBAiJ_bgEeOeYJP9coicjQ" entityName="Itest.pooldetectiontest.TestThreadPool">
     <signatures__OperationInterface id="_KBAiKPbgEeOeYJP9coicjQ" entityName="main">
       <parameters__OperationSignature parameterName="args">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="../../../plugin/de.uka.ipd.sdq.pcm.resources/defaultModels/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
   </interfaces__Repository>
