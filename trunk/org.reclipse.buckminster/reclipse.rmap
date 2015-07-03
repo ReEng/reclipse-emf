@@ -4,14 +4,8 @@
   <rm:locator searchPathRef="luna" failOnError="true" pattern="^org\.eclipse\..*" />
   <rm:locator searchPathRef="svnresources" failOnError="false"/>
   <rm:locator searchPathRef="pcm" failOnError="false" />
-<rm:locator searchPathRef="orbit" failOnError="false" />
- 
- <rm:locator searchPathRef="sdmnightly" failOnError="true" />
-  
-
-  
-
-  
+  <rm:locator searchPathRef="orbit" failOnError="false" />
+  <rm:locator searchPathRef="sdmnightly" failOnError="true" />
   
   <rm:searchPath name="luna">
     <rm:provider componentTypes="osgi.bundle,eclipse.feature,buckminster" readerType="p2" source="false" mutable="false">
@@ -22,10 +16,12 @@
   </rm:searchPath>
   
   <rm:searchPath name="svnresources">
-    <rm:provider componentTypes="osgi.bundle,eclipse.feature" readerType="svn" source="true">
-      <rm:uri format="https://reclipse-emf.googlecode.com/svn/trunk/{0}">
-         <bc:propertyRef key="buckminster.component" />
-      </rm:uri>
+    <rm:provider componentTypes="eclipse.feature,osgi.bundle,buckminster" readerType="git">
+      <rm:uri format="{0}/GIT,features/{1}">
+          <bc:propertyRef key="workspace.root" />
+          <bc:propertyRef key="buckminster.component" />
+        </rm:uri>
+      <rm:property key="git.remote.uri" value="https://github.com/ReEng/reclipse-emf.git"/>      
     </rm:provider>
   </rm:searchPath>
   
