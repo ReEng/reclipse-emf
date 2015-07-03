@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<org.somox:SEFF2JavaAST xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.somox="http://www.somox.org/seff2method/1.0" xmlns:seff="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0">
+<org.somox:SEFF2JavaAST xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.somox="http://www.somox.org/seff2method/1.0" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1">
   <seff2MethodMappings>
     <blockstatement href="../org.reclipse.test.pooldetectiontest_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.4/@body"/>
     <seff xsi:type="seff:ResourceDemandingSEFF" href="internal_architecture_model.repository#_KA_7FvbgEeOeYJP9coicjQ"/>

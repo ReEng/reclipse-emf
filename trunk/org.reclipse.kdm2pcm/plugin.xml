@@ -8,13 +8,13 @@
             name="sourcecodedecorator"
             trigger_chooser="org.reclipse.structure.specification.util.ContainmentWeightedTriggerChooser">
          <package
-               uri="http://sdq.ipd.uka.de/PalladioComponentModel/Repository/5.0">
+               uri="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1">
          </package>
          <package
-               uri="http://sdq.ipd.uka.de/PalladioComponentModel/SEFF/5.0">
+               uri="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.1">
          </package>
          <package
-               uri="http://sdq.ipd.uka.de/PalladioComponentModel/Core/5.0">
+               uri="http://palladiosimulator.org/PalladioComponentModel/Core/5.1">
          </package>
          <package
                uri="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java">
