@@ -68,7 +68,7 @@ public class ContainmentWeightedTriggerChooser implements ITriggerChooser
 			@Override
 			public int compare(EClass first, EClass second)
 			{
-				if (first != null && second != null && first.getName() != null && second.getName() != null)
+				if (first != null && second != null && first.getName() != null && second.getName() != null )
 				{
 					return first.getName().compareTo(second.getName());
 				}
