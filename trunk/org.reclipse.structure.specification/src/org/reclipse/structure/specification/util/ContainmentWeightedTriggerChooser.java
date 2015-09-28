@@ -20,225 +20,225 @@ import org.reclipse.metamodel.ITriggerChooser;
 public class ContainmentWeightedTriggerChooser implements ITriggerChooser
 {
 
-	private static final int WEIGHT_RECURSION = 2;
+    private static final int WEIGHT_RECURSION = 2;
 
 
-	private final Map<EClass, Integer> weights;
+    private final Map<EClass, Integer> weights;
 
-	private final Map<EClass, Set<EClass>> subTypes;
-
-
-	public ContainmentWeightedTriggerChooser()
-	{
-		weights = new HashMap<EClass, Integer>();
-		subTypes = new HashMap<EClass, Set<EClass>>();
-	}
+    private final Map<EClass, Set<EClass>> subTypes;
 
 
-	@Override
-	public EClass getTrigger(Collection<EClass> possibilities)
-	{
-		// collect sub type references
-		collectSubTypes(possibilities);
-
-		// calculate the weights
-		calculateWeights(possibilities);
-
-		// get maximum weight
-		int max = getMaximum(possibilities);
-
-		// get all types with that weight
-		List<EClass> results = getTypes(possibilities, max);
-
-		// when empty, return null
-		if (results.isEmpty())
-		{
-			return null;
-		}
-
-		// when only one element exist with that weight, return it
-		if (results.size() == 1)
-		{
-			return results.get(0);
-		}
-
-		// on multiple types, sort by name and take first
-		Collections.sort(results, new Comparator<EClass>()
-		{
-			@Override
-			public int compare(EClass first, EClass second)
-			{
-				if (first != null && second != null && first.getName() != null)
-				{
-					return first.getName().compareTo(second.getName());
-				}
-				else
-				{
-					return 0;
-				}
-			}
-		});
-
-		return results.get(0);
-	}
+    public ContainmentWeightedTriggerChooser()
+    {
+        weights = new HashMap<EClass, Integer>();
+        subTypes = new HashMap<EClass, Set<EClass>>();
+    }
 
 
-	private void collectSubTypes(Collection<EClass> types)
-	{
-		for (EClass type : types)
-		{
-			// add for all super types
-			for (EClass superType : type.getESuperTypes())
-			{
-				addSuperType(superType, type);
-			}
+    @Override
+    public EClass getTrigger(final Collection<EClass> possibilities)
+    {
+        // collect sub type references
+        collectSubTypes(possibilities);
 
-			// add for all cross referenced types
-			for (EObject object : type.eCrossReferences())
-			{
-				if (object instanceof EClass)
-				{
-					EClass crossType = (EClass) object;
+        // calculate the weights
+        calculateWeights(possibilities);
 
-					for (EClass superType : crossType.getESuperTypes())
-					{
-						addSuperType(superType, crossType);
-					}
-				}
-			}
-		}
-	}
+        // get maximum weight
+        final int max = getMaximum(possibilities);
 
+        // get all types with that weight
+        final List<EClass> results = getTypes(possibilities, max);
 
-	private void addSuperType(EClass parent, EClass child)
-	{
-		Set<EClass> result = subTypes.get(parent);
-		if (result == null)
-		{
-			result = new HashSet<EClass>();
-			subTypes.put(parent, result);
-		}
+        // when empty, return null
+        if (results.isEmpty())
+        {
+            return null;
+        }
 
-		result.add(child);
-	}
+        // when only one element exist with that weight, return it
+        if (results.size() == 1)
+        {
+            return results.get(0);
+        }
 
+        // on multiple types, sort by name and take first
+        Collections.sort(results, new Comparator<EClass>()
+                {
+            @Override
+            public int compare(final EClass first, final EClass second)
+            {
+                if (first != null && second != null && first.getName() != null && second.getName() != null )
+                {
+                    return first.getName().compareTo(second.getName());
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+                });
 
-	private void calculateWeights(Collection<EClass> types)
-	{
-		// calculate weights
-		for (EClass type : types)
-		{
-			// prepare weight
-			int weight = 1;
-
-			// check all containments
-			for (EReference containment : type.getEAllContainments())
-			{
-				EClass containmentType = containment.getEReferenceType();
-
-				// add weight for all sub types (when existing)
-				Set<EClass> children = subTypes.get(containmentType);
-				if (children != null)
-				{
-					for (EClass subType : children)
-					{
-						weight += getWeight(subType);
-					}
-				}
-				else
-				{
-					Set<EClass> visited = new HashSet<EClass>();
-					visited.add(type);
-					if (isRecursive(visited, containmentType))
-					{
-						// add weight representing a recursion
-						weight += WEIGHT_RECURSION;
-					}
-					else
-					{
-						// add weight of the containment type
-						weight += getWeight(containmentType);
-					}
-				}
-			}
-
-			weights.put(type, weight);
-		}
-	}
+        return results.get(0);
+    }
 
 
-	private int getWeight(EClass type)
-	{
-		int weight = 1;
-		for (EReference reference : type.getEAllContainments())
-		{
-			EClass referenceType = reference.getEReferenceType();
+    private void collectSubTypes(final Collection<EClass> types)
+    {
+        for (final EClass type : types)
+        {
+            // add for all super types
+            for (final EClass superType : type.getESuperTypes())
+            {
+                addSuperType(superType, type);
+            }
 
-			Set<EClass> visited = new HashSet<EClass>();
-			visited.add(type);
-			if (isRecursive(visited, referenceType))
-			{
-				weight += 5;
-				// System.out.println("found recursion!");
-			}
-			else
-			{
-				weight += getWeight(referenceType);
-			}
-		}
+            // add for all cross referenced types
+            for (final EObject object : type.eCrossReferences())
+            {
+                if (object instanceof EClass)
+                {
+                    final EClass crossType = (EClass) object;
 
-		return weight;
-	}
-
-
-	private boolean isRecursive(Set<EClass> visited, EClass type)
-	{
-		if (visited.contains(type))
-		{
-			return true;
-		}
-
-		for (EReference reference : type.getEAllContainments())
-		{
-			EClass referenceType = reference.getEReferenceType();
-			visited.add(referenceType);
-			if (isRecursive(visited, referenceType))
-			{
-				return true;
-			}
-			visited.remove(referenceType);
-		}
-
-		return false;
-	}
+                    for (final EClass superType : crossType.getESuperTypes())
+                    {
+                        addSuperType(superType, crossType);
+                    }
+                }
+            }
+        }
+    }
 
 
-	private int getMaximum(Collection<EClass> types)
-	{
-		int max = 0;
-		for (EClass type : types)
-		{
-			int current = weights.get(type);
-			if (current > max)
-			{
-				max = current;
-			}
-		}
+    private void addSuperType(final EClass parent, final EClass child)
+    {
+        Set<EClass> result = subTypes.get(parent);
+        if (result == null)
+        {
+            result = new HashSet<EClass>();
+            subTypes.put(parent, result);
+        }
 
-		return max;
-	}
+        result.add(child);
+    }
 
 
-	private List<EClass> getTypes(Collection<EClass> types, int weight)
-	{
-		List<EClass> results = new ArrayList<EClass>();
-		for (EClass type : types)
-		{
-			if (weights.get(type).equals(weight))
-			{
-				results.add(type);
-			}
-		}
-		return results;
-	}
+    private void calculateWeights(final Collection<EClass> types)
+    {
+        // calculate weights
+        for (final EClass type : types)
+        {
+            // prepare weight
+            int weight = 1;
+
+            // check all containments
+            for (final EReference containment : type.getEAllContainments())
+            {
+                final EClass containmentType = containment.getEReferenceType();
+
+                // add weight for all sub types (when existing)
+                final Set<EClass> children = subTypes.get(containmentType);
+                if (children != null)
+                {
+                    for (final EClass subType : children)
+                    {
+                        weight += getWeight(subType);
+                    }
+                }
+                else
+                {
+                    final Set<EClass> visited = new HashSet<EClass>();
+                    visited.add(type);
+                    if (isRecursive(visited, containmentType))
+                    {
+                        // add weight representing a recursion
+                        weight += WEIGHT_RECURSION;
+                    }
+                    else
+                    {
+                        // add weight of the containment type
+                        weight += getWeight(containmentType);
+                    }
+                }
+            }
+
+            weights.put(type, weight);
+        }
+    }
+
+
+    private int getWeight(final EClass type)
+    {
+        int weight = 1;
+        for (final EReference reference : type.getEAllContainments())
+        {
+            final EClass referenceType = reference.getEReferenceType();
+
+            final Set<EClass> visited = new HashSet<EClass>();
+            visited.add(type);
+            if (isRecursive(visited, referenceType))
+            {
+                weight += 5;
+                // System.out.println("found recursion!");
+            }
+            else
+            {
+                weight += getWeight(referenceType);
+            }
+        }
+
+        return weight;
+    }
+
+
+    private boolean isRecursive(final Set<EClass> visited, final EClass type)
+    {
+        if (visited.contains(type))
+        {
+            return true;
+        }
+
+        for (final EReference reference : type.getEAllContainments())
+        {
+            final EClass referenceType = reference.getEReferenceType();
+            visited.add(referenceType);
+            if (isRecursive(visited, referenceType))
+            {
+                return true;
+            }
+            visited.remove(referenceType);
+        }
+
+        return false;
+    }
+
+
+    private int getMaximum(final Collection<EClass> types)
+    {
+        int max = 0;
+        for (final EClass type : types)
+        {
+            final int current = weights.get(type);
+            if (current > max)
+            {
+                max = current;
+            }
+        }
+
+        return max;
+    }
+
+
+    private List<EClass> getTypes(final Collection<EClass> types, final int weight)
+    {
+        final List<EClass> results = new ArrayList<EClass>();
+        for (final EClass type : types)
+        {
+            if (weights.get(type).equals(weight))
+            {
+                results.add(type);
+            }
+        }
+        return results;
+    }
 }
