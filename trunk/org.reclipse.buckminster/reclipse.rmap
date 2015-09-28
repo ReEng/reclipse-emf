@@ -2,7 +2,7 @@
 <rm:rmap xmlns:bc="http://www.eclipse.org/buckminster/Common-1.0" xmlns:rm="http://www.eclipse.org/buckminster/RMap-1.0">
 
   <rm:locator searchPathRef="luna" failOnError="true" pattern="^org\.eclipse\..*" />
-  <rm:locator searchPathRef="svnresources" failOnError="false"/>
+  <rm:locator searchPathRef="gitresources" failOnError="false"/>
   <rm:locator searchPathRef="pcm" failOnError="false" />
   <rm:locator searchPathRef="orbit" failOnError="false" />
   <rm:locator searchPathRef="sdmnightly" failOnError="true" />
@@ -15,9 +15,9 @@
     </rm:provider>
   </rm:searchPath>
   
-  <rm:searchPath name="svnresources">
+  <rm:searchPath name="gitresources">
     <rm:provider componentTypes="eclipse.feature,osgi.bundle,buckminster" readerType="git">
-      <rm:uri format="{0}/GIT,features/{1}">
+      <rm:uri format="{0}/GIT,trunk/{1}">
           <bc:propertyRef key="workspace.root" />
           <bc:propertyRef key="buckminster.component" />
         </rm:uri>
