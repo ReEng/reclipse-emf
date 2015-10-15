@@ -11,7 +11,7 @@ If you want to use Reclipse without looking into the source code, then execute t
   
    * (1) Download and install the [http://www.eclipse.org/downloads/packages/release/Luna/R Eclipse Modeling Tools (Luna)] by choosing the your target OS.
    * (2) Select Help -> Install New Software... and install !MoDisco SDK Incubation from the category Modelling under Eclipse Luna update site.
-   * (3) Select Help -> Install New Software... and install Palladio from the nightly build [https://sdqweb.ipd.kit.edu/eclipse/palladio/nightly/ site].
+   * (3) Select Help -> Install New Software... and install Palladio from the nightly build [https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/ site].
    * (4) Select Help -> Install New Software... and install the SoMoX feature from the [https://sdqweb.ipd.kit.edu/eclipse/somox/nightly/ update site].
    * (5) Select Help -> Install New Software... and install the Reclipse feature from our nightly build [https://sdqweb.ipd.kit.edu/eclipse/reclipse/nightly/ site].
 
@@ -25,16 +25,13 @@ In order to set up the Eclipse Kepler environment to develop Reclipse or registe
    * (1) Download and install the [http://www.eclipse.org/downloads/packages/release/Luna/R Eclipse Modeling Tools (Luna)] by choosing the your target OS.
    * Execute steps (2-4) if you want to have registered !MoDisco, Palladio PCM, and !SourceCodeDecorator metamodels. If you do not want to use those metamodels and want to register your own metamodels proceed from step 5 and afterwards follow the subsection 'Metamodel registration'.
    * (2) Select Help -> Install New Software... and install !MoDisco SDK Incubation from the category Modelling under Eclipse Luna update site.
-   * (3) Select Help -> Install New Software... and install Palladio from the nightly build [https://sdqweb.ipd.kit.edu/eclipse/palladio/nightly/ site].
-   * (4) From the [https://svnserver.informatik.kit.edu/i43/svn/code/SoMoX/Core/ SoMoX repository] (read access: anonymous, anonymous) check out the following plugins: 
+   * (3) Select Help -> Install New Software... and install Palladio from the nightly build [https://sdqweb.ipd.kit.edu/eclipse/palladiosimulator/nightly/ site].
+   * (4) Select Help -> Install New Software... and install SDM from the nightly build [https://sdqweb.ipd.kit.edu/eclipse/storydiagraminterpreter/nightly/ site].
+   * (5) From the [https://svnserver.informatik.kit.edu/i43/svn/code/SoMoX/Core/ SoMoX repository] (read access: anonymous, anonymous) check out the following plugins: 
 
 http://reclipse-emf.googlecode.com/svn/wiki/images/plugins/SoMoXPlugins.png
 
-   * (5) From the [https://svn.codespot.com/a/eclipselabs.org/sdm-commons/ Story Driven repository] check our the following plugins:
-
-http://reclipse-emf.googlecode.com/svn/wiki/images/plugins/SDPlugins.png
-
-  * (6) From the [https://reclipse-emf.googlecode.com/svn/trunk/ Reclipse repository] check out the following plugins:
+  * (6) Import the following plugins from Reclipse Github site [https://github.com/ReEng/reclipse-emf]:
 
 http://reclipse-emf.googlecode.com/svn/wiki/images/plugins/ReclipsePlugins.png
 
