@@ -91,6 +91,16 @@
                style="push">
          </command>
       </menuContribution>
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:org.reclipse.ui.views.annotations">
+         <command
+               commandId="org.reclipse.ui.commands.ExportAnnotation"
+               label="Export Annotation"
+               style="push"
+               tooltip="Export the Annotation as String, e.g., usable for Dynamic Spotting.">
+         </command>
+      </menuContribution>
    </extension>
    
    <extension point="org.eclipse.ui.views">
@@ -143,6 +153,11 @@
                name="Showing"
                optional="true">
          </commandParameter>
+      </command>
+      <command
+            defaultHandler="org.reclipse.structure.inference.ui.handler.ExportAnnotationHandler"
+            id="org.reclipse.ui.commands.ExportAnnotation"
+            name="Export Annotation">
       </command>
    </extension>
    <extension
