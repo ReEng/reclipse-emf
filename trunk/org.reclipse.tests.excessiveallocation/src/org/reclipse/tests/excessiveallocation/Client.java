@@ -15,4 +15,12 @@ public class Client {
             service.doSomething(largeArray);
         }
     }
+
+    public void start2() {
+        for (int i=0; i < 1000; i++) {
+            final Client c = new Client();
+            service.doSomething(null);
+        }
+    }
+
 }

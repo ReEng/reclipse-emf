@@ -5,7 +5,7 @@ Bundle-Activator: org.reclipse.structure.InferenceUIPlugin
 Bundle-ClassPath: .
 Bundle-Localization: plugin
 Bundle-Name: %pluginName
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-SymbolicName: org.reclipse.structure.inference.ui;singleton:=true
 Bundle-Vendor: %providerName
 Bundle-Version: 1.0.0.qualifier
