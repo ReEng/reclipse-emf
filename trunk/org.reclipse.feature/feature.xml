@@ -2,7 +2,7 @@
 <feature
       id="org.reclipse.feature"
       label="Reclipse"
-      version="1.0.0.qualifier">
+      version="1.0.1.qualifier">
 
    <description url="https://code.google.com/p/reclipse-emf/">
       This feature includes the required plugins for the Reclipse structure specification and interpretation.
