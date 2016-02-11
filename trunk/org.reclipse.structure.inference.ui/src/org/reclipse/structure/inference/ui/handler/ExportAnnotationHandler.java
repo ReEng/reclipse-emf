@@ -11,9 +11,13 @@ import org.eclipse.core.commands.ExecutionEvent;
 import org.eclipse.core.commands.ExecutionException;
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Status;
+import org.eclipse.emf.ecore.EObject;
+import org.eclipse.gmt.modisco.java.AbstractMethodDeclaration;
+import org.eclipse.gmt.modisco.java.AbstractMethodInvocation;
 import org.eclipse.gmt.modisco.java.ClassDeclaration;
 import org.eclipse.gmt.modisco.java.MethodDeclaration;
 import org.eclipse.gmt.modisco.java.Package;
+import org.eclipse.gmt.modisco.java.emf.util.JavaSwitch;
 import org.eclipse.jface.dialogs.ErrorDialog;
 import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.jface.viewers.ISelection;
@@ -79,6 +83,7 @@ public class ExportAnnotationHandler extends AbstractHandler {
         }
     }
 
+    @SuppressWarnings("restriction")
     private static List<String> getScopeSpecifications(final TreeSelection treeSelection) {
         final List<String> scopeSpecifications = new ArrayList<>(treeSelection.size());
 
@@ -90,7 +95,30 @@ public class ExportAnnotationHandler extends AbstractHandler {
 
                 switch (annotation.getPattern().getName()) {
                 case "SynchronizedMethod":
-                    scopeSpecifications.add(computeExportString(annotation));
+                    final MethodDeclaration synchronizedMethod = (MethodDeclaration) annotation.getBoundObjects()
+                            .get("method").get(0);
+
+                    for (final AbstractMethodInvocation methodInvocation : synchronizedMethod.getUsages()) {
+                        // recursively go up eContainers until method declaration is found.
+                        new JavaSwitch<Object>() {
+
+                            @Override
+                            public Object caseAbstractMethodDeclaration(
+                                    final AbstractMethodDeclaration abstractMethodDeclaration) {
+                                scopeSpecifications.add(computeExportString(abstractMethodDeclaration));
+                                return null;
+                            };
+
+                            @Override
+                            public Object defaultCase(final EObject object) {
+                                if (object != null && object.eContainer() != null) {
+                                    return doSwitch(object.eContainer());
+                                }
+                                return null;
+                            };
+
+                        }.doSwitch(methodInvocation);
+                    }
                     break;
                 default:
                     break;
@@ -101,11 +129,8 @@ public class ExportAnnotationHandler extends AbstractHandler {
         return scopeSpecifications;
     }
 
-    private static String computeExportString(final ASGAnnotation annotation) {
-        final MethodDeclaration methodDeclaration = (MethodDeclaration) annotation.getBoundObjects().get("method")
-                .get(0);
+    private static String computeExportString(final AbstractMethodDeclaration methodDeclaration) {
         final ClassDeclaration classDeclaration = (ClassDeclaration) methodDeclaration.getAbstractTypeDeclaration();
-
         final StringBuilder sb = new StringBuilder();
         sb.append(getFullQualifiedName(classDeclaration.getPackage()));
         sb.append(classDeclaration.getName());
