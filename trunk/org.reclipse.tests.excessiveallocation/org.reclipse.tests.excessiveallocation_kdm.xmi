@@ -2,41 +2,50 @@
 <kdm:Segment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kdm="http://www.eclipse.org/MoDisco/kdm/kdm" xmlns:source="http://www.eclipse.org/MoDisco/kdm/source">
   <model xsi:type="source:InventoryModel" name="org.reclipse.tests.excessiveallocation">
     <inventoryElement xsi:type="source:Project" name="org.reclipse.tests.excessiveallocation">
-      <inventoryElement xsi:type="source:Configuration" name=".classpath" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/.classpath"/>
-      <inventoryElement xsi:type="source:Configuration" name=".project" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/.project"/>
-      <inventoryElement xsi:type="source:Directory" name=".settings" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/.settings">
-        <inventoryElement xsi:type="source:Configuration" name="org.eclipse.jdt.core.prefs" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/.settings/org.eclipse.jdt.core.prefs"/>
+      <inventoryElement xsi:type="source:Configuration" name=".classpath" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/.classpath"/>
+      <inventoryElement xsi:type="source:SourceFile" name=".gitignore" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/.gitignore"/>
+      <inventoryElement xsi:type="source:Configuration" name=".project" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/.project"/>
+      <inventoryElement xsi:type="source:Directory" name=".settings" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/.settings">
+        <inventoryElement xsi:type="source:Configuration" name="org.eclipse.jdt.core.prefs" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/.settings/org.eclipse.jdt.core.prefs"/>
       </inventoryElement>
-      <inventoryElement xsi:type="source:Directory" name="bin" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/bin">
-        <inventoryElement xsi:type="source:Directory" name="org" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/bin/org">
-          <inventoryElement xsi:type="source:Directory" name="reclipse" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/bin/org/reclipse">
-            <inventoryElement xsi:type="source:Directory" name="tests" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/bin/org/reclipse/tests">
-              <inventoryElement xsi:type="source:Directory" name="excessiveallocation" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/bin/org/reclipse/tests/excessiveallocation">
-                <inventoryElement xsi:type="source:BinaryFile" name="Client.class" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/bin/org/reclipse/tests/excessiveallocation/Client.class"/>
-                <inventoryElement xsi:type="source:BinaryFile" name="IService.class" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/bin/org/reclipse/tests/excessiveallocation/IService.class"/>
-                <inventoryElement xsi:type="source:BinaryFile" name="Main.class" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/bin/org/reclipse/tests/excessiveallocation/Main.class"/>
-                <inventoryElement xsi:type="source:BinaryFile" name="Service.class" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/bin/org/reclipse/tests/excessiveallocation/Service.class"/>
+      <inventoryElement xsi:type="source:Directory" name="bin" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/bin">
+        <inventoryElement xsi:type="source:Directory" name="org" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/bin/org">
+          <inventoryElement xsi:type="source:Directory" name="reclipse" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/bin/org/reclipse">
+            <inventoryElement xsi:type="source:Directory" name="tests" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/bin/org/reclipse/tests">
+              <inventoryElement xsi:type="source:Directory" name="excessiveallocation" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/bin/org/reclipse/tests/excessiveallocation">
+                <inventoryElement xsi:type="source:BinaryFile" name="Client.class" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/bin/org/reclipse/tests/excessiveallocation/Client.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="IService.class" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/bin/org/reclipse/tests/excessiveallocation/IService.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="Main.class" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/bin/org/reclipse/tests/excessiveallocation/Main.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="Service.class" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/bin/org/reclipse/tests/excessiveallocation/Service.class"/>
               </inventoryElement>
             </inventoryElement>
           </inventoryElement>
         </inventoryElement>
       </inventoryElement>
-      <inventoryElement xsi:type="source:Directory" name="java2kdmFragments" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/java2kdmFragments">
-        <inventoryElement xsi:type="source:SourceFile" name="org.reclipse.tests.excessiveallocation_java2kdm.xmi" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/java2kdmFragments/org.reclipse.tests.excessiveallocation_java2kdm.xmi"/>
-        <inventoryElement xsi:type="source:SourceFile" name="Package2Directory_java2kdm.xmi" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/java2kdmFragments/Package2Directory_java2kdm.xmi"/>
+      <inventoryElement xsi:type="source:SourceFile" name="Excessive Allocation.launch" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/Excessive Allocation.launch"/>
+      <inventoryElement xsi:type="source:Directory" name="java2kdmFragments" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/java2kdmFragments">
+        <inventoryElement xsi:type="source:SourceFile" name="org.reclipse.tests.excessiveallocation_java2kdm.xmi" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/java2kdmFragments/org.reclipse.tests.excessiveallocation_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="Package2Directory_java2kdm.xmi" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/java2kdmFragments/Package2Directory_java2kdm.xmi"/>
       </inventoryElement>
-      <inventoryElement xsi:type="source:SourceFile" name="org.reclipse.tests.excessiveallocation_java.xmi" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/org.reclipse.tests.excessiveallocation_java.xmi"/>
-      <inventoryElement xsi:type="source:SourceFile" name="org.reclipse.tests.excessiveallocation_java2kdm.xmi" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/org.reclipse.tests.excessiveallocation_java2kdm.xmi"/>
-      <inventoryElement xsi:type="source:SourceFile" name="org.reclipse.tests.excessiveallocation_kdm.xmi" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/org.reclipse.tests.excessiveallocation_kdm.xmi"/>
-      <inventoryElement xsi:type="source:Directory" name="src" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/src">
-        <inventoryElement xsi:type="source:Directory" name="org" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/src/org">
-          <inventoryElement xsi:type="source:Directory" name="reclipse" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/src/org/reclipse">
-            <inventoryElement xsi:type="source:Directory" name="tests" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/src/org/reclipse/tests">
-              <inventoryElement xsi:type="source:Directory" name="excessiveallocation" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/src/org/reclipse/tests/excessiveallocation">
-                <inventoryElement xsi:type="source:SourceFile" name="Client.java" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/src/org/reclipse/tests/excessiveallocation/Client.java"/>
-                <inventoryElement xsi:type="source:SourceFile" name="IService.java" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/src/org/reclipse/tests/excessiveallocation/IService.java"/>
-                <inventoryElement xsi:type="source:SourceFile" name="Main.java" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/src/org/reclipse/tests/excessiveallocation/Main.java"/>
-                <inventoryElement xsi:type="source:SourceFile" name="Service.java" path="/Users/snowball/Documents/workspaces/workspace_pcmmars/org.reclipse.tests.excessiveallocation/src/org/reclipse/tests/excessiveallocation/Service.java"/>
+      <inventoryElement xsi:type="source:Directory" name="model" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/model">
+        <inventoryElement xsi:type="source:SourceFile" name="internal_architecture_model.repository" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/model/internal_architecture_model.repository"/>
+        <inventoryElement xsi:type="source:SourceFile" name="internal_architecture_model.samm_qosannotation" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/model/internal_architecture_model.samm_qosannotation"/>
+        <inventoryElement xsi:type="source:SourceFile" name="internal_architecture_model.sourcecodedecorator" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/model/internal_architecture_model.sourcecodedecorator"/>
+        <inventoryElement xsi:type="source:SourceFile" name="internal_architecture_model.system" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/model/internal_architecture_model.system"/>
+        <inventoryElement xsi:type="source:SourceFile" name="metricValues2.ecore" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/model/metricValues2.ecore"/>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:SourceFile" name="org.reclipse.tests.excessiveallocation_java.xmi" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/org.reclipse.tests.excessiveallocation_java.xmi"/>
+      <inventoryElement xsi:type="source:SourceFile" name="org.reclipse.tests.excessiveallocation_java2kdm.xmi" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/org.reclipse.tests.excessiveallocation_java2kdm.xmi"/>
+      <inventoryElement xsi:type="source:SourceFile" name="org.reclipse.tests.excessiveallocation_kdm.xmi" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/org.reclipse.tests.excessiveallocation_kdm.xmi"/>
+      <inventoryElement xsi:type="source:Directory" name="src" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/src">
+        <inventoryElement xsi:type="source:Directory" name="org" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/src/org">
+          <inventoryElement xsi:type="source:Directory" name="reclipse" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/src/org/reclipse">
+            <inventoryElement xsi:type="source:Directory" name="tests" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/src/org/reclipse/tests">
+              <inventoryElement xsi:type="source:Directory" name="excessiveallocation" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/src/org/reclipse/tests/excessiveallocation">
+                <inventoryElement xsi:type="source:SourceFile" name="Client.java" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/src/org/reclipse/tests/excessiveallocation/Client.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="IService.java" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/src/org/reclipse/tests/excessiveallocation/IService.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="Main.java" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/src/org/reclipse/tests/excessiveallocation/Main.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="Service.java" path="/Users/snowball/git/reclipse-emf/trunk/org.reclipse.tests.excessiveallocation/src/org/reclipse/tests/excessiveallocation/Service.java"/>
               </inventoryElement>
             </inventoryElement>
           </inventoryElement>
