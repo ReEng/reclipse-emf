@@ -66,7 +66,7 @@ public class ExportAnnotationHandler extends AbstractHandler {
                     ErrorDialog.openError(HandlerUtil.getActiveShellChecked(event), "Export Error: Cannot write file!",
                             "To extract annotations, you need to select a file that can be written. For the file \""
                                     + filePath + "\" writing did not work.",
-                                    new Status(IStatus.ERROR, InferenceUIPlugin.ID, 0, "Cannot write file!", null));
+                            new Status(IStatus.ERROR, InferenceUIPlugin.ID, 0, "Cannot write file!", null));
                     return null;
                 }
 
@@ -101,7 +101,7 @@ public class ExportAnnotationHandler extends AbstractHandler {
                 switch (annotation.getPattern().getName()) {
                 case "SynchronizedMethod":
                     final MethodDeclaration synchronizedMethod = (MethodDeclaration) annotation.getBoundObjects()
-                    .get("method").get(0);
+                            .get("method").get(0);
                     final Collection<AbstractMethodInvocation> usages = findAllPotentialUsages(synchronizedMethod);
 
                     for (final AbstractMethodInvocation methodInvocation : usages) {
@@ -127,8 +127,8 @@ public class ExportAnnotationHandler extends AbstractHandler {
                     }
                     break;
                 case "AcquireReleasePair":
-                    final ASGAnnotation seffAnnotation = (ASGAnnotation) annotation.getBoundObjects()
-                    .get("seff").get(0);
+                    final ASGAnnotation seffAnnotation = (ASGAnnotation) annotation.getBoundObjects().get("seff")
+                            .get(0);
                     final MethodDeclaration containingMethod = (MethodDeclaration) seffAnnotation.getBoundObjects()
                             .get("containingMethod").get(0);
                     scopeSpecifications.add(computeExportString(containingMethod));
@@ -142,8 +142,11 @@ public class ExportAnnotationHandler extends AbstractHandler {
         return scopeSpecifications;
     }
 
-    /** Try to find all usages of the declared method including all potential polymorphic usages
-     * @param synchronizedMethod method to check for
+    /**
+     * Try to find all usages of the declared method including all potential polymorphic usages
+     * 
+     * @param synchronizedMethod
+     *            method to check for
      * @return all usages including polymorphic ones
      */
     private static Collection<AbstractMethodInvocation> findAllPotentialUsages(
@@ -156,7 +159,7 @@ public class ExportAnnotationHandler extends AbstractHandler {
             m = m.getRedefinedMethodDeclaration();
         }
         for (final TypeAccess interfaze : synchronizedMethod.getAbstractTypeDeclaration().getSuperInterfaces()) {
-            final AbstractMethodDeclaration interfaceMethod = getMatchingMethod(interfaze,synchronizedMethod);
+            final AbstractMethodDeclaration interfaceMethod = getMatchingMethod(interfaze, synchronizedMethod);
             if (interfaceMethod != null) {
                 usages.addAll(interfaceMethod.getUsages());
             }
@@ -164,23 +167,36 @@ public class ExportAnnotationHandler extends AbstractHandler {
         return usages;
     }
 
-    private static AbstractMethodDeclaration getMatchingMethod(final TypeAccess intf, final MethodDeclaration synchronizedMethod) {
+    private static AbstractMethodDeclaration getMatchingMethod(final TypeAccess intf,
+            final MethodDeclaration synchronizedMethod) {
         final InterfaceDeclaration interfaceDeclaration = (InterfaceDeclaration) intf.getType();
         for (final BodyDeclaration bodyDeclaration : interfaceDeclaration.getBodyDeclarations()) {
             if (bodyDeclaration instanceof MethodDeclaration) {
                 final MethodDeclaration candidate = (MethodDeclaration) bodyDeclaration;
-                if (candidate.getName().equals(synchronizedMethod.getName()) && candidate.getParameters().size() == synchronizedMethod.getParameters().size()) {
-                    for (int i = 0; i < candidate.getParameters().size(); i++) {
-                        if (candidate.getParameters().get(i).getType() != synchronizedMethod.getParameters().get(i).getType()) {
-                            break;
-                        }
-                    }
+                if (methodsAreEqual(synchronizedMethod, candidate)) {
+                    return candidate;
                 }
-                return candidate;
             }
         }
         // TODO: Implement superinterfaces!
         return null;
+    }
+
+    private static boolean methodsAreEqual(final MethodDeclaration synchronizedMethod,
+            final MethodDeclaration candidate) {
+        if (!candidate.getName().equals(synchronizedMethod.getName())
+                || candidate.getParameters().size() != synchronizedMethod.getParameters().size()) {
+            return false;
+        }
+
+        for (int i = 0; i < candidate.getParameters().size(); i++) {
+            final TypeAccess typeAccess = candidate.getParameters().get(i).getType();
+            if (typeAccess.getType() != synchronizedMethod.getParameters().get(i).getType().getType()) {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     private static String computeExportString(final AbstractMethodDeclaration methodDeclaration) {
