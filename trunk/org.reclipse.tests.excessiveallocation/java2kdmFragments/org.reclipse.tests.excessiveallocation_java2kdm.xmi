@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:javaapplication="http://www.eclipse.org/MoDisco/Java/Composition/0.1.incubation/javaApplication">
   <javaapplication:Java2File>
     <file href="../org.reclipse.tests.excessiveallocation_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.11/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0"/>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="49" endLine="26" endPosition="536">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="49" endLine="26" endPosition="555">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0"/>
     </children>
     <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="5" startPosition="76" endLine="5" endPosition="107">
@@ -17,188 +17,206 @@
     <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="5" startPosition="99" endLine="5" endPosition="106">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.0/@fragments.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="113" endLine="10" endPosition="186">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="113" endLine="10" endPosition="191">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="129" endLine="10" endPosition="186">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="129" endLine="10" endPosition="191">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body"/>
     </children>
     <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="8" startPosition="139" endLine="8" endPosition="147">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="156" endLine="9" endPosition="180">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="156" endLine="9" endPosition="160">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.1/@expression/@leftHandSide/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="156" endLine="9" endPosition="185">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.1"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="156" endLine="9" endPosition="163">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="156" endLine="9" endPosition="168">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.1/@expression/@leftHandSide"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="156" endLine="9" endPosition="179">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="156" endLine="9" endPosition="184">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.1/@expression"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="166" endLine="9" endPosition="179">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.1/@expression/@rightHandSide"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="170" endLine="9" endPosition="177">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.1/@expression/@rightHandSide/@type"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="170" endLine="9" endPosition="177">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.1/@expression/@rightHandSide/@type"/>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="161" endLine="9" endPosition="168">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.1/@expression/@leftHandSide/@field"/>
     </children>
     <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="170" endLine="7" endPosition="175">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="192" endLine="17" endPosition="368">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="171" endLine="9" endPosition="184">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.1/@expression/@rightHandSide"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="175" endLine="9" endPosition="182">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.1/@expression/@rightHandSide/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="175" endLine="9" endPosition="182">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.1/@expression/@rightHandSide/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="197" endLine="17" endPosition="380">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="199" endLine="12" endPosition="203">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="204" endLine="12" endPosition="208">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@returnType"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="212" endLine="17" endPosition="368">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="217" endLine="17" endPosition="380">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="222" endLine="16" endPosition="362">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="227" endLine="16" endPosition="374">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="227" endLine="13" endPosition="230">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@initializers.0/@type"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="227" endLine="13" endPosition="234">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="232" endLine="13" endPosition="241">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@initializers.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="231" endLine="13" endPosition="234">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="232" endLine="13" endPosition="235">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@initializers.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="236" endLine="13" endPosition="241">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@initializers.0/@fragments.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="233" endLine="13" endPosition="234">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="240" endLine="13" endPosition="241">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@initializers.0/@fragments.0/@initializer"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="236" endLine="13" endPosition="244">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="243" endLine="13" endPosition="251">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@expression"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="236" endLine="13" endPosition="237">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="243" endLine="13" endPosition="244">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@expression/@leftOperand"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="240" endLine="13" endPosition="244">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="247" endLine="13" endPosition="251">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@expression/@rightOperand"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="246" endLine="13" endPosition="249">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@updaters.0"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="246" endLine="13" endPosition="247">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="253" endLine="13" endPosition="254">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@updaters.0/@operand"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="251" endLine="16" endPosition="362">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="253" endLine="13" endPosition="256">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@updaters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="258" endLine="16" endPosition="374">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="265" endLine="14" endPosition="307">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="272" endLine="14" endPosition="314">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body/@statements.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="271" endLine="14" endPosition="277">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="278" endLine="14" endPosition="284">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body/@statements.0/@type"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="278" endLine="14" endPosition="306">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="285" endLine="14" endPosition="313">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body/@statements.0/@fragments.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="291" endLine="14" endPosition="306">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="298" endLine="14" endPosition="313">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body/@statements.0/@fragments.0/@initializer"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="295" endLine="14" endPosition="306">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="302" endLine="14" endPosition="313">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body/@statements.0/@fragments.0/@initializer/@type"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="300" endLine="14" endPosition="305">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="307" endLine="14" endPosition="312">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body/@statements.0/@fragments.0/@initializer/@dimensions.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="320" endLine="15" endPosition="352">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body/@statements.1"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="320" endLine="15" endPosition="327">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="327" endLine="15" endPosition="339">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body/@statements.1/@expression/@expression"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="320" endLine="15" endPosition="351">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="327" endLine="15" endPosition="331">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body/@statements.1/@expression/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="327" endLine="15" endPosition="364">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body/@statements.1"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="327" endLine="15" endPosition="363">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body/@statements.1/@expression"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="340" endLine="15" endPosition="350">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="332" endLine="15" endPosition="339">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body/@statements.1/@expression/@expression/@field"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="15" startPosition="352" endLine="15" endPosition="362">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@body/@statements.1/@expression/@arguments.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="374" endLine="24" endPosition="533">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="386" endLine="24" endPosition="552">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="381" endLine="19" endPosition="385">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="393" endLine="19" endPosition="397">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@returnType"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="395" endLine="24" endPosition="533">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="407" endLine="24" endPosition="552">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="405" endLine="23" endPosition="527">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="417" endLine="23" endPosition="546">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="410" endLine="20" endPosition="417">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@initializers.0"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="410" endLine="20" endPosition="413">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="422" endLine="20" endPosition="425">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@initializers.0/@type"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="414" endLine="20" endPosition="417">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="422" endLine="20" endPosition="431">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@initializers.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="426" endLine="20" endPosition="431">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@initializers.0/@fragments.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="416" endLine="20" endPosition="417">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="430" endLine="20" endPosition="431">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@initializers.0/@fragments.0/@initializer"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="419" endLine="20" endPosition="420">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@expression/@leftOperand"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="419" endLine="20" endPosition="427">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="433" endLine="20" endPosition="441">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@expression"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="423" endLine="20" endPosition="427">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="433" endLine="20" endPosition="434">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@expression/@leftOperand"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="437" endLine="20" endPosition="441">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@expression/@rightOperand"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="429" endLine="20" endPosition="430">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@updaters.0/@operand"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="429" endLine="20" endPosition="432">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="443" endLine="20" endPosition="446">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@updaters.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="434" endLine="23" endPosition="527">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="443" endLine="20" endPosition="444">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@updaters.0/@operand"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="448" endLine="23" endPosition="546">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="448" endLine="21" endPosition="478">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="462" endLine="21" endPosition="492">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body/@statements.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="454" endLine="21" endPosition="460">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="468" endLine="21" endPosition="474">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body/@statements.0/@type"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="454" endLine="21" endPosition="460">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="468" endLine="21" endPosition="474">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body/@statements.0/@type"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="461" endLine="21" endPosition="477">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="475" endLine="21" endPosition="491">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body/@statements.0/@fragments.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="465" endLine="21" endPosition="477">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="479" endLine="21" endPosition="491">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body/@statements.0/@fragments.0/@initializer"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="469" endLine="21" endPosition="475">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="483" endLine="21" endPosition="489">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body/@statements.0/@fragments.0/@initializer/@type"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="469" endLine="21" endPosition="475">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="483" endLine="21" endPosition="489">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body/@statements.0/@fragments.0/@initializer/@type"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="491" endLine="22" endPosition="517">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="505" endLine="22" endPosition="536">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body/@statements.1"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="491" endLine="22" endPosition="516">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="505" endLine="22" endPosition="509">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body/@statements.1/@expression/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="505" endLine="22" endPosition="535">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body/@statements.1/@expression"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="491" endLine="22" endPosition="498">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="505" endLine="22" endPosition="517">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body/@statements.1/@expression/@expression"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="511" endLine="22" endPosition="515">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="510" endLine="22" endPosition="517">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body/@statements.1/@expression/@expression/@field"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="530" endLine="22" endPosition="534">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.3/@body/@statements.0/@body/@statements.1/@expression/@arguments.0"/>
     </children>
     <unit href="../org.reclipse.tests.excessiveallocation_java.xmi#//@compilationUnits.0"/>
     <parent href="Package2Directory_java2kdm.xmi#/"/>
   </javaapplication:Java2File>
   <javaapplication:Java2File>
-    <file href="../org.reclipse.tests.excessiveallocation_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.11/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.2"/>
+    <file href="../org.reclipse.tests.excessiveallocation_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.11/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3"/>
     <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="49" endLine="10" endPosition="187">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.1"/>
     </children>
@@ -238,89 +256,103 @@
     <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="6" startPosition="150" endLine="6" endPosition="156">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.0/@fragments.0/@initializer/@type"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="168" endLine="7" endPosition="177">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.1/@expression"/>
-    </children>
     <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="168" endLine="7" endPosition="169">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.1/@expression/@expression"/>
     </children>
     <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="168" endLine="7" endPosition="178">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.1"/>
     </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="168" endLine="7" endPosition="177">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.1/@expression"/>
+    </children>
     <unit href="../org.reclipse.tests.excessiveallocation_java.xmi#//@compilationUnits.1"/>
     <parent href="Package2Directory_java2kdm.xmi#/"/>
   </javaapplication:Java2File>
   <javaapplication:Java2File>
-    <file href="../org.reclipse.tests.excessiveallocation_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.11/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.1"/>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="49" endLine="5" endPosition="126">
+    <file href="../org.reclipse.tests.excessiveallocation_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.11/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.2"/>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="49" endLine="5" endPosition="103">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.2"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="4" startPosition="81" endLine="4" endPosition="124">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.0"/>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="90" endLine="3" endPosition="98">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.2/@superInterfaces.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="4" startPosition="88" endLine="4" endPosition="92">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.0/@returnType"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="4" startPosition="105" endLine="4" endPosition="111">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.0/@parameters.0/@type"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="4" startPosition="105" endLine="4" endPosition="122">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.0/@parameters.0"/>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="90" endLine="3" endPosition="98">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.2/@superInterfaces.0"/>
     </children>
     <unit href="../org.reclipse.tests.excessiveallocation_java.xmi#//@compilationUnits.2"/>
     <parent href="Package2Directory_java2kdm.xmi#/"/>
   </javaapplication:Java2File>
   <javaapplication:Java2File>
-    <file href="../org.reclipse.tests.excessiveallocation_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.11/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3"/>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="49" endLine="10" endPosition="222">
+    <file href="../org.reclipse.tests.excessiveallocation_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.11/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.1"/>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="49" endLine="5" endPosition="126">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="81" endLine="3" endPosition="89">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@superInterfaces.0"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="81" endLine="3" endPosition="89">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@superInterfaces.0"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="5" startPosition="97" endLine="5" endPosition="106">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@annotations.0"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="5" startPosition="97" endLine="8" endPosition="219">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="4" startPosition="81" endLine="4" endPosition="124">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="5" startPosition="98" endLine="5" endPosition="106">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@annotations.0/@type"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="6" startPosition="131" endLine="6" endPosition="135">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="4" startPosition="88" endLine="4" endPosition="92">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@returnType"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="6" startPosition="148" endLine="6" endPosition="165">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="4" startPosition="105" endLine="4" endPosition="122">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@parameters.0"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="6" startPosition="154" endLine="6" endPosition="160">
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="4" startPosition="105" endLine="4" endPosition="111">
       <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@parameters.0/@type"/>
     </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="6" startPosition="167" endLine="8" endPosition="219">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@body"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="176" endLine="7" endPosition="213">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@body/@statements.0"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="176" endLine="7" endPosition="212">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@body/@statements.0/@expression"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="176" endLine="7" endPosition="182">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@body/@statements.0/@expression/@expression/@qualifier"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="176" endLine="7" endPosition="186">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@body/@statements.0/@expression/@expression"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="183" endLine="7" endPosition="186">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@body/@statements.0/@expression/@expression"/>
-    </children>
-    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="195" endLine="7" endPosition="211">
-      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@body/@statements.0/@expression/@arguments.0"/>
-    </children>
     <unit href="../org.reclipse.tests.excessiveallocation_java.xmi#//@compilationUnits.3"/>
+    <parent href="Package2Directory_java2kdm.xmi#/"/>
+  </javaapplication:Java2File>
+  <javaapplication:Java2File>
+    <file href="../org.reclipse.tests.excessiveallocation_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.11/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.4"/>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="49" endLine="10" endPosition="230">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="81" endLine="3" endPosition="96">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@superInterfaces.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="3" startPosition="81" endLine="3" endPosition="96">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@superInterfaces.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="5" startPosition="104" endLine="8" endPosition="227">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="5" startPosition="104" endLine="5" endPosition="113">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.0/@annotations.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="5" startPosition="105" endLine="5" endPosition="113">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.0/@annotations.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="6" startPosition="138" endLine="6" endPosition="142">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.0/@returnType"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="6" startPosition="155" endLine="6" endPosition="172">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.0/@parameters.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="6" startPosition="161" endLine="6" endPosition="167">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.0/@parameters.0/@type"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="6" startPosition="174" endLine="8" endPosition="227">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.0/@body"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="184" endLine="7" endPosition="190">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.0/@body/@statements.0/@expression/@expression/@qualifier"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="184" endLine="7" endPosition="194">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.0/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="184" endLine="7" endPosition="220">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.0/@body/@statements.0/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="184" endLine="7" endPosition="221">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.0/@body/@statements.0"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="191" endLine="7" endPosition="194">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.0/@body/@statements.0/@expression/@expression"/>
+    </children>
+    <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="203" endLine="7" endPosition="219">
+      <node href="../org.reclipse.tests.excessiveallocation_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedElements.4/@bodyDeclarations.0/@body/@statements.0/@expression/@arguments.0"/>
+    </children>
+    <unit href="../org.reclipse.tests.excessiveallocation_java.xmi#//@compilationUnits.4"/>
     <parent href="Package2Directory_java2kdm.xmi#/"/>
   </javaapplication:Java2File>
 </xmi:XMI>

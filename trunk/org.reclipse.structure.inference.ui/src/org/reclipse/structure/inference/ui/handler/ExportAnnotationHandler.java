@@ -170,6 +170,8 @@ public class ExportAnnotationHandler extends AbstractHandler {
     private static AbstractMethodDeclaration getMatchingMethod(final TypeAccess intf,
             final MethodDeclaration synchronizedMethod) {
         final InterfaceDeclaration interfaceDeclaration = (InterfaceDeclaration) intf.getType();
+
+        // check this interfaceDeclaration
         for (final BodyDeclaration bodyDeclaration : interfaceDeclaration.getBodyDeclarations()) {
             if (bodyDeclaration instanceof MethodDeclaration) {
                 final MethodDeclaration candidate = (MethodDeclaration) bodyDeclaration;
@@ -178,7 +180,16 @@ public class ExportAnnotationHandler extends AbstractHandler {
                 }
             }
         }
-        // TODO: Implement superinterfaces!
+
+        // recursively check super interfaceDeclarations
+        for (final TypeAccess superInterfaceDeclaration : interfaceDeclaration.getSuperInterfaces()) {
+            final AbstractMethodDeclaration matchingMethod = getMatchingMethod(superInterfaceDeclaration,
+                    synchronizedMethod);
+            if (matchingMethod != null) {
+                return matchingMethod;
+            }
+        }
+
         return null;
     }
 
