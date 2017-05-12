@@ -3,13 +3,13 @@
     xmlns:specification="http://www.reclipse.org/ns/specification" id="_3n5RYPVhEeOgbJdIqiztvw" name="New Catalog" metamodel="org.reclipse.kdm2pcm.sourcecodedecorator">
   <patternSpecifications id="_8u6OgPVhEeOgbJdIqiztvw" name="AcquireReleasePair">
     <connections xsi:type="specification:PSLink" id="_VF19IPViEeOgbJdIqiztvw" name="link1"
-        source="#_-WpBUPVhEeOgbJdIqiztvw" target="#_LWXAEPViEeOgbJdIqiztvw" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ResourceDemandingBehaviour/steps_Behaviour"/>
+        source="#_-WpBUPVhEeOgbJdIqiztvw" target="#_LWXAEPViEeOgbJdIqiztvw" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ResourceDemandingBehaviour/steps_Behaviour"/>
     <connections xsi:type="specification:PSLink" id="_V51l4PViEeOgbJdIqiztvw" name="link2"
-        source="#_-WpBUPVhEeOgbJdIqiztvw" target="#_LrRgIPViEeOgbJdIqiztvw" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ResourceDemandingBehaviour/steps_Behaviour"/>
+        source="#_-WpBUPVhEeOgbJdIqiztvw" target="#_LrRgIPViEeOgbJdIqiztvw" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ResourceDemandingBehaviour/steps_Behaviour"/>
     <connections xsi:type="specification:PSLink" id="_nlJKAPViEeOgbJdIqiztvw" name="link3"
-        source="#_LrRgIPViEeOgbJdIqiztvw" target="#_jVVhsPViEeOgbJdIqiztvw" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ReleaseAction/passiveResource_ReleaseAction"/>
+        source="#_LrRgIPViEeOgbJdIqiztvw" target="#_jVVhsPViEeOgbJdIqiztvw" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ReleaseAction/passiveResource_ReleaseAction"/>
     <connections xsi:type="specification:PSLink" id="_oHb-wPViEeOgbJdIqiztvw" name="link4"
-        source="#_LWXAEPViEeOgbJdIqiztvw" target="#_jVVhsPViEeOgbJdIqiztvw" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/AcquireAction/passiveresource_AcquireAction"/>
+        source="#_LWXAEPViEeOgbJdIqiztvw" target="#_jVVhsPViEeOgbJdIqiztvw" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/AcquireAction/passiveresource_AcquireAction"/>
     <connections xsi:type="specification:PSLink" id="_t4ohUPViEeOgbJdIqiztvw" name="annotatedElement"
         source="#_8u6OgfVhEeOgbJdIqiztvw" target="#_LrRgIPViEeOgbJdIqiztvw" qualifier="release"
         instanceOf="http://org.reclipse.structure.inference.annotations#//ASGAnnotation/annotatedElements"/>
@@ -23,15 +23,15 @@
         type="#_8u6OgPVhEeOgbJdIqiztvw"/>
     <nodes xsi:type="specification:PSObject" id="_-WpBUPVhEeOgbJdIqiztvw" name="behaviour"
         outgoing="#_VF19IPViEeOgbJdIqiztvw #_V51l4PViEeOgbJdIqiztvw" incoming="#_DCkuYNMJEeWcFIwc26d39g"
-        instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ResourceDemandingSEFF"/>
+        instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ResourceDemandingSEFF"/>
     <nodes xsi:type="specification:PSObject" id="_LWXAEPViEeOgbJdIqiztvw" name="acquireAction"
         outgoing="#_oHb-wPViEeOgbJdIqiztvw" incoming="#_VF19IPViEeOgbJdIqiztvw #_ufK84PViEeOgbJdIqiztvw"
-        instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/AcquireAction"/>
+        instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/AcquireAction"/>
     <nodes xsi:type="specification:PSObject" id="_LrRgIPViEeOgbJdIqiztvw" name="releaseAction"
         outgoing="#_nlJKAPViEeOgbJdIqiztvw" incoming="#_V51l4PViEeOgbJdIqiztvw #_t4ohUPViEeOgbJdIqiztvw"
-        instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ReleaseAction"/>
+        instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ReleaseAction"/>
     <nodes xsi:type="specification:PSObject" id="_jVVhsPViEeOgbJdIqiztvw" name="passiveResource"
-        incoming="#_nlJKAPViEeOgbJdIqiztvw #_oHb-wPViEeOgbJdIqiztvw" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.1#//repository/PassiveResource"/>
+        incoming="#_nlJKAPViEeOgbJdIqiztvw #_oHb-wPViEeOgbJdIqiztvw" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.2#//repository/PassiveResource"/>
     <nodes xsi:type="specification:PSAnnotation" id="_vH03MNMIEeWcFIwc26d39g" name="seff"
         outgoing="#_DCkuYNMJEeWcFIwc26d39g" type="#_2aa-cLXlEeWOkIpooXnIiQ"/>
   </patternSpecifications>
@@ -46,7 +46,7 @@
     <nodes xsi:type="specification:PSObject" id="_Dg1cAPVnEeO8apkjJxxSYA" name="componentImplementingClassesLink"
         outgoing="#_EKcAYPVsEeOhXMVyYRdIxA" instanceOf="http://somox.org/SourceCodeDecorator/2.0#//ComponentImplementingClassesLink"/>
     <nodes xsi:type="specification:PSObject" id="_WLDqAPVoEeO8apkjJxxSYA" name="primitiveComponent"
-        incoming="#_BdcOoPVsEeOhXMVyYRdIxA #_EKcAYPVsEeOhXMVyYRdIxA" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.1#//repository/BasicComponent"/>
+        incoming="#_BdcOoPVsEeOhXMVyYRdIxA #_EKcAYPVsEeOhXMVyYRdIxA" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.2#//repository/BasicComponent"/>
   </patternSpecifications>
   <patternSpecifications id="_cpjMkPbKEeOeYJP9coicjQ" name="SynchronizedMethod">
     <connections xsi:type="specification:PSLink" id="_KuCMwPbLEeOeYJP9coicjQ" name="link1"
@@ -86,7 +86,7 @@
   <patternSpecifications id="_PFOU0PbeEeOeYJP9coicjQ" name="FindClasses">
     <nodes xsi:type="specification:PSAnnotation" id="_PFOU0fbeEeOeYJP9coicjQ" type="#_PFOU0PbeEeOeYJP9coicjQ"/>
     <nodes xsi:type="specification:PSObject" id="_P-e4EPbeEeOeYJP9coicjQ" name="obj1"
-        instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/CallAction"/>
+        instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/CallAction"/>
   </patternSpecifications>
   <patternSpecifications id="_2aa-cLXlEeWOkIpooXnIiQ" name="CandidateSeffMethod">
     <connections xsi:type="specification:PSLink" id="_AP510LXmEeWOkIpooXnIiQ" name="link1"
@@ -112,7 +112,7 @@
         incoming="#_AP510LXmEeWOkIpooXnIiQ #_A8EYQLXmEeWOkIpooXnIiQ #__INKkNMIEeWcFIwc26d39g"
         instanceOf="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Block"/>
     <nodes xsi:type="specification:PSObject" id="_wYnwsNMIEeWcFIwc26d39g" name="seff"
-        incoming="#_1bvsUNMIEeWcFIwc26d39g #_3ur_UNMIEeWcFIwc26d39g" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ServiceEffectSpecification"/>
+        incoming="#_1bvsUNMIEeWcFIwc26d39g #_3ur_UNMIEeWcFIwc26d39g" instanceOf="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ServiceEffectSpecification"/>
     <nodes xsi:type="specification:PSObject" id="_55fqANMIEeWcFIwc26d39g" name="containingMethod"
         outgoing="#__INKkNMIEeWcFIwc26d39g" incoming="#__3DNkNMIEeWcFIwc26d39g" instanceOf="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodDeclaration"/>
   </patternSpecifications>

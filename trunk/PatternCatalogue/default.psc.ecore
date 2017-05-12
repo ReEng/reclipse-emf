@@ -50,15 +50,15 @@
                 <ownedRule>
                   <variable xsi:type="sdp:ObjectVariable" name="behaviour" incomingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.4"
                       outgoingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.0 #/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.1"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ResourceDemandingSEFF"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ResourceDemandingSEFF"/>
                   <variable xsi:type="sdp:ObjectVariable" name="acquireAction" incomingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.0"
                       outgoingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.3"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/AcquireAction"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/AcquireAction"/>
                   <variable xsi:type="sdp:ObjectVariable" name="releaseAction" incomingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.1"
                       outgoingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.2"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ReleaseAction"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ReleaseAction"/>
                   <variable xsi:type="sdp:ObjectVariable" name="passiveResource" incomingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.2 #/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.3"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//repository/PassiveResource"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//repository/PassiveResource"/>
                   <variable xsi:type="sdp:ObjectVariable" name="seff" bindingState="BOUND"
                       outgoingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.4"
                       classifier="#/1/CandidateSeffMethodAnnotation">
@@ -67,19 +67,19 @@
                   <linkVariable xsi:type="sdp:LinkVariable" name="steps_Behaviour"
                       source="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@variable.0"
                       target="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@variable.1"
-                      targetEnd="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ResourceDemandingBehaviour/steps_Behaviour"/>
+                      targetEnd="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ResourceDemandingBehaviour/steps_Behaviour"/>
                   <linkVariable xsi:type="sdp:LinkVariable" name="steps_Behaviour"
                       source="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@variable.0"
                       target="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@variable.2"
-                      targetEnd="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ResourceDemandingBehaviour/steps_Behaviour"/>
+                      targetEnd="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ResourceDemandingBehaviour/steps_Behaviour"/>
                   <linkVariable xsi:type="sdp:LinkVariable" name="passiveResource_ReleaseAction"
                       source="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@variable.2"
                       target="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@variable.3"
-                      targetEnd="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ReleaseAction/passiveResource_ReleaseAction"/>
+                      targetEnd="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ReleaseAction/passiveResource_ReleaseAction"/>
                   <linkVariable xsi:type="sdp:LinkVariable" name="passiveresource_AcquireAction"
                       source="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@variable.1"
                       target="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@variable.3"
-                      targetEnd="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/AcquireAction/passiveresource_AcquireAction"/>
+                      targetEnd="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/AcquireAction/passiveresource_AcquireAction"/>
                   <linkVariable xsi:type="sdp:LinkVariable" name="annotatedElements"
                       source="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@variable.4"
                       target="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@variable.0"
@@ -97,16 +97,16 @@
                       bindingOperator="CREATE" classifier="#/1/AcquireReleasePairAnnotation"/>
                   <variable xsi:type="sdp:ObjectVariable" name="behaviour" bindingState="BOUND"
                       incomingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.2/@ownedRule/@linkVariable.0"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ResourceDemandingSEFF"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ResourceDemandingSEFF"/>
                   <variable xsi:type="sdp:ObjectVariable" name="acquireAction" bindingState="BOUND"
                       incomingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.2/@ownedRule/@linkVariable.1"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/AcquireAction"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/AcquireAction"/>
                   <variable xsi:type="sdp:ObjectVariable" name="releaseAction" bindingState="BOUND"
                       incomingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.2/@ownedRule/@linkVariable.2"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ReleaseAction"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ReleaseAction"/>
                   <variable xsi:type="sdp:ObjectVariable" name="passiveResource" bindingState="BOUND"
                       incomingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.2/@ownedRule/@linkVariable.3"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//repository/PassiveResource"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//repository/PassiveResource"/>
                   <variable xsi:type="sdp:ObjectVariable" name="seff" bindingState="BOUND"
                       incomingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.2/@ownedRule/@linkVariable.4"
                       classifier="#/1/CandidateSeffMethodAnnotation"/>
@@ -155,10 +155,10 @@
                       classifier="#/1/AcquireReleasePairAnnotation"/>
                   <variable xsi:type="sdp:ObjectVariable" name="releaseAction" bindingState="BOUND"
                       incomingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.3/@ownedRule/@linkVariable.0"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ReleaseAction"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ReleaseAction"/>
                   <variable xsi:type="sdp:ObjectVariable" name="acquireAction" bindingState="BOUND"
                       incomingLink="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.3/@ownedRule/@linkVariable.1"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/AcquireAction"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/AcquireAction"/>
                   <linkVariable xsi:type="sdp:LinkVariable" name="annotatedElements"
                       source="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.3/@ownedRule/@variable.0"
                       target="#/0/AcquireReleasePairEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.3/@ownedRule/@variable.1"
@@ -334,7 +334,7 @@
                   </variable>
                   <variable xsi:type="sdp:ObjectVariable" name="primitiveComponent"
                       incomingLink="#/0/FindPrimitiveComponentsEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.0"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//repository/BasicComponent"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//repository/BasicComponent"/>
                   <linkVariable xsi:type="sdp:LinkVariable" name="component" source="#/0/FindPrimitiveComponentsEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@variable.0"
                       target="#/0/FindPrimitiveComponentsEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@variable.1"
                       targetEnd="http://somox.org/SourceCodeDecorator/2.0#//ComponentImplementingClassesLink/component"/>
@@ -351,7 +351,7 @@
                       classifier="http://somox.org/SourceCodeDecorator/2.0#//ComponentImplementingClassesLink"/>
                   <variable xsi:type="sdp:ObjectVariable" name="primitiveComponent"
                       bindingState="BOUND" incomingLink="#/0/FindPrimitiveComponentsEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.2/@ownedRule/@linkVariable.1"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//repository/BasicComponent"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//repository/BasicComponent"/>
                   <linkVariable xsi:type="sdp:LinkVariable" name="boundObjects" bindingOperator="CREATE"
                       source="#/0/FindPrimitiveComponentsEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.2/@ownedRule/@variable.0"
                       target="#/0/FindPrimitiveComponentsEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.2/@ownedRule/@variable.1"
@@ -376,7 +376,7 @@
                       classifier="#/1/FindPrimitiveComponentsAnnotation"/>
                   <variable xsi:type="sdp:ObjectVariable" name="primitiveComponent"
                       bindingState="BOUND" incomingLink="#/0/FindPrimitiveComponentsEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.3/@ownedRule/@linkVariable.0"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//repository/BasicComponent"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//repository/BasicComponent"/>
                   <linkVariable xsi:type="sdp:LinkVariable" name="annotatedElements"
                       source="#/0/FindPrimitiveComponentsEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.3/@ownedRule/@variable.0"
                       target="#/0/FindPrimitiveComponentsEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.3/@ownedRule/@variable.1"
@@ -897,7 +897,7 @@
                   forEach="true">
                 <ownedRule>
                   <variable xsi:type="sdp:ObjectVariable" name="obj1" bindingState="BOUND"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/CallAction">
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/CallAction">
                     <bindingExpression xsi:type="sdce:ParameterExpression" parameter="#/0/FindClassesEngine/annotate/element/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0"/>
                   </variable>
                 </ownedRule>
@@ -910,7 +910,7 @@
                       bindingOperator="CREATE" classifier="#/1/FindClassesAnnotation"/>
                   <variable xsi:type="sdp:ObjectVariable" name="obj1" bindingState="BOUND"
                       incomingLink="#/0/FindClassesEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.2/@ownedRule/@linkVariable.0"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/CallAction"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/CallAction"/>
                   <linkVariable xsi:type="sdp:LinkVariable" name="boundObjects" bindingOperator="CREATE"
                       source="#/0/FindClassesEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.2/@ownedRule/@variable.0"
                       target="#/0/FindClassesEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.2/@ownedRule/@variable.1"
@@ -1031,7 +1031,7 @@
                   <variable xsi:type="sdp:ObjectVariable" name="block" incomingLink="#/0/CandidateSeffMethodEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.0 #/0/CandidateSeffMethodEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.2"
                       classifier="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Block"/>
                   <variable xsi:type="sdp:ObjectVariable" name="seff" incomingLink="#/0/CandidateSeffMethodEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.1"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ServiceEffectSpecification"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ServiceEffectSpecification"/>
                   <variable xsi:type="sdp:ObjectVariable" name="containingMethod"
                       outgoingLink="#/0/CandidateSeffMethodEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.1/@ownedRule/@linkVariable.2"
                       classifier="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodDeclaration"/>
@@ -1061,7 +1061,7 @@
                       classifier="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Block"/>
                   <variable xsi:type="sdp:ObjectVariable" name="seff" bindingState="BOUND"
                       incomingLink="#/0/CandidateSeffMethodEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.2/@ownedRule/@linkVariable.2"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ServiceEffectSpecification"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ServiceEffectSpecification"/>
                   <variable xsi:type="sdp:ObjectVariable" name="containingMethod"
                       bindingState="BOUND" incomingLink="#/0/CandidateSeffMethodEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.2/@ownedRule/@linkVariable.3"
                       classifier="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodDeclaration"/>
@@ -1106,7 +1106,7 @@
                       classifier="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//Block"/>
                   <variable xsi:type="sdp:ObjectVariable" name="seff" bindingState="BOUND"
                       incomingLink="#/0/CandidateSeffMethodEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.3/@ownedRule/@linkVariable.1"
-                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.1#//seff/ServiceEffectSpecification"/>
+                      classifier="http://palladiosimulator.org/PalladioComponentModel/5.2#//seff/ServiceEffectSpecification"/>
                   <variable xsi:type="sdp:ObjectVariable" name="containingMethod"
                       bindingState="BOUND" incomingLink="#/0/CandidateSeffMethodEngine/annotate/%http:%2F%2Fwww.storydriven.org%2Fcore%2Fextension%/@contents.0/@ownedActivity/@ownedActivityNode.3/@ownedRule/@linkVariable.2"
                       classifier="http://www.eclipse.org/MoDisco/Java/0.2.incubation/java#//MethodDeclaration"/>
